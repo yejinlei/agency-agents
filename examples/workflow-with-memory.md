@@ -49,18 +49,18 @@ Same as the standard workflow: a SaaS team retrospective tool (RetroBoard), 4 we
 | Agent | Role in this workflow |
 |-------|---------------------|
 | Sprint Prioritizer | Break the project into weekly sprints |
-| UX Researcher | Validate the idea with quick user interviews |
+| 用户体验研究er | Validate the idea with quick user interviews |
 | Backend Architect | Design the API and data model |
 | Frontend Developer | Build the React app |
 | Rapid Prototyper | Get the first version running fast |
-| Growth Hacker | Plan launch strategy while building |
+| 增长 Hacker | Plan launch strategy while 构建 |
 | Reality Checker | Gate each milestone before moving on |
 
 Each agent has a Memory Integration section in their prompt (see [integrations/mcp-memory/README.md](../integrations/mcp-memory/README.md) for how to add it).
 
 ## The Workflow
 
-### Week 1: Discovery + Architecture
+### Week 1: Discovery + 架构
 
 **Step 1 — Activate Sprint Prioritizer**
 
@@ -68,7 +68,7 @@ Each agent has a Memory Integration section in their prompt (see [integrations/m
 Activate Sprint Prioritizer.
 
 Project: RetroBoard — a real-time team retrospective tool for remote teams.
-Timeline: 4 weeks to MVP launch.
+时间线: 4 weeks to MVP launch.
 Core features: user auth, create retro boards, add cards, vote, action items.
 Constraints: solo developer, React + Node.js stack, deploy to Vercel + Railway.
 
@@ -76,14 +76,14 @@ Break this into 4 weekly sprints with clear deliverables and acceptance criteria
 Remember your sprint plan tagged for this project when done.
 ```
 
-The Sprint Prioritizer produces the sprint plan and stores it in memory tagged with `sprint-prioritizer`, `retroboard`, and `sprint-plan`.
+The Sprint Prioritizer produces the sprint plan and stores it in memory tagged with `sprint-优先级排序r`, `retroboard`, and `sprint-plan`.
 
-**Step 2 — Activate UX Researcher (in parallel)**
+**Step 2 — Activate 用户体验研究er (in parallel)**
 
 ```
-Activate UX Researcher.
+Activate 用户体验研究er.
 
-I'm building a team retrospective tool for remote teams (5-20 people).
+I'm 构建 a team retrospective tool for remote teams (5-20 people).
 Competitors: EasyRetro, Retrium, Parabol.
 
 Run a quick competitive analysis and identify:
@@ -94,7 +94,7 @@ Run a quick competitive analysis and identify:
 Output a 1-page research brief. Remember it tagged for this project when done.
 ```
 
-The UX Researcher stores the research brief tagged with `ux-researcher`, `retroboard`, and `research-brief`.
+The 用户体验研究er stores the research brief tagged with `ux-researcher`, `retroboard`, and `research-brief`.
 
 **Step 3 — Hand off to Backend Architect**
 
@@ -106,7 +106,7 @@ Stack: Node.js, Express, PostgreSQL, Socket.io for real-time.
 
 Design:
 1. Database schema (SQL)
-2. REST API endpoints list
+2. REST API 端点 list
 3. WebSocket events for real-time board updates
 4. Auth strategy recommendation
 
@@ -126,7 +126,7 @@ Project: RetroBoard. Recall the API spec and schema from the Backend Architect.
 
 Build the RetroBoard React app:
 - Stack: React, TypeScript, Tailwind, Socket.io-client
-- Pages: Login, Dashboard, Board view
+- Pages: Login, 仪表板, Board view
 - Components: RetroCard, VoteButton, ActionItem, BoardColumn
 
 Start with the Board view — it's the core experience.
@@ -147,23 +147,23 @@ Recall all deliverables from previous agents for this project.
 
 Evaluate:
 1. Can we realistically ship in 2 more weeks?
-2. What should we cut to make the deadline?
-3. Any technical debt that will bite us at launch?
+2. What should we cut to make the 截止日期?
+3. Any 技术债务 that will bite us at launch?
 
 Remember your verdict tagged for this project.
 ```
 
-The Reality Checker has full visibility into everything produced so far — the sprint plan, research brief, schema, API spec, and frontend progress — without you having to collect and paste it all.
+The Reality Checker has full visibility into everything produced so far — the sprint plan, research brief, schema, API spec, and frontend progress — without you 拥有 to collect and paste it all.
 
 ### Week 3: Polish + Landing Page
 
-**Step 6 — Frontend Developer continues, Growth Hacker starts**
+**Step 6 — Frontend Developer continues, 增长 Hacker starts**
 
 ```
-Activate Growth Hacker.
+Activate 增长 Hacker.
 
 Product: RetroBoard — team retrospective tool, launching in 1 week.
-Target: Engineering managers and scrum masters at remote-first companies.
+Target: 工程 managers and scrum masters at remote-first companies.
 Budget: $0 (organic launch only).
 
 Recall the project context and Reality Checker's verdict.
@@ -172,7 +172,7 @@ Create a launch plan:
 1. Landing page copy (hero, features, CTA)
 2. Launch channels (Product Hunt, Reddit, Hacker News, Twitter)
 3. Day-by-day launch sequence
-4. Metrics to track in week 1
+4. 指标 to track in week 1
 
 Remember the launch plan tagged for this project.
 ```
@@ -191,7 +191,7 @@ Recall all project context, previous verdicts, and the launch plan.
 Evaluate production readiness:
 - Live URL: [url]
 - Test accounts created: yes
-- Error monitoring: Sentry configured
+- Error 监控: Sentry configured
 - Database backups: daily automated
 
 Run through the launch checklist and give a GO / NO-GO decision.
@@ -200,7 +200,7 @@ Require evidence for each criterion.
 
 ### When QA Fails: Rollback
 
-In the standard workflow, when the Reality Checker rejects a deliverable, you go back to the responsible agent and try to explain what went wrong. With memory, the recovery loop is tighter:
+In the standard 工作流程, when the Reality Checker rejects a deliverable, you go back to the responsible agent and try to explain what went wrong. With memory, the recovery loop is tighter:
 
 ```
 Activate Backend Architect.
@@ -211,13 +211,13 @@ Roll back to your last known-good schema and address the specific issues raised.
 Remember the updated deliverables when done.
 ```
 
-The Backend Architect can see exactly what the Reality Checker flagged, recall its own previous work, roll back to a checkpoint, and produce a fix — all without you manually tracking versions.
+The Backend Architect can see exactly what the Reality Checker flagged, recall its own previous work, roll back to a 检查点, and produce a fix — all without you manually 追踪 versions.
 
 ## Before and After
 
 | Aspect | Standard Workflow | With Memory |
 |--------|------------------|-------------|
-| **Handoffs** | Copy-paste full output between agents | Agents recall what they need automatically |
+| **交接s** | Copy-paste full output between agents | Agents recall what they need automatically |
 | **Context loss** | Session timeouts lose everything | Memories persist across sessions |
 | **Multi-agent context** | Manually compile context from N agents | Agent searches memory for project tag |
 | **QA failure recovery** | Manually describe what went wrong | Agent recalls feedback + rolls back |
@@ -229,10 +229,10 @@ The Backend Architect can see exactly what the Reality Checker flagged, recall i
 1. **Tag everything with the project name**: This is what makes recall work. Every memory gets tagged with `retroboard` (or whatever your project is).
 2. **Tag deliverables for the receiving agent**: When the Backend Architect finishes an API spec, it tags the memory with `frontend-developer` so the Frontend Developer finds it on recall.
 3. **Reality Checker gets full visibility**: Because all agents store their work in memory, the Reality Checker can recall everything for the project without you compiling it.
-4. **Rollback replaces manual undo**: When something fails, roll back to the last checkpoint instead of trying to figure out what changed.
+4. **Rollback replaces manual undo**: When something fails, roll back to the last 检查点 instead of trying to figure out what changed.
 
 ## Tips
 
-- You don't need to modify every agent at once. Start by adding Memory Integration to the agents you use most and expand from there.
+- You don't need to modify every agent at once. Start by 添加 Memory Integration to the agents you use most and expand from there.
 - The memory instructions are prompts, not code. The LLM interprets them and calls the MCP tools as needed. You can adjust the wording to match your style.
-- Any MCP-compatible memory server that supports `remember`, `recall`, `rollback`, and `search` tools will work with this workflow.
+- Any MCP-compatible memory server that supports `remember`, `recall`, `rollback`, and `search` tools will work with this 工作流程.

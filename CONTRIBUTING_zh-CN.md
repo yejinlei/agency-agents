@@ -33,7 +33,7 @@
    - `marketing/` —— 增长与营销专家
    - `product/` —— 产品管理专家
    - `project-management/` —— 项目管理与协调专家
-   - `testing/` —— 质量保证与测试专家
+   - `测试/` —— 质量保证与测试专家
    - `support/` —— 运营与支持专家
    - `spatial-computing/` —— AR/VR/XR 专家
    - `specialized/` —— 无法归入其他分类的独特专家

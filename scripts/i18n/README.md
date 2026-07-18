@@ -42,8 +42,8 @@ powershell -File scripts/i18n/localize-agents-zh.ps1 -TargetDirs @("C:\custom\pa
 Before:
 ```yaml
 ---
-name: Security Engineer
-description: Threat modeling, secure code review, security architecture
+name: 安全 Engineer
+description: Threat modeling, secure 代码审查, security architecture
 ---
 ```
 

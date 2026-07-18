@@ -17,19 +17,19 @@ Use this workflow when an author has voice notes, fragments, or strategic notes,
 ```text
 Activate Book Co-Author.
 
-Book goal: Build authority around practical AI adoption for Mittelstand companies.
+Book goal: Build authority around practical 人工智能 adoption for Mittelstand companies.
 Target audience: Owners and operational leaders of 20-200 person businesses.
-Chapter topic: Why most AI projects fail before implementation starts.
+Chapter topic: Why most 人工智能 projects fail before implementation starts.
 Desired draft maturity: First substantial draft.
 
 Raw material:
 - Voice memo: "The real failure happens in expectation setting, not tooling."
 - Notes: Leaders buy software before defining the operational bottleneck.
-- Story fragment: We nearly rolled out the wrong automation in a cabinetmaking workflow because the actual problem was quoting delays, not production throughput.
+- Story fragment: We nearly rolled out the wrong automation in a cabinetmaking 工作流程 because the actual problem was quoting delays, not production throughput.
 - Positioning angle: Practical realism over hype.
 
 Produce:
-1. Chapter objective and strategic role in the book
+1. Chapter objective and strategic 角色 in the book
 2. Any clarification questions you need
 3. Chapter 2 - Version 1 - ready for review
 4. Editorial notes on assumptions and proof gaps
@@ -52,4 +52,4 @@ The Book Co-Author should respond in five parts:
 - The chapter has one clear promise and internal logic
 - Claims are tied to source material or flagged as assumptions
 - Generic motivational language is removed
-- The output ends with explicit revision questions, not a vague handoff
+- The output ends with explicit revision questions, not a vague 交接

@@ -53,7 +53,7 @@ Example:
 For this Data Swami build, use the agency-agents-router plugin to pick
 relevant Agency specialists. Search first, then delegate to selected agents
 such as frontend, backend, UX, QA, data engineering, and product strategy as
-needed. Load/delegate each specialist on demand rather than loading all
+needed. Load/delegate each specialist on demand rather than 加载 all
 Agency agents at startup.
 ```
 

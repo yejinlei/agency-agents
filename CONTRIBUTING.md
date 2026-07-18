@@ -44,7 +44,7 @@ Have an idea for a specialized agent? Great! Here's how to add one:
    > `scripts/convert.sh` and `scripts/lint-agents.sh`. The check fails the build
    > unless all of these agree and the directory contains at least one agent file.
    >
-   > Note: `strategy/` (NEXUS playbooks/runbooks — no agent frontmatter) and
+   > Note: `strategy/` (NEXUS playbooks/运行手册 — no agent frontmatter) and
    > `integrations/` (generated per-tool output from `convert.sh`) are **not**
    > divisions and must never be added to the division lists.
 
@@ -58,9 +58,9 @@ Found a way to make an agent better? Contributions welcome:
 
 - Add real-world examples and use cases
 - Enhance code samples with modern patterns
-- Update workflows based on new best practices
+- Update 工作流程 based on new 最佳实践
 - Add success metrics and benchmarks
-- Fix typos, improve clarity, enhance documentation
+- Fix typos, improve clarity, enhance 文档
 
 ### 3. Share Success Stories
 
@@ -95,44 +95,44 @@ description: One-line description of the agent's specialty and focus
 color: colorname or "#hexcode"
 emoji: 🎯
 vibe: One-line personality hook — what makes this agent memorable
-services:                              # optional — only if the agent requires external services
+服务s:                              # optional — only if the agent requires external 服务s
   - name: Service Name
-    url: https://service-url.com
+    url: https://服务-url.com
     tier: free                         # free, freemium, or paid
 ---
 
 # Agent Name
 
-## 🧠 Your Identity & Memory
-- **Role**: Clear role description
-- **Personality**: Personality traits and communication style
+## 🧠 你的身份与记忆
+- **Role**: Clear 角色 description
+- **性格**: 性格 traits and communication style
 - **Memory**: What the agent remembers and learns
 - **Experience**: Domain expertise and perspective
 
-## 🎯 Your Core Mission
+## 🎯 你的核心使命
 - Primary responsibility 1 with clear deliverables
 - Primary responsibility 2 with clear deliverables
 - Primary responsibility 3 with clear deliverables
-- **Default requirement**: Always-on best practices
+- **Default requirement**: Always-on 最佳实践
 
-## 🚨 Critical Rules You Must Follow
+## 🚨 你必须遵守的关键规则
 Domain-specific rules and constraints that define the agent's approach
 
-## 📋 Your Technical Deliverables
+## 📋 Your 技术交付物
 Concrete examples of what the agent produces:
 - Code samples
 - Templates
 - Frameworks
 - Documents
 
-## 🔄 Your Workflow Process
+## 🔄 Your 工作流程
 Step-by-step process the agent follows:
 1. Phase 1: Discovery and research
 2. Phase 2: Planning and strategy
 3. Phase 3: Execution and implementation
-4. Phase 4: Review and optimization
+4. Phase 4: 审查 and optimization
 
-## 💭 Your Communication Style
+## 💭 Your 沟通风格
 - How the agent communicates
 - Example phrases and patterns
 - Tone and approach
@@ -144,13 +144,13 @@ What the agent learns from:
 - User feedback
 - Domain evolution
 
-## 🎯 Your Success Metrics
+## 🎯 Your 成功指标
 Measurable outcomes:
 - Quantitative metrics (with numbers)
 - Qualitative indicators
 - Performance benchmarks
 
-## 🚀 Advanced Capabilities
+## 🚀 高级能力
 Advanced techniques and approaches the agent masters
 ```
 
@@ -160,36 +160,36 @@ Agent files are organized into two semantic groups that map to
 OpenClaw's workspace format and help other tools parse your agent:
 
 #### Persona (who the agent is)
-- **Identity & Memory** — role, personality, background
-- **Communication Style** — tone, voice, approach
-- **Critical Rules** — boundaries and constraints
+- **Identity & Memory** — 角色, personality, background
+- **沟通风格** — tone, voice, approach
+- **必须遵守的关键规则** — boundaries and constraints
 
 #### Operations (what the agent does)
 - **Core Mission** — primary responsibilities
-- **Technical Deliverables** — concrete outputs and templates
-- **Workflow Process** — step-by-step methodology
-- **Success Metrics** — measurable outcomes
-- **Advanced Capabilities** — specialized techniques
+- **技术交付物** — concrete outputs and templates
+- **工作流程** — step-by-step methodology
+- **成功指标** — measurable outcomes
+- **高级能力** — specialized techniques
 
-No special formatting is required — just keep persona-related sections
+No special 格式化 is required — just keep persona-related sections
 (identity, communication, rules) grouped separately from operational
-sections (mission, deliverables, workflow, metrics). The `convert.sh`
+sections (mission, deliverables, 工作流程, metrics). The `convert.sh`
 script uses these section headers to automatically split agents into
 tool-specific formats.
 
 ### Agent Design Principles
 
-1. **🎭 Strong Personality**
+1. **🎭 Strong 性格**
    - Give the agent a distinct voice and character
    - Not "I am a helpful assistant" - be specific and memorable
-   - Example: "I default to finding 3-5 issues and require visual proof" (Evidence Collector)
+   - Example: "I default to 查找 3-5 issues and require visual proof" (Evidence Collector)
 
-2. **📋 Clear Deliverables**
+2. **📋 Clear 交付物**
    - Provide concrete code examples
    - Include templates and frameworks
    - Show real outputs, not vague descriptions
 
-3. **✅ Success Metrics**
+3. **✅ 成功指标**
    - Include specific, measurable metrics
    - Example: "Page load times under 3 seconds on 3G"
    - Example: "10,000+ combined karma across accounts"
@@ -197,7 +197,7 @@ tool-specific formats.
 4. **🔄 Proven Workflows**
    - Step-by-step processes
    - Real-world tested approaches
-   - Not theoretical - battle-tested
+   - Not theoretical - 经过实战验证的
 
 5. **💡 Learning Memory**
    - What patterns the agent recognizes
@@ -206,18 +206,18 @@ tool-specific formats.
 
 ### External Services
 
-Agents may depend on external services (APIs, platforms, SaaS tools) when
-those services are essential to the agent's function. When they do:
+Agents may depend on external 服务s (APIs, platforms, SaaS tools) when
+those 服务s are essential to the agent's function. When they do:
 
-1. **Declare dependencies** in frontmatter using the `services` field
+1. **Declare dependencies** in frontmatter using the `服务s` field
 2. **The agent must stand on its own** — strip the API calls and there
-   should still be a useful persona, workflow, and expertise underneath
+   should still be a useful persona, 工作流程, and expertise underneath
 3. **Don't duplicate vendor docs** — reference them, don't reproduce them.
    The agent file should read like an agent, not a getting-started guide
-4. **Prefer services with free tiers** so contributors can test the agent
+4. **Prefer 服务s with free tiers** so contributors can test the agent
 
 The test: *is this agent for the user, or for the vendor?* An agent that
-solves the user's problem using a service belongs here. A service's
+solves the user's problem using a 服务 belongs here. A 服务's
 quickstart guide wearing an agent costume does not.
 
 ### Tool-Specific Compatibility
@@ -250,8 +250,8 @@ If your PR commits the converted output (the generated `integrations/<tool>/*` f
 - ✅ Distinct personality and voice
 - ✅ Concrete code/template examples
 - ✅ Measurable success metrics
-- ✅ Step-by-step workflows
-- ✅ Real-world testing and iteration
+- ✅ Step-by-step 工作流程
+- ✅ Real-world 测试 and iteration
 
 **Avoid**:
 - ❌ Generic "helpful assistant" personality
@@ -276,7 +276,7 @@ For anything beyond that, here's how we keep things smooth:
 - Fixing typos or clarifying docs
 
 #### Start a Discussion first
-- New tooling, build systems, or CI workflows
+- New tooling, build systems, or CI 工作流程
 - Architectural changes (new directories, new scripts, site generators)
 - Changes that touch many files across the repo
 - New integration formats or platforms
@@ -284,8 +284,8 @@ For anything beyond that, here's how we keep things smooth:
 We love ambitious ideas — a [Discussion](https://github.com/msitarzewski/agency-agents/discussions) just gives the community a chance to align on approach before code gets written. It saves everyone time, especially yours.
 
 #### Things we'll always close
-- **Committed build output**: Generated files (`_site/`, compiled assets, converted agent files) should never be checked in. Users run `convert.sh` locally; its output is gitignored. When adding a new tool, adding that `.gitignore` rule is your step — see [Adding a Tool Integration](#adding-a-tool-integration).
-- **PRs that bulk-modify existing agents** without a prior discussion — even well-intentioned reformatting can create merge conflicts for other contributors.
+- **Committed build output**: Generated files (`_site/`, compiled assets, converted agent files) should never be checked in. Users run `convert.sh` locally; its output is gitignored. When 添加 a new tool, 添加 that `.gitignore` rule is your step — see [Adding a Tool Integration](#添加-a-tool-integration).
+- **PRs that bulk-modify existing agents** without a prior discussion — even well-intentioned re格式化 can create merge conflicts for other contributors.
 - **Near-duplicate "re-skins"**: New agents that are find-replace copies of an existing one (e.g. swapping a country or platform name) rather than genuinely new specialists. Run `scripts/check-agent-originality.sh` before submitting — CI runs it automatically.
 
 ### Before Submitting
@@ -293,9 +293,9 @@ We love ambitious ideas — a [Discussion](https://github.com/msitarzewski/agenc
 1. **Test Your Agent**: Use it in real scenarios, iterate on feedback
 2. **Follow the Template**: Match the structure of existing agents
 3. **Add Examples**: Include at least 2-3 code/template examples
-4. **Define Metrics**: Include specific, measurable success criteria
-5. **Proofread**: Check for typos, formatting issues, clarity
-6. **Check it's original**: Run `./scripts/check-agent-originality.sh path/to/your-agent.md`. It compares your agent against the whole roster and flags near-duplicates (a swapped country/platform name won't fool it). A new agent should be genuinely new — if you're localizing for a market, make the platforms, tactics, and examples actually different, not a find-replace.
+4. **Define 指标**: Include specific, measurable success criteria
+5. **Proofread**: Check for typos, 格式化 issues, clarity
+6. **Check it's original**: Run `./scripts/check-agent-originality.sh path/to/your-agent.md`. It compares your agent against the whole roster and flags near-duplicates (a swapped country/platform name won't fool it). A new agent should be genuinely new — if you're 本地化 for a market, make the platforms, tactics, and examples actually different, not a find-replace.
 
 ### Submitting Your PR
 
@@ -308,13 +308,13 @@ We love ambitious ideas — a [Discussion](https://github.com/msitarzewski/agenc
    - Clear title: "Add [Agent Name] - [Category]"
    - Description of what the agent does
    - Why this agent is needed (use case)
-   - Any testing you've done
+   - Any 测试 you've done
 
-### PR Review Process
+### PR 审查 Process
 
-1. **Community Review**: Other contributors may provide feedback
+1. **Community 审查**: Other contributors may provide feedback
 2. **Iteration**: Address feedback and make improvements
-3. **Approval**: Maintainers will approve when ready
+3. **审批**: Maintainers will approve when ready
 4. **Merge**: Your contribution becomes part of The Agency!
 
 ### PR Template
@@ -328,7 +328,7 @@ We love ambitious ideas — a [Discussion](https://github.com/msitarzewski/agenc
 ## Motivation
 [Why is this agent needed? What gap does it fill?]
 
-## Testing
+## 测试
 [How have you tested this agent? Real-world use cases?]
 
 ## Checklist
@@ -337,7 +337,7 @@ We love ambitious ideas — a [Discussion](https://github.com/msitarzewski/agenc
 - [ ] Includes personality and voice
 - [ ] Has concrete code/template examples
 - [ ] Defines success metrics
-- [ ] Includes step-by-step workflow
+- [ ] Includes step-by-step 工作流程
 - [ ] Proofread and formatted correctly
 - [ ] Tested in real scenarios
 ```
@@ -355,10 +355,10 @@ We love ambitious ideas — a [Discussion](https://github.com/msitarzewski/agenc
 
 ### Formatting
 
-- Use **Markdown formatting** consistently
+- Use **Markdown 格式化** consistently
 - Include **emojis** for section headers (makes scanning easier)
 - Use **code blocks** for all code examples with proper syntax highlighting
-- Use **tables** for comparing options or showing metrics
+- Use **tables** for comparing options or 显示 metrics
 - Use **bold** for emphasis, `code` for technical terms
 
 ### Code Examples
@@ -371,7 +371,7 @@ We love ambitious ideas — a [Discussion](https://github.com/msitarzewski/agenc
 // 1. Language specification for syntax highlighting
 // 2. Comments explaining key concepts
 // 3. Real, runnable code (not pseudo-code)
-// 4. Modern best practices
+// 4. Modern 最佳实践
 
 interface AgentExample {
   name: string;
@@ -386,7 +386,7 @@ interface AgentExample {
 - **Professional but approachable**: Not overly formal or casual
 - **Confident but not arrogant**: "Here's the best approach" not "Maybe you could try..."
 - **Helpful but not hand-holding**: Assume competence, provide depth
-- **Personality-driven**: Each agent should have a unique voice
+- **性格-driven**: Each agent should have a unique voice
 
 ---
 
@@ -410,11 +410,11 @@ Contributors who make significant contributions will be:
 
 ---
 
-## 📚 Resources
+## 📚 资源
 
 ### For New Contributors
 
-- [README.md](README.md) - Overview and agent catalog
+- [README.md](README.md) - 概述 and agent catalog
 - [Example: Frontend Developer](engineering/engineering-frontend-developer.md) - Well-structured agent example
 - [Example: Reddit Community Builder](marketing/marketing-reddit-community-builder.md) - Great personality example
 - [Example: Whimsy Injector](design/design-whimsy-injector.md) - Creative specialist example
@@ -433,7 +433,7 @@ Contributors who make significant contributions will be:
 Your contributions make The Agency better for everyone. Whether you're:
 
 - Adding a new agent
-- Improving documentation
+- Improving 文档
 - Fixing bugs
 - Sharing success stories
 - Helping other contributors

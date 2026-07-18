@@ -4,12 +4,12 @@
 
 ---
 
-## 1. Standard Handoff Template
+## 1. Standard 交接 Template
 
 Use for any agent-to-agent work transfer.
 
 ```markdown
-# NEXUS Handoff Document
+# NEXUS 交接 Document
 
 ## Metadata
 | Field | Value |
@@ -27,8 +27,8 @@ Use for any agent-to-agent work transfer.
 **Relevant Files**:
 - [file/path/1] — [what it contains]
 - [file/path/2] — [what it contains]
-**Dependencies**: [What this work depends on being complete]
-**Constraints**: [Technical, timeline, or resource constraints]
+**依赖**: [What this work depends on 是 complete]
+**Constraints**: [Technical, 时间线, or resource constraints]
 
 ## Deliverable Request
 **What is needed**: [Specific, measurable deliverable description]
@@ -36,12 +36,12 @@ Use for any agent-to-agent work transfer.
 - [ ] [Criterion 1 — measurable]
 - [ ] [Criterion 2 — measurable]
 - [ ] [Criterion 3 — measurable]
-**Reference materials**: [Links to specs, designs, previous work]
+**参考资料**: [Links to specs, designs, previous work]
 
 ## Quality Expectations
 **Must pass**: [Specific quality criteria for this deliverable]
 **Evidence required**: [What proof of completion looks like]
-**Handoff to next**: [Who receives the output and what format they need]
+**交接 to next**: [Who receives the output and what format they need]
 ```
 
 ---
@@ -77,7 +77,7 @@ Use when Evidence Collector or other QA agent approves a task.
 - [x] [Acceptance criterion 3] — verified
 
 **Brand Consistency**: Verified — colors, typography, spacing match design system
-**Accessibility**: Verified — keyboard navigation, contrast ratios, semantic HTML
+**无障碍**: Verified — keyboard navigation, contrast ratios, semantic HTML
 **Performance**: [Load time measured] — within acceptable range
 
 ## Notes
@@ -89,12 +89,12 @@ Use when Evidence Collector or other QA agent approves a task.
 
 ---
 
-## 3. QA Feedback Loop — FAIL
+## 3. QA Feedback Loop — F人工智能L
 
 Use when Evidence Collector or other QA agent rejects a task.
 
 ```markdown
-# NEXUS QA Verdict: FAIL ❌
+# NEXUS QA Verdict: F人工智能L ❌
 
 ## Task
 | Field | Value |
@@ -106,7 +106,7 @@ Use when Evidence Collector or other QA agent rejects a task.
 | **Attempt** | [N] of 3 |
 | **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Verdict: FAIL
+## Verdict: F人工智能L
 
 ## Issues Found
 
@@ -130,8 +130,8 @@ Use when Evidence Collector or other QA agent rejects a task.
 
 ## Acceptance Criteria Status
 - [x] [Criterion 1] — passed
-- [ ] [Criterion 2] — FAILED (see Issue 1)
-- [ ] [Criterion 3] — FAILED (see Issue 2)
+- [ ] [Criterion 2] — F人工智能LED (see Issue 1)
+- [ ] [Criterion 3] — F人工智能LED (see Issue 2)
 
 ## Retry Instructions
 **For Developer Agent**:
@@ -145,12 +145,12 @@ Use when Evidence Collector or other QA agent rejects a task.
 
 ---
 
-## 4. Escalation Report
+## 4. 升级 Report
 
 Use when a task exceeds 3 retry attempts.
 
 ```markdown
-# NEXUS Escalation Report 🚨
+# NEXUS 升级 Report 🚨
 
 ## Task
 | Field | Value |
@@ -160,27 +160,27 @@ Use when a task exceeds 3 retry attempts.
 | **Developer Agent** | [Agent Name] |
 | **QA Agent** | [Agent Name] |
 | **Attempts Exhausted** | 3/3 |
-| **Escalation To** | [Agents Orchestrator / Studio Producer] |
+| **升级 To** | [Agents Orchestrator / Studio Producer] |
 | **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
 
 ## Failure History
 
 ### Attempt 1
-- **Issues found**: [Summary]
+- **Issues found**: [总结]
 - **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+- **Result**: F人工智能L — [Why it still failed]
 
 ### Attempt 2
-- **Issues found**: [Summary]
+- **Issues found**: [总结]
 - **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+- **Result**: F人工智能L — [Why it still failed]
 
 ### Attempt 3
-- **Issues found**: [Summary]
+- **Issues found**: [总结]
 - **Fixes applied**: [What the developer changed]
-- **Result**: FAIL — [Why it still failed]
+- **Result**: F人工智能L — [Why it still failed]
 
-## Root Cause Analysis
+## 根因分析
 **Why the task keeps failing**: [Analysis of the underlying problem]
 **Systemic issue**: [Is this a one-off or pattern?]
 **Complexity assessment**: [Was the task properly scoped?]
@@ -194,7 +194,7 @@ Use when a task exceeds 3 retry attempts.
 
 ## Impact Assessment
 **Blocking**: [What other tasks are blocked by this]
-**Timeline Impact**: [How this affects the overall schedule]
+**时间线 Impact**: [How this affects the overall schedule]
 **Quality Impact**: [What quality compromises exist if we accept current state]
 
 ## Decision Required
@@ -204,45 +204,45 @@ Use when a task exceeds 3 retry attempts.
 
 ---
 
-## 5. Phase Gate Handoff
+## 5. Phase Gate 交接
 
 Use when transitioning between NEXUS phases.
 
 ```markdown
-# NEXUS Phase Gate Handoff
+# NEXUS Phase Gate 交接
 
-## Transition
+## 过渡
 | Field | Value |
 |-------|-------|
 | **From Phase** | Phase [N] — [Name] |
 | **To Phase** | Phase [N+1] — [Name] |
-| **Gate Keeper(s)** | [Agent Name(s)] |
-| **Gate Result** | [PASSED / FAILED] |
+| **关卡守门人(s)** | [Agent Name(s)] |
+| **Gate Result** | [PASSED / F人工智能LED] |
 | **Timestamp** | [YYYY-MM-DDTHH:MM:SSZ] |
 
-## Gate Criteria Results
+## 关卡标准 Results
 | # | Criterion | Threshold | Result | Evidence |
 |---|-----------|-----------|--------|----------|
-| 1 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
-| 2 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
-| 3 | [Criterion] | [Threshold] | ✅ PASS / ❌ FAIL | [Evidence reference] |
+| 1 | [Criterion] | [Threshold] | ✅ PASS / ❌ F人工智能L | [Evidence reference] |
+| 2 | [Criterion] | [Threshold] | ✅ PASS / ❌ F人工智能L | [Evidence reference] |
+| 3 | [Criterion] | [Threshold] | ✅ PASS / ❌ F人工智能L | [Evidence reference] |
 
 ## Documents Carried Forward
 1. [Document name] — [Purpose for next phase]
 2. [Document name] — [Purpose for next phase]
 3. [Document name] — [Purpose for next phase]
 
-## Key Constraints for Next Phase
-- [Constraint 1 from this phase's findings]
-- [Constraint 2 from this phase's findings]
+## Key Constraints for 下一阶段
+- [Constraint 1 from this phase's 查找s]
+- [Constraint 2 from this phase's 查找s]
 
-## Agent Activation for Next Phase
+## Agent Activation for 下一阶段
 | Agent | Role | Priority |
 |-------|------|----------|
 | [Agent 1] | [Role in next phase] | [Immediate / Day 2 / As needed] |
 | [Agent 2] | [Role in next phase] | [Immediate / Day 2 / As needed] |
 
-## Risks Carried Forward
+## 风险 Carried Forward
 | Risk | Severity | Mitigation | Owner |
 |------|----------|------------|-------|
 | [Risk] | [P0-P3] | [Mitigation plan] | [Agent] |
@@ -250,14 +250,14 @@ Use when transitioning between NEXUS phases.
 
 ---
 
-## 6. Sprint Handoff
+## 6. Sprint 交接
 
 Use at sprint boundaries.
 
 ```markdown
-# NEXUS Sprint Handoff
+# NEXUS Sprint 交接
 
-## Sprint Summary
+## Sprint 总结
 | Field | Value |
 |-------|-------|
 | **Sprint** | [Number] |
@@ -272,7 +272,7 @@ Use at sprint boundaries.
 | [ID] | [Description] | ✅ Complete | [N] | [Notes] |
 | [ID] | [Description] | ⚠️ Carried Over | [N] | [Reason] |
 
-## Quality Metrics
+## Quality 指标
 - **First-pass QA rate**: [X]%
 - **Average retries**: [N]
 - **Tasks completed**: [X/Y]
@@ -283,7 +283,7 @@ Use at sprint boundaries.
 |---------|-------------|--------|----------|
 | [ID] | [Description] | [Why not completed] | [RICE score] |
 
-## Retrospective Insights
+## 回顾 Insights
 **What went well**: [Key successes]
 **What to improve**: [Key improvements]
 **Action items**: [Specific changes for next sprint]
@@ -291,17 +291,17 @@ Use at sprint boundaries.
 ## Next Sprint Preview
 **Sprint goal**: [Proposed goal]
 **Key tasks**: [Top priority items]
-**Dependencies**: [Cross-team dependencies]
+**依赖**: [Cross-team dependencies]
 ```
 
 ---
 
-## 7. Incident Handoff
+## 7. Incident 交接
 
 Use during incident response.
 
 ```markdown
-# NEXUS Incident Handoff
+# NEXUS Incident 交接
 
 ## Incident
 | Field | Value |
@@ -315,7 +315,7 @@ Use during incident response.
 ## Description
 **What happened**: [Clear description of the incident]
 **Impact**: [Who/what is affected and how severely]
-**Timeline**:
+**时间线**:
 - [HH:MM] — [Event]
 - [HH:MM] — [Event]
 - [HH:MM] — [Event]
@@ -329,17 +329,17 @@ Use during incident response.
 1. [Action taken and result]
 2. [Action taken and result]
 
-## Handoff Context
+## 交接 Context
 **For next responder**:
 - [What's been tried]
 - [What hasn't been tried yet]
 - [Suspected root cause]
 - [Relevant logs/metrics to check]
 
-## Stakeholder Communication
+## Stakeholder 沟通
 **Last update sent**: [Timestamp]
 **Next update due**: [Timestamp]
-**Communication channel**: [Where updates are posted]
+**沟通 channel**: [Where updates are posted]
 ```
 
 ---
@@ -348,10 +348,10 @@ Use during incident response.
 
 | Situation | Template to Use |
 |-----------|----------------|
-| Assigning work to another agent | Standard Handoff (#1) |
+| Assigning work to another agent | Standard 交接 (#1) |
 | QA approves a task | QA PASS (#2) |
-| QA rejects a task | QA FAIL (#3) |
-| Task exceeds 3 retries | Escalation Report (#4) |
-| Moving between phases | Phase Gate Handoff (#5) |
-| End of sprint | Sprint Handoff (#6) |
-| System incident | Incident Handoff (#7) |
+| QA rejects a task | QA F人工智能L (#3) |
+| Task exceeds 3 retries | 升级 Report (#4) |
+| Moving between phases | Phase Gate 交接 (#5) |
+| End of sprint | Sprint 交接 (#6) |
+| System incident | Incident 交接 (#7) |

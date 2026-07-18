@@ -42,7 +42,7 @@ Each skill is a `SKILL.md` file with Antigravity-compatible frontmatter:
 ```yaml
 ---
 name: agency-frontend-developer
-description: Expert frontend developer specializing in...
+description: Expert frontend developer ，专攻...
 risk: low
 source: community
 date_added: '2026-03-08'

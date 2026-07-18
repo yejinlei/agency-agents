@@ -4,17 +4,17 @@
 
 ---
 
-## Objective
+## 目标
 
-Define what we're building, how it's structured, and what success looks like — before writing a single line of code. Every architectural decision is documented. Every feature is prioritized. Every dollar is accounted for.
+Define what we're 构建, how it's structured, and what success looks like — before 编写 a single line of code. Every architectural decision is documented. Every feature is 优先级排序d. Every dollar is accounted for.
 
-## Pre-Conditions
+## 前置条件
 
 - [ ] Phase 0 Quality Gate passed (GO decision)
-- [ ] Phase 0 Handoff Package received
+- [ ] Phase 0 交接 Package received
 - [ ] Stakeholder alignment on project scope
 
-## Agent Activation Sequence
+## 智能体激活序列
 
 ### Step 1: Strategic Framing (Day 1-3, Parallel)
 
@@ -22,8 +22,8 @@ Define what we're building, how it's structured, and what success looks like —
 ```
 Activate Studio Producer for strategic portfolio alignment on [PROJECT].
 
-Input: Phase 0 Executive Summary + Market Analysis Report
-Deliverables required:
+Input: Phase 0 执行摘要 + 市场分析 Report
+交付物 required:
 1. Strategic Portfolio Plan with project positioning
 2. Vision, objectives, and ROI targets
 3. Resource allocation strategy
@@ -32,55 +32,55 @@ Deliverables required:
 
 Align with: Organizational strategic objectives
 Format: Strategic Portfolio Plan Template
-Timeline: 3 days
+时间线: 3 days
 ```
 
-#### 🎭 Brand Guardian — Brand Identity System
+#### 🎭 Brand Guardian — 品牌识别 System
 ```
 Activate Brand Guardian for brand identity development on [PROJECT].
 
-Input: Phase 0 UX Research (personas, journey maps)
-Deliverables required:
+Input: Phase 0 用户体验研究 (personas, 旅程图s)
+交付物 required:
 1. Brand Foundation (purpose, vision, mission, values, personality)
 2. Visual Identity System (colors, typography, spacing as CSS variables)
-3. Brand Voice and Messaging Architecture
+3. Brand Voice and Messaging 架构
 4. Logo system specifications (if new brand)
 5. Brand usage guidelines
 
-Format: Brand Identity System Document
-Timeline: 3 days
+Format: 品牌识别 System Document
+时间线: 3 days
 ```
 
-#### 💰 Finance Tracker — Budget and Resource Planning
+#### 💰 Finance Tracker — Budget and 资源规划
 ```
-Activate Finance Tracker for financial planning on [PROJECT].
+Activate Finance Tracker for financial 规划 on [PROJECT].
 
 Input: Studio Producer strategic plan + Phase 0 Tech Stack Assessment
-Deliverables required:
+交付物 required:
 1. Comprehensive project budget with category breakdown
 2. Resource cost projections (agents, infrastructure, tools)
 3. ROI model with break-even analysis
-4. Cash flow timeline
+4. Cash flow 时间线
 5. Financial risk assessment with contingency reserves
 
 Format: Financial Plan with ROI Projections
-Timeline: 2 days
+时间线: 2 days
 ```
 
-### Step 2: Technical Architecture (Day 3-7, Parallel, after Step 1 outputs available)
+### Step 2: Technical 架构 (Day 3-7, Parallel, after Step 1 outputs available)
 
-#### 🏛️ UX Architect — Technical Architecture + UX Foundation
+#### 🏛️ UX Architect — Technical 架构 + UX Foundation
 ```
 Activate UX Architect for technical architecture on [PROJECT].
 
-Input: Brand Guardian visual identity + Phase 0 UX Research
-Deliverables required:
+Input: Brand Guardian visual identity + Phase 0 用户体验研究
+交付物 required:
 1. CSS Design System (variables, tokens, scales)
 2. Layout Framework (Grid/Flexbox patterns, responsive breakpoints)
-3. Component Architecture (naming conventions, hierarchy)
-4. Information Architecture (page flow, content hierarchy)
+3. Component 架构 (naming conventions, hierarchy)
+4. Information 架构 (page flow, content hierarchy)
 5. Theme System (light/dark/system toggle)
-6. Accessibility Foundation (WCAG 2.1 AA baseline)
+6. 无障碍 Foundation (WCAG 2.1 AA baseline)
 
 Files to create:
 - css/design-system.css
@@ -89,59 +89,59 @@ Files to create:
 - docs/ux-architecture.md
 
 Format: Developer-Ready Foundation Package
-Timeline: 4 days
+时间线: 4 days
 ```
 
-#### 🏗️ Backend Architect — System Architecture
+#### 🏗️ Backend Architect — System 架构
 ```
 Activate Backend Architect for system architecture on [PROJECT].
 
-Input: Phase 0 Tech Stack Assessment + Compliance Requirements
-Deliverables required:
-1. System Architecture Specification
-   - Architecture pattern (microservices/monolith/serverless/hybrid)
-   - Communication pattern (REST/GraphQL/gRPC/event-driven)
+Input: Phase 0 Tech Stack Assessment + Compliance 要求
+交付物 required:
+1. System 架构 Specification
+   - 架构 pattern (微服务/monolith/无服务器/hybrid)
+   - 沟通 pattern (REST/GraphQL/gRPC/事件驱动的)
    - Data pattern (CQRS/Event Sourcing/CRUD)
 2. Database Schema Design with indexing strategy
-3. API Design Specification with versioning
-4. Authentication and Authorization Architecture
-5. Security Architecture (defense in depth)
-6. Scalability Plan (horizontal scaling strategy)
+3. API 设计 Specification with versioning
+4. Authentication and Authorization 架构
+5. 安全 架构 (纵深防御)
+6. 可扩展性 Plan (水平扩展 strategy)
 
-Format: System Architecture Specification
-Timeline: 4 days
+Format: System 架构 Specification
+时间线: 4 days
 ```
 
-#### 🤖 AI Engineer — ML Architecture (if applicable)
+#### 🤖 人工智能 Engineer — ML 架构 (if applicable)
 ```
-Activate AI Engineer for ML system architecture on [PROJECT].
+Activate 人工智能 Engineer for ML system architecture on [PROJECT].
 
 Input: Backend Architect system architecture + Phase 0 Data Audit
-Deliverables required:
-1. ML System Design
+交付物 required:
+1. ML 系统设计
    - Model selection and training strategy
    - Data pipeline architecture
    - Inference strategy (real-time/batch/edge)
-2. AI Ethics and Safety Framework
-3. Model monitoring and retraining plan
+2. 人工智能 Ethics and Safety Framework
+3. Model 监控 and retraining plan
 4. Integration points with main application
 5. Cost projections for ML infrastructure
 
-Condition: Only activate if project includes AI/ML features
-Format: ML System Design Document
-Timeline: 3 days
+Condition: Only activate if project includes 人工智能/ML features
+Format: ML 系统设计 Document
+时间线: 3 days
 ```
 
 #### 👔 Senior Project Manager — Spec-to-Task Conversion
 ```
 Activate Senior Project Manager for task list creation on [PROJECT].
 
-Input: ALL Phase 0 documents + Architecture specs (as available)
-Deliverables required:
+Input: ALL Phase 0 documents + 架构 specs (as available)
+交付物 required:
 1. Comprehensive Task List
    - Quote EXACT requirements from spec (no luxury features)
    - Each task has clear acceptance criteria
-   - Dependencies mapped between tasks
+   - 依赖 mapped between tasks
    - Effort estimates (story points or hours)
 2. Work Breakdown Structure
 3. Critical path identification
@@ -150,26 +150,26 @@ Deliverables required:
 Rules:
 - Do NOT add features not in the specification
 - Quote exact text from requirements
-- Be realistic about effort estimates
+- Be realistic about 工作量估算s
 
 Format: Task List with acceptance criteria
-Timeline: 3 days
+时间线: 3 days
 ```
 
 ### Step 3: Prioritization (Day 7-10, Sequential, after Step 2)
 
 #### 🎯 Sprint Prioritizer — Feature Prioritization
 ```
-Activate Sprint Prioritizer for backlog prioritization on [PROJECT].
+Activate Sprint Prioritizer for backlog 优先级排序 on [PROJECT].
 
 Input:
 - Senior Project Manager → Task List
-- Backend Architect → System Architecture
-- UX Architect → UX Architecture
+- Backend Architect → System 架构
+- UX Architect → UX 架构
 - Finance Tracker → Budget Framework
 - Studio Producer → Strategic Plan
 
-Deliverables required:
+交付物 required:
 1. RICE-scored backlog (Reach, Impact, Confidence, Effort)
 2. Sprint assignments with velocity-based estimation
 3. Dependency map with critical path
@@ -178,61 +178,61 @@ Deliverables required:
 
 Validation: Studio Producer confirms strategic alignment
 Format: Prioritized Sprint Plan
-Timeline: 2 days
+时间线: 2 days
 ```
 
 ## Quality Gate Checklist
 
 | # | Criterion | Evidence Source | Status |
 |---|-----------|----------------|--------|
-| 1 | Architecture covers 100% of spec requirements | Senior PM task list cross-referenced with architecture | ☐ |
+| 1 | 架构 covers 100% of spec requirements | Senior PM task list cross-referenced with architecture | ☐ |
 | 2 | Brand system complete (logo, colors, typography, voice) | Brand Guardian deliverable | ☐ |
 | 3 | All technical components have implementation path | Backend Architect + UX Architect specs | ☐ |
 | 4 | Budget approved and within constraints | Finance Tracker plan | ☐ |
 | 5 | Sprint plan is velocity-based and realistic | Sprint Prioritizer backlog | ☐ |
-| 6 | Security architecture defined | Backend Architect security spec | ☐ |
+| 6 | 安全 architecture defined | Backend Architect security spec | ☐ |
 | 7 | Compliance requirements integrated into architecture | Legal requirements mapped to technical decisions | ☐ |
 
 ## Gate Decision
 
-**Dual sign-off required**: Studio Producer (strategic) + Reality Checker (technical)
+**Dual 签核 required**: Studio Producer (strategic) + Reality Checker (technical)
 
-- **APPROVED**: Proceed to Phase 2 with full Architecture Package
+- **APPROVED**: Proceed to Phase 2 with full 架构 Package
 - **REVISE**: Specific items need rework (return to relevant Step)
 - **RESTRUCTURE**: Fundamental architecture issues (restart Phase 1)
 
-## Handoff to Phase 2
+## 交接 to Phase 2
 
 ```markdown
-## Phase 1 → Phase 2 Handoff Package
+## Phase 1 → Phase 2 交接 Package
 
-### Architecture Package:
+### 架构 Package:
 1. Strategic Portfolio Plan (Studio Producer)
-2. Brand Identity System (Brand Guardian)
+2. 品牌识别 System (Brand Guardian)
 3. Financial Plan (Finance Tracker)
-4. CSS Design System + UX Architecture (UX Architect)
-5. System Architecture Specification (Backend Architect)
-6. ML System Design (AI Engineer — if applicable)
+4. CSS Design System + UX 架构 (UX Architect)
+5. System 架构 Specification (Backend Architect)
+6. ML 系统设计 (人工智能 Engineer — if applicable)
 7. Comprehensive Task List (Senior Project Manager)
 8. Prioritized Sprint Plan (Sprint Prioritizer)
 
 ### For DevOps Automator:
 - Deployment architecture from Backend Architect
-- Environment requirements from System Architecture
+- Environment requirements from System 架构
 - Monitoring requirements from Infrastructure needs
 
 ### For Frontend Developer:
 - CSS Design System from UX Architect
-- Brand Identity from Brand Guardian
+- 品牌识别 from Brand Guardian
 - Component architecture from UX Architect
 - API specification from Backend Architect
 
-### For Backend Architect (continuing):
-- Database schema ready for deployment
+### For Backend Architect (继续):
+- Database schema ready for 部署
 - API scaffold ready for implementation
 - Auth system architecture defined
 ```
 
 ---
 
-*Phase 1 is complete when Studio Producer and Reality Checker both sign off on the Architecture Package.*
+*Phase 1 is complete when Studio Producer and Reality Checker both sign off on the 架构 Package.*

@@ -4,15 +4,15 @@
 
 ---
 
-## Objective
+## 目标
 
 Implement all features through continuous Dev↔QA loops. Every task is validated before the next begins. This is where the bulk of the work happens — and where NEXUS's orchestration delivers the most value.
 
-## Pre-Conditions
+## 前置条件
 
 - [ ] Phase 2 Quality Gate passed (foundation verified)
 - [ ] Sprint Prioritizer backlog available with RICE scores
-- [ ] CI/CD pipeline operational
+- [ ] 持续集成/持续部署 pipeline operational
 - [ ] Design system and component library ready
 - [ ] API scaffold with auth system ready
 
@@ -32,7 +32,7 @@ FOR EACH task IN sprint_backlog (ordered by RICE score):
   4. IF verdict == PASS:
        Mark task complete
        Move to next task
-     ELIF verdict == FAIL AND attempts < 3:
+     ELIF verdict == F人工智能L AND attempts < 3:
        Send QA feedback to Developer
        Developer FIXES specific issues
        Return to step 3
@@ -52,53 +52,53 @@ FOR EACH task IN sprint_backlog (ordered by RICE score):
 | **REST/GraphQL API** | Backend Architect | Senior Developer | API Tester |
 | **Database operations** | Backend Architect | — | API Tester |
 | **Mobile (iOS/Android)** | Mobile App Builder | — | Evidence Collector |
-| **ML model/pipeline** | AI Engineer | — | Test Results Analyzer |
-| **CI/CD/Infrastructure** | DevOps Automator | Infrastructure Maintainer | Performance Benchmarker |
+| **ML model/pipeline** | 人工智能 Engineer | — | Test 结果分析器 |
+| **持续集成/持续部署/Infrastructure** | DevOps Automator | Infrastructure Maintainer | Performance Benchmarker |
 | **Premium/complex feature** | Senior Developer | Backend Architect | Evidence Collector |
 | **Quick prototype/POC** | Rapid Prototyper | Frontend Developer | Evidence Collector |
 | **WebXR/immersive** | XR Immersive Developer | — | Evidence Collector |
 | **visionOS** | visionOS Spatial Engineer | macOS Spatial/Metal Engineer | Evidence Collector |
 | **Cockpit controls** | XR Cockpit Interaction Specialist | XR Interface Architect | Evidence Collector |
 | **CLI/terminal tools** | Terminal Integration Specialist | — | API Tester |
-| **Code intelligence** | LSP/Index Engineer | — | Test Results Analyzer |
+| **Code intelligence** | LSP/Index Engineer | — | Test 结果分析器 |
 | **Performance optimization** | Performance Benchmarker | Infrastructure Maintainer | Performance Benchmarker |
 
 ### Specialist Support (activated as needed)
 
 | Specialist | When to Activate | Trigger |
 |-----------|-----------------|---------|
-| UI Designer | Component needs visual refinement | Developer requests design guidance |
+| 界面设计er | Component needs visual refinement | Developer requests design guidance |
 | Whimsy Injector | Feature needs delight/personality | UX review identifies opportunity |
 | Visual Storyteller | Visual narrative content needed | Content requires visual assets |
 | Brand Guardian | Brand consistency concern | QA finds brand deviation |
-| XR Interface Architect | Spatial interaction design needed | XR feature requires UX guidance |
+| XR Interface Architect | Spatial 交互设计 needed | XR feature requires UX guidance |
 | Analytics Reporter | Deep data analysis needed | Feature requires analytics integration |
 
 ## Parallel Build Tracks
 
-For NEXUS-Full deployments, four tracks run simultaneously:
+For NEXUS-Full 部署s, four tracks run simultaneously:
 
 ### Track A: Core Product Development
 ```
 Managed by: Agents Orchestrator (Dev↔QA loop)
-Agents: Frontend Developer, Backend Architect, AI Engineer,
+Agents: Frontend Developer, Backend Architect, 人工智能 Engineer,
         Mobile App Builder, Senior Developer
-QA: Evidence Collector, API Tester, Test Results Analyzer
+QA: Evidence Collector, API Tester, Test 结果分析器
 
 Sprint cadence: 2-week sprints
 Daily: Task implementation + QA validation
 End of sprint: Sprint review + retrospective
 ```
 
-### Track B: Growth & Marketing Preparation
+### Track B: 增长 & Marketing Preparation
 ```
 Managed by: Project Shepherd
-Agents: Growth Hacker, Content Creator, Social Media Strategist,
+Agents: 增长 Hacker, Content Creator, Social Media Strategist,
         App Store Optimizer
 
 Sprint cadence: Aligned with Track A milestones
 Activities:
-- Growth Hacker → Design viral loops and referral mechanics
+- 增长 Hacker → Design viral loops and referral mechanics
 - Content Creator → Build launch content pipeline
 - Social Media Strategist → Plan cross-platform campaign
 - App Store Optimizer → Prepare store listing (if mobile)
@@ -113,19 +113,19 @@ Agents: Evidence Collector, API Tester, Performance Benchmarker,
 Continuous activities:
 - Evidence Collector → Screenshot QA for every task
 - API Tester → Endpoint validation for every API task
-- Performance Benchmarker → Periodic load testing
+- Performance Benchmarker → Periodic 负载测试
 - Workflow Optimizer → Process improvement identification
-- Experiment Tracker → A/B test setup for validated features
+- Experiment Tracker → A/B 测试集up for validated features
 ```
 
 ### Track D: Brand & Experience Polish
 ```
 Managed by: Brand Guardian
-Agents: UI Designer, Brand Guardian, Visual Storyteller,
+Agents: 界面设计er, Brand Guardian, Visual Storyteller,
         Whimsy Injector
 
 Triggered activities:
-- UI Designer → Component refinement when QA identifies visual issues
+- 界面设计er → Component refinement when QA identifies visual issues
 - Brand Guardian → Periodic brand consistency audit
 - Visual Storyteller → Visual narrative assets as features complete
 - Whimsy Injector → Micro-interactions and delight moments
@@ -137,11 +137,11 @@ Triggered activities:
 
 ```
 Sprint Prioritizer activates:
-1. Review backlog with updated RICE scores
+1. 审查 backlog with updated RICE scores
 2. Select tasks for sprint based on team velocity
 3. Assign tasks to developer agents
 4. Identify dependencies and ordering
-5. Set sprint goal and success criteria
+5. Set 冲刺目标 and success criteria
 
 Output: Sprint Plan with task assignments
 ```
@@ -153,7 +153,7 @@ Agents Orchestrator manages:
 1. Current task status check
 2. Dev↔QA loop execution
 3. Blocker identification and resolution
-4. Progress tracking and reporting
+4. Progress 追踪 and 报告
 
 Status report format:
 - Tasks completed today: [list]
@@ -163,20 +163,20 @@ Status report format:
 - QA pass rate: [X/Y]
 ```
 
-### Sprint Review (Day N)
+### Sprint 审查 (Day N)
 
 ```
 Project Shepherd facilitates:
 1. Demo completed features
-2. Review QA evidence for each task
+2. 审查 QA evidence for each task
 3. Collect stakeholder feedback
 4. Update backlog based on learnings
 
 Participants: All active agents + stakeholders
-Output: Sprint Review Summary
+Output: Sprint 审查 总结
 ```
 
-### Sprint Retrospective
+### Sprint 回顾
 
 ```
 Workflow Optimizer facilitates:
@@ -185,7 +185,7 @@ Workflow Optimizer facilitates:
 3. What will we change next sprint?
 4. Process efficiency metrics
 
-Output: Retrospective Action Items
+Output: 回顾 Action Items
 ```
 
 ## Orchestrator Decision Logic
@@ -228,7 +228,7 @@ WHEN multiple tasks have no dependencies:
 WHEN task has dependencies:
   → Wait for dependency to pass QA
   → Then assign dependent task
-  → Include dependency context in handoff
+  → Include dependency context in 交接
 ```
 
 ## Quality Gate Checklist
@@ -236,42 +236,42 @@ WHEN task has dependencies:
 | # | Criterion | Evidence Source | Status |
 |---|-----------|----------------|--------|
 | 1 | All sprint tasks pass QA (100% completion) | Evidence Collector screenshots per task | ☐ |
-| 2 | All API endpoints validated | API Tester regression report | ☐ |
+| 2 | All API 端点 validated | API Tester r出口ion report | ☐ |
 | 3 | Performance baselines met (P95 < 200ms) | Performance Benchmarker report | ☐ |
 | 4 | Brand consistency verified (95%+ adherence) | Brand Guardian audit | ☐ |
-| 5 | No critical bugs (zero P0/P1 open) | Test Results Analyzer summary | ☐ |
+| 5 | No critical bugs (zero P0/P1 open) | Test 结果分析器 summary | ☐ |
 | 6 | All acceptance criteria met | Task-by-task verification | ☐ |
 | 7 | Code review completed for all PRs | Git history evidence | ☐ |
 
 ## Gate Decision
 
-**Gate Keeper**: Agents Orchestrator
+**关卡守门人**: Agents Orchestrator
 
 - **PASS**: Feature-complete application → Phase 4 activation
 - **CONTINUE**: More sprints needed → Continue Phase 3
 - **ESCALATE**: Systemic issues → Studio Producer intervention
 
-## Handoff to Phase 4
+## 交接 to Phase 4
 
 ```markdown
-## Phase 3 → Phase 4 Handoff Package
+## Phase 3 → Phase 4 交接 Package
 
 ### For Reality Checker:
 - Complete application (all features implemented)
 - All QA evidence from Dev↔QA loops
-- API Tester regression results
+- API Tester r出口ion results
 - Performance Benchmarker baseline data
 - Brand Guardian consistency audit
 - Known issues list (if any accepted limitations)
 
-### For Legal Compliance Checker:
-- Data handling implementation details
+### For 法律合规 Checker:
+- Data 处理 implementation details
 - Privacy policy implementation
 - Consent management implementation
-- Security measures implemented
+- 安全 measures implemented
 
 ### For Performance Benchmarker:
-- Application URLs for load testing
+- Application URLs for 负载测试
 - Expected traffic patterns
 - Performance budgets from architecture
 
@@ -283,4 +283,4 @@ WHEN task has dependencies:
 
 ---
 
-*Phase 3 is complete when all sprint tasks pass QA, all API endpoints are validated, performance baselines are met, and no critical bugs remain open.*
+*Phase 3 is complete when all sprint tasks pass QA, all API 端点 are validated, performance baselines are met, and no critical bugs remain open.*

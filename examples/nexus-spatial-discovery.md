@@ -12,13 +12,13 @@
 
 1. [The Opportunity](#1-the-opportunity)
 2. [Market Validation](#2-market-validation)
-3. [Technical Architecture](#3-technical-architecture)
+3. [Technical 架构](#3-technical-architecture)
 4. [Brand Strategy](#4-brand-strategy)
-5. [Go-to-Market & Growth](#5-go-to-market--growth)
-6. [Customer Support Blueprint](#6-customer-support-blueprint)
-7. [UX Research & Design Direction](#7-ux-research--design-direction)
+5. [Go-to-Market & 增长](#5-go-to-market--growth)
+6. [客户支持 Blueprint](#6-customer-support-blueprint)
+7. [用户体验研究 & Design Direction](#7-ux-research--design-direction)
 8. [Project Execution Plan](#8-project-execution-plan)
-9. [Spatial Interface Architecture](#9-spatial-interface-architecture)
+9. [Spatial Interface 架构](#9-spatial-interface-architecture)
 10. [Cross-Agent Synthesis](#10-cross-agent-synthesis)
 
 ---
@@ -29,13 +29,13 @@
 
 Web research across multiple sources identified three converging trends:
 
-- **AI infrastructure/orchestration** is the fastest-growing software category (AI orchestration market valued at ~$13.5B in 2026, 22%+ CAGR)
+- **人工智能 infrastructure/orchestration** is the fastest-growing software category (人工智能 orchestration market valued at ~$13.5B in 2026, 22%+ CAGR)
 - **Spatial computing** (Vision Pro, WebXR) is maturing but lacks killer enterprise apps
-- Every existing AI workflow tool (LangSmith, n8n, Flowise, CrewAI) is a **flat 2D dashboard**
+- Every existing 人工智能 工作流程 tool (LangSmith, n8n, Flowise, Crew人工智能) is a **flat 2D dashboard**
 
 ### The Concept: Nexus Spatial
 
-An AI Agent Command Center in spatial computing -- a VisionOS + WebXR application that provides an immersive 3D command center for orchestrating, monitoring, and interacting with AI agents. Users visualize agent pipelines as 3D node graphs, monitor real-time outputs in spatial panels, build workflows with drag-and-drop in 3D space, and collaborate in shared spatial environments.
+An 人工智能 Agent Command Center in spatial computing -- a VisionOS + WebXR application that provides an immersive 3D command center for 编排, 监控, and interacting with 人工智能 agents. Users visualize agent pipelines as 3D 节点 graphs, monitor real-time outputs in spatial panels, build 工作流程 with drag-and-drop in 3D space, and collaborate in shared spatial environments.
 
 ### Why This Agency Is Uniquely Positioned
 
@@ -43,11 +43,11 @@ The agency has deep spatial computing expertise (XR developers, VisionOS enginee
 
 ### Sources
 
-- [Profitable SaaS Ideas 2026 (273K+ Reviews)](https://bigideasdb.com/profitable-saas-micro-saas-ideas-2026)
-- [2026 SaaS and AI Revolution: 20 Top Trends](https://fungies.io/the-2026-saas-and-ai-revolution-20-top-trends/)
+- [Profitable SaaS Ideas 2026 (273K+ 审查s)](https://bigideasdb.com/profitable-saas-micro-saas-ideas-2026)
+- [2026 SaaS and 人工智能 Revolution: 20 Top Trends](https://fungies.io/the-2026-saas-and-ai-revolution-20-top-trends/)
 - [Top 21 Underserved Markets 2026](https://mktclarity.com/blogs/news/list-underserved-niches)
 - [Fastest Growing Products 2026 - G2](https://www.g2.com/best-software-companies/fastest-growing)
-- [PwC 2026 AI Business Predictions](https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html)
+- [PwC 2026 人工智能 Business Predictions](https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-predictions.html)
 
 ---
 
@@ -59,33 +59,33 @@ The agency has deep spatial computing expertise (XR developers, VisionOS enginee
 
 ### Market Size
 
-| Segment | 2026 Value | Growth |
+| Segment | 2026 Value | 增长 |
 |---------|-----------|--------|
-| AI Orchestration Tools | $13.5B | 22.3% CAGR |
-| Autonomous AI Agents | $8.5B | 45.8% CAGR to $50.3B by 2030 |
+| 人工智能 Orchestration Tools | $13.5B | 22.3% CAGR |
+| Autonomous 人工智能 Agents | $8.5B | 45.8% CAGR to $50.3B by 2030 |
 | Extended Reality | $10.64B | 40.95% CAGR |
 | Spatial Computing (broad) | $170-220B | Varies by definition |
 
 ### Competitive Landscape
 
-**AI Agent Orchestration (all 2D):**
+**人工智能 Agent Orchestration (all 2D):**
 
 | Tool | Strength | UX Gap |
 |------|----------|--------|
-| LangChain/LangSmith | Graph-based orchestration, $39/user/mo | Flat dashboard; complex graphs unreadable at scale |
-| CrewAI | 100K+ developers, fast execution | CLI-first, minimal visual tooling |
+| LangChain/LangSmith | Graph-based orchestration, $39/user/mo | Flat dashboard; complex graphs unreadable 大规模地 |
+| Crew人工智能 | 100K+ developers, fast execution | CLI-first, minimal visual tooling |
 | Microsoft Agent Framework | Enterprise integration | Embedded in Azure portal, no standalone UI |
-| n8n | Visual workflow builder, $20-50/mo | 2D canvas struggles with agent relationships |
-| Flowise | Drag-and-drop AI flows | Limited to linear flows, no multi-agent monitoring |
+| n8n | Visual 工作流程 builder, $20-50/mo | 2D canvas struggles with agent relationships |
+| Flowise | Drag-and-drop 人工智能 flows | Limited to linear flows, no multi-agent 监控 |
 
 **"Mission Control" Products (emerging, all 2D):**
-- cmd-deck: Kanban board for AI coding agents
-- Supervity Agent Command Center: Enterprise observability
+- cmd-deck: Kanban board for 人工智能 coding agents
+- Supervity Agent Command Center: Enterprise 可观测性
 - OpenClaw Command Center: Agent fleet management
-- Mission Control AI: Synthetic workers management
+- Mission Control 人工智能: Synthetic workers management
 - Mission Control HQ: Squad-based coordination
 
-**The gap:** Products are either spatial-but-not-AI-focused, or AI-focused-but-flat-2D. No product sits at the intersection.
+**The gap:** Products are either spatial-but-not-人工智能-focused, or 人工智能-focused-but-flat-2D. No product sits at the intersection.
 
 ### Vision Pro Reality Check
 
@@ -98,7 +98,7 @@ The agency has deep spatial computing expertise (XR developers, VisionOS enginee
 
 - Safari adopted WebXR Device API in late 2025
 - 40% increase in WebXR adoption in 2026
-- WebGPU delivers near-native rendering in browsers
+- WebGPU delivers near-native 渲染 in browsers
 - Android XR supports WebXR and OpenXR standards
 
 ### Target Personas and Pricing
@@ -107,7 +107,7 @@ The agency has deep spatial computing expertise (XR developers, VisionOS enginee
 |------|-------|--------|
 | Explorer | Free | Developers, solo builders (3 agents, WebXR viewer) |
 | Pro | $99/user/month | Small teams (25 agents, collaboration) |
-| Team | $249/user/month | Mid-market AI teams (unlimited agents, analytics) |
+| Team | $249/user/month | Mid-market 人工智能 teams (unlimited agents, analytics) |
 | Enterprise | Custom ($2K-10K/mo) | Large enterprises (SSO, RBAC, on-prem, SLA) |
 
 ### Recommended Phased Strategy
@@ -116,7 +116,7 @@ The agency has deep spatial computing expertise (XR developers, VisionOS enginee
 2. **Months 6-12:** Add optional WebXR spatial mode (browser-based). Target: 200 teams, $300K MRR.
 3. **Months 12-18:** Native VisionOS app only if spatial demand is validated. Target: 500 teams, $1M+ MRR.
 
-### Key Risks
+### Key 风险
 
 | Risk | Severity |
 |------|----------|
@@ -124,25 +124,25 @@ The agency has deep spatial computing expertise (XR developers, VisionOS enginee
 | "Spatial solution in search of a problem" -- is 3D actually 10x better than 2D? | HIGH |
 | Crowded "mission control" positioning (5+ products already) | MODERATE |
 | Enterprise spatial computing adoption still early | MODERATE |
-| Integration complexity across AI frameworks | MODERATE |
+| Integration complexity across 人工智能 frameworks | MODERATE |
 
 ### Sources
 
-- [MarketsandMarkets - AI Orchestration Market](https://www.marketsandmarkets.com/Market-Reports/ai-orchestration-market-148121911.html)
-- [Deloitte - AI Agent Orchestration Predictions 2026](https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html)
+- [MarketsandMarkets - 人工智能 Orchestration Market](https://www.marketsandmarkets.com/Market-Reports/ai-orchestration-market-148121911.html)
+- [Deloitte - 人工智能 Agent Orchestration Predictions 2026](https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html)
 - [Mordor Intelligence - Extended Reality Market](https://www.mordorintelligence.com/industry-reports/extended-reality-xr-market)
 - [Fintool - Vision Pro Production Halted](https://fintool.com/news/apple-vision-pro-production-halt)
 - [MadXR - WebXR Browser-Based Experiences 2026](https://www.madxr.io/webxr-browser-immersive-experiences-2026.html)
 
 ---
 
-## 3. Technical Architecture
+## 3. Technical 架构
 
 **Agent:** Backend Architect
 
-### System Overview
+### System 概述
 
-An 8-service architecture with clear ownership boundaries, designed for horizontal scaling and provider-agnostic AI integration.
+An 8-服务 architecture with clear ownership boundaries, designed for 水平扩展 and provider-agnostic 人工智能 integration.
 
 ```
 +------------------------------------------------------------------+
@@ -167,8 +167,8 @@ An 8-service architecture with clear ownership boundaries, designed for horizont
 +------------------------------------------------------------------+
                               |
 +------------------------------------------------------------------+
-|                    AI PROVIDER TIER                                |
-|  OpenAI | Anthropic | Google | Local Models | Custom Plugins      |
+|                    人工智能 PROVIDER TIER                                |
+|  Open人工智能 | Anthropic | Google | Local Models | Custom Plugins      |
 +------------------------------------------------------------------+
 ```
 
@@ -177,21 +177,21 @@ An 8-service architecture with clear ownership boundaries, designed for horizont
 | Component | Technology | Rationale |
 |-----------|------------|-----------|
 | Orchestration Engine | **Rust** | Sub-ms scheduling, zero GC pauses, memory safety for agent sandboxing |
-| API Services | TypeScript / NestJS | Developer velocity for CRUD-heavy services |
+| API Services | TypeScript / NestJS | Developer velocity for CRUD-heavy 服务s |
 | VisionOS Client | Swift 6, SwiftUI, RealityKit | First-class spatial computing with Liquid Glass |
 | WebXR Client | TypeScript, React Three Fiber | Production-grade WebXR with React component model |
 | Message Broker | NATS JetStream | Lightweight, exactly-once delivery, simpler than Kafka |
 | Collaboration | Yjs (CRDT) + WebRTC | Conflict-free concurrent 3D graph editing |
-| Primary Database | PostgreSQL 16 | JSONB for flexible configs, Row-Level Security for tenant isolation |
+| Primary Database | PostgreSQL 16 | JSONB for flexible configs, Row-Level 安全 for tenant isolation |
 
 ### Core Data Model
 
 14 tables covering:
 - **Identity & Access:** users, workspaces, team_memberships, api_keys
-- **Workflows:** workflows, workflow_versions, nodes, edges
+- **Workflows:** 工作流程, 工作流程_versions, 节点s, edges
 - **Executions:** executions, execution_steps, step_output_chunks
 - **Collaboration:** collaboration_sessions, session_participants
-- **Credentials:** provider_credentials (AES-256-GCM encrypted)
+- **Credentials:** provider_凭证 (AES-256-GCM encrypted)
 - **Billing:** subscriptions, usage_records
 - **Audit:** audit_log (append-only)
 
@@ -199,7 +199,7 @@ An 8-service architecture with clear ownership boundaries, designed for horizont
 
 ```
 Built-in Node Types:
-  ai_agent          -- Calls an AI provider with a prompt
+  ai_agent          -- Calls an 人工智能 provider with a prompt
   prompt_template   -- Renders a template with variables
   conditional       -- Routes based on expression
   transform         -- Sandboxed code snippet (JS/Python)
@@ -220,17 +220,17 @@ Real-time streaming via WSS with:
 - Snapshot recovery when >1000 events behind
 - Client-side throttling for lower-powered devices
 
-### Security Architecture
+### 安全 架构
 
 | Layer | Mechanism |
 |-------|-----------|
 | User Auth | OAuth 2.0 (GitHub, Google, Apple) + email/password + optional TOTP MFA |
 | API Keys | SHA-256 hashed, scoped, optional expiry |
-| Service-to-Service | mTLS via service mesh |
+| Service-to-Service | mTLS via 服务网格 |
 | WebSocket Auth | One-time tickets with 30-second expiry |
 | Credential Storage | Envelope encryption (AES-256-GCM + AWS KMS) |
 | Code Sandboxing | gVisor/Firecracker microVMs (no network, 256MB RAM, 30s CPU) |
-| Tenant Isolation | PostgreSQL Row-Level Security + S3 IAM policies + NATS subject scoping |
+| Tenant Isolation | PostgreSQL Row-Level 安全 + S3 IAM policies + NATS subject scoping |
 
 ### Scaling Targets
 
@@ -243,10 +243,10 @@ Real-time streaming via WSS with:
 
 ### MVP Phases
 
-1. **Weeks 1-6:** 2D web editor, sequential execution, OpenAI + Anthropic adapters
-2. **Weeks 7-12:** WebXR 3D mode, parallel execution, hand tracking, RBAC
+1. **Weeks 1-6:** 2D web editor, sequential execution, Open人工智能 + Anthropic adapters
+2. **Weeks 7-12:** WebXR 3D mode, parallel execution, hand 追踪, RBAC
 3. **Weeks 13-20:** Multi-user collaboration, VisionOS native, billing
-4. **Weeks 21-30:** Enterprise SSO, plugin SDK, SOC 2, scale hardening
+4. **Weeks 21-30:** Enterprise SSO, plugin SDK, SOC 2, scale 加固
 
 ---
 
@@ -256,9 +256,9 @@ Real-time streaming via WSS with:
 
 ### Positioning
 
-**Category creation over category competition.** Nexus Spatial defines a new category -- **Spatial AI Operations (SpatialAIOps)** -- rather than fighting for position in the crowded AI observability dashboard space.
+**Category creation over category competition.** Nexus Spatial defines a new category -- **Spatial 人工智能 Operations (Spatial人工智能Ops)** -- rather than fighting for position in the crowded 人工智能 可观测性 dashboard space.
 
-**Positioning statement:** For technical teams managing complex AI agent workflows, Nexus Spatial is the immersive 3D command center that provides spatial awareness of agent orchestration, unlike flat 2D dashboards, because spatial computing transforms monitoring from reading dashboards to inhabiting your infrastructure.
+**Positioning statement:** For technical teams 管理 complex 人工智能 agent 工作流程, Nexus Spatial is the immersive 3D command center that provides spatial awareness of agent orchestration, unlike flat 2D dashboards, because spatial computing transforms 监控 from 阅读 dashboards to inhabiting your infrastructure.
 
 ### Name Validation
 
@@ -269,13 +269,13 @@ Real-time streaming via WSS with:
 - Phonetically balanced: three syllables, then two
 - **Action needed:** Trademark clearance in Nice Classes 9, 42, and 38
 
-### Brand Personality: The Commander
+### Brand 性格： The Commander
 
 | Trait | Expression | Avoids |
 |-------|------------|--------|
 | **Authoritative** | Clear, direct, technically precise | Hype, superlatives, vague futurism |
 | **Composed** | Clean design, measured pacing, white space | Urgency for urgency's sake, chaos |
-| **Pioneering** | Quiet pride, understated references to the new paradigm | "Revolutionary," "game-changing" |
+| **Pioneering** | Quiet pride, understated references to the new paradigm | "Revolutionary," "game-变更" |
 | **Precise** | Exact specs, real metrics, honest requirements | Vague claims, marketing buzzwords |
 | **Approachable** | Natural interaction language, spatial metaphors | Condescension, gatekeeping |
 
@@ -284,10 +284,10 @@ Real-time streaming via WSS with:
 1. **"Mission Control for the Agent Era"** -- RECOMMENDED PRIMARY
 2. "See Your Agents in Space"
 3. "Orchestrate in Three Dimensions"
-4. "Where AI Operations Become Spatial"
+4. "Where 人工智能 Operations Become Spatial"
 5. "Command Center. Reimagined in Space."
-6. "The Dimension Your Dashboards Are Missing"
-7. "AI Agents Deserve More Than Flat Screens"
+6. "The Dimension Your 仪表板s Are Missing"
+7. "人工智能 Agents Deserve More Than Flat Screens"
 
 ### Color System
 
@@ -302,7 +302,7 @@ Real-time streaming via WSS with:
 
 Usage ratio: Deep Space Indigo 60%, Nexus Blue 25%, Signal Cyan 10%, Semantic 5%.
 
-### Typography
+### 字体设计
 
 - **Primary:** Inter (UI, body, labels)
 - **Monospace:** JetBrains Mono (code, logs, agent output)
@@ -312,8 +312,8 @@ Usage ratio: Deep Space Indigo 60%, Nexus Blue 25%, Signal Cyan 10%, Semantic 5%
 
 Three directions for exploration:
 
-1. **The Spatial Nexus Mark** -- Convergent lines meeting at a glowing central node with subtle perspective depth
-2. **The Dimensional Window** -- Stylized viewport with perspective lines creating the effect of looking into 3D space
+1. **The Spatial Nexus Mark** -- Convergent lines meeting at a glowing central 节点 with subtle perspective depth
+2. **The Dimensional Window** -- Stylized viewport with perspective lines 创建 the effect of 查看 into 3D space
 3. **The Orbital Array** -- Orbital rings around a central point suggesting coordinated agents in motion
 
 ### Brand Values
@@ -349,9 +349,9 @@ Three directions for exploration:
 
 ---
 
-## 5. Go-to-Market & Growth
+## 5. Go-to-Market & 增长
 
-**Agent:** Growth Hacker
+**Agent:** 增长 Hacker
 
 ### North Star Metric
 
@@ -371,33 +371,33 @@ Strategy: 14-day reverse trial (Pro features, then downgrade to Free). Target 5-
 ### 3-Phase GTM
 
 **Phase 1: Founder-Led Sales (Months 1-3)**
-- Target: Individual AI engineers at startups who use LangChain/CrewAI and own Vision Pro
-- Tactics: DM 200 high-profile AI engineers, weekly build-in-public posts, 30-second demo clips
-- Channels: X/Twitter, LinkedIn, AI-focused Discord servers, Reddit
+- Target: Individual 人工智能 engineers at startups who use LangChain/Crew人工智能 and own Vision Pro
+- Tactics: DM 200 high-profile 人工智能 engineers, weekly build-in-public posts, 30-second demo clips
+- Channels: X/Twitter, LinkedIn, 人工智能-focused Discord servers, Reddit
 
 **Phase 2: Developer Community (Months 4-6)**
 - Product Hunt launch (timed for this phase, not Phase 1)
 - Hacker News Show HN, Dev.to articles, conference talks
-- Integration announcements with popular AI frameworks
+- Integration announcements with popular 人工智能 frameworks
 
 **Phase 3: Enterprise (Months 7-12)**
 - Apple enterprise referral pipeline, LinkedIn ABM campaigns
 - Enterprise case studies, analyst briefings (Gartner, Forrester)
 - First enterprise AE hire, SOC 2 compliance
 
-### Growth Loops
+### 增长 Loops
 
 1. **"Wow Factor" Demo Loop** -- Spatial demos are inherently shareable. One-click "Share Spatial Preview" generates a WebXR link or video. Target K = 0.3-0.5.
 2. **Template Marketplace** -- Power users publish pipeline templates, discoverable via search, driving new signups.
 3. **Collaboration Seat Expansion** -- One engineer adopts, shares with teammates, team expands to paid plan (Slack/Figma playbook).
-4. **Integration-Driven Discovery** -- Listings in LangChain, n8n, OpenAI/Anthropic partner directories.
+4. **Integration-Driven Discovery** -- Listings in LangChain, n8n, Open人工智能/Anthropic partner directories.
 
 ### Open-Source Strategy
 
 **Open-source (Apache 2.0):**
-- `nexus-spatial-sdk` -- TypeScript/Python SDK for connecting agent frameworks
+- `nexus-spatial-sdk` -- TypeScript/Python SDK for 连接 agent frameworks
 - `nexus-webxr-components` -- React Three Fiber component library for 3D pipelines
-- `nexus-agent-schemas` -- Standardized schemas for representing agent pipelines in 3D
+- `nexus-agent-schemas` -- Standardized schemas for re呈现 agent pipelines in 3D
 
 **Keep proprietary:** VisionOS native app, collaboration engine, enterprise features, hosted infrastructure.
 
@@ -417,7 +417,7 @@ Strategy: 14-day reverse trial (Pro features, then downgrade to Free). Target 5-
 |----------|--------|---|
 | Content Production | $12,000 | 24% |
 | Developer Relations | $10,000 | 20% |
-| Paid Acquisition Testing | $8,000 | 16% |
+| Paid Acquisition 测试 | $8,000 | 16% |
 | Community & Tools | $5,000 | 10% |
 | Product Hunt & Launch | $3,000 | 6% |
 | Open Source Maintenance | $3,000 | 6% |
@@ -427,21 +427,21 @@ Strategy: 14-day reverse trial (Pro features, then downgrade to Free). Target 5-
 
 ### Key Partnerships
 
-- **Tier 1 (Critical):** Anthropic, OpenAI -- first-class API integrations, partner program listings
-- **Tier 2 (Adoption):** LangChain, CrewAI, n8n -- framework integrations, community cross-pollination
+- **Tier 1 (Critical):** Anthropic, Open人工智能 -- 一流的 API integrations, partner program listings
+- **Tier 2 (Adoption):** LangChain, Crew人工智能, n8n -- framework integrations, community cross-pollination
 - **Tier 3 (Platform):** Apple -- Vision Pro developer kit, App Store featuring, WWDC
 - **Tier 4 (Ecosystem):** GitHub, Hugging Face, Docker -- developer platform integrations
 
 ### Sources
 
-- [AI Orchestration Market Size - MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/ai-orchestration-market-148121911.html)
+- [人工智能 Orchestration Market Size - MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/ai-orchestration-market-148121911.html)
 - [Spatial Computing Market - Precedence Research](https://www.precedenceresearch.com/spatial-computing-market)
-- [How to Price AI Products - Aakash Gupta](https://www.news.aakashg.com/p/how-to-price-ai-products)
+- [How to Price 人工智能 Products - Aakash Gupta](https://www.news.aakashg.com/p/how-to-price-ai-products)
 - [Product Hunt Launch Guide 2026](https://calmops.com/indie-hackers/product-hunt-launch-guide/)
 
 ---
 
-## 6. Customer Support Blueprint
+## 6. 客户支持 Blueprint
 
 **Agent:** Support Responder
 
@@ -451,7 +451,7 @@ Strategy: 14-day reverse trial (Pro features, then downgrade to Free). Target 5-
 |-----------|-----------------|---------------|---------------------|
 | First Response SLA | Best effort (48h) | 4 hours (business hours) | 30 min (P1), 2h (P2) |
 | Resolution SLA | 5 business days | 24h (P1/P2), 72h (P3) | 4h (P1), 12h (P2) |
-| Channels | Community, KB, AI assistant | + Live chat, email, video (2/mo) | + Dedicated Slack, named CSE, 24/7 |
+| Channels | Community, KB, 人工智能 assistant | + Live chat, email, video (2/mo) | + Dedicated Slack, named CSE, 24/7 |
 | Scope | General questions, docs | Technical troubleshooting, integrations | Full integration, custom design, compliance |
 
 ### Priority Definitions
@@ -461,9 +461,9 @@ Strategy: 14-day reverse trial (Pro features, then downgrade to Free). Target 5-
 - **P3 Medium:** Non-blocking issues, minor glitches
 - **P4 Low:** Feature requests, cosmetic issues
 
-### The Nexus Guide: AI-Powered In-Product Support
+### The Nexus Guide: 人工智能-Powered In-Product Support
 
-The standout design decision: the support agent lives as a visible node **inside the user's spatial workspace**. It has full context of the user's layout, active agents, and recent errors.
+The standout design decision: the support agent lives as a visible 节点 **inside the user's spatial workspace**. It has full context of the user's layout, active agents, and recent errors.
 
 **Capabilities:**
 - Natural language Q&A about features
@@ -477,36 +477,36 @@ The standout design decision: the support agent lives as a visible node **inside
 | Scenario | Detection | Auto-Resolution |
 |----------|-----------|-----------------|
 | Agent infinite loop | CPU/token spike | Kill and restart with last good config |
-| Rendering frame drop | FPS below threshold | Reduce visual fidelity, suggest closing panels |
+| Rendering frame drop | FPS below threshold | Reduce visual fidelity, suggest 关闭 panels |
 | Credential expiry | API 401 responses | Prompt re-auth, pause agents gracefully |
-| Communication timeout | Latency spike | Reroute messages through alternate path |
+| 沟通 timeout | Latency spike | Reroute messages through alternate path |
 
-### Onboarding Flow
+### 入职引导 Flow
 
 Adaptive onboarding based on user profiling:
 
-| AI Experience | Spatial Experience | Path |
+| 人工智能 Experience | Spatial Experience | Path |
 |---------------|-------------------|------|
 | Low | Low | Full guided tour (20 min) |
 | High | Low | Spatial-focused (12 min) |
 | Low | High | Agent-focused (12 min) |
 | High | High | Express setup (5 min) |
 
-Critical first step: 60-second spatial calibration (hand tracking, gaze, comfort check) before any product interaction.
+Critical first step: 60-second spatial calibration (hand 追踪, gaze, comfort check) before any product interaction.
 
 **Activation Milestone** (user is "onboarded" when they have):
 - Created at least one custom agent
 - Connected two or more agents in a topology
-- Anchored at least one monitoring dashboard
+- Anchored at least one 监控 dashboard
 - Returned for a third session
 
 ### Team Build
 
-| Phase | Headcount | Roles |
+| Phase | Headcount | 角色 |
 |-------|-----------|-------|
 | Months 0-6 | 4 | Head of CX, 2 Support Engineers, Technical Writer |
 | Months 6-12 | 8 | + 2 Support Engineers, CSE, Community Manager, Ops Analyst |
-| Months 12-24 | 16 | + 4 Engineers (24/7), Spatial Specialist, Integration Specialist, KB Manager, Engineering Manager |
+| Months 12-24 | 16 | + 4 Engineers (24/7), Spatial Specialist, Integration Specialist, KB Manager, 工程 Manager |
 
 ### Community: Discord-First
 
@@ -517,7 +517,7 @@ NEXUS SPATIAL DISCORD
   DISCUSSION: #general, #show-your-workspace, #feature-requests
   PLATFORMS: #visionos, #webxr, #api-and-sdk
   EVENTS: office-hours (weekly voice), community-demos (monthly)
-  PRO MEMBERS: #pro-lounge, #beta-testing
+  PRO MEMBERS: #pro-lounge, #beta-测试
   ENTERPRISE: per-customer private channels
 ```
 
@@ -525,47 +525,47 @@ NEXUS SPATIAL DISCORD
 
 ---
 
-## 7. UX Research & Design Direction
+## 7. 用户体验研究 & Design Direction
 
-**Agent:** UX Researcher
+**Agent:** 用户体验研究er
 
 ### User Personas
 
-**Maya Chen -- AI Platform Engineer (32, San Francisco)**
-- Manages 15-30 active agent workflows, uses n8n + LangSmith
-- Spends 40% of time debugging agent failures via log inspection
+**Maya Chen -- 人工智能 Platform Engineer (32, San Francisco)**
+- Manages 15-30 active agent 工作流程, uses n8n + LangSmith
+- Spends 40% of time 调试 agent failures via log inspection
 - Skeptical of spatial computing: "Is this actually faster, or just cooler?"
 - Primary need: Reduce mean-time-to-diagnosis from 45 min to under 10
 
 **David Okoro -- Technical Product Manager (38, London)**
-- Reviews and approves agent workflow designs, presents to C-suite
-- Cannot meaningfully contribute to workflow reviews because tools require code-level understanding
-- Primary need: Understand and communicate agent architectures without reading code
+- 审查s and approves agent 工作流程 designs, presents to C-suite
+- Cannot meaningfully contribute to 工作流程 reviews because tools require code-level 理解
+- Primary need: Understand and communicate agent architectures without 阅读 code
 
 **Dr. Amara Osei -- Research Scientist (45, Zurich)**
-- Designs multi-agent research workflows with A/B comparisons
+- Designs multi-agent research 工作流程 with A/B comparisons
 - Has 12 variations of the same pipeline with no good way to compare
 - Primary need: Side-by-side comparison of variant pipelines in 3D space
 
 **Jordan Rivera -- Creative Technologist (27, Austin)**
-- Daily Vision Pro user, builds AI-powered art installations
+- Daily Vision Pro user, builds 人工智能 驱动的 art installations
 - Wants tools that feel like instruments, not dashboards
-- Primary need: Build agent workflows quickly with immediate spatial feedback
+- Primary need: Build agent 工作流程 quickly with immediate spatial feedback
 
 ### Key Finding: Debugging Is the Killer Use Case
 
-Spatial overlay of runtime traces on workflow structure solves a real, quantified pain point that no 2D tool handles well. This workflow should receive the most design and engineering investment.
+Spatial overlay of runtime traces on 工作流程 structure solves a real, quantified pain point that no 2D tool handles well. This 工作流程 should receive the most design and engineering investment.
 
 ### Critical Design Insight
 
-Spatial adds value for **structural** tasks (placing, connecting, rearranging nodes) but creates friction for **parameter** tasks (text entry, configuration). The interface must seamlessly blend spatial and 2D modes -- 2D panels anchored to spatial positions.
+Spatial adds value for **structural** tasks (placing, 连接, rearranging 节点s) but creates friction for **parameter** tasks (text entry, configuration). The interface must seamlessly blend spatial and 2D modes -- 2D panels anchored to spatial positions.
 
 ### 7 Design Principles
 
 1. **Spatial Earns Its Place** -- If 2D is clearer, use 2D. Every review should ask: "Would this be better flat?"
 2. **Glanceable Before Inspectable** -- Critical info perceivable in under 2 seconds via color, size, motion, position
 3. **Hands-Free Is the Baseline** -- Gaze + voice covers all read/navigate operations; hands add precision but aren't required
-4. **Respect Cognitive Gravity** -- Extend 2D mental models (left-to-right flow), don't replace them; z-axis adds layering
+4. **Respect Cognitive Gravity** -- Extend 2D 心智模型s (left-to-right flow), don't replace them; z-axis adds layering
 5. **Progressive Spatial Complexity** -- New users start nearly-2D; spatial capabilities reveal as confidence grows
 6. **Physical Metaphors, Digital Capabilities** -- Nodes are "picked up" (physical) but also duplicated and versioned (digital)
 7. **Silence Is a Feature** -- Healthy systems feel calm; color and motion signal deviation from normal
@@ -574,22 +574,22 @@ Spatial adds value for **structural** tasks (placing, connecting, rearranging no
 
 | Level | What You See |
 |-------|-------------|
-| Fleet View | All workflows as abstract shapes, color-coded by status |
+| Fleet View | All 工作流程 as abstract shapes, color-coded by status |
 | Workflow View | Node graph with labels and connections |
 | Node View | Expanded configuration, recent I/O, status metrics |
 | Trace View | Full execution trace with data inspection |
 
-### Competitive UX Summary
+### Competitive UX 总结
 
 | Capability | n8n | Flowise | LangSmith | Langflow | Nexus Spatial Target |
 |-----------|-----|---------|-----------|----------|---------------------|
-| Visual workflow building | A | B+ | N/A | A | A+ (spatial) |
+| Visual 工作流程 构建 | A | B+ | N/A | A | A+ (spatial) |
 | Debugging/tracing | C+ | C | A | B | A+ (spatial overlay) |
 | Monitoring | B | C | A | B | A (spatial fleet) |
 | Collaboration | D | D | C | D | A (spatial co-presence) |
-| Large workflow scalability | C | C | B | C | A (3D space) |
+| Large 工作流程 scalability | C | C | B | C | A (3D space) |
 
-### Accessibility Requirements
+### 无障碍 要求
 
 - Every interaction achievable through at least two modalities
 - No information conveyed by color alone
@@ -603,9 +603,9 @@ Spatial adds value for **structural** tasks (placing, connecting, rearranging no
 | Phase | Weeks | Studies |
 |-------|-------|---------|
 | Foundational | 1-4 | Mental model interviews (15-20 participants), competitive task analysis |
-| Concept Validation | 5-8 | Wizard-of-Oz spatial prototype testing, 3D card sort for IA |
-| Usability Testing | 9-14 | First-use experience (20 users), 4-week longitudinal diary study, paired collaboration testing |
-| Accessibility Audit | 12-16 | Expert heuristic evaluation, testing with users with disabilities |
+| Concept Validation | 5-8 | Wizard-of-Oz spatial prototype 测试, 3D card sort for IA |
+| 可用性测试 | 9-14 | First-use experience (20 users), 4-week longitudinal diary study, paired collaboration 测试 |
+| 无障碍 Audit | 12-16 | Expert 启发式评估, 测试 with users with disabilities |
 
 ---
 
@@ -613,7 +613,7 @@ Spatial adds value for **structural** tasks (placing, connecting, rearranging no
 
 **Agent:** Project Shepherd
 
-### Timeline: 35 Weeks (March 9 -- November 6, 2026)
+### 时间线: 35 Weeks (March 9 -- November 6, 2026)
 
 | Phase | Weeks | Duration | Goal |
 |-------|-------|----------|------|
@@ -626,21 +626,21 @@ Spatial adds value for **structural** tasks (placing, connecting, rearranging no
 
 ### Critical Milestone: Week 12 (May 29)
 
-**First end-to-end workflow execution.** A user creates and runs a 3-node agent workflow in 3D. This is the moment the product proves its core value proposition. If this slips, everything downstream shifts.
+**First 端到端 工作流程 execution.** A user creates and runs a 3-节点 agent 工作流程 in 3D. This is the moment the product proves its core value proposition. If this slips, everything downstream shifts.
 
 ### First 6 Sprints (65 Tickets)
 
 **Sprint 1 (Mar 9-20):** VisionOS SDK audit, WebXR compatibility matrix, orchestration engine feasibility, stakeholder interviews, throwaway prototypes for both platforms.
 
-**Sprint 2 (Mar 23 - Apr 3):** Architecture decision records, MVP scope lock with MoSCoW, PRD v1.0, spatial UI pattern research, interaction model definition, design system kickoff.
+**Sprint 2 (Mar 23 - Apr 3):** 架构 decision records, MVP scope lock with MoSCoW, PRD v1.0, spatial UI pattern research, interaction model definition, design system kickoff.
 
-**Sprint 3 (Apr 6-17):** Monorepo setup, auth service (OAuth2), database schema, API gateway, VisionOS Xcode project init, WebXR project init, CI/CD pipelines.
+**Sprint 3 (Apr 6-17):** Monorepo setup, auth 服务 (OAuth2), database schema, API 网关, VisionOS Xcode project init, WebXR project init, 持续集成/持续部署 pipelines.
 
-**Sprint 4 (Apr 20 - May 1):** WebSocket server + client SDKs, spatial window management, 3D component library, hand tracking input layer, teams CRUD, integration tests.
+**Sprint 4 (Apr 20 - May 1):** WebSocket server + client SDKs, spatial window management, 3D component library, hand 追踪 input layer, teams CRUD, integration tests.
 
-**Sprint 5 (May 4-15):** Orchestration engine core (Rust), agent state machine, node graph renderers (both platforms), plugin interface v0, OpenAI provider plugin.
+**Sprint 5 (May 4-15):** Orchestration engine core (Rust), agent state machine, 节点 graph renderers (both platforms), plugin interface v0, Open人工智能 provider plugin.
 
-**Sprint 6 (May 18-29):** Workflow persistence + versioning, DAG execution, real-time execution visualization, Anthropic provider plugin, eye tracking integration, spatial audio.
+**Sprint 6 (May 18-29):** Workflow persistence + versioning, DAG execution, real-time execution visualization, Anthropic provider plugin, eye 追踪 integration, spatial audio.
 
 ### Team Allocation
 
@@ -648,21 +648,21 @@ Spatial adds value for **structural** tasks (placing, connecting, rearranging no
 
 | Squad | Core Members | Active Phases |
 |-------|-------------|---------------|
-| Core Architecture | Backend Architect, XR Interface Architect, Senior Dev, VisionOS Engineer | Discovery through MVP |
-| Spatial Experience | XR Immersive Dev, XR Cockpit Specialist, Metal Engineer, UX Architect, UI Designer | Foundation through Beta |
-| Orchestration | AI Engineer, Backend Architect, Senior Dev, API Tester | MVP through Beta |
+| Core 架构 | Backend Architect, XR Interface Architect, Senior Dev, VisionOS Engineer | Discovery through MVP |
+| Spatial Experience | XR Immersive Dev, XR Cockpit Specialist, Metal Engineer, UX Architect, 界面设计er | Foundation through Beta |
+| Orchestration | 人工智能 Engineer, Backend Architect, Senior Dev, API Tester | MVP through Beta |
 | Platform Delivery | Frontend Dev, Mobile App Builder, VisionOS Engineer, DevOps | MVP through Launch |
-| Launch | Growth Hacker, Content Creator, App Store Optimizer, Visual Storyteller, Brand Guardian | Beta through Scale |
+| Launch | 增长 Hacker, Content Creator, App Store Optimizer, Visual Storyteller, Brand Guardian | Beta through Scale |
 
-### Top 5 Risks
+### Top 5 风险
 
 | Risk | Probability | Impact | Mitigation |
 |------|------------|--------|------------|
 | Apple rejects VisionOS app | Medium | Critical | Engage Apple Developer Relations Week 4, pre-review by Week 20 |
 | WebXR browser fragmentation | High | High | Browser support matrix Week 1, automated cross-browser tests |
 | Multi-user sync conflicts | Medium | High | CRDT-based sync (Yjs) from the start, prototype in Foundation |
-| Orchestration can't scale | Medium | Critical | Horizontal scaling from day one, load test at 10x by Week 22 |
-| RealityKit performance for 100+ nodes | Medium | High | Profile early, implement LOD culling, instanced rendering |
+| Orchestration can't scale | Medium | Critical | Horizontal 扩展 from day one, load test at 10x by Week 22 |
+| RealityKit performance for 100+ 节点s | Medium | High | Profile early, implement LOD culling, instanced 渲染 |
 
 ### Budget: $121,500 -- $155,500 (Non-Personnel)
 
@@ -670,14 +670,14 @@ Spatial adds value for **structural** tasks (placing, connecting, rearranging no
 |----------|---------------|
 | Cloud infrastructure (35 weeks) | $35,000 - $45,000 |
 | Hardware (3 Vision Pro, 2 Quest 3, Mac Studio) | $17,500 |
-| Licenses and services | $15,000 - $20,000 |
-| External services (legal, security, PR) | $30,000 - $45,000 |
-| AI API costs (dev/test) | $8,000 |
+| Licenses and 服务s | $15,000 - $20,000 |
+| External 服务s (legal, security, PR) | $30,000 - $45,000 |
+| 人工智能 API costs (dev/test) | $8,000 |
 | Contingency (15%) | $16,000 - $20,000 |
 
 ---
 
-## 9. Spatial Interface Architecture
+## 9. Spatial Interface 架构
 
 **Agent:** XR Interface Architect
 
@@ -691,12 +691,12 @@ The workspace is organized as a curved theater around the user:
                     ~~~~~~~~~~~~~~~~~~~~~~~~
                    /                        \
                   /     FOCUS ARC (120 deg)   \
-                 /    primary node graph work   \
+                 /    primary 节点 graph work   \
                 /________________________________\
                |                                  |
     LEFT       |        USER POSITION             |       RIGHT
     UTILITY    |        (origin 0,0,0)            |       UTILITY
-    RAIL       |                                  |       RAIL
+    R人工智能L       |                                  |       R人工智能L
                |__________________________________|
                 \                                /
                  \      SHELF (below sightline) /
@@ -704,9 +704,9 @@ The workspace is organized as a curved theater around the user:
                    \_________________________ /
 ```
 
-- **Focus Arc** (120 degrees, 1.2-2.0m): Primary node graph workspace
-- **Overview Canopy** (above, 2.5-4.0m): Miniature pipeline topology + health heatmap
-- **Utility Rails** (left/right flanks): Agent library, monitoring, logs
+- **Focus Arc** (120 degrees, 1.2-2.0m): Primary 节点 graph workspace
+- **概述 Canopy** (above, 2.5-4.0m): Miniature pipeline topology + health heatmap
+- **Utility Rails** (left/right flanks): Agent library, 监控, logs
 - **Shelf** (below sightline, 0.8-1.0m): Run/stop, undo/redo, quick tools
 
 ### Three-Layer Depth System
@@ -715,7 +715,7 @@ The workspace is organized as a curved theater around the user:
 |-------|-------|---------|---------|
 | Foreground | 0.8 - 1.2m | Active panels, inspectors, modals | 100% |
 | Midground | 1.2 - 2.5m | Node graph, connections, workspace | 100% |
-| Background | 2.5 - 5.0m | Overview map, ambient status | 40-70% |
+| Background | 2.5 - 5.0m | 概述 map, ambient status | 40-70% |
 
 ### Node Graph in 3D
 
@@ -726,7 +726,7 @@ USER (here)
   z=0.0m   [Output Nodes]     -- Results
   z=0.3m   [Transform Nodes]  -- Processors
   z=0.6m   [Agent Nodes]      -- LLM calls
-  z=0.9m   [Retrieval Nodes]  -- RAG, APIs
+  z=0.9m   [Retrieval Nodes]  -- 检索增强生成, APIs
   z=1.2m   [Input Nodes]      -- Triggers
 ```
 
@@ -738,7 +738,7 @@ Parallel branches spread horizontally (x-axis). Conditional branches spread vert
 - **LOD-2** (selected): Slides to foreground, expands to 30x40cm detail panel with live config editing
 
 **Connections as luminous tubes:**
-- 4mm diameter at rest, 8mm when carrying data
+- 4mm diameter 静态, 8mm when carrying data
 - Color-coded by data type (white=text, cyan=structured, magenta=images, amber=audio, green=tool calls)
 - Animated particles show flow direction and speed
 - Auto-bundle when >3 run parallel between same layers
@@ -759,12 +759,12 @@ Parallel branches spread horizontally (x-axis). Conditional branches spread vert
 
 | Action | VisionOS | WebXR Controllers | Voice |
 |--------|----------|-------------------|-------|
-| Select node | Gaze + pinch | Point ray + trigger | "Select [name]" |
-| Move node | Pinch + drag | Grip + move | -- |
+| Select 节点 | Gaze + pinch | Point ray + trigger | "Select [name]" |
+| Move 节点 | Pinch + drag | Grip + move | -- |
 | Connect ports | Pinch port + drag | Trigger port + drag | "Connect [A] to [B]" |
 | Pan workspace | Two-hand drag | Thumbstick | "Pan left/right" |
 | Zoom | Two-hand spread/pinch | Thumbstick push/pull | "Zoom in/out" |
-| Inspect node | Pinch + pull toward self | Double-trigger | "Inspect [name]" |
+| Inspect 节点 | Pinch + pull toward self | Double-trigger | "Inspect [name]" |
 | Run pipeline | Tap Shelf button | Trigger button | "Run pipeline" |
 | Undo | Two-finger double-tap | B button | "Undo" |
 
@@ -772,11 +772,11 @@ Parallel branches spread horizontally (x-axis). Conditional branches spread vert
 
 Each collaborator represented by:
 - **Head proxy:** Translucent sphere with profile image, rotates with head orientation
-- **Hand proxies:** Ghosted hand models showing pinch/grab states
-- **Gaze cone:** Subtle 10-degree cone showing where they're looking
+- **Hand proxies:** Ghosted hand models 显示 pinch/grab states
+- **Gaze cone:** Subtle 10-degree cone 显示 where they're 查看
 - **Name label:** Billboard-rendered, shows current action ("editing Node X")
 
-**Conflict resolution:** First editor gets write lock; second sees "locked by [name]" with option to request access or duplicate the node.
+**Conflict resolution:** First editor gets write lock; second sees "locked by [name]" with option to request access or duplicate the 节点.
 
 ### Adaptive Layout
 
@@ -787,17 +787,17 @@ Each collaborator represented by:
 | WebXR Desktop | 120x80px | 8 (overlays) | Perspective projection |
 | WebXR Immersive | 12x8cm | 12 | 0.3m/layer |
 
-### Transition Choreography
+### 过渡 Choreography
 
-All transitions serve wayfinding. Maximum 600ms for major transitions, 200ms for minor, 0ms for selection.
+All transitions serve way查找. Maximum 600ms for major transitions, 200ms for minor, 0ms for selection.
 
-| Transition | Duration | Key Motion |
+| 过渡 | Duration | Key Motion |
 |-----------|----------|------------|
-| Overview to Focus | 600ms | Camera drifts to target, other regions fade to 30% |
+| 概述 to Focus | 600ms | Camera drifts to target, other regions fade to 30% |
 | Focus to Detail | 500ms | Node slides forward, expands, connections highlight |
-| Detail to Overview | 600ms | Panel collapses, node retreats, full topology visible |
+| Detail to 概述 | 600ms | Panel collapses, 节点 retreats, full topology visible |
 | Zone Switch | 500ms | Current slides out laterally, new slides in |
-| Window to Immersive | 1000ms | Borders dissolve, nodes expand to full spatial positions |
+| Window to Immersive | 1000ms | Borders dissolve, 节点s expand to full spatial positions |
 
 ### Comfort Measures
 
@@ -816,24 +816,24 @@ All transitions serve wayfinding. Maximum 600ms for major transitions, 200ms for
 
 1. **2D-first, spatial-second.** Every agent independently arrived at this conclusion. Build a great web dashboard first, then progressively add spatial capabilities.
 
-2. **Debugging is the killer use case.** The Product Researcher, UX Researcher, and XR Interface Architect all converged on this: spatial overlay of runtime traces on workflow structure is where 3D genuinely beats 2D.
+2. **Debugging is the killer use case.** The Product Researcher, 用户体验研究er, and XR Interface Architect all converged on this: spatial overlay of runtime traces on 工作流程 structure is where 3D genuinely beats 2D.
 
 3. **WebXR over VisionOS for initial reach.** Vision Pro's ~1M installed base cannot sustain a business. WebXR in the browser is the distribution unlock.
 
 4. **The "war room" collaboration scenario.** Multiple agents highlighted collaborative incident response as the strongest spatial value proposition -- teams entering a shared 3D space to debug a failing pipeline together.
 
-5. **Progressive disclosure is essential.** UX Research, Spatial UI, and Support all emphasized that spatial complexity must be revealed gradually, never dumped on a first-time user.
+5. **Progressive disclosure is essential.** 用户体验研究, Spatial UI, and Support all emphasized that spatial complexity must be revealed gradually, never dumped on a first-time user.
 
-6. **Voice as the power-user accelerator.** Both the UX Researcher and XR Interface Architect identified voice commands as the "command line of spatial computing" -- essential for accessibility and expert efficiency.
+6. **Voice as the power-user accelerator.** Both the 用户体验研究er and XR Interface Architect identified voice commands as the "command line of spatial computing" -- essential for accessibility and expert efficiency.
 
 ### Key Tensions to Resolve
 
 | Tension | Position A | Position B | Resolution Needed |
 |---------|-----------|-----------|-------------------|
-| **Pricing** | Growth Hacker: $29-59/user/mo | Trend Researcher: $99-249/user/mo | A/B test in beta |
-| **VisionOS priority** | Architecture: Phase 3 (Week 13+) | Spatial UI: Full spec ready | Build WebXR first, VisionOS when validated |
-| **Orchestration language** | Architecture: Rust | Project Plan: Not specified | Rust is correct for performance-critical DAG execution |
-| **MVP scope** | Architecture: 2D only in Phase 1 | Brand: Lead with spatial | 2D first, but ensure spatial is in every demo |
+| **Pricing** | 增长 Hacker: $29-59/user/mo | Trend Researcher: $99-249/user/mo | A/B test in beta |
+| **VisionOS priority** | 架构: Phase 3 (Week 13+) | Spatial UI: Full spec ready | Build WebXR first, VisionOS when validated |
+| **Orchestration language** | 架构: Rust | Project Plan: Not specified | Rust is correct for performance-critical DAG execution |
+| **MVP scope** | 架构: 2D only in Phase 1 | Brand: Lead with spatial | 2D first, but ensure spatial is in every demo |
 | **Community platform** | Support: Discord-first | Marketing: Discord + open-source | Both -- Discord for community, GitHub for developer engagement |
 
 ### What This Exercise Demonstrates
@@ -842,11 +842,11 @@ This discovery document was produced by 8 specialized agents running in parallel
 
 - The **Product Trend Researcher** found the sobering Vision Pro sales data that reframed the entire strategy
 - The **Backend Architect** designed a Rust orchestration engine that no marketing-focused team would have considered
-- The **Brand Guardian** created a category ("SpatialAIOps") rather than competing in an existing one
-- The **UX Researcher** identified that spatial computing creates friction for parameter tasks -- a counterintuitive finding
+- The **Brand Guardian** created a category ("Spatial人工智能Ops") rather than competing in an existing one
+- The **用户体验研究er** identified that spatial computing creates friction for parameter tasks -- a counterintuitive 查找
 - The **XR Interface Architect** designed the "data flows toward you" topology that maps to natural spatial cognition
-- The **Project Shepherd** identified the three critical bottleneck roles that could derail the entire timeline
-- The **Growth Hacker** designed viral loops specific to spatial computing's inherent shareability
-- The **Support Responder** turned the product's own AI capabilities into a support differentiator
+- The **Project Shepherd** identified the three critical bottleneck 角色s that could derail the entire 时间线
+- The **增长 Hacker** designed viral loops specific to spatial computing's inherent shareability
+- The **Support Responder** turned the product's own 人工智能 capabilities into a support differentiator
 
-The result is a comprehensive, cross-functional product plan that could serve as the basis for actual development -- produced in a single session by an agency of AI agents working in concert.
+The result is a comprehensive, 跨职能 product plan that could serve as the basis for actual development -- produced in a single session by an agency of 人工智能 agents working in concert.

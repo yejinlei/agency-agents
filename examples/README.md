@@ -31,9 +31,9 @@ These examples answer the question: *"What does it actually look like when the f
 | Product Trend Researcher | Market validation, competitive landscape |
 | Backend Architect | System architecture, data model, API design |
 | Brand Guardian | Positioning, visual identity, naming |
-| Growth Hacker | GTM strategy, pricing, launch plan |
+| 增长 Hacker | GTM strategy, pricing, launch plan |
 | Support Responder | Support tiers, onboarding, community |
-| UX Researcher | Personas, journey maps, design principles |
+| 用户体验研究er | Personas, 旅程图s, design principles |
 | Project Shepherd | Phase plan, sprints, risk register |
 | XR Interface Architect | Spatial UI specification |
 
@@ -41,7 +41,7 @@ These examples answer the question: *"What does it actually look like when the f
 
 ## Adding New Examples
 
-If you run an interesting multi-agent exercise, consider adding it here. Good examples show:
+If you run an interesting multi-agent exercise, consider 添加 it here. Good examples show:
 
 - Multiple agents collaborating on a shared objective
 - The breadth of the agency's capabilities

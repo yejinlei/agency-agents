@@ -6,7 +6,7 @@
 
 ## Scenario
 
-You're launching a coordinated marketing campaign across multiple channels. Content needs to be platform-specific, brand-consistent, and data-driven. The campaign needs to drive measurable acquisition and engagement.
+You're launching a coordinated marketing campaign across multiple channels. Content needs to be platform-specific, brand-consistent, and 数据驱动的. The campaign needs to drive measurable acquisition and engagement.
 
 ## Agent Roster
 
@@ -15,9 +15,9 @@ You're launching a coordinated marketing campaign across multiple channels. Cont
 |-------|------|
 | Social Media Strategist | Campaign lead, cross-platform strategy |
 | Content Creator | Content production across all formats |
-| Growth Hacker | Acquisition strategy, funnel optimization |
+| 增长 Hacker | Acquisition strategy, funnel optimization |
 | Brand Guardian | Brand consistency across all channels |
-| Analytics Reporter | Performance tracking and optimization |
+| Analytics Reporter | Performance 追踪 and optimization |
 
 ### Platform Specialists
 | Agent | Role |
@@ -32,9 +32,9 @@ You're launching a coordinated marketing campaign across multiple channels. Cont
 | Agent | Role |
 |-------|------|
 | Trend Researcher | Market timing and trend alignment |
-| Experiment Tracker | A/B testing campaign variations |
-| Executive Summary Generator | Campaign reporting |
-| Legal Compliance Checker | Ad compliance, disclosure requirements |
+| Experiment Tracker | A/B 测试 campaign variations |
+| 执行摘要 Generator | Campaign 报告 |
+| 法律合规 Checker | Ad compliance, disclosure requirements |
 
 ## Execution Plan
 
@@ -54,7 +54,7 @@ Day 1-2: Campaign Strategy
 │   ├── Competitor campaign analysis
 │   └── Optimal launch timing
 │
-├── Growth Hacker → Acquisition funnel design
+├── 增长 Hacker → Acquisition funnel design
 │   ├── Landing page optimization plan
 │   ├── Conversion funnel mapping
 │   ├── Viral mechanics (referral, sharing)
@@ -66,7 +66,7 @@ Day 1-2: Campaign Strategy
 │   ├── Tone and voice for campaign
 │   └── Do's and don'ts
 │
-└── Legal Compliance Checker → Ad compliance review
+└── 法律合规 Checker → Ad compliance review
     ├── Disclosure requirements
     ├── Platform-specific ad policies
     └── Regulatory constraints
@@ -109,7 +109,7 @@ Day 3-5: Content Production
 ```
 Day 1: Pre-Launch
 ├── All content queued and scheduled
-├── Analytics tracking verified
+├── Analytics 追踪 verified
 ├── A/B test variants configured
 ├── Landing pages live and tested
 └── Team briefed on engagement protocols
@@ -120,12 +120,12 @@ Day 2-3: Launch
 ├── TikTok Strategist → Launch videos
 ├── Reddit Community Builder → Authentic community posts
 ├── Content Creator → Blog post published + email blast
-├── Growth Hacker → Paid campaigns activated
-└── Analytics Reporter → Real-time dashboard monitoring
+├── 增长 Hacker → Paid campaigns activated
+└── Analytics Reporter → Real-time dashboard 监控
 
 Day 4-5: Optimize
 ├── Analytics Reporter → First 48-hour performance report
-├── Growth Hacker → Channel optimization based on data
+├── 增长 Hacker → Channel optimization based on data
 ├── Experiment Tracker → A/B test early results
 ├── Social Media Strategist → Engagement strategy adjustment
 └── Content Creator → Response content based on reception
@@ -137,7 +137,7 @@ Day 4-5: Optimize
 Daily:
 ├── Platform agents → Engagement and content posting
 ├── Analytics Reporter → Daily performance snapshot
-└── Growth Hacker → Funnel optimization
+└── 增长 Hacker → Funnel optimization
 
 Weekly:
 ├── Social Media Strategist → Campaign performance review
@@ -147,20 +147,20 @@ Weekly:
 
 End of Campaign:
 ├── Analytics Reporter → Comprehensive campaign analysis
-├── Growth Hacker → ROI analysis and channel effectiveness
-├── Executive Summary Generator → Campaign executive summary
+├── 增长 Hacker → ROI analysis and channel effectiveness
+├── 执行摘要 Generator → Campaign executive summary
 └── Social Media Strategist → Lessons learned and recommendations
 ```
 
-## Campaign Metrics
+## Campaign 指标
 
 | Metric | Target | Owner |
 |--------|--------|-------|
 | Total reach | [Target based on budget] | Social Media Strategist |
-| Engagement rate | > 3% average across platforms | Platform agents |
-| Click-through rate | > 2% on CTAs | Growth Hacker |
-| Conversion rate | > 5% landing page | Growth Hacker |
-| Cost per acquisition | < [Target CAC] | Growth Hacker |
+| Engagement rate | > 3% average a跨平台s | Platform agents |
+| Click-through rate | > 2% on CTAs | 增长 Hacker |
+| Conversion rate | > 5% landing page | 增长 Hacker |
+| Cost per acquisition | < [Target CAC] | 增长 Hacker |
 | Brand sentiment | Net positive | Brand Guardian |
 | Content pieces published | [Target count] | Content Creator |
 | A/B tests completed | ≥ 5 | Experiment Tracker |
@@ -175,7 +175,7 @@ End of Campaign:
 | Reddit | Upvotes + comment quality | Referral traffic | Reddit Community Builder |
 | Email | Open rate + CTR | Unsubscribe rate | Content Creator |
 | Blog | Organic traffic + time on page | Backlinks | Content Creator |
-| Paid ads | ROAS + CPA | Quality score | Growth Hacker |
+| Paid ads | ROAS + CPA | Quality score | 增长 Hacker |
 
 ## Brand Consistency Checkpoints
 
@@ -184,4 +184,4 @@ End of Campaign:
 | Content review before publishing | Every piece | Brand Guardian |
 | Visual consistency audit | Weekly | Brand Guardian |
 | Voice and tone check | Weekly | Brand Guardian |
-| Compliance review | Before launch + weekly | Legal Compliance Checker |
+| Compliance review | Before launch + weekly | 法律合规 Checker |

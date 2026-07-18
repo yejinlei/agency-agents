@@ -6,7 +6,7 @@
 
 ## Scenario
 
-Something is broken in production. Users are affected. Speed of response matters, but so does doing it right. This runbook covers detection through post-mortem.
+Something is broken 在生产环境中. Users are affected. Speed of response matters, but so does doing it right. This 运行手册 covers detection through post-mortem.
 
 ## Severity Classification
 
@@ -27,7 +27,7 @@ Something is broken in production. Users are affected. Speed of response matters
 | **Backend Architect** | Root cause investigation | Diagnose system issues |
 | **Frontend Developer** | UI-side investigation | Diagnose client-side issues |
 | **Support Responder** | User communication | Status page updates, user notifications |
-| **Executive Summary Generator** | Stakeholder communication | Real-time executive updates |
+| **执行摘要 Generator** | Stakeholder communication | Real-time executive updates |
 
 ### P1 — High Response Team
 | Agent | Role |
@@ -48,18 +48,18 @@ Something is broken in production. Users are affected. Speed of response matters
 |-------|------|
 | **Sprint Prioritizer** | Add to backlog |
 
-## Incident Response Sequence
+## 事件响应 Sequence
 
 ### Step 1: Detection & Triage (0-5 minutes)
 
 ```
-TRIGGER: Alert from monitoring / User report / Agent detection
+TRIGGER: Alert from 监控 / User report / Agent detection
 
 Infrastructure Maintainer:
 1. Acknowledge alert
 2. Assess scope and impact
    - How many users affected?
-   - Which services are impacted?
+   - Which 服务s are impacted?
    - Is data at risk?
 3. Classify severity (P0/P1/P2/P3)
 4. Activate appropriate response team
@@ -75,19 +75,19 @@ PARALLEL INVESTIGATION:
 
 Infrastructure Maintainer:
 ├── Check system metrics (CPU, memory, network, disk)
-├── Review error logs
-├── Check recent deployments
+├── 审查 error logs
+├── Check recent 部署s
 └── Verify external dependencies
 
 Backend Architect (if P0/P1):
 ├── Check database health
-├── Review API error rates
-├── Check service communication
+├── 审查 API error rates
+├── Check 服务 communication
 └── Identify failing component
 
 DevOps Automator:
-├── Review recent deployment history
-├── Check CI/CD pipeline status
+├── 审查 recent 部署 history
+├── Check 持续集成/持续部署 pipeline status
 ├── Prepare rollback if needed
 └── Verify infrastructure state
 
@@ -99,7 +99,7 @@ Output: Root cause identified (or narrowed to component)
 ```
 DECISION TREE:
 
-IF caused by recent deployment:
+IF caused by recent 部署:
   → DevOps Automator: Execute rollback
   → Infrastructure Maintainer: Verify recovery
   → Evidence Collector: Confirm fix
@@ -122,7 +122,7 @@ IF caused by external dependency:
 
 THROUGHOUT:
   → Support Responder: Update status page every 15 minutes
-  → Executive Summary Generator: Brief stakeholders (P0 only)
+  → 执行摘要 Generator: Brief stakeholders (P0 only)
 ```
 
 ### Step 4: Resolution Verification (Post-fix)
@@ -139,19 +139,19 @@ Infrastructure Maintainer:
 3. Monitor for 30 minutes post-fix
 
 API Tester (if API-related):
-1. Run regression on affected endpoints
+1. Run r出口ion on affected endpoints
 2. Verify response times normalized
 3. Confirm error rates at baseline
 
 Output: Incident resolved confirmation
 ```
 
-### Step 5: Post-Mortem (Within 48 hours)
+### Step 5: 事后复盘 (Within 48 hours)
 
 ```
 Workflow Optimizer leads post-mortem:
 
-1. Timeline reconstruction
+1. 时间线 reconstruction
    - When was the issue introduced?
    - When was it detected?
    - When was it resolved?
@@ -170,8 +170,8 @@ Workflow Optimizer leads post-mortem:
    - Data impact
 
 4. Prevention measures
-   - What monitoring would have caught this sooner?
-   - What testing would have prevented this?
+   - What 监控 would have caught this sooner?
+   - What 测试 would have prevented this?
    - What process changes are needed?
    - What infrastructure changes are needed?
 
@@ -180,10 +180,10 @@ Workflow Optimizer leads post-mortem:
    - [Action] → [Owner] → [Deadline]
    - [Action] → [Owner] → [Deadline]
 
-Output: Post-Mortem Report → Sprint Prioritizer adds prevention tasks to backlog
+Output: 事后复盘 Report → Sprint Prioritizer adds prevention tasks to backlog
 ```
 
-## Communication Templates
+## 沟通 Templates
 
 ### Status Page Update (Support Responder)
 ```
@@ -195,23 +195,23 @@ Current action: [What we're doing about it]
 Next update: [When to expect the next update]
 ```
 
-### Executive Update (Executive Summary Generator — P0 only)
+### Executive Update (执行摘要 Generator — P0 only)
 ```
 INCIDENT BRIEF — [TIMESTAMP]
 
 SITUATION: [Service] is [down/degraded] affecting [N users/% of traffic]
 CAUSE: [Known/Under investigation] — [Brief description if known]
-ACTION: [What's being done] — ETA [time estimate]
+ACTION: [What's 是 done] — ETA [时间估算]
 IMPACT: [Business impact — revenue, users, reputation]
 NEXT UPDATE: [Timestamp]
 ```
 
-## Escalation Matrix
+## 升级 Matrix
 
 | Condition | Escalate To | Action |
 |-----------|------------|--------|
 | P0 not resolved in 30 min | Studio Producer | Additional resources, vendor escalation |
 | P1 not resolved in 2 hours | Project Shepherd | Resource reallocation |
-| Data breach suspected | Legal Compliance Checker | Regulatory notification assessment |
-| User data affected | Legal Compliance Checker + Executive Summary Generator | GDPR/CCPA notification |
+| Data breach suspected | 法律合规 Checker | Regulatory notification assessment |
+| User data affected | 法律合规 Checker + 执行摘要 Generator | GDPR/CCPA notification |
 | Revenue impact > $X | Finance Tracker + Studio Producer | Business impact assessment |

@@ -36,7 +36,7 @@ Each generated agent file contains:
 ```yaml
 ---
 name: Frontend Developer
-description: Expert frontend developer specializing in modern web technologies...
+description: Expert frontend developer ，专攻 modern web technologies...
 mode: subagent
 color: "#00FFFF"
 ---
