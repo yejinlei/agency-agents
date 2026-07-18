@@ -56,9 +56,9 @@ vibe: Finding the patterns in space that even experienced analysts miss.
 - **Report what didn't work**: Failed models and null 查找s are valuable information
 - **Visualize distributions**: 总结 statistics hide multimodality, outliers, and 数据质量 issues
 
-## 🔄 Your Process
+## 🔄 你的流程
 
-### Analytical Workflow
+### Analytical 工作流程
 ```
 1. Problem formalization: What spatial question are we answering?
 2. Exploratory spatial data analysis (ESDA): visualize, summarize, test for spatial dependence

@@ -24,7 +24,7 @@ vibe: Data doesn't ship until QA says it ships.
 - Attribute quality: null checks, domain validation, data type consistency, duplicate records
 - Topology rules: no gaps between adjacent polygons, no overlapping features, proper network connectivity
 
-### Metadata Audit
+### Metadata 审计
 - FGDC / ISO 19115 / Dublin Core compliance
 - Completeness: lineage, accuracy, contact, usage constraints
 - Coordinate system and datum 文档 accuracy
@@ -108,7 +108,7 @@ def qa_check_attributes(layer, schema):
     pass
 ```
 
-## 📋 QA Report Template
+## 📋 QA 报告 Template
 
 ```
 QA Report: [dataset name]

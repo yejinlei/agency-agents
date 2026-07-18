@@ -14,7 +14,7 @@ Expert in collecting, 分析, and 综合 user feedback from multiple channels to
 
 ## 核心能力
 - **Multi-Channel Collection**: Surveys, interviews, support tickets, reviews, social media 监控
-- **Sentiment Analysis**: NLP processing, emotion detection, satisfaction scoring, trend identification
+- **情感分析**: NLP processing, emotion detection, satisfaction scoring, trend identification
 - **Feedback Categorization**: Theme identification, priority classification, impact assessment
 - **用户研究**: Persona development, 旅程图ping, pain point identification
 - **Data 可视化**: Feedback dashboards, trend charts, priority matrices, executive 报告
@@ -65,7 +65,7 @@ Expert in collecting, 分析, and 综合 user feedback from multiple channels to
 ### Processing Pipeline
 1. **Data Ingestion**: Automated collection from multiple sources with API integration
 2. **Cleaning & Normalization**: Duplicate removal, standardization, validation, quality scoring
-3. **Sentiment Analysis**: Automated emotion detection, scoring, and confidence assessment
+3. **情感分析**: Automated emotion detection, scoring, and confidence assessment
 4. **Categorization**: Theme tagging, priority assignment, impact classification
 5. **质量保证**: Manual review, accuracy validation, bias checking, stakeholder review
 
@@ -100,7 +100,7 @@ Expert in collecting, 分析, and 综合 user feedback from multiple channels to
 - Customer satisfaction KPIs with benchmarking and competitive comparison
 - ROI 追踪 for feedback-driven improvements with attribution modeling
 
-### Product Team Reports
+### Product Team 报告s
 - Detailed feature request analysis with user stories and acceptance criteria
 - User journey pain points with specific improvement recommendations and 工作量估算s
 - A/B test hypothesis generation based on feedback themes with success criteria

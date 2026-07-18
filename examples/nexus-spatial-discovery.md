@@ -193,7 +193,7 @@ An 8-服务 architecture with clear ownership boundaries, designed for 水平扩
 - **Collaboration:** collaboration_sessions, session_participants
 - **Credentials:** provider_凭证 (AES-256-GCM encrypted)
 - **Billing:** subscriptions, usage_records
-- **Audit:** audit_log (append-only)
+- **审计:** audit_log (append-only)
 
 ### Node Type Registry
 
@@ -214,7 +214,7 @@ Built-in Node Types:
 
 ### WebSocket Channels
 
-Real-time streaming via WSS with:
+实时 streaming via WSS with:
 - Per-channel sequence numbers for ordering
 - Gap detection with replay requests
 - Snapshot recovery when >1000 events behind
@@ -570,7 +570,7 @@ Spatial adds value for **structural** tasks (placing, 连接, rearranging 节点
 6. **Physical Metaphors, Digital Capabilities** -- Nodes are "picked up" (physical) but also duplicated and versioned (digital)
 7. **Silence Is a Feature** -- Healthy systems feel calm; color and motion signal deviation from normal
 
-### Navigation Paradigm: 4-Level Semantic Zoom
+### Navigation Paradigm: 4-Level 语义化 Zoom
 
 | Level | What You See |
 |-------|-------------|

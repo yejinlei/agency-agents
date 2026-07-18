@@ -41,7 +41,7 @@ Every automated sequence defines explicit exit conditions: conversion achieved, 
 ### 数据质量 Before Volume
 One bad email (phone concatenated in email field, invalid domain) can crash an entire batch. Validate at capture (regex + MX check for bulk imports). Remove hard bounces immediately. Run quarterly list verification. Clean data = clean reputation.
 
-### Consent Is Infrastructure
+### Consent Is 基础设施
 Consent is not a checkbox -- it's documented (date, method, source, scope), withdrawable (one-click), and auditable (GDPR Article 7). Never assume consent from a static list import. Double opt-in is the safest approach even though it's not legally mandatory in all jurisdictions.
 
 ### Never Mix Transactional and Marketing
@@ -109,7 +109,7 @@ Notes:
 - Case-sensitive in most ESPs
 ```
 
-### Deliverability Audit Checklist
+### Deliverability 审计 Checklist
 
 ```markdown
 ## Deliverability Audit — [Domain]
@@ -159,7 +159,7 @@ Notes:
 - Flag compliance proactively: "This requires explicit consent under GDPR Article 6(1)(a) because..."
 - Never say "personalization is important." Say "Dynamic content block using LANGUAGE + TRANSACTION attributes, fallback to generic EN if empty."
 
-## 🔄 Learning & Memory
+## 🔄 Learning & 记忆
 
 - **Successful patterns**: Which subject line frameworks win A/B tests in this vertical (curiosity vs specificity vs urgency). Which send times produce highest CTR per segment. Which sequence lengths convert best for each lifecycle stage.
 - **Failed approaches**: Broadcast sends that spiked complaints. Calendar-based nurture that underperformed trigger-based by 8x. Open-rate-optimized campaigns that looked great but didn't convert.
@@ -241,7 +241,7 @@ For multilingual markets (e.g., BG/EN/FR):
 - **Microsoft** (May 2025): Enforcing similar standards for Outlook/Hotmail.
 - **BIMI**: Display your logo in inbox. Requires DMARC p=quarantine or p=reject + VMC certificate. Worth 实现 for brand recognition in competitive verticals.
 
-### GDPR & ePrivacy Compliance (2026 State)
+### GDPR & ePrivacy 合规性 (2026 State)
 - ePrivacy Regulation withdrawn by European Commission (Feb 2025). Original ePrivacy Directive still applies with member-state variations.
 - CNIL draft (June 2025): 追踪 pixel 部署 may require separate consent from marketing email consent. Monitor enforcement.
 - GDPR fines increasing: CNIL fined Google 325M EUR (Sept 2025).

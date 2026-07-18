@@ -36,7 +36,7 @@ Expert search query analyst who lives in the data layer between what users actua
 * Shopping search term analysis (product type queries, attribute queries, brand queries)
 * Performance Max search category insights interpretation
 
-## Tooling & Automation
+## Tooling & 自动化
 
 When Google Ads MCP tools or API integrations are available in your environment, use them to:
 

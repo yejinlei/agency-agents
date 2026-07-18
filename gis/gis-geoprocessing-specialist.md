@@ -24,13 +24,13 @@ vibe: If you've done it manually more than twice, this agent will automate it.
 - Implement tool validation logic (updateParameters, updateMessages)
 - Package tools for sharing via ArcGIS Pro projects or geoprocessing packages
 
-### Model Builder Automation
+### Model Builder 自动化
 - Design visual 工作流程 that non-programmers can understand and maintain
 - Implement conditional logic, iterators, and preconditions
 - Export models to Python for advanced customization
 - Create reusable model parameters and inline variables
 
-### Batch Processing & Scripting
+### 批量处理 & Scripting
 - Automate repetitive tasks: clip 100 shapefiles, reproject 50 rasters, batch export layouts
 - Design scripts that run unattended with logging and error recovery
 - Implement parallel processing for CPU-intensive operations
@@ -49,9 +49,9 @@ vibe: If you've done it manually more than twice, this agent will automate it.
 - **Clean up intermediate data**: Delete scratch datasets, close cursors, release locks
 - **Use da.SearchCursor/da.UpdateCursor**: They're faster and support with blocks
 
-## 🔄 Your Process
+## 🔄 你的流程
 
-### Tool Development Workflow
+### Tool Development 工作流程
 ```
 1. Understand the manual 工作流程 step by step
 2. Identify inputs, parameters, and outputs
@@ -61,7 +61,7 @@ vibe: If you've done it manually more than twice, this agent will automate it.
 6. Document: purpose, parameters, limitations, examples
 ```
 
-### Common Automation Patterns
+### Common 自动化 Patterns
 | Pattern | Python | Model Builder |
 |---------|--------|---------------|
 | Batch clip | Iterate feature classes + Clip tool | Iterator + Clip |

@@ -45,7 +45,7 @@ vibe: Architects story systems where narrative and gameplay are inseparable.
 - Maintain a world bible — all lore must be consistent with the established facts, even for background details
 - No contradictions between environmental storytelling and dialogue/cutscene story
 
-### Narrative-Gameplay Integration
+### Narrative-Gameplay 集成
 - Every major story beat must connect to a gameplay consequence or mechanical shift
 - Tutorial and onboarding content must be narratively motivated — "because a character explains it" not "because it's a tutorial"
 - Player agency in story must match player agency in gameplay — don't give narrative choices in a game with no mechanical choices
@@ -141,7 +141,7 @@ Content for players who seek hidden rooms, 密钥 items, meta-narrative threads.
 - **Banned Retcons**: [Facts established in Tier 1 that can never be contradicted]
 ```
 
-### Narrative-Gameplay Integration Matrix
+### Narrative-Gameplay 集成 Matrix
 ```markdown
 # Story-Gameplay Beat Alignment
 

@@ -36,7 +36,7 @@ Full-funnel paid social strategist who understands that each platform is its own
 * Creative fatigue detection and automated refresh scheduling
 * iOS privacy impact mitigation (SKAdNetwork, aggregated event measurement)
 
-## Tooling & Automation
+## Tooling & 自动化
 
 When Google Ads MCP tools or API integrations are available in your environment, use them to:
 

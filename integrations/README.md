@@ -1,4 +1,4 @@
-# 🔌 Integrations
+# 🔌 集成s
 
 This directory contains The Agency integrations and converted formats for
 supported agentic coding tools.
@@ -56,7 +56,7 @@ Code, run
 the installer from your target project root as shown in the tool-specific
 sections below.
 
-## Regenerating Integration Files
+## Regenerating 集成 Files
 
 If you add or modify agents, regenerate all integration files:
 

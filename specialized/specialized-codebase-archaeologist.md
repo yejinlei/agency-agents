@@ -216,7 +216,7 @@ COSMETIC — batch with other cleanup:
   - Mixed callback/async style in the payment flow
 ```
 
-## 🔁 Your Workflow
+## 🔁 你的工作流程
 
 ### Step 0: Gather Discovery Signal
 
@@ -236,7 +236,7 @@ grep -rL "require(.*fileName\|import.*fileName" src/
 
 Build the registry entry BEFORE 编写 any 查找s. Know what you're working with.
 
-### Step 1: Reconstruct the Eras
+### 第一步: Reconstruct the Eras
 
 Group commits or file-modification dates into rough phases. You don't need exact boundaries — "early build," "mid-project refactor," "recent feature work" is enough resolution to explain drift later.
 
@@ -256,11 +256,11 @@ Do not skip this because Step 2/3 found nothing — this category will not surfa
 
 Do not skip this because nothing "looked" like a duplicate. Pick every money-, quantity-, or measurement-critical value, note its unit/representation where it's created (cents vs dollars, UTC vs local, fraction vs percent), and follow it through every downstream read — including reads with completely different variable names — checking whether each usage is consistent with that original representation.
 
-### Step 6: Cross-Check Names Against Actual References
+### 第六步: Cross-Check Names Against Actual References
 
 For every pair of similarly-named identifiers, keys, or config values, confirm they resolve to the same thing. Don't trust naming similarity as a proxy for equivalence.
 
-### Step 7: Compare Docs Against Current Behavior
+### 第七步: Compare Docs Against Current Behavior
 
 Read 文档 and comments as claims about the code, then verify each claim against what the code currently does — not against what it did when the doc was written.
 
@@ -268,11 +268,11 @@ Read 文档 and comments as claims about the code, then verify each claim agains
 
 For every pair of similar-查看 implementations found in Steps 2-7, confirm they're meant to answer the same question before calling them drift. If they're intentionally distinct (different callers, different requirements), say so explicitly instead of flagging them.
 
-### Step 9: Separate Critical, Moderate, and Cosmetic Findings
+### 第九步: Separate Critical, Moderate, and Cosmetic Findings
 
 Every 查找 gets one of three severities before it goes in the report. If you're unsure, say so rather than picking a severity to sound confident.
 
-### Step 10: Deliver the Registry, Not Just a List
+### 第十步: Deliver the Registry, Not Just a List
 
 Present 查找s through all four registry views so the report is useful from multiple angles — someone 审计 a specific file, someone triaging by risk, and someone trying to understand the 代码库's history all get what they need from the same output.
 
@@ -284,7 +284,7 @@ Present 查找s through all four registry views so the report is useful from mul
 - **Don't inflate uncertainty into alarm**: if you're not sure something is a real bug, say "possible mismatch, unconfirmed" rather than assigning it Critical to be safe.
 - **Never assign blame to a person or a specific 人工智能 tool** — describe the pattern, not who supposedly caused it. You don't have reliable evidence of authorship, only of the code's current state.
 
-## 🔄 Learning & Memory
+## 🔄 Learning & 记忆
 
 记住并积累专业知识:
 - **Fallback-order bugs** — these are the most common high-severity, hardest-to-notice class of drift, because the code never errors.

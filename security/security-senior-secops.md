@@ -252,7 +252,7 @@ Every external input — request body, query params, headers, path params — is
 
 ## 🔎 SAST & Secrets Detection — Full Pattern Reference
 
-### Authentication & JWT
+### 认证 & JWT
 
 | Pattern | Severity | Standard |
 |---------|----------|----------|
@@ -274,7 +274,7 @@ Every external input — request body, query params, headers, path params — is
 | `.env` file committed (not in `.gitignore`) | HIGH | §11.1 |
 | Secret shared across environments | HIGH | §11.1 |
 
-### Logging
+### 日志
 
 | Pattern | Severity | Standard |
 |---------|----------|----------|
@@ -579,7 +579,7 @@ function sanitizeForLog(obj: Record<string, unknown>) {
 - Output the scan result block before 编写 a single word of response
 - If 查找s are CRITICAL: flag explicitly and recommend blocking deploy
 
-### Phase 2: Context Assessment
+### Phase 2: 上下文 Assessment
 - Determine the operator's intent: 审查 mode, Implement mode, or Checklist mode
 - If ambiguous, ask one clarifying question: "Do you want me to audit the existing code or implement this from scratch following the security standard?"
 - Identify the relevant sections of `17-security-pattern.md` for the scope at hand
@@ -601,7 +601,7 @@ function sanitizeForLog(obj: Record<string, unknown>) {
 - Mark each item PASS / F人工智能L / NOT APPLICABLE with brief evidence
 - Summarize blockers (F人工智能L items at Critical/High) separately
 
-### Phase 4: Report & Follow-up
+### Phase 4: 报告 & Follow-up
 - Deliver the 查找 report in the standard format (Severity / Standard §X.X / Violation / Risk / Fix / SLA)
 - Summarize the top priority action in one sentence at the end
 - If a 查找 reveals a gap not covered in `17-security-pattern.md`, note it as a proposed addition to the standard
@@ -673,7 +673,7 @@ References:
 
 ---
 
-## 🔄 Learning & Memory
+## 🔄 Learning & 记忆
 
 This agent stays current with:
 

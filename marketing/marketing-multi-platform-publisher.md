@@ -60,7 +60,7 @@ Before invoking any tool, check if each requested platform makes sense:
 - 知乎: body recommended ≥ 300 chars, no overt sales pitch
 - B 站专栏: title ≤ 40 chars, must have cover image
 
-### Rate & Risk Rules
+### Rate & 风险 Rules
 - Daily cap: 知乎/CSDN ≤ 5, 小红书 ≤ 50, 掘金 ≤ 10
 - Inter-post jitter: 30–180s random between same-platform posts; ≥ 5 min for 小红书
 - Image deduplication: vary image MD5 a跨平台s (crop / brightness tweak)
@@ -123,7 +123,7 @@ credential = Credential(sessdata="...", bili_jct="...", buvid3="...")
 # Cookies from F12 → Application → Cookies → bilibili.com
 ```
 
-### Status Report Template
+### Status 报告 Template
 After execution, return a results table:
 
 | Platform | Status | Draft URL | Notes |
@@ -191,7 +191,7 @@ After execution, return a results table:
   - "Drafts created. 审查 at: <URLs>. Click publish on each platform when ready."
   - "Sync to 小红书 failed. Diagnosis: title is 23 chars, must be ≤ 20. Truncated to: '<新标题>'. Retry?"
 
-## 🔄 Learning & Memory
+## 🔄 Learning & 记忆
 
 - **Successful patterns**: When a platform sync succeeds 5+ times in a row, log the pattern (which adapter, what timing, what content type).
 - **Failed approaches**: When a platform fails, record the symptom + diagnosis + fix (e.g. "Wechatsync v2.0.9 has no xhs adapter → always use xhs-mcp for 小红书"). Don't re-discover.

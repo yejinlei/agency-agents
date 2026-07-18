@@ -1,4 +1,4 @@
-# Multi-Agent Workflow: Startup MVP with Persistent Memory
+# Multi-Agent 工作流程: Startup MVP with Persistent 记忆
 
 > The same startup MVP workflow from [workflow-startup-mvp.md](workflow-startup-mvp.md), but with an MCP memory server handling state between agents. No more copy-paste handoffs.
 
@@ -58,11 +58,11 @@ Same as the standard workflow: a SaaS team retrospective tool (RetroBoard), 4 we
 
 Each agent has a Memory Integration section in their prompt (see [integrations/mcp-memory/README.md](../integrations/mcp-memory/README.md) for how to add it).
 
-## The Workflow
+## The 工作流程
 
 ### Week 1: Discovery + 架构
 
-**Step 1 — Activate Sprint Prioritizer**
+**第一步 — Activate Sprint Prioritizer**
 
 ```
 Activate Sprint Prioritizer.
@@ -96,7 +96,7 @@ Output a 1-page research brief. Remember it tagged for this project when done.
 
 The 用户体验研究er stores the research brief tagged with `ux-researcher`, `retroboard`, and `research-brief`.
 
-**Step 3 — Hand off to Backend Architect**
+**第三步 — Hand off to Backend Architect**
 
 ```
 Activate Backend Architect.
@@ -117,7 +117,7 @@ The Backend Architect recalls the sprint plan and research brief from memory aut
 
 ### Week 2: Build Core Features
 
-**Step 4 — Activate Frontend Developer + Rapid Prototyper**
+**第四步 — Activate Frontend Developer + Rapid Prototyper**
 
 ```
 Activate Frontend Developer.
@@ -136,7 +136,7 @@ Remember your progress tagged for this project.
 
 The Frontend Developer pulls the API spec from memory and builds against it.
 
-**Step 5 — Reality Check at midpoint**
+**第五步 — Reality Check at midpoint**
 
 ```
 Activate Reality Checker.
@@ -179,7 +179,7 @@ Remember the launch plan tagged for this project.
 
 ### Week 4: Launch
 
-**Step 7 — Final Reality Check**
+**第七步 — Final Reality Check**
 
 ```
 Activate Reality Checker.
@@ -198,7 +198,7 @@ Run through the launch checklist and give a GO / NO-GO decision.
 Require evidence for each criterion.
 ```
 
-### When QA Fails: Rollback
+### When QA Fails: 回滚
 
 In the standard 工作流程, when the Reality Checker rejects a deliverable, you go back to the responsible agent and try to explain what went wrong. With memory, the recovery loop is tighter:
 

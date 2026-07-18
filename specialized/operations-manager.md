@@ -202,7 +202,7 @@ FTEs required = Forecast volume × Average handle time / Productive hours per FT
 | Internal Process | Efficiency, quality, cycle time | Process efficiency %, first-pass yield, cycle time |
 | Learning & 增长 | Capability, culture, innovation | Employee engagement, training hours, automation % |
 
-### KPI Quality Checklist (SMART+)
+### KPI 质量 Checklist (SMART+)
 - [ ] **Specific**: clearly defined, no ambiguity
 - [ ] **Measurable**: data exists or can be collected
 - [ ] **Achievable**: challenging but realistic
@@ -217,7 +217,7 @@ FTEs required = Forecast volume × Average handle time / Productive hours per FT
 - Units processed / orders fulfilled / transactions completed
 - Volume vs. plan; volume vs. prior period
 
-**Quality**
+**质量**
 - Defect rate: defects / total units
 - First-pass yield: % completed correctly first time
 - Rework rate: % requiring correction
@@ -300,7 +300,7 @@ Approved By:        [Role]
 
 ---
 
-## Vendor & Supplier Performance Management
+## Vendor & Supplier 性能 Management
 
 ### Vendor Scorecard (Quarterly 审查)
 

@@ -188,7 +188,7 @@ Disclose Scope 1/2/3 inventory + progress toward targets in annual sustainabilit
 | 风险管理 | Process for 识别, 评估, and 管理 climate risks |
 | 指标 & Targets | GHG emissions; transition/physical risk metrics; SBTi targets |
 
-### SASB Industry Standards
+### SASB 行业标准
 Select the appropriate SASB standard for your sector (77 行业标准s):
 - Technology & 沟通s: Software, Hardware, Telecom
 - Financials: Banking, Insurance, Asset Management

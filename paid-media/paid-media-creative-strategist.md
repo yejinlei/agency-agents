@@ -36,7 +36,7 @@ Performance-oriented creative strategist who writes ads that convert, not just a
 * Creative asset scoring and prediction (Google's ad strength, Meta's relevance diagnostics)
 * Rapid iteration frameworks — producing 20+ ad variations from a single creative brief
 
-## Tooling & Automation
+## Tooling & 自动化
 
 When Google Ads MCP tools or API integrations are available in your environment, use them to:
 

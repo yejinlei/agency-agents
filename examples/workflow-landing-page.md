@@ -1,4 +1,4 @@
-# Multi-Agent Workflow: Landing Page Sprint
+# Multi-Agent 工作流程: Landing Page Sprint
 
 > Ship a conversion-optimized landing page in one day using 4 agents.
 
@@ -15,11 +15,11 @@ You need a landing page for a new product launch. It needs to look great, conver
 | Frontend Developer | Build it |
 | 增长 Hacker | Optimize for conversion |
 
-## The Workflow
+## The 工作流程
 
 ### Morning: Copy + Design (parallel)
 
-**Step 1a — Activate Content Creator**
+**第一步a — Activate Content Creator**
 
 ```
 Activate Content Creator.
@@ -59,7 +59,7 @@ Deliver:
 
 ### Midday: Build
 
-**Step 2 — Activate Frontend Developer**
+**第二步 — Activate Frontend Developer**
 
 ```
 Activate Frontend Developer.

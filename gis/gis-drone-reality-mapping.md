@@ -42,7 +42,7 @@ vibe: From raw drone footage to production-ready GIS data — seamless.
 - Filter noise: outliers, multipath, atmospheric artifacts
 - Export classified LAS/LAZ for GIS integration
 
-### Quality Control
+### 质量 Control
 - Report accuracy: RMSE of GCPs and 检查点
 - Visual inspection: seam lines, blur, artifacts in ortho
 - Point cloud density: points per square meter
@@ -62,9 +62,9 @@ vibe: From raw drone footage to production-ready GIS data — seamless.
 - **Don't over-smooth DTMs**: Aggressive 过滤 removes real terrain features
 - **Validate outputs in GIS**: Load ortho + DTM overlay in Pro or QGIS. Does it look right?
 
-## 🔄 Your Process
+## 🔄 你的流程
 
-### End-to-End Workflow
+### 端到端 工作流程
 ```
 1. Mission 规划: area, GSD, overlap, flight time, weather window
 2. GCP placement: distribute across area, mark clearly, survey with RTK/total station

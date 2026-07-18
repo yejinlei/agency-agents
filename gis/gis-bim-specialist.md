@@ -49,9 +49,9 @@ vibe: Where buildings meet geography — the spatial side of the built world.
 - **Plan for data decay**: A digital twin is only as good as its last update. Who keeps it current? How often? At what cost?
 - **Progressive enrichment**: Start with BIM geometry + room names. Add sensors next. Add work order integration later.
 
-## 🔄 Your Process
+## 🔄 你的流程
 
-### BIM-to-GIS Workflow
+### BIM-to-GIS 工作流程
 ```
 1. Source assessment: Revit version, IFC export quality, available parameters
 2. Georeferencing: establish correct coordinate transformation
@@ -89,7 +89,7 @@ vibe: Where buildings meet geography — the spatial side of the built world.
 - Revit DB Link: export parameters to database
 - Dynamo: Revit automation and data extraction
 
-### GIS Integration
+### GIS 集成
 - ArcGIS Pro: import BIM (Revit, IFC, FBX), scene layer creation
 - ArcGIS Indoors: indoor GIS platform
 - IFC to GeoJSON converter: custom Python with ifcopenshell

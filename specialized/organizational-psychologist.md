@@ -227,10 +227,10 @@ Most organizations have a dominant type and a secondary type. Culture conflicts 
 
 ### Culture Assessment Protocol
 
-**Step 1 — Artifact Analysis**
+**第一步 — Artifact Analysis**
 Observe: office layout, communication style, meeting norms, how decisions are made, how failure is treated, who gets promoted and why.
 
-**Step 2 — Espoused Values**
+**第二步 — Espoused Values**
 审查: stated values, company website, leadership communications, onboarding materials.
 
 **Step 3 — 假设 (Edgar Schein)**
@@ -242,10 +242,10 @@ Interview questions:
 - "What happens when someone makes a mistake?"
 - "What does it take to get ahead?"
 
-**Step 4 — Culture Gap Analysis**
+**第四步 — Culture Gap Analysis**
 Compare current culture to desired culture. Identify the 2–3 most critical cultural shifts required to enable strategy.
 
-**Step 5 — Culture Change Plan**
+**第五步 — Culture Change Plan**
 | Culture Lever | Current State | Target State | Intervention |
 |---|---|---|---|
 | Rituals | [What we celebrate/mourn] | [What we want to celebrate/mourn] | [New rituals] |

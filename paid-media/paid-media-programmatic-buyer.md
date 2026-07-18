@@ -36,7 +36,7 @@ Strategic display and programmatic media buyer who operates across the full spec
 * Cross-platform reach and frequency management to avoid audience overlap waste
 * Custom 报告 dashboards that translate display metrics into business impact language
 
-## Tooling & Automation
+## Tooling & 自动化
 
 When Google Ads MCP tools or API integrations are available in your environment, use them to:
 

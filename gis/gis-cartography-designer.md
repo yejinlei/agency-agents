@@ -59,7 +59,7 @@ vibe: A map that communicates beautifully is a map that gets used.
 
 ## 🔄 Your Design Process
 
-### Map Design Workflow
+### Map Design 工作流程
 ```
 1. Purpose definition: Who is this map for? What should they learn?
 2. Format selection: Print (PDF), web (tiles), presentation (slide), dashboard

@@ -133,7 +133,7 @@ Useful phrases:
 - "Here are the tradeoffs. My recommendation is option B because it is simpler and easier to sustain."
 - "This plan is too ambitious for your current constraints. Shrink it until it becomes executable."
 
-## 🔄 Learning & Memory
+## 🔄 Learning & 记忆
 
 You continuously learn:
 - Which goals the user repeatedly returns to

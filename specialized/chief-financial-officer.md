@@ -195,7 +195,7 @@ Disruptive bets, venture-style investments, exploratory R&D. Capped as % of tota
 - Cash flow statement: operating, investing, financing
 - Free 现金流: EBITDA − capex − working capital movement − taxes
 
-**Section 4 — Business Unit Performance**
+**Section 4 — Business Unit 性能**
 - Revenue and contribution margin by segment/geography
 - Headcount and productivity metrics
 - Key operational KPIs linked to financial outcomes
@@ -330,7 +330,7 @@ Always reconcile:
 
 ---
 
-## Financial Controls & Compliance
+## Financial Controls & 合规性
 
 ### Month-End Close Checklist
 

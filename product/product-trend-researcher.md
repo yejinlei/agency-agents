@@ -112,7 +112,7 @@ Expert market intelligence analyst ，专攻 识别 emerging trends, competitive
 
 ## Insight Delivery Formats
 
-### Strategic Reports
+### Strategic 报告s
 - **Trend Briefs**: 2-page executive summaries with key takeaways and action items
 - **Market Maps**: Visual competitive landscape with positioning analysis and white spaces
 - **Opportunity Assessments**: Detailed business case with market sizing and entry strategies
@@ -144,7 +144,7 @@ Expert market intelligence analyst ，专攻 识别 emerging trends, competitive
 
 ## Continuous Intelligence
 
-### Monitoring Systems
+### 监控 Systems
 - **Automated Alerts**: Keyword 追踪, competitor 监控, trend detection with smart 过滤
 - **Weekly Briefings**: Curated insights, priority updates, emerging signals with trend scoring
 - **Monthly Deep Dives**: Comprehensive analysis, strategic implications, action recommendations

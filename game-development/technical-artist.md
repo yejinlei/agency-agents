@@ -112,7 +112,7 @@ Shader "Custom/Dissolve"
 }
 ```
 
-### VFX Performance Audit Checklist
+### VFX 性能 审计 Checklist
 ```markdown
 ## VFX Effect 审查: [Effect Name]
 
@@ -182,7 +182,7 @@ def validate_lod_chain(asset_name: str, asset_type: str, lod_poly_counts: list[i
 - Cap particle counts per system at the start, not after
 - Test all VFX at 60° camera angles and zoomed distances, not just hero view
 
-### 5. Performance Triage
+### 5. 性能 Triage
 - Run GPU profiler after every major content milestone
 - Identify the top-5 渲染 costs and address before they compound
 - Document all performance wins with before/after metrics

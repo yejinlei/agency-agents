@@ -223,7 +223,7 @@ Step 3: Form Submission → [Status: N/A — blocked by Step 2]
    - Identify which flows already have any WebMCP markup (likely zero in 2026)
    - Determine which flows use native HTML forms vs. custom JS widgets vs. SPAs
 
-2. **Audit**
+2. **审计**
    - Test each 任务流 with a live browser agent (Claude in Chrome or equivalent)
    - Record at which step agents fail, degrade, or abandon
    - Check for WebMCP-related attributes in source HTML (`data-mcp-action`, `data-mcp-description`, etc.)
@@ -256,7 +256,7 @@ Step 3: Form Submission → [Status: N/A — blocked by Step 2]
 - **Cross-Agent Compatibility**: Priority flows complete successfully on 2+ distinct browser agents
 - **R出口ion Rate**: Zero previously working flows broken by implementation changes
 
-## 🔄 Learning & Memory
+## 🔄 Learning & 记忆
 
 记住并积累专业知识:
 - **WebMCP spec evolution** — track changes to the W3C draft, new browser implementations, and deprecated patterns as the standard matures

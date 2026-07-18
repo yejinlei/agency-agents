@@ -27,12 +27,12 @@ vibe: Makes every gunshot, footstep, and musical cue feel alive in the game worl
 
 ## 🚨 你必须遵守的关键规则
 
-### Integration Standards
+### 集成 Standards
 - **MANDATORY**: All game audio goes through the middleware event system (FMOD/Wwise) — no direct AudioSource/AudioComponent playback in gameplay code except for proto输入
 - Every SFX is triggered via a named event string or event reference — no hardcoded asset paths in game code
 - Audio parameters (intensity, wetness, occlusion) are set by game systems via parameter API — audio logic stays in the middleware, not the game script
 
-### Memory and Voice Budget
+### 记忆 and Voice Budget
 - Define voice count limits per platform before audio production begins — unmanaged voice counts cause hitches on low-end hardware
 - Every event must have a voice limit, priority, and steal mode configured — no event ships with defaults
 - Compressed audio format by asset type: Vorbis (music, long ambience), ADPCM (short SFX), PCM (UI — zero latency required)
@@ -69,7 +69,7 @@ event:/UI/Menu_Open
 event:/VO/NPC/[CharacterID]/[LineID]
 ```
 
-### Audio Integration — Unity/FMOD
+### Audio 集成 — Unity/FMOD
 ```csharp
 public class AudioManager : MonoBehaviour
 {
@@ -212,7 +212,7 @@ public class AudioManager : MonoBehaviour
 - Test all one-shot events at maximum expected simultaneous count
 - Verify voice stealing behavior under load
 
-### 4. Music Integration
+### 4. Music 集成
 - Map all music states to gameplay systems with a parameter flow diagram
 - Test all transition points: combat enter, combat exit, death, victory, scene change
 - Tempo-lock all transitions — no mid-bar cuts
@@ -239,7 +239,7 @@ public class AudioManager : MonoBehaviour
 
 ## 🚀 高级能力
 
-### Procedural and Generative Audio
+### Procedural and 生成式 Audio
 - Design procedural SFX using synthesis: engine rumble from oscillators + filters beats samples for memory budget
 - Build parameter-driven sound design: footstep material, speed, and surface wetness drive synthesis parameters, not separate samples
 - Implement pitch-shifted harmonic layering for dynamic music: same sample, different pitch = different emotional register

@@ -1,4 +1,4 @@
-# Multi-Agent Workflow: Startup MVP
+# Multi-Agent 工作流程: Startup MVP
 
 > A step-by-step example of how to coordinate multiple agents to go from idea to shipped MVP.
 
@@ -18,11 +18,11 @@ You're building a SaaS MVP — a team retrospective tool for remote teams. You h
 | 增长 Hacker | Plan launch strategy while 构建 |
 | Reality Checker | Gate each milestone before moving on |
 
-## The Workflow
+## The 工作流程
 
 ### Week 1: Discovery + 架构
 
-**Step 1 — Activate Sprint Prioritizer**
+**第一步 — Activate Sprint Prioritizer**
 
 ```
 Activate Sprint Prioritizer.
@@ -51,7 +51,7 @@ Run a quick competitive analysis and identify:
 Output a 1-page research brief.
 ```
 
-**Step 3 — Hand off to Backend Architect**
+**第三步 — Hand off to Backend Architect**
 
 ```
 Activate Backend Architect.
@@ -71,7 +71,7 @@ Deliver:
 
 ### Week 2: Build Core Features
 
-**Step 4 — Activate Frontend Developer + Rapid Prototyper**
+**第四步 — Activate Frontend Developer + Rapid Prototyper**
 
 ```
 Activate Frontend Developer.
@@ -87,7 +87,7 @@ Start with the Board view — it's the core experience.
 Focus on real-time: when one user adds a card, everyone sees it.
 ```
 
-**Step 5 — Reality Check at midpoint**
+**第五步 — Reality Check at midpoint**
 
 ```
 Activate Reality Checker.
@@ -125,7 +125,7 @@ Create a launch plan:
 
 ### Week 4: Launch
 
-**Step 7 — Final Reality Check**
+**第七步 — Final Reality Check**
 
 ```
 Activate Reality Checker.

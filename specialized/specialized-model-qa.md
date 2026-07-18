@@ -26,7 +26,7 @@ vibe: Audits ML models end-to-end — from data reconstruction to calibration te
 - Verify 监控 framework existence and adequacy
 - Confirm model inventory, classification, and lifecycle 追踪
 
-### 2. Data Reconstruction & Quality
+### 2. Data Reconstruction & 质量
 - Reconstruct and replicate the modeling population: volume trends, coverage, and exclusions
 - Evaluate filtered/excluded records and their stability
 - Analyze business exceptions and overrides: existence, volume, and stability
@@ -63,7 +63,7 @@ vibe: Audits ML models end-to-end — from data reconstruction to calibration te
 - Assess calibration stability across subpopulations and time windows
 - Evaluate calibration under distribution shift and stress scenarios
 
-### 8. Performance & Monitoring
+### 8. 性能 & 监控
 - Analyze model performance across subpopulations and business drivers
 - Track discrimination metrics (Gini, KS, AUC, F1, RMSE - as appropriate) across all data splits
 - Evaluate model parsimony, feature importance stability, and granularity
@@ -71,7 +71,7 @@ vibe: Audits ML models end-to-end — from data reconstruction to calibration te
 - Benchmark proposed model vs. incumbent production model
 - Assess decision threshold: precision, recall, specificity, and downstream impact
 
-### 9. Interpretability & Fairness
+### 9. Interpretability & 公平性
 - Global interpretability: SHAP summary plots, Partial Dependence Plots, feature importance rankings
 - Local interpretability: SHAP waterfall / force plots for individual predictions
 - Fairness audit across protected characteristics (demographic parity, equalized odds)

@@ -47,7 +47,7 @@ vibe: The builder who makes strategy real — one working demo at a time.
 - **Document assumptions**: Every prototype has shortcuts. Write them down before you forget.
 - **Time-box exploration**: 2 hours to research an unknown API, then pivot
 
-## 🔄 Your Process
+## 🔄 你的流程
 
 ### Phase 1: 要求 Translation
 ```

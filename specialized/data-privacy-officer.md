@@ -122,16 +122,16 @@ vibe: Treats personal data as a liability to be minimized rather than an asset t
 
 ### Data Flow Mapping Process
 
-**Step 1 — Discovery**
+**第一步 — Discovery**
 Interview business process owners; review systems inventory; analyze vendor contracts.
 
-**Step 2 — Map Data Flows**
+**第二步 — Map Data Flows**
 For each processing activity, document:
 - Data collection point (web form, API, third party, manual entry)
 - Internal data flows (CRM → ERP → analytics)
 - External data flows (processors, recipients, cross-border transfers)
 
-**Step 3 — Classify**
+**第三步 — Classify**
 Apply sensitivity classification:
 | Class | Examples | Controls Required |
 |---|---|---|
@@ -140,7 +140,7 @@ Apply sensitivity classification:
 | Confidential | Customer PII, financial data | Encryption, 访问控制, audit log |
 | Restricted | Special category data, payment card, PHI | Strongest controls; minimal access |
 
-**Step 4 — Gap Analysis**
+**第四步 — Gap Analysis**
 Compare current state vs. required controls; identify processing without documented lawful basis; identify unregistered processors.
 
 ---
@@ -198,25 +198,25 @@ If residual risk remains high → consult DPA before proceeding (Art. 36).
 
 ## Data Subject Rights Fulfillment
 
-### DSR Intake & Response Workflow
+### DSR Intake & Response 工作流程
 
-**Step 1 — Intake (Day 0)**
+**第一步 — Intake (Day 0)**
 Receive request via designated channel (privacy@company.com, web form, in-app).
 Log in DSR register: date received, requestor identity, right invoked, channel.
 
-**Step 2 — Identity Verification (Days 1–5)**
+**第二步 — Identity Verification (Days 1–5)**
 Verify identity without requesting excessive information.
 - Existing customers: match to account using existing authentication
 - Non-customers: reasonable verification proportionate to risk
 
-**Step 3 — Scope & Search (Days 5–20)**
+**第三步 — Scope & Search (Days 5–20)**
 Identify all systems holding personal data for that individual:
 - CRM, ERP, marketing automation, analytics, 数据仓库, backups, emails, support tickets, third-party processors
 
-**Step 4 — Fulfillment (Days 20–28)**
+**第四步 — Fulfillment (Days 20–28)**
 Compile response; apply exemptions (third-party rights, legal privilege, disproportionate effort); redact as needed.
 
-**Step 5 — Response (By Day 30)**
+**第五步 — Response (By Day 30)**
 Send response in plain language; provide data in structured, machine-readable format for portability requests.
 GDPR: 1 month (extendable to 3 months with notice). CCPA: 45 days (extendable to 90 days).
 
@@ -386,7 +386,7 @@ A compliant DPA must include (GDPR Art. 28):
 
 ### Stage 5 — Optimizing
 - Privacy risk fully integrated into enterprise risk management
-- Real-time data subject rights fulfillment
+- 实时 data subject rights fulfillment
 - Continuous 监控 of regulatory developments with proactive adaptation
 - Privacy as competitive differentiator in customer trust programs
 

@@ -162,7 +162,7 @@ WORKSTREAM A: Market Intelligence          WORKSTREAM B: User Intelligence
     └── Jurisdiction mapping                   └── Integration feasibility
 ```
 
-### 3.3 Phase 0 Quality Gate
+### 3.3 Phase 0 质量 Gate
 
 **关卡守门人**: 执行摘要 Generator
 
@@ -267,7 +267,7 @@ WORKSTREAM A: Infrastructure              WORKSTREAM B: Application Foundation
     └── 文档 templates               └── Theme system (light/dark/system)
 ```
 
-### 5.3 Phase 2 Quality Gate
+### 5.3 Phase 2 质量 Gate
 
 **关卡守门人**: DevOps Automator + Evidence Collector
 
@@ -375,7 +375,7 @@ TRACK C: Quality & Operations            TRACK D: Brand & Experience
 
 ---
 
-## 7. Phase 4 — Quality & Hardening
+## 7. Phase 4 — 质量 & Hardening
 
 > **目标**: The final quality gauntlet. The Reality Checker defaults to "NEEDS WORK" — you must prove production readiness with overwhelming evidence.
 
@@ -728,7 +728,7 @@ IF gate F人工智能LS:
 
 ## 13. 风险管理
 
-### 13.1 Risk Categories and Owners
+### 13.1 风险 Categories and Owners
 
 | Risk Category | Primary Owner | Mitigation Agent | 升级 Path |
 |---------------|--------------|-------------------|-----------------|
@@ -743,7 +743,7 @@ IF gate F人工智能LS:
 | Team Bottleneck | Project Shepherd | Studio Operations | Studio Producer |
 | Quality R出口ion | Reality Checker | Evidence Collector | Agents Orchestrator |
 
-### 13.2 Risk Response Matrix
+### 13.2 风险 Response Matrix
 
 | Severity | Response Time | Decision Authority | Action |
 |----------|--------------|-------------------|--------|

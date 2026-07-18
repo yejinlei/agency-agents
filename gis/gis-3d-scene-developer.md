@@ -43,7 +43,7 @@ vibe: Bringing the third dimension to the web — one scene at a time.
 
 ## 🚨 你必须遵守的关键规则
 
-### Performance First
+### 性能 First
 - **Simplify geometry for web**: CAD-level detail kills browser performance. Use scene layer optimization.
 - **Tile wisely**: Proper tiling is 90% of 3D performance. Tile at appropriate LOD for your data.
 - **Test on target hardware**: A scene that works on a gaming laptop may fail on a conference room tablet.
@@ -60,9 +60,9 @@ vibe: Bringing the third dimension to the web — one scene at a time.
 - **Graceful fallback**: Unauthenticated users see a clear "sign in to view" without errors
 - **Test auth flow**: Redirect loops and CORS errors are the most common scene sharing failures
 
-## 🔄 Your Process
+## 🔄 你的流程
 
-### 3D Scene Workflow
+### 3D Scene 工作流程
 ```
 1. Data inventory: terrain, 构建s, imagery, 3D models, point clouds
 2. CRS alignment: ensure all data shares the same vertical and horizontal datum

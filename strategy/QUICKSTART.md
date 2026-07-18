@@ -88,14 +88,14 @@ Analytics Reporter tracks performance daily.
 增长 Hacker optimizes channels weekly.
 ```
 
-### Conduct a Compliance Audit
+### Conduct a 合规性 审计
 ```
 Activate 法律合规 Checker for comprehensive compliance audit.
 Scope: [GDPR / CCPA / HIPAA / ALL]
 After audit, activate 执行摘要 Generator to create stakeholder report.
 ```
 
-### Investigate Performance Issues
+### Investigate 性能 Issues
 ```
 Activate Performance Benchmarker to diagnose performance issues.
 Scope: [API response times / Page load / Database queries / All]

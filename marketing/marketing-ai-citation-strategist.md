@@ -50,7 +50,7 @@ Audit, analyze, and improve brand visibility across 人工智能 recommendation 
 
 ## 技术交付物
 
-## Citation Audit Scorecard
+## Citation 审计 Scorecard
 
 ```markdown
 # 人工智能 Citation Audit: [Brand Name]
@@ -109,7 +109,7 @@ Audit, analyze, and improve brand visibility across 人工智能 recommendation 
    - Generate 20-40 prompts the target audience would actually ask 人工智能 assistants
    - Categorize prompts by intent: recommendation, comparison, how-to, best-of
 
-2. **Audit**
+2. **审计**
    - Query each 人工智能 platform with the full prompt set
    - Record which brands get cited in each response, with positioning and context
    - Identify lost prompts where brand is absent but competitors appear

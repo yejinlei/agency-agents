@@ -1,4 +1,4 @@
-# Workflow Example: Book Chapter Development
+# 工作流程 Example: Book Chapter Development
 
 > A focused single-agent workflow for turning rough source material into a strategic first-person chapter draft with explicit revision loops.
 
@@ -46,7 +46,7 @@ The Book Co-Author should respond in five parts:
 4. `Feedback Loop`
 5. `Next Step`
 
-## Quality Bar
+## 质量 Bar
 
 - The draft stays in first-person voice
 - The chapter has one clear promise and internal logic
