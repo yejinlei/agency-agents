@@ -1,7 +1,60 @@
-## User request
+# User request
+将 `engineering` 目录下所有文件全面汉化。该目录包含 48 个 `.md` 文件，为各类 engineering agent 的定义文件，例如 `engineering-ai-engineer.md`、`engineering-backend-architect.md`、`engineering-frontend-developer.md` 等。需要将文件中的英文内容翻译为中文，使这些 agent 定义文件对中文用户可读可用。
 
-翻译 engineering 目录下所有文件。
+# Context
+待本地化文件列表（共 48 个，位于 `F:\src\agency-agents\engineering\`）：
 
-## Context
-
-具体目录路径与目标语言待执行时确认。
+- engineering-ai-data-remediation-engineer.md
+- engineering-ai-engineer.md
+- engineering-api-platform-engineer.md
+- engineering-autonomous-optimization-architect…
+- engineering-backend-architect.md
+- engineering-cms-developer.md
+- engineering-code-reviewer.md
+- engineering-codebase-onboarding-engineer.md
+- engineering-data-engineer.md
+- engineering-database-optimizer.md
+- engineering-database-reliability-engineer.md
+- engineering-desktop-app-engineer.md
+- engineering-developer-tooling-engineer.md
+- engineering-devops-automator.md
+- engineering-drupal-performance.md
+- engineering-drupal-shopping-cart.md
+- engineering-email-intelligence-engineer.md
+- engineering-embedded-firmware-engineer.md
+- engineering-feishu-integration-developer.md
+- engineering-filament-optimization-specialist.
+- engineering-finops-engineer.md
+- engineering-frontend-developer.md
+- engineering-gaussdb-expert.md
+- engineering-git-workflow-master.md
+- engineering-i18n-engineer.md
+- engineering-identity-access-engineer.md
+- engineering-incident-response-commander.md
+- engineering-iot-fleet-engineer.md
+- engineering-it-service-manager.md
+- engineering-minimal-change-engineer.md
+- engineering-mobile-app-builder.md
+- engineering-mobile-release-engineer.md
+- engineering-multi-agent-systems-architect.md
+- engineering-network-engineer.md
+- engineering-orgscript-engineer.md
+- engineering-payments-billing-engineer.md
+- engineering-prompt-engineer.md
+- engineering-rag-pipeline-engineer.md
+- engineering-rapid-prototyper.md
+- engineering-realtime-collaboration-engineer.md
+- engineering-search-relevance-engineer.md
+- engineering-section-508-specialist.md
+- engineering-senior-developer.md
+- engineering-software-architect.md
+- engineering-solidity-smart-contract-engineer.
+- engineering-sre.md
+- engineering-technical-writer.md
+- engineering-uswds-developer.md
+- engineering-video-streaming-engineer.md
+- engineering-voice-ai-integration-engineer.md
+- engineering-webassembly-engineer.md
+- engineering-wechat-mini-program-developer.md
+- engineering-wordpress-performance.md
+- engineering-wordpress-shopping-cart.md
