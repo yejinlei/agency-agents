@@ -3,7 +3,7 @@
 **Issue ID:** c8dceaef-66fb-4cfc-9879-0eb39a294418
 
 **Trigger:** Comment Reply
-**Triggering comment ID:** `e8433c76-93de-43f6-b91d-1cb1eb5609b2`
+**Triggering comment ID:** `cb86f922-5754-4e1b-934d-4c23d280fd7a`
 
 ## Quick Start
 
