@@ -1,516 +1,1110 @@
-# 🌐 NEXUS — 专家网络，战略统一
+# 🌐 NEXUS — Network of EXperts, Unified in Strategy
 
-## The Agency 完整多代理编排操作手册
+## The Agency's Complete Operational Playbook for Multi-Agent Orchestration
 
-> **NEXUS** 将 The Agency 的独立 AI 专家转变为同步化智能网络。这不是一个提示集合——这是一个**部署教条**，将 The Agency 变成任何项目、产品或组织的倍增器。
+> **NEXUS** transforms The Agency's independent AI specialists into a synchronized intelligence network. This is not a prompt collection — it is a **deployment doctrine** that turns The Agency into a force multiplier for any project, product, or organization.
 
 ---
 
 ## 目录
 
-1. [战略基础](#1-strategic-foundation)
-2. [NEXUS 运营模式](#2-the-nexus-operating-model)
-3. [阶段 0 — 情报与发现](#3-phase-0--intelligence--discovery)
-4. [阶段 1 — 战略与架构](#4-phase-1--strategy--architecture)
-5. [阶段 2 — 基础与脚手架](#5-phase-2--foundation--scaffolding)
-6. [阶段 3 — 构建与迭代](#6-phase-3--build--iterate)
-7. [阶段 4 — 质量与加固](#7-phase-4--quality--hardening)
-8. [阶段 5 — 上线与增长](#8-phase-5--launch--growth)
-9. [阶段 6 — 运营与演进](#9-phase-6--operate--evolve)
-10. [代理协调矩阵](#10-agent-coordination-matrix)
-11. [交接协议](#11-交接-protocols)
-12. [质量关卡](#12-quality-gates)
-13. [风险管理](#13-risk-management)
-14. [成功指标](#14-success-metrics)
-15. [快速启动激活指南](#15-quick-start-activation-guide)
+1. [Strategic Foundation](#1-strategic-foundation)
+2. [The NEXUS Operating Model](#2-the-nexus-operating-model)
+3. [Phase 0 — Intelligence & Discovery](#3-phase-0--intelligence--discovery)
+4. [Phase 1 — Strategy & Architecture](#4-phase-1--strategy--architecture)
+5. [Phase 2 — Foundation & Scaffolding](#5-phase-2--foundation--scaffolding)
+6. [Phase 3 — Build & Iterate](#6-phase-3--build--iterate)
+7. [Phase 4 — Quality & Hardening](#7-phase-4--quality--hardening)
+8. [Phase 5 — Launch & Growth](#8-phase-5--launch--growth)
+9. [Phase 6 — Operate & Evolve](#9-phase-6--operate--evolve)
+10. [Agent Coordination Matrix](#10-agent-coordination-matrix)
+11. [Handoff Protocols](#11-handoff-protocols)
+12. [Quality Gates](#12-quality-gates)
+13. [Risk Management](#13-risk-management)
+14. [Success Metrics](#14-success-metrics)
+15. [Quick-Start Activation Guide](#15-quick-start-activation-guide)
 
 ---
 
 ## 1. 战略基础
 
-### 1.1 NEXUS 解决什么
+### 1.1 What NEXUS Solves
 
-单个代理很强大。但如果没有协调，它们会产生：
-- 冲突的架构决策
-- 跨部门的重复努力
-- 交接边界的质量缺口
-- 无共享上下文或制度记忆
+Individual agents are powerful. But without coordination, they produce:
+- Conflicting architectural decisions
+- Duplicated effort across divisions
+- Quality gaps at handoff boundaries
+- No shared context or institutional memory
 
-**NEXUS 通过定义以下内容消除这些失败模式：**
-- **谁**在每个阶段激活
-- **什么**他们产出以及为谁
-- **何时**他们交接以及交给谁
-- **如何**在推进前验证质量
-- **为什么**每个代理存在于管线中（无乘客）
+**NEXUS eliminates these failure modes** by defining:
+- **Who** activates at each phase
+- **What** they produce and for whom
+- **When** they hand off and to whom
+- **How** quality is verified before advancement
+- **Why** each agent exists in the pipeline (no passengers)
 
-### 1.2 核心原则
+### 1.2 Core Principles
 
-| 原则 | 描述 |
+| Principle | Description |
 |-----------|-------------|
-| **管线完整性** | 任何阶段在未通过质量关卡前不会推进 |
-| **并行执行** | 多个代理同时工作，通过标准化交接协议协调 |
-| **质量关卡** | 每个阶段有可验证的通过/失败标准 |
-| **证据驱动** | 所有决策必须有证据支持，非直觉 |
-| **最小认知负荷** | 代理接收明确、精简的上下文，非整个代码库 |
+| **Pipeline Integrity** | No phase advances without passing its quality gate |
+| **Context Continuity** | Every handoff carries full context — no agent starts cold |
+| **Parallel Execution** | Independent workstreams run concurrently to compress timelines |
+| **Evidence Over Claims** | All quality assessments require proof, not assertions |
+| **Fail Fast, Fix Fast** | Maximum 3 retries per task before escalation |
+| **Single Source of Truth** | One canonical spec, one task list, one architecture doc |
 
-### 1.3 成功定义
+### 1.3 The Agent Roster by Division
 
-NEXUS 成功当：
-- 所有代理在定义的时间线内完成其产出
-- 质量关卡在推进前捕获所有缺陷
-- 交接无上下文丢失
-- 最终产品满足或超过规格要求
-- 代理网络可扩展到新项目而无重新设计
+| Division | Agents | Primary NEXUS Role |
+|----------|--------|--------------------|
+| **Engineering** | Frontend Developer, Backend Architect, Mobile App Builder, AI Engineer, DevOps Automator, Rapid Prototyper, Senior Developer | Build, deploy, and maintain all technical systems |
+| **Design** | UI Designer, UX Researcher, UX Architect, Brand Guardian, Visual Storyteller, Whimsy Injector, Image Prompt Engineer | Define visual identity, user experience, and brand consistency |
+| **Marketing** | Growth Hacker, Content Creator, Twitter Engager, TikTok Strategist, Instagram Curator, Reddit Community Builder, App Store Optimizer, Social Media Strategist | Drive acquisition, engagement, and market presence |
+| **Product** | Sprint Prioritizer, Trend Researcher, Feedback Synthesizer | Define what to build, when, and why |
+| **Project Management** | Studio Producer, Project Shepherd, Studio Operations, Experiment Tracker, Senior Project Manager | Orchestrate timelines, resources, and cross-functional coordination |
+| **Testing** | Evidence Collector, Reality Checker, Test Results Analyzer, Performance Benchmarker, API Tester, Tool Evaluator, Workflow Optimizer | Verify quality through evidence-based assessment |
+| **Support** | Support Responder, Analytics Reporter, Finance Tracker, Infrastructure Maintainer, Legal Compliance Checker, Executive Summary Generator | Sustain operations, compliance, and business intelligence |
+| **Spatial Computing** | XR Interface Architect, macOS Spatial/Metal Engineer, XR Immersive Developer, XR Cockpit Interaction Specialist, visionOS Spatial Engineer, Terminal Integration Specialist | Build immersive and spatial computing experiences |
+| **Specialized** | Agents Orchestrator, Analytics Reporter, LSP/Index Engineer, Sales Data Extraction Agent, Data Consolidation Agent, Report Distribution Agent | Cross-cutting coordination, deep analytics, and code intelligence |
 
 ---
 
 ## 2. NEXUS 运营模式
 
-### 2.1 三种激活模式
-
-| 模式 | 代理数 | 时间线 | 适用场景 |
-|------|--------|--------|----------|
-| **NEXUS-Full** | 全部 | 12-24 周 | 完整产品，从零构建 |
-| **NEXUS-Sprint** | 15-25 | 2-6 周 | 功能开发，MVP |
-| **NEXUS-Micro** | 5-10 | 1-5 天 | 特定任务，修复，审计 |
-
-### 2.2 代理激活顺序
-
-**全模式激活序列：**
+### 2.1 The Seven-Phase Pipeline
 
 ```
-第 0 阶段：情报与发现
-  → 产品负责人（规格细化）
-  → 市场研究专家（竞争分析）
-
-第 1 阶段：战略与架构
-  → 技术架构师（系统设计）
-  → 安全架构师（安全模型）
-  → 数据架构师（数据模型）
-
-第 2 阶段：基础与脚手架
-  → 基础设施工程师（部署管线）
-  → 开发者工具工程师（开发环境）
-  → 身份与访问工程师（认证/授权）
-
-第 3 阶段：构建与迭代
-  → 前端开发者（用户界面）
-  → 后端工程师（API 和数据层）
-  → 移动开发者（移动应用）
-  → 数据工程师（数据管道）
-  → 提示工程师（AI 集成）
-  → 实时协作工程师（协作功能）
-  → 语音 AI 集成工程师（语音功能）
-
-第 4 阶段：质量与加固
-  → 测试工程师（测试套件）
-  → 安全审计师（安全审查）
-  → 渗透测试师（渗透测试）
-  → 可访问性专家（无障碍审计）
-  → 性能工程师（性能优化）
-
-第 5 阶段：上线与增长
-  → DevOps 自动化师（部署管线）
-  → 网站可靠性工程师（监控/告警）
-  → 增长黑客（增长策略）
-  → 营销战略师（营销计划）
-
-第 6 阶段：运营与演进
-  → 事件响应指挥官（安全事件）
-  → SRE（运营）
-  → 技术写作（文档化）
-  → 现实检查者（持续质量监控）
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        NEXUS PIPELINE                                   │
+│                                                                         │
+│  Phase 0        Phase 1         Phase 2          Phase 3                │
+│  DISCOVER  ───▶ STRATEGIZE ───▶ SCAFFOLD   ───▶  BUILD                 │
+│  Intelligence   Architecture    Foundation       Dev ↔ QA Loop          │
+│                                                                         │
+│  Phase 4        Phase 5         Phase 6                                 │
+│  HARDEN   ───▶  LAUNCH    ───▶  OPERATE                                │
+│  Quality Gate   Go-to-Market    Sustained Ops                           │
+│                                                                         │
+│  ◆ Quality Gate between every phase                                     │
+│  ◆ Parallel tracks within phases                                        │
+│  ◆ Feedback loops at every boundary                                     │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
+
+### 2.2 Command Structure
+
+```
+                    ┌──────────────────────┐
+                    │  Agents Orchestrator  │  ◄── Pipeline Controller
+                    │  (Specialized)        │
+                    └──────────┬───────────┘
+                               │
+              ┌────────────────┼────────────────┐
+              │                │                │
+     ┌────────▼──────┐ ┌──────▼───────┐ ┌──────▼──────────┐
+     │ Studio        │ │ Project      │ │ Senior Project   │
+     │ Producer      │ │ Shepherd     │ │ Manager          │
+     │ (Portfolio)   │ │ (Execution)  │ │ (Task Scoping)   │
+     └───────────────┘ └──────────────┘ └─────────────────┘
+              │                │                │
+              ▼                ▼                ▼
+     ┌─────────────────────────────────────────────────┐
+     │           Division Leads (per phase)             │
+     │  Engineering │ Design │ Marketing │ Product │ QA │
+     └─────────────────────────────────────────────────┘
+```
+
+### 2.3 Activation Modes
+
+NEXUS supports three deployment configurations:
+
+| Mode | Agents Active | Use Case | Timeline |
+|------|--------------|----------|----------|
+| **NEXUS-Full** | All | Enterprise product launch, full lifecycle | 12-24 weeks |
+| **NEXUS-Sprint** | 15-25 | Feature development, MVP build | 2-6 weeks |
+| **NEXUS-Micro** | 5-10 | Bug fix, content campaign, single deliverable | 1-5 days |
 
 ---
 
-## 3. 阶段 0 — 情报与发现
+## 3. 阶段 0 — 智慧与发现
 
-### 目标
-在进入技术实施前，建立对问题、用户和市场的全景理解。
+> **Objective**: Understand the landscape before committing resources. No building until the problem is validated.
 
-### 激活代理
-| 代理 | 产出 | 时间 |
-|------|------|------|
-| 产品负责人 | 细化规格、用户故事、验收标准 | 3-5 天 |
-| 市场研究专家 | 竞争分析、市场规模、用户画像 | 2-3 天 |
-| 用户体验研究员 | 用户旅程、可用性洞察 | 2-3 天 |
+### 3.1 Active Agents
 
-### 质量关卡
-- [ ] 规格完整：用户故事有验收标准
-- [ ] 竞争分析完成：至少 5 个竞争对手分析
-- [ ] 用户画像定义：至少 3 个明确用户角色
-- [ ] 用户旅程映射：从认知到采用的完整路径
+| Agent | Role in Phase | Primary Output |
+|-------|--------------|----------------|
+| **Trend Researcher** | Market intelligence lead | Market Analysis Report with TAM/SAM/SOM |
+| **Feedback Synthesizer** | User needs analysis | Synthesized Feedback Report with pain points |
+| **UX Researcher** | User behavior analysis | Research Findings with personas and journey maps |
+| **Analytics Reporter** | Data landscape assessment | Data Audit Report with available signals |
+| **Legal Compliance Checker** | Regulatory scan | Compliance Requirements Matrix |
+| **Tool Evaluator** | Technology landscape | Tech Stack Assessment |
 
-### 产出物
-1. 产品需求文档（PRD）
-2. 竞争分析报告
-3. 用户画像文档
-4. 用户旅程地图
+### 3.2 Parallel Workstreams
+
+```
+WORKSTREAM A: Market Intelligence          WORKSTREAM B: User Intelligence
+├── Trend Researcher                       ├── Feedback Synthesizer
+│   ├── Competitive landscape              │   ├── Multi-channel feedback collection
+│   ├── Market sizing (TAM/SAM/SOM)        │   ├── Sentiment analysis
+│   └── Trend lifecycle mapping            │   └── Pain point prioritization
+│                                          │
+├── Analytics Reporter                     ├── UX Researcher
+│   ├── Existing data audit                │   ├── User interviews/surveys
+│   ├── Signal identification              │   ├── Persona development
+│   └── Baseline metrics                   │   └── Journey mapping
+│                                          │
+└── Legal Compliance Checker               └── Tool Evaluator
+    ├── Regulatory requirements                ├── Technology assessment
+    ├── Data handling constraints               ├── Build vs. buy analysis
+    └── Jurisdiction mapping                   └── Integration feasibility
+```
+
+### 3.3 Phase 0 Quality Gate
+
+**Gate Keeper**: Executive Summary Generator
+
+| Criterion | Threshold | Evidence Required |
+|-----------|-----------|-------------------|
+| Market opportunity validated | TAM > minimum viable threshold | Trend Researcher report with sources |
+| User need confirmed | ≥3 validated pain points | Feedback Synthesizer + UX Researcher data |
+| Regulatory path clear | No blocking compliance issues | Legal Compliance Checker matrix |
+| Data foundation assessed | Key metrics identified | Analytics Reporter audit |
+| Technology feasibility confirmed | Stack validated | Tool Evaluator assessment |
+
+**Output**: Executive Summary (≤500 words, SCQA format) → Decision: GO / NO-GO / PIVOT
 
 ---
 
 ## 4. 阶段 1 — 战略与架构
 
-### 目标
-将产品信息转化为技术战略和系统设计。
+> **Objective**: Define what we're building, how it's structured, and what success looks like — before writing a single line of code.
 
-### 激活代理
-| 代理 | 产出 | 时间 |
-|------|------|------|
-| 技术架构师 | 系统架构、技术栈选择、模块划分 | 3-5 天 |
-| 安全架构师 | 安全模型、威胁评估、合规要求 | 2-3 天 |
-| 数据架构师 | 数据模型、数据库设计、数据流 | 2-3 天 |
+### 4.1 Active Agents
 
-### 质量关卡
-- [ ] 系统架构图完成：组件、接口、数据流
-- [ ] 技术栈决策文档：选择理由、替代方案评估
-- [ ] 安全模型完成：威胁模型、缓解策略
-- [ ] 数据模型完成：ER 图、索引策略、分区方案
+| Agent | Role in Phase | Primary Output |
+|-------|--------------|----------------|
+| **Studio Producer** | Strategic portfolio alignment | Strategic Portfolio Plan |
+| **Senior Project Manager** | Spec-to-task conversion | Comprehensive Task List |
+| **Sprint Prioritizer** | Feature prioritization | Prioritized Backlog (RICE scored) |
+| **UX Architect** | Technical architecture + UX foundation | Architecture Spec + CSS Design System |
+| **Brand Guardian** | Brand identity system | Brand Foundation Document |
+| **Backend Architect** | System architecture | System Architecture Specification |
+| **AI Engineer** | AI/ML architecture (if applicable) | ML System Design |
+| **Finance Tracker** | Budget and resource planning | Financial Plan with ROI projections |
 
-### 产出物
-1. 系统架构文档
-2. 技术栈决策记录
-3. 安全模型文档
-4. 数据模型文档
+### 4.2 Execution Sequence
+
+```
+STEP 1: Strategic Framing (Parallel)
+├── Studio Producer → Strategic Portfolio Plan (vision, objectives, ROI targets)
+├── Brand Guardian → Brand Foundation (purpose, values, visual identity system)
+└── Finance Tracker → Budget Framework (resource allocation, cost projections)
+
+STEP 2: Technical Architecture (Parallel, after Step 1)
+├── UX Architect → CSS Design System + Layout Framework + UX Structure
+├── Backend Architect → System Architecture (services, databases, APIs)
+├── AI Engineer → ML Architecture (models, pipelines, inference strategy)
+└── Senior Project Manager → Task List (spec → tasks, exact requirements)
+
+STEP 3: Prioritization (Sequential, after Step 2)
+└── Sprint Prioritizer → RICE-scored backlog with sprint assignments
+    ├── Input: Task List + Architecture Spec + Budget Framework
+    ├── Output: Prioritized sprint plan with dependency map
+    └── Validation: Studio Producer confirms strategic alignment
+```
+
+### 4.3 Phase 1 Quality Gate
+
+**Gate Keeper**: Studio Producer + Reality Checker (dual sign-off)
+
+| Criterion | Threshold | Evidence Required |
+|-----------|-----------|-------------------|
+| Architecture covers all requirements | 100% spec coverage | Senior PM task list cross-referenced |
+| Brand system complete | Logo, colors, typography, voice defined | Brand Guardian deliverable |
+| Technical feasibility validated | All components have implementation path | Backend Architect + UX Architect specs |
+| Budget approved | Within organizational constraints | Finance Tracker plan |
+| Sprint plan realistic | Velocity-based estimation | Sprint Prioritizer backlog |
+
+**Output**: Approved Architecture Package → Phase 2 activation
 
 ---
 
 ## 5. 阶段 2 — 基础与脚手架
 
-### 目标
-建立开发、部署和安全的骨架。
+> **Objective**: Build the technical and operational foundation that all subsequent work depends on. Get the skeleton standing before adding muscle.
 
-### 激活代理
-| 代理 | 产出 | 时间 |
-|------|------|------|
-| 基础设施工程师 | CI/CD 管线、环境配置、部署模板 | 3-5 天 |
-| 开发者工具工程师 | 开发环境、脚手架工具、代码生成器 | 2-3 天 |
-| 身份与访问工程师 | 认证系统、授权模型、密钥管理 | 2-3 天 |
+### 5.1 Active Agents
 
-### 质量关卡
-- [ ] CI/CD 管线运行：构建 → 测试 → 部署 自动流程
-- [ ] 开发环境可用：所有代理可在本地运行
-- [ ] 认证系统实现：支持 OAuth 2.0 / SAML / OIDC
-- [ ] 安全基线建立：密钥管理、日志记录、审计
+| Agent | Role in Phase | Primary Output |
+|-------|--------------|----------------|
+| **DevOps Automator** | CI/CD pipeline + infrastructure | Deployment Pipeline + IaC Templates |
+| **Frontend Developer** | Project scaffolding + component library | App Skeleton + Design System Implementation |
+| **Backend Architect** | Database + API foundation | Schema + API Scaffold + Auth System |
+| **UX Architect** | CSS system implementation | Design Tokens + Layout Framework |
+| **Infrastructure Maintainer** | Cloud infrastructure setup | Monitoring + Logging + Alerting |
+| **Studio Operations** | Process setup | Collaboration tools + workflows |
 
-### 产出物
-1. CI/CD 管线配置
-2. 开发环境文档
-3. 认证系统实现
-4. 安全基线文档
+### 5.2 Parallel Workstreams
+
+```
+WORKSTREAM A: Infrastructure              WORKSTREAM B: Application Foundation
+├── DevOps Automator                      ├── Frontend Developer
+│   ├── CI/CD pipeline (GitHub Actions)   │   ├── Project scaffolding
+│   ├── Container orchestration           │   ├── Component library setup
+│   └── Environment provisioning          │   └── Design system integration
+│                                         │
+├── Infrastructure Maintainer             ├── Backend Architect
+│   ├── Cloud resource provisioning       │   ├── Database schema deployment
+│   ├── Monitoring (Prometheus/Grafana)   │   ├── API scaffold + auth
+│   └── Security hardening               │   └── Service communication layer
+│                                         │
+└── Studio Operations                     └── UX Architect
+    ├── Git workflow + branch strategy        ├── CSS design tokens
+    ├── Communication channels                ├── Responsive layout system
+    └── Documentation templates               └── Theme system (light/dark/system)
+```
+
+### 5.3 Phase 2 Quality Gate
+
+**Gate Keeper**: DevOps Automator + Evidence Collector
+
+| Criterion | Threshold | Evidence Required |
+|-----------|-----------|-------------------|
+| CI/CD pipeline operational | Build + test + deploy working | Pipeline execution logs |
+| Database schema deployed | All tables/indexes created | Migration success + schema dump |
+| API scaffold responding | Health check endpoints live | curl response screenshots |
+| Frontend rendering | Skeleton app loads in browser | Evidence Collector screenshots |
+| Monitoring active | Dashboards showing metrics | Grafana/monitoring screenshots |
+| Design system implemented | Tokens + components available | Component library demo |
+
+**Output**: Working skeleton application with full DevOps pipeline → Phase 3 activation
 
 ---
 
 ## 6. 阶段 3 — 构建与迭代
 
-### 目标
-并行构建所有产品功能，通过 Dev↔QA 循环保证质量。
+> **Objective**: Implement features through continuous Dev↔QA loops. Every task is validated before the next begins. This is where the bulk of the work happens.
 
-### 激活代理（并行执行）
-| 代理 | 产出 | 时间 |
-|------|------|------|
-| 前端开发者 | 用户界面、组件库、响应式设计 | 持续 |
-| 后端工程师 | API 服务、数据库集成、业务逻辑 | 持续 |
-| 移动开发者 | 移动应用、离线支持、推送通知 | 持续 |
-| 数据工程师 | 数据管道、ETL 流程、分析仪表板 | 持续 |
-| 提示工程师 | AI 集成、提示优化、模型选择 | 持续 |
-| 实时协作工程师 | 协作功能、冲突解决、实时同步 | 持续 |
-| 语音 AI 集成工程师 | 语音识别、语音合成、多语言支持 | 持续 |
+### 6.1 The Dev↔QA Loop
 
-### Dev↔QA 循环协议
+This is the heart of NEXUS. The Agents Orchestrator manages a **task-by-task quality loop**:
+
 ```
-1. 开发者完成功能 → 提交代码
-2. 测试工程师编写测试 → 验证功能
-3. 测试通过 → 进入下一阶段
-4. 测试失败 → 开发者修复 → 回到步骤 1
-5. 最大重试次数：3 次
-6. 超过 3 次 → 升级到编排器或人
+┌─────────────────────────────────────────────────────────┐
+│                   DEV ↔ QA LOOP                          │
+│                                                          │
+│  ┌──────────┐    ┌──────────┐    ┌──────────────────┐   │
+│  │ Developer │───▶│ Evidence │───▶│ Decision Logic    │   │
+│  │ Agent     │    │ Collector│    │                   │   │
+│  │           │    │ (QA)     │    │ PASS → Next Task  │   │
+│  │ Implements│    │          │    │ FAIL → Retry (≤3) │   │
+│  │ Task N    │    │ Tests    │    │ BLOCKED → Escalate│   │
+│  │           │◀───│ Task N   │◀───│                   │   │
+│  └──────────┘    └──────────┘    └──────────────────┘   │
+│       ▲                                    │             │
+│       │            QA Feedback             │             │
+│       └────────────────────────────────────┘             │
+│                                                          │
+│  Orchestrator tracks: attempt count, QA feedback,        │
+│  task status, cumulative quality metrics                 │
+└─────────────────────────────────────────────────────────┘
 ```
 
-### 质量关卡（每轮迭代）
-- [ ] 功能实现完成：通过代码审查
-- [ ] 测试覆盖率：至少 80% 代码覆盖率
-- [ ] 无严重 bug：所有高优先级问题已解决
-- [ ] 集成通过：所有模块协同工作
+### 6.2 Agent Assignment by Task Type
+
+| Task Type | Primary Developer | QA Agent | Specialist Support |
+|-----------|------------------|----------|-------------------|
+| Frontend UI | Frontend Developer | Evidence Collector | UI Designer, Whimsy Injector |
+| Backend API | Backend Architect | API Tester | Performance Benchmarker |
+| Database | Backend Architect | API Tester | Analytics Reporter |
+| Mobile | Mobile App Builder | Evidence Collector | UX Researcher |
+| AI/ML Feature | AI Engineer | Test Results Analyzer | Analytics Reporter |
+| Infrastructure | DevOps Automator | Performance Benchmarker | Infrastructure Maintainer |
+| Premium Polish | Senior Developer | Evidence Collector | Visual Storyteller |
+| Rapid Prototype | Rapid Prototyper | Evidence Collector | Experiment Tracker |
+| Spatial/XR | XR Immersive Developer | Evidence Collector | XR Interface Architect |
+| visionOS | visionOS Spatial Engineer | Evidence Collector | macOS Spatial/Metal Engineer |
+| Cockpit UI | XR Cockpit Interaction Specialist | Evidence Collector | XR Interface Architect |
+| CLI/Terminal | Terminal Integration Specialist | API Tester | LSP/Index Engineer |
+| Code Intelligence | LSP/Index Engineer | Test Results Analyzer | Senior Developer |
+
+### 6.3 Parallel Build Tracks
+
+For complex projects, multiple tracks run simultaneously:
+
+```
+TRACK A: Core Product                    TRACK B: Growth & Marketing
+├── Frontend Developer                   ├── Growth Hacker
+│   └── UI implementation                │   └── Viral loops + referral system
+├── Backend Architect                    ├── Content Creator
+│   └── API + business logic             │   └── Launch content + editorial calendar
+├── AI Engineer                          ├── Social Media Strategist
+│   └── ML features + pipelines          │   └── Cross-platform campaign
+│                                        ├── App Store Optimizer (if mobile)
+│                                        │   └── ASO strategy + metadata
+│                                        │
+TRACK C: Quality & Operations            TRACK D: Brand & Experience
+├── Evidence Collector                   ├── UI Designer
+│   └── Continuous QA screenshots        │   └── Component refinement
+├── API Tester                           ├── Brand Guardian
+│   └── Endpoint validation              │   └── Brand consistency audit
+├── Performance Benchmarker              ├── Visual Storyteller
+│   └── Load testing + optimization      │   └── Visual narrative assets
+├── Workflow Optimizer                   └── Whimsy Injector
+│   └── Process improvement                  └── Delight moments + micro-interactions
+└── Experiment Tracker
+    └── A/B test management
+```
+
+### 6.4 Phase 3 Quality Gate
+
+**Gate Keeper**: Agents Orchestrator
+
+| Criterion | Threshold | Evidence Required |
+|-----------|-----------|-------------------|
+| All tasks pass QA | 100% task completion | Evidence Collector screenshots per task |
+| API endpoints validated | All endpoints tested | API Tester report |
+| Performance baselines met | P95 < 200ms, LCP < 2.5s | Performance Benchmarker report |
+| Brand consistency verified | 95%+ adherence | Brand Guardian audit |
+| No critical bugs | Zero P0/P1 open issues | Test Results Analyzer summary |
+
+**Output**: Feature-complete application → Phase 4 activation
 
 ---
 
 ## 7. 阶段 4 — 质量与加固
 
-### 目标
-全面质量保证，包括安全、性能、可访问性和合规性。
+> **Objective**: The final quality gauntlet. The Reality Checker defaults to "NEEDS WORK" — you must prove production readiness with overwhelming evidence.
 
-### 激活代理（顺序执行）
-| 代理 | 产出 | 时间 |
-|------|------|------|
-| 测试工程师 | 测试套件、回归测试、压力测试 | 3-5 天 |
-| 安全审计师 | 安全审查、漏洞扫描、合规检查 | 2-3 天 |
-| 渗透测试师 | 渗透测试、漏洞利用、攻击面分析 | 2-3 天 |
-| 可访问性专家 | 无障碍审计、WCAG 合规、屏幕阅读器测试 | 2-3 天 |
-| 性能工程师 | 性能优化、负载测试、瓶颈分析 | 2-3 天 |
+### 7.1 Active Agents
 
-### 质量关卡
-- [ ] 测试套件完整：单元测试、集成测试、E2E 测试
-- [ ] 无严重漏洞：所有关键和高严重性问题已修复
-- [ ] 渗透测试通过：无可利用漏洞
-- [ ] 无障碍合规：WCAG 2.1 AA 级通过
-- [ ] 性能达标：响应时间 < 200ms，吞吐量 > 1000 req/s
+| Agent | Role in Phase | Primary Output |
+|-------|--------------|----------------|
+| **Reality Checker** | Final integration testing (defaults to NEEDS WORK) | Reality-Based Integration Report |
+| **Evidence Collector** | Comprehensive visual evidence | Screenshot Evidence Package |
+| **Performance Benchmarker** | Load testing + optimization | Performance Certification |
+| **API Tester** | Full API regression suite | API Test Report |
+| **Test Results Analyzer** | Aggregate quality metrics | Quality Metrics Dashboard |
+| **Legal Compliance Checker** | Final compliance audit | Compliance Certification |
+| **Infrastructure Maintainer** | Production readiness check | Infrastructure Readiness Report |
+| **Workflow Optimizer** | Process efficiency review | Optimization Recommendations |
 
-### 产出物
-1. 测试报告
-2. 安全审计报告
-3. 渗透测试报告
-4. 无障碍审计报告
-5. 性能测试报告
+### 7.2 The Hardening Sequence
+
+```
+STEP 1: Evidence Collection (Parallel)
+├── Evidence Collector → Full screenshot suite (desktop, tablet, mobile)
+├── API Tester → Complete endpoint regression
+├── Performance Benchmarker → Load test at 10x expected traffic
+└── Legal Compliance Checker → Final regulatory audit
+
+STEP 2: Analysis (Parallel, after Step 1)
+├── Test Results Analyzer → Aggregate all test data into quality dashboard
+├── Workflow Optimizer → Identify remaining process inefficiencies
+└── Infrastructure Maintainer → Production environment validation
+
+STEP 3: Final Judgment (Sequential, after Step 2)
+└── Reality Checker → Integration Report
+    ├── Cross-validates ALL previous QA findings
+    ├── Tests complete user journeys with screenshot evidence
+    ├── Verifies specification compliance point-by-point
+    ├── Default verdict: NEEDS WORK
+    └── READY only with overwhelming evidence across all criteria
+```
+
+### 7.3 Phase 4 Quality Gate (THE FINAL GATE)
+
+**Gate Keeper**: Reality Checker (sole authority)
+
+| Criterion | Threshold | Evidence Required |
+|-----------|-----------|-------------------|
+| User journeys complete | All critical paths working | End-to-end screenshots |
+| Cross-device consistency | Desktop + Tablet + Mobile | Responsive screenshots |
+| Performance certified | P95 < 200ms, uptime > 99.9% | Load test results |
+| Security validated | Zero critical vulnerabilities | Security scan report |
+| Compliance certified | All regulatory requirements met | Legal Compliance Checker report |
+| Specification compliance | 100% of spec requirements | Point-by-point verification |
+
+**Verdict Options**:
+- **READY** — Proceed to launch (rare on first pass)
+- **NEEDS WORK** — Return to Phase 3 with specific fix list (expected)
+- **NOT READY** — Major architectural issues, return to Phase 1/2
+
+**Expected**: First implementations typically require 2-3 revision cycles. A B/B+ rating is normal and healthy.
 
 ---
 
-## 8. 阶段 5 — 上线与增长
+## 8. 阶段 5 — 启动与增长
 
-### 目标
-将产品推向市场，建立增长引擎。
+> **Objective**: Coordinate the go-to-market execution across all channels simultaneously. Maximum impact at launch.
 
-### 激活代理
-| 代理 | 产出 | 时间 |
-|------|------|------|
-| DevOps 自动化师 | 生产部署、监控、告警、自动扩缩容 | 3-5 天 |
-| 网站可靠性工程师 | 监控体系、SLA/SLO、事故响应 | 2-3 天 |
-| 增长黑客 | 增长策略、A/B 测试、用户获取 | 2-3 天 |
-| 营销战略师 | 营销计划、内容策略、渠道规划 | 2-3 天 |
+### 8.1 Active Agents
 
-### 质量关卡
-- [ ] 生产部署完成：蓝绿部署或金丝雀发布
-- [ ] 监控体系运行：指标、日志、追踪全链路
-- [ ] SLA/SLO 定义：可用性、延迟、错误率
-- [ ] 增长策略实施：用户获取、激活、留存、推荐
+| Agent | Role in Phase | Primary Output |
+|-------|--------------|----------------|
+| **Growth Hacker** | Launch strategy lead | Growth Playbook with viral loops |
+| **Content Creator** | Launch content | Blog posts, videos, social content |
+| **Social Media Strategist** | Cross-platform campaign | Campaign Calendar + Content |
+| **Twitter Engager** | Twitter/X launch campaign | Thread strategy + engagement plan |
+| **TikTok Strategist** | TikTok viral content | Short-form video strategy |
+| **Instagram Curator** | Visual launch campaign | Visual content + stories |
+| **Reddit Community Builder** | Authentic community launch | Community engagement plan |
+| **App Store Optimizer** | Store optimization (if mobile) | ASO Package |
+| **Executive Summary Generator** | Stakeholder communication | Launch Executive Summary |
+| **Project Shepherd** | Launch coordination | Launch Checklist + Timeline |
+| **DevOps Automator** | Deployment execution | Zero-downtime deployment |
+| **Infrastructure Maintainer** | Launch monitoring | Real-time dashboards |
 
-### 产出物
-1. 生产部署文档
-2. 监控仪表板
-3. 增长策略文档
-4. 营销计划
+### 8.2 Launch Sequence
+
+```
+T-7 DAYS: Pre-Launch
+├── Content Creator → Launch content queued and scheduled
+├── Social Media Strategist → Campaign assets finalized
+├── Growth Hacker → Viral mechanics tested and armed
+├── App Store Optimizer → Store listing optimized
+├── DevOps Automator → Blue-green deployment prepared
+└── Infrastructure Maintainer → Auto-scaling configured for 10x
+
+T-0: Launch Day
+├── DevOps Automator → Execute deployment
+├── Infrastructure Maintainer → Monitor all systems
+├── Twitter Engager → Launch thread + real-time engagement
+├── Reddit Community Builder → Authentic community posts
+├── Instagram Curator → Visual launch content
+├── TikTok Strategist → Launch videos published
+├── Support Responder → Customer support active
+└── Analytics Reporter → Real-time metrics dashboard
+
+T+1 TO T+7: Post-Launch
+├── Growth Hacker → Analyze acquisition data, optimize funnels
+├── Feedback Synthesizer → Collect and analyze early user feedback
+├── Analytics Reporter → Daily metrics reports
+├── Content Creator → Response content based on reception
+├── Experiment Tracker → Launch A/B tests
+└── Executive Summary Generator → Daily stakeholder briefings
+```
+
+### 8.3 Phase 5 Quality Gate
+
+**Gate Keeper**: Studio Producer + Analytics Reporter
+
+| Criterion | Threshold | Evidence Required |
+|-----------|-----------|-------------------|
+| Deployment successful | Zero-downtime, all health checks pass | DevOps deployment logs |
+| Systems stable | No P0/P1 incidents in first 48 hours | Infrastructure monitoring |
+| User acquisition active | Channels driving traffic | Analytics Reporter dashboard |
+| Feedback loop operational | User feedback being collected | Feedback Synthesizer report |
+| Stakeholders informed | Executive summary delivered | Executive Summary Generator output |
+
+**Output**: Stable launched product with active growth channels → Phase 6 activation
 
 ---
 
-## 9. 阶段 6 — 运营与演进
+## 9. 阶段 6 — 运营与演化
 
-### 目标
-持续运营产品，基于数据和反馈持续改进。
+> **Objective**: Sustained operations with continuous improvement. The product is live — now make it thrive.
 
-### 激活代理
-| 代理 | 产出 | 时间 |
-|------|------|------|
-| 事件响应指挥官 | 安全事件响应、事故管理 | 持续 |
-| SRE | 系统可靠性、容量规划、变更管理 | 持续 |
-| 技术写作 | 文档更新、API 参考、用户指南 | 持续 |
-| 现实检查者 | 质量监控、回归检测、改进建议 | 持续 |
+### 9.1 Active Agents (Ongoing)
 
-### 质量关卡（持续）
-- [ ] 事件响应计划：所有安全事件有响应剧本
-- [ ] 系统可靠性：SLA 达成率 > 99.9%
-- [ ] 文档完整性：所有功能和变更已文档化
-- [ ] 质量回归：无新增严重缺陷
+| Agent | Cadence | Responsibility |
+|-------|---------|---------------|
+| **Infrastructure Maintainer** | Continuous | System reliability, uptime, performance |
+| **Support Responder** | Continuous | Customer support and issue resolution |
+| **Analytics Reporter** | Weekly | KPI tracking, dashboards, insights |
+| **Feedback Synthesizer** | Bi-weekly | User feedback analysis and synthesis |
+| **Finance Tracker** | Monthly | Financial performance, budget tracking |
+| **Legal Compliance Checker** | Monthly | Regulatory monitoring and compliance |
+| **Trend Researcher** | Monthly | Market intelligence and competitive analysis |
+| **Executive Summary Generator** | Monthly | C-suite reporting |
+| **Sprint Prioritizer** | Per sprint | Backlog grooming and sprint planning |
+| **Experiment Tracker** | Per experiment | A/B test management and analysis |
+| **Growth Hacker** | Ongoing | Acquisition optimization and growth experiments |
+| **Workflow Optimizer** | Quarterly | Process improvement and efficiency gains |
+
+### 9.2 Continuous Improvement Cycle
+
+```
+┌──────────────────────────────────────────────────────────┐
+│              CONTINUOUS IMPROVEMENT LOOP                   │
+│                                                           │
+│  MEASURE          ANALYZE           PLAN          ACT     │
+│  ┌─────────┐     ┌──────────┐     ┌─────────┐   ┌─────┐ │
+│  │Analytics │────▶│Feedback  │────▶│Sprint   │──▶│Build│ │
+│  │Reporter  │     │Synthesizer│    │Prioritizer│  │Loop │ │
+│  └─────────┘     └──────────┘     └─────────┘   └─────┘ │
+│       ▲                                            │      │
+│       │              Experiment                    │      │
+│       │              Tracker                       │      │
+│       └────────────────────────────────────────────┘      │
+│                                                           │
+│  Monthly: Executive Summary Generator → C-suite report    │
+│  Monthly: Finance Tracker → Financial performance         │
+│  Monthly: Legal Compliance Checker → Regulatory update    │
+│  Monthly: Trend Researcher → Market intelligence          │
+│  Quarterly: Workflow Optimizer → Process improvements     │
+└──────────────────────────────────────────────────────────┘
+```
 
 ---
 
 ## 10. 代理协调矩阵
 
-### 激活优先级
+### 10.1 Full Cross-Division Dependency Map
 
-| 优先级 | 代理 | 激活条件 | 依赖 |
-|--------|------|----------|------|
-| P0 | 编排器 | 项目启动 | 无 |
-| P0 | 产品负责人 | 项目启动 | 无 |
-| P1 | 技术架构师 | 产品规格完成 | 产品负责人 |
-| P1 | 安全架构师 | 系统架构初稿 | 技术架构师 |
-| P1 | 数据架构师 | 系统架构初稿 | 技术架构师 |
-| P2 | 基础设施工程师 | 技术栈决策 | 技术架构师 |
-| P2 | 开发者工具工程师 | 技术栈决策 | 技术架构师 |
-| P2 | 身份与访问工程师 | 技术栈决策 | 技术架构师 |
-| P3 | 前端开发者 | 脚手架完成 | 基础设施工程师 |
-| P3 | 后端工程师 | 脚手架完成 | 基础设施工程师 |
-| P3 | 测试工程师 | 功能开发开始 | 前端/后端 |
-| P4 | 安全审计师 | 功能开发完成 | 前端/后端/测试 |
-| P4 | 性能工程师 | 功能开发完成 | 前端/后端/测试 |
-| P5 | DevOps 自动化师 | 质量关卡通过 | 安全/性能 |
-| P5 | 增长黑客 | 产品上线 | DevOps |
+This matrix shows which agents produce outputs consumed by other agents. Read as: **Row agent produces → Column agent consumes**.
 
-### 并行执行规则
+```
+PRODUCER →          │ ENG │ DES │ MKT │ PRD │ PM  │ TST │ SUP │ SPC │ SPZ
+────────────────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼────
+Engineering         │  ●  │     │     │     │     │  ●  │  ●  │  ●  │
+Design              │  ●  │  ●  │  ●  │     │     │  ●  │     │  ●  │
+Marketing           │     │     │  ●  │  ●  │     │     │  ●  │     │
+Product             │  ●  │  ●  │  ●  │  ●  │  ●  │     │     │     │  ●
+Project Management  │  ●  │  ●  │  ●  │  ●  │  ●  │  ●  │  ●  │  ●  │  ●
+Testing             │  ●  │  ●  │     │  ●  │  ●  │  ●  │     │  ●  │
+Support             │  ●  │     │  ●  │  ●  │  ●  │     │  ●  │     │  ●
+Spatial Computing   │  ●  │  ●  │     │     │     │  ●  │     │  ●  │
+Specialized         │  ●  │     │     │  ●  │  ●  │  ●  │  ●  │     │  ●
 
-- **完全并行**：前端开发者 + 后端工程师（无交叉依赖）
-- **条件并行**：数据工程师 + 提示工程师（共享数据模型）
-- **顺序执行**：测试工程师 → 安全审计师 → 性能工程师（质量关卡）
+● = Active dependency (producer creates artifacts consumed by this division)
+```
+
+### 10.2 Critical Handoff Pairs
+
+These are the highest-traffic handoff relationships in NEXUS:
+
+| From | To | Artifact | Frequency |
+|------|----|----------|-----------|
+| Senior Project Manager | All Developers | Task List | Per sprint |
+| UX Architect | Frontend Developer | CSS Design System + Layout Spec | Per project |
+| Backend Architect | Frontend Developer | API Specification | Per feature |
+| Frontend Developer | Evidence Collector | Implemented Feature | Per task |
+| Evidence Collector | Agents Orchestrator | QA Verdict (PASS/FAIL) | Per task |
+| Agents Orchestrator | Developer (any) | QA Feedback + Retry Instructions | Per failure |
+| Brand Guardian | All Design + Marketing | Brand Guidelines | Per project |
+| Analytics Reporter | Sprint Prioritizer | Performance Data | Per sprint |
+| Feedback Synthesizer | Sprint Prioritizer | User Insights | Per sprint |
+| Trend Researcher | Studio Producer | Market Intelligence | Monthly |
+| Reality Checker | Agents Orchestrator | Integration Verdict | Per phase |
+| Executive Summary Generator | Studio Producer | Executive Brief | Per milestone |
 
 ---
 
 ## 11. 交接协议
 
-### 标准交接模板
+### 11.1 Standard Handoff Template
+
+Every agent-to-agent handoff must include:
 
 ```markdown
-# 交接文档：[源代理] → [目标代理]
+## NEXUS Handoff Document
 
-## 源代理：[代理名称]
-## 目标代理：[代理名称]
-## 交接时间：[日期]
+### Metadata
+- **From**: [Agent Name] ([Division])
+- **To**: [Agent Name] ([Division])
+- **Phase**: [Current NEXUS Phase]
+- **Task Reference**: [Task ID from Sprint Prioritizer backlog]
+- **Priority**: [Critical / High / Medium / Low]
+- **Timestamp**: [ISO 8601]
 
-## 1. 背景
-- 项目阶段：[当前阶段]
-- 源代理已完成：[已完成工作摘要]
+### Context
+- **Project**: [Project name and brief description]
+- **Current State**: [What has been completed so far]
+- **Relevant Files**: [List of files/artifacts to review]
+- **Dependencies**: [What this work depends on]
 
-## 2. 产出物
-- [产出物 1]：[文件路径]
-- [产出物 2]：[文件路径]
-- [产出物 3]：[文件路径]
+### Deliverable Request
+- **What is needed**: [Specific, measurable deliverable]
+- **Acceptance criteria**: [How success will be measured]
+- **Constraints**: [Technical, timeline, or resource constraints]
+- **Reference materials**: [Links to specs, designs, previous work]
 
-## 3. 上下文
-- 技术栈：[技术栈列表]
-- 关键决策：[重要决策及其理由]
-- 已知问题：[未解决问题列表]
-- 约束：[时间、资源、技术约束]
-
-## 4. 目标代理任务
-- 任务 1：[描述]
-- 任务 2：[描述]
-- 任务 3：[描述]
-
-## 5. 质量要求
-- 验收标准：[列出标准]
-- 测试要求：[测试类型和范围]
-- 文档要求：[需要更新的文档]
-
-## 6. 时间线
-- 预期完成时间：[日期]
-- 关键里程碑：[里程碑列表]
+### Quality Expectations
+- **Must pass**: [Specific quality criteria]
+- **Evidence required**: [What proof of completion looks like]
+- **Handoff to next**: [Who receives the output and what they need]
 ```
 
-### 交接验证清单
+### 11.2 QA Feedback Loop Protocol
 
-- [ ] 产出物已交付：所有文件已生成并保存在约定位置
-- [ ] 上下文已传递：目标代理理解背景和要求
-- [ ] 验收标准已定义：目标代理知道什么构成完成
-- [ ] 时间线已明确：双方对预期完成时间达成一致
-- [ ] 现实检查者验证：交接无遗漏或错误
+When a task fails QA, the feedback must be actionable:
+
+```markdown
+## QA Failure Feedback
+
+### Task: [Task ID and description]
+### Attempt: [1/2/3] of 3 maximum
+### Verdict: FAIL
+
+### Specific Issues Found
+1. **[Issue Category]**: [Exact description with screenshot reference]
+   - Expected: [What should happen]
+   - Actual: [What actually happens]
+   - Evidence: [Screenshot filename or test output]
+
+2. **[Issue Category]**: [Exact description]
+   - Expected: [...]
+   - Actual: [...]
+   - Evidence: [...]
+
+### Fix Instructions
+- [Specific, actionable fix instruction 1]
+- [Specific, actionable fix instruction 2]
+
+### Files to Modify
+- [file path 1]: [what needs to change]
+- [file path 2]: [what needs to change]
+
+### Retry Expectations
+- Fix the above issues and re-submit for QA
+- Do NOT introduce new features — fix only
+- Attempt [N+1] of 3 maximum
+```
+
+### 11.3 Escalation Protocol
+
+When a task exceeds 3 retry attempts:
+
+```markdown
+## Escalation Report
+
+### Task: [Task ID]
+### Attempts Exhausted: 3/3
+### Escalation Level: [To Agents Orchestrator / To Studio Producer]
+
+### Failure History
+- Attempt 1: [Summary of issues and fixes attempted]
+- Attempt 2: [Summary of issues and fixes attempted]
+- Attempt 3: [Summary of issues and fixes attempted]
+
+### Root Cause Analysis
+- [Why the task keeps failing]
+- [What systemic issue is preventing resolution]
+
+### Recommended Resolution
+- [ ] Reassign to different developer agent
+- [ ] Decompose task into smaller sub-tasks
+- [ ] Revise architecture/approach
+- [ ] Accept current state with known limitations
+- [ ] Defer to future sprint
+
+### Impact Assessment
+- **Blocking**: [What other tasks are blocked by this]
+- **Timeline Impact**: [How this affects the overall schedule]
+- **Quality Impact**: [What quality compromises exist]
+```
 
 ---
 
-## 12. 质量关卡
+## 12. 质量门禁
 
-### 关卡定义
+### 12.1 Gate Summary
 
-| 关卡 | 检查点 | 通过标准 | 失败动作 |
-|------|--------|----------|----------|
-| 关卡 0 | 规格完整性 | 用户故事有验收标准 | 返回阶段 0 |
-| 关卡 1 | 架构决策 | 架构图 + 技术栈决策 | 返回阶段 1 |
-| 关卡 2 | 基础设施就绪 | CI/CD 运行 + 开发环境可用 | 返回阶段 2 |
-| 关卡 3 | 功能完成 | 测试通过 + 代码审查 | Dev↔QA 循环 |
-| 关卡 4 | 质量保障 | 安全/性能/无障碍通过 | 返回阶段 4 |
-| 关卡 5 | 上线就绪 | 部署完成 + 监控运行 | 返回阶段 5 |
+| Phase | Gate Name | Gate Keeper | Pass Criteria |
+|-------|-----------|-------------|---------------|
+| 0 → 1 | Discovery Gate | Executive Summary Generator | Market validated, user need confirmed, regulatory path clear |
+| 1 → 2 | Architecture Gate | Studio Producer + Reality Checker | Architecture complete, brand defined, budget approved, sprint plan realistic |
+| 2 → 3 | Foundation Gate | DevOps Automator + Evidence Collector | CI/CD working, skeleton app running, monitoring active |
+| 3 → 4 | Feature Gate | Agents Orchestrator | All tasks pass QA, no critical bugs, performance baselines met |
+| 4 → 5 | Production Gate | Reality Checker (sole authority) | User journeys complete, cross-device consistent, security validated, spec compliant |
+| 5 → 6 | Launch Gate | Studio Producer + Analytics Reporter | Deployment successful, systems stable, growth channels active |
 
-### 关卡执行流程
+### 12.2 Gate Failure Handling
 
 ```
-1. 代理完成产出物
-2. 代理提交质量关卡申请
-3. 现实检查者验证：
-   a. 产出物完整性检查
-   b. 验收标准对照
-   c. 证据审查
-4. 通过 → 推进到下一阶段
-5. 失败 → 返回代理修复，重新提交
+IF gate FAILS:
+  ├── Gate Keeper produces specific failure report
+  ├── Agents Orchestrator routes failures to responsible agents
+  ├── Failed items enter Dev↔QA loop (Phase 3 mechanics)
+  ├── Maximum 3 gate re-attempts before escalation to Studio Producer
+  └── Studio Producer decides: fix, descope, or accept with risk
 ```
-
-### 关卡失败处理
-
-- 第一次失败：代理修复，重新提交
-- 第二次失败：代理修复，现实检查者指导
-- 第三次失败：升级到编排器，人介入
 
 ---
 
 ## 13. 风险管理
 
-### 风险登记表
+### 13.1 Risk Categories and Owners
 
-| 风险 | 概率 | 影响 | 缓解措施 | 责任人 |
-|------|------|------|----------|--------|
-| 代理协调失败 | 中 | 高 | 标准化交接模板 | 编排器 |
-| 质量过早妥协 | 中 | 高 | 基于证据的关卡 | 现实检查者 |
-| 时间线蔓延 | 高 | 中 | 并行执行 + 时间盒 | 编排器 |
-| 关键依赖阻塞 | 中 | 中 | 升级协议 | 编排器 |
-| 技术债务积累 | 中 | 中 | 持续重构 + 代码审查 | 架构师 |
-| 安全风险 | 低 | 高 | 安全审计 + 渗透测试 | 安全架构师 |
+| Risk Category | Primary Owner | Mitigation Agent | Escalation Path |
+|---------------|--------------|-------------------|-----------------|
+| Technical Debt | Backend Architect | Workflow Optimizer | Senior Developer |
+| Security Vulnerability | Legal Compliance Checker | Infrastructure Maintainer | DevOps Automator |
+| Performance Degradation | Performance Benchmarker | Infrastructure Maintainer | Backend Architect |
+| Brand Inconsistency | Brand Guardian | UI Designer | Studio Producer |
+| Scope Creep | Senior Project Manager | Sprint Prioritizer | Project Shepherd |
+| Budget Overrun | Finance Tracker | Studio Operations | Studio Producer |
+| Regulatory Non-Compliance | Legal Compliance Checker | Support Responder | Studio Producer |
+| Market Shift | Trend Researcher | Growth Hacker | Studio Producer |
+| Team Bottleneck | Project Shepherd | Studio Operations | Studio Producer |
+| Quality Regression | Reality Checker | Evidence Collector | Agents Orchestrator |
 
-### 升级协议
+### 13.2 Risk Response Matrix
 
-```
-级别 1：代理间协商
-  → 代理直接沟通，尝试自行解决
-  → 时间盒：1 小时
-
-级别 2：编排器介入
-  → 编排器协调，提供指导
-  → 时间盒：2 小时
-
-级别 3：人介入
-  → 升级到项目负责人或技术领导
-  → 时间盒：24 小时
-```
+| Severity | Response Time | Decision Authority | Action |
+|----------|--------------|-------------------|--------|
+| **Critical** (P0) | Immediate | Studio Producer | All-hands, stop other work |
+| **High** (P1) | < 4 hours | Project Shepherd | Dedicated agent assignment |
+| **Medium** (P2) | < 24 hours | Agents Orchestrator | Next sprint priority |
+| **Low** (P3) | < 1 week | Sprint Prioritizer | Backlog item |
 
 ---
 
 ## 14. 成功指标
 
-### 定量指标
+### 14.1 Pipeline Metrics
 
-| 指标 | 目标 | 测量方式 |
-|------|------|----------|
-| 时间线压缩 | 40-60% | 并行 vs 顺序执行对比 |
-| 质量关卡通过率 | > 95% | 一次通过 vs 需要重做 |
-| 交接成功率 | > 97% | 无上下文丢失的交接 |
-| 缺陷捕获率 | > 95% | 阶段内捕获 vs 集成后发现 |
-| 代理利用率 | > 80% | 活跃工作 vs 等待时间 |
-| 最终产品满意度 | > 4.5/5 | 用户反馈评分 |
+| Metric | Target | Measurement Agent |
+|--------|--------|-------------------|
+| Phase completion rate | 95% on first attempt | Agents Orchestrator |
+| Task first-pass QA rate | 70%+ | Evidence Collector |
+| Average retries per task | < 1.5 | Agents Orchestrator |
+| Pipeline cycle time | Within sprint estimate ±15% | Project Shepherd |
+| Quality gate pass rate | 80%+ on first attempt | Reality Checker |
 
-### 定性指标
+### 14.2 Product Metrics
 
-- 代理协作顺畅，无重复工作
-- 质量在推进前被捕获，非事后补救
-- 交接上下文完整，无信息丢失
-- 最终产品满足或超过规格要求
-- 团队对代理网络有信心，愿意复用
+| Metric | Target | Measurement Agent |
+|--------|--------|-------------------|
+| API response time (P95) | < 200ms | Performance Benchmarker |
+| Page load time (LCP) | < 2.5s | Performance Benchmarker |
+| System uptime | > 99.9% | Infrastructure Maintainer |
+| Lighthouse score | > 90 (Performance + Accessibility) | Frontend Developer |
+| Security vulnerabilities | Zero critical | Legal Compliance Checker |
+| Spec compliance | 100% | Reality Checker |
 
----
+### 14.3 Business Metrics
 
-## 15. 快速启动激活指南
+| Metric | Target | Measurement Agent |
+|--------|--------|-------------------|
+| User acquisition (MoM) | 20%+ growth | Growth Hacker |
+| Activation rate | 60%+ in first week | Analytics Reporter |
+| Retention (Day 7 / Day 30) | 40% / 20% | Analytics Reporter |
+| LTV:CAC ratio | > 3:1 | Finance Tracker |
+| NPS score | > 50 | Feedback Synthesizer |
+| Portfolio ROI | > 25% | Studio Producer |
 
-### 5 分钟激活步骤
+### 14.4 Operational Metrics
 
-1. **选择模式**：确定项目规模，选择 NEXUS-Full / Sprint / Micro
-2. **激活编排器**：使用 QUICKSTART.md 中的提示激活编排器
-3. **定义并行工作流**：确定哪些代理可以并行执行
-4. **设置交接模板**：为每对代理交接准备标准化模板
-5. **建立质量关卡**：为每个阶段定义通过/失败标准
-
-### 首次运行检查清单
-
-- [ ] 模式已选择
-- [ ] 编排器已激活
-- [ ] 阶段 0 代理已激活
-- [ ] 交接模板已准备
-- [ ] 质量关卡已定义
-- [ ] 时间线已设定
-
-### 常见陷阱
-
-| 陷阱 | 症状 | 避免方法 |
-|------|------|----------|
-| 过早激活过多代理 | 代理等待，资源浪费 | 按优先级顺序激活 |
-| 跳过质量关卡 | 缺陷在集成后被发现 | 严格执行关卡协议 |
-| 交接上下文丢失 | 重复工作，错误决策 | 使用标准化交接模板 |
-| 忽视并行执行 | 时间线延长 | 识别并行机会，同步执行 |
+| Metric | Target | Measurement Agent |
+|--------|--------|-------------------|
+| Deployment frequency | Multiple per day | DevOps Automator |
+| Mean time to recovery | < 30 minutes | Infrastructure Maintainer |
+| Compliance adherence | 98%+ | Legal Compliance Checker |
+| Stakeholder satisfaction | 4.5/5 | Executive Summary Generator |
+| Process efficiency gain | 20%+ per quarter | Workflow Optimizer |
 
 ---
 
-**下一步**：复制上面的提示，激活编排器，开始你的第一个 NEXUS 项目。
+## 15. 快速启动指南
+
+### 15.1 NEXUS-Full Activation (Enterprise)
+
+```bash
+# Step 1: Initialize NEXUS pipeline
+"Activate Agents Orchestrator in NEXUS-Full mode for [PROJECT NAME].
+ Project specification: [path to spec file].
+ Execute complete 7-phase pipeline with all quality gates."
+
+# The Orchestrator will:
+# 1. Read the project specification
+# 2. Activate Phase 0 agents for discovery
+# 3. Progress through all phases with quality gates
+# 4. Manage Dev↔QA loops automatically
+# 5. Report status at each phase boundary
+```
+
+### 15.2 NEXUS-Sprint Activation (Feature/MVP)
+
+```bash
+# Step 1: Initialize sprint pipeline
+"Activate Agents Orchestrator in NEXUS-Sprint mode for [FEATURE/MVP NAME].
+ Requirements: [brief description or path to spec].
+ Skip Phase 0 (market already validated).
+ Begin at Phase 1 with architecture and sprint planning."
+
+# Recommended agent subset (15-25):
+# PM: Senior Project Manager, Sprint Prioritizer, Project Shepherd
+# Design: UX Architect, UI Designer, Brand Guardian
+# Engineering: Frontend Developer, Backend Architect, DevOps Automator
+# + AI Engineer or Mobile App Builder (if applicable)
+# Testing: Evidence Collector, Reality Checker, API Tester, Performance Benchmarker
+# Support: Analytics Reporter, Infrastructure Maintainer
+# Specialized: Agents Orchestrator
+```
+
+### 15.3 NEXUS-Micro Activation (Targeted Task)
+
+```bash
+# Step 1: Direct agent activation
+"Activate [SPECIFIC AGENT] for [TASK DESCRIPTION].
+ Context: [relevant background].
+ Deliverable: [specific output expected].
+ Quality check: Evidence Collector to verify upon completion."
+
+# Common NEXUS-Micro configurations:
+#
+# Bug Fix:
+#   Backend Architect → API Tester → Evidence Collector
+#
+# Content Campaign:
+#   Content Creator → Social Media Strategist → Twitter Engager
+#   + Instagram Curator + Reddit Community Builder
+#
+# Performance Issue:
+#   Performance Benchmarker → Infrastructure Maintainer → DevOps Automator
+#
+# Compliance Audit:
+#   Legal Compliance Checker → Executive Summary Generator
+#
+# Market Research:
+#   Trend Researcher → Analytics Reporter → Executive Summary Generator
+#
+# UX Improvement:
+#   UX Researcher → UX Architect → Frontend Developer → Evidence Collector
+```
+
+### 15.4 Agent Activation Prompt Templates
+
+#### For the Orchestrator (Pipeline Start)
+```
+You are the Agents Orchestrator running NEXUS pipeline for [PROJECT].
+
+Project spec: [path]
+Mode: [Full/Sprint/Micro]
+Current phase: [Phase N]
+
+Execute the NEXUS protocol:
+1. Read the project specification
+2. Activate Phase [N] agents per the NEXUS strategy
+3. Manage handoffs using the NEXUS Handoff Template
+4. Enforce quality gates before phase advancement
+5. Track all tasks with status reporting
+6. Run Dev↔QA loops for all implementation tasks
+7. Escalate after 3 failed attempts per task
+
+Report format: NEXUS Pipeline Status Report (see template in strategy doc)
+```
+
+#### For Developer Agents (Task Implementation)
+```
+You are [AGENT NAME] working within the NEXUS pipeline.
+
+Phase: [Current Phase]
+Task: [Task ID and description from Sprint Prioritizer backlog]
+Architecture reference: [path to architecture doc]
+Design system: [path to CSS/design tokens]
+Brand guidelines: [path to brand doc]
+
+Implement this task following:
+1. The architecture specification exactly
+2. The design system tokens and patterns
+3. The brand guidelines for visual consistency
+4. Accessibility standards (WCAG 2.1 AA)
+
+When complete, your work will be reviewed by Evidence Collector.
+Acceptance criteria: [specific criteria from task list]
+```
+
+#### For QA Agents (Task Validation)
+```
+You are [QA AGENT] validating work within the NEXUS pipeline.
+
+Phase: [Current Phase]
+Task: [Task ID and description]
+Developer: [Which agent implemented this]
+Attempt: [N] of 3 maximum
+
+Validate against:
+1. Task acceptance criteria: [specific criteria]
+2. Architecture specification: [path]
+3. Brand guidelines: [path]
+4. Performance requirements: [specific thresholds]
+
+Provide verdict: PASS or FAIL
+If FAIL: Include specific issues, evidence, and fix instructions
+Use the NEXUS QA Feedback Loop Protocol format
+```
+
+---
+
+## Appendix A: Division Quick Reference
+
+### Engineering Division — "Build It Right"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| Frontend Developer | React/Vue/Angular, Core Web Vitals, accessibility | Any UI implementation task |
+| Backend Architect | Scalable systems, database design, API architecture | Server-side architecture or API work |
+| Mobile App Builder | iOS/Android, React Native, Flutter | Mobile application development |
+| AI Engineer | ML models, LLMs, RAG systems, data pipelines | Any AI/ML feature |
+| DevOps Automator | CI/CD, IaC, Kubernetes, monitoring | Infrastructure or deployment work |
+| Rapid Prototyper | Next.js, Supabase, 3-day MVPs | Quick validation or proof-of-concept |
+| Senior Developer | Laravel/Livewire, premium implementations | Complex or premium feature work |
+
+### Design Division — "Make It Beautiful"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| UI Designer | Visual design systems, component libraries | Interface design or component creation |
+| UX Researcher | User testing, behavior analysis, personas | User research or usability testing |
+| UX Architect | CSS systems, layout frameworks, technical UX | Technical foundation or architecture |
+| Brand Guardian | Brand identity, consistency, positioning | Brand strategy or consistency audit |
+| Visual Storyteller | Visual narratives, multimedia content | Visual content or storytelling needs |
+| Whimsy Injector | Micro-interactions, delight, personality | Adding joy and personality to UX |
+| Image Prompt Engineer | AI image generation prompts, photography | Photography prompt creation for AI tools |
+
+### Marketing Division — "Grow It Fast"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| Growth Hacker | Viral loops, funnel optimization, experiments | User acquisition or growth strategy |
+| Content Creator | Multi-platform content, editorial calendars | Content strategy or creation |
+| Twitter Engager | Real-time engagement, thought leadership | Twitter/X campaigns |
+| TikTok Strategist | Viral short-form video, algorithm optimization | TikTok growth strategy |
+| Instagram Curator | Visual storytelling, aesthetic development | Instagram campaigns |
+| Reddit Community Builder | Authentic engagement, value-driven content | Reddit community strategy |
+| App Store Optimizer | ASO, conversion optimization | Mobile app store presence |
+| Social Media Strategist | Cross-platform strategy, campaigns | Multi-platform social campaigns |
+
+### Product Division — "Build the Right Thing"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| Sprint Prioritizer | RICE scoring, agile planning, velocity | Sprint planning or backlog grooming |
+| Trend Researcher | Market intelligence, competitive analysis | Market research or opportunity assessment |
+| Feedback Synthesizer | User feedback analysis, sentiment analysis | User feedback processing |
+
+### Project Management Division — "Keep It on Track"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| Studio Producer | Portfolio strategy, executive orchestration | Strategic planning or portfolio management |
+| Project Shepherd | Cross-functional coordination, stakeholder alignment | Complex project coordination |
+| Studio Operations | Day-to-day efficiency, process optimization | Operational support |
+| Experiment Tracker | A/B testing, hypothesis validation | Experiment management |
+| Senior Project Manager | Spec-to-task conversion, realistic scoping | Task planning or scope management |
+
+### Testing Division — "Prove It Works"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| Evidence Collector | Screenshot-based QA, visual proof | Any visual verification need |
+| Reality Checker | Evidence-based certification, skeptical assessment | Final integration testing |
+| Test Results Analyzer | Test evaluation, quality metrics | Test output analysis |
+| Performance Benchmarker | Load testing, performance optimization | Performance testing |
+| API Tester | API validation, integration testing | API endpoint testing |
+| Tool Evaluator | Technology assessment, tool selection | Technology evaluation |
+| Workflow Optimizer | Process analysis, efficiency improvement | Process optimization |
+
+### Support Division — "Sustain It"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| Support Responder | Customer service, issue resolution | Customer support needs |
+| Analytics Reporter | Data analysis, dashboards, KPI tracking | Business intelligence or reporting |
+| Finance Tracker | Financial planning, budget management | Financial analysis or budgeting |
+| Infrastructure Maintainer | System reliability, performance optimization | Infrastructure management |
+| Legal Compliance Checker | Compliance, regulations, legal review | Legal or compliance needs |
+| Executive Summary Generator | C-suite communication, SCQA framework | Executive reporting |
+
+### Spatial Computing Division — "Immerse Them"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| XR Interface Architect | Spatial interaction design | AR/VR/XR interface design |
+| macOS Spatial/Metal Engineer | Swift, Metal, high-performance 3D | macOS spatial computing |
+| XR Immersive Developer | WebXR, browser-based AR/VR | Browser-based immersive experiences |
+| XR Cockpit Interaction Specialist | Cockpit-based controls | Immersive control interfaces |
+| visionOS Spatial Engineer | Apple Vision Pro development | Vision Pro applications |
+| Terminal Integration Specialist | CLI tools, terminal workflows | Developer tool integration |
+
+### Specialized Division — "Connect Everything"
+| Agent | Superpower | Activation Trigger |
+|-------|-----------|-------------------|
+| Agents Orchestrator | Multi-agent pipeline management | Any multi-agent workflow |
+| Analytics Reporter | Business intelligence, deep analytics | Deep data analysis |
+| LSP/Index Engineer | Language Server Protocol, code intelligence | Code intelligence systems |
+| Sales Data Extraction Agent | Excel monitoring, sales metric extraction | Sales data ingestion |
+| Data Consolidation Agent | Sales data aggregation, dashboard reports | Territory and rep reporting |
+| Report Distribution Agent | Automated report delivery | Scheduled report distribution |
+
+---
+
+## Appendix B: NEXUS Pipeline Status Report Template
+
+```markdown
+# NEXUS Pipeline Status Report
+
+## Pipeline Metadata
+- **Project**: [Name]
+- **Mode**: [Full / Sprint / Micro]
+- **Current Phase**: [0-6]
+- **Started**: [Timestamp]
+- **Estimated Completion**: [Timestamp]
+
+## Phase Progress
+| Phase | Status | Completion | Gate Result |
+|-------|--------|------------|-------------|
+| 0 - Discovery | ✅ Complete | 100% | PASSED |
+| 1 - Strategy | ✅ Complete | 100% | PASSED |
+| 2 - Foundation | 🔄 In Progress | 75% | PENDING |
+| 3 - Build | ⏳ Pending | 0% | — |
+| 4 - Harden | ⏳ Pending | 0% | — |
+| 5 - Launch | ⏳ Pending | 0% | — |
+| 6 - Operate | ⏳ Pending | 0% | — |
+
+## Current Phase Detail
+**Phase**: [N] - [Name]
+**Active Agents**: [List]
+**Tasks**: [Completed/Total]
+**Current Task**: [ID] - [Description]
+**QA Status**: [PASS/FAIL/IN_PROGRESS]
+**Retry Count**: [N/3]
+
+## Quality Metrics
+- Tasks passed first attempt: [X/Y] ([Z]%)
+- Average retries per task: [N]
+- Critical issues found: [Count]
+- Critical issues resolved: [Count]
+
+## Risk Register
+| Risk | Severity | Status | Owner |
+|------|----------|--------|-------|
+| [Description] | [P0-P3] | [Active/Mitigated/Closed] | [Agent] |
+
+## Next Actions
+1. [Immediate next step]
+2. [Following step]
+3. [Upcoming milestone]
+
+---
+**Report Generated**: [Timestamp]
+**Orchestrator**: Agents Orchestrator
+**Pipeline Health**: [ON_TRACK / AT_RISK / BLOCKED]
+```
+
+---
+
+## Appendix C: NEXUS Glossary
+
+| Term | Definition |
+|------|-----------|
+| **NEXUS** | Network of EXperts, Unified in Strategy |
+| **Quality Gate** | Mandatory checkpoint between phases requiring evidence-based approval |
+| **Dev↔QA Loop** | Continuous development-testing cycle where each task must pass QA before proceeding |
+| **Handoff** | Structured transfer of work and context between agents |
+| **Gate Keeper** | Agent(s) with authority to approve or reject phase advancement |
+| **Escalation** | Routing a blocked task to higher authority after retry exhaustion |
+| **NEXUS-Full** | Complete pipeline activation with all agents |
+| **NEXUS-Sprint** | Focused pipeline with 15-25 agents for feature/MVP work |
+| **NEXUS-Micro** | Targeted activation of 5-10 agents for specific tasks |
+| **Pipeline Integrity** | Principle that no phase advances without passing its quality gate |
+| **Context Continuity** | Principle that every handoff carries full context |
+| **Evidence Over Claims** | Principle that quality assessments require proof, not assertions |
+
+---
+
+<div align="center">
+
+**🌐 NEXUS: All Divisions. 7 Phases. One Unified Strategy. 🌐**
+
+*From discovery to sustained operations — every agent knows their role, their timing, and their handoff.*
+
+</div>
