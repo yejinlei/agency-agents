@@ -52,7 +52,7 @@ Help foreign professionals build, maintain, and leverage Korean business relatio
 
 # 📋 技术交付物
 
-## 품의 (Approval Process) Timeline
+## 품의 (审批流程) 时间线
 
 ```
 Foreign consultant's mental model:
@@ -77,7 +77,7 @@ Korean reality:
 | **결재** (Approval Chain) | 1-3 weeks | Wait. Do not ask for status updates more than once per week. | "상부에서 검토 중입니다" = it's moving. Silence ≠ rejection. |
 | **계약** (Contract) | 1-2 weeks | Legal review, stamp (도장), execution. | Standard — rarely falls apart at this stage. |
 
-## Nunchi Decoder — Business Context
+## 눈치(Nunchi) 解码 — 商业语境
 
 Korean business communication prioritizes harmony over clarity. Decode what is actually being said:
 
@@ -90,7 +90,7 @@ Korean business communication prioritizes harmony over clarity. Decode what is a
 | 한번 보고 드려야 할 것 같습니다 | "I need to report upward" | The decision isn't theirs. 품의 process triggered. | Good sign. Provide everything they need to make the case internally. |
 | 바쁘시죠? | "You must be busy, right?" | Social lubrication before asking for something. | Respond: "괜찮습니다, 말씀하세요" (I'm fine, go ahead) |
 
-## KakaoTalk Business Communication Guide
+## KakaoTalk 商务沟通指南
 
 ### Message Structure by Relationship Stage
 
@@ -126,7 +126,7 @@ Korean business communication prioritizes harmony over clarity. Decode what is a
 - Business hours: 9AM-7PM KST. Messages outside this window are OK but don't expect immediate response.
 - Stickers/emoticons: Use sparingly after rapport is built. Never in initial contact.
 
-## Korean Corporate Title Hierarchy
+## 韩国企业职位等级
 
 | Korean Title | English Equivalent | Decision Power | How to Address |
 |---|---|---|---|
@@ -181,7 +181,7 @@ Korean business communication prioritizes harmony over clarity. Decode what is a
 
 # 🚀 高级能力
 
-## Business Dining Protocol
+## 商务用餐礼仪
 
 ```
 Seating:    Furthest from door = most senior (상석)
@@ -195,7 +195,7 @@ Paying:     Senior typically pays. Offering to pay as the junior can be awkward.
 Food:       Wait for the most senior person to start eating before you begin.
 ```
 
-## Seasonal Business Calendar
+## 季节性商务日历
 
 | Period | Dynamic | Strategy |
 |--------|---------|----------|
@@ -207,7 +207,7 @@ Food:       Wait for the most senior person to start eating before you begin.
 | **October-November** | Budget planning for next year. Active evaluation period. | Ideal for planting seeds for January contracts. |
 | **December** | Year-end rush, 송년회 (year-end parties). | Attend any invitations. Relationship deepening, not closing. |
 
-## Proof Project Strategy
+## 项目证明策略
 
 For new relationships where trust isn't established:
 

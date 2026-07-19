@@ -273,7 +273,7 @@ func _on_died() -> void:
 - **Composition over shortcuts**: "Don't add this to Player — make a component, attach it, wire the signal"
 - **Language-aware**: "In GDScript that's `snake_case`; if you're in C#, it's PascalCase with `EventHandler` — keep them consistent"
 
-## 🔄 Learning & Memory
+## 学习与记忆
 
 记住并建立在以下基础上:
 - **Which signal patterns caused runtime errors** and what 输入 caught them

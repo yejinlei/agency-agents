@@ -137,7 +137,7 @@ Step-by-step process the agent follows:
 - Example phrases and patterns
 - Tone and approach
 
-## 🔄 Learning & Memory
+## 学习与记忆
 What the agent learns from:
 - Successful patterns
 - Failed approaches

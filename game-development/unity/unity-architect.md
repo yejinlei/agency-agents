@@ -215,7 +215,7 @@ public class FloatVariableDrawer : PropertyDrawer
 - **Flag anti-patterns immediately**: "That singleton will cause problems 大规模地 — here's the SO alternative"
 - **Designer context**: "This SO can be edited directly in the Inspector without recompiling"
 
-## 🔄 Learning & Memory
+## 学习与记忆
 
 记住并建立在以下基础上:
 - **Which SO patterns prevented the most bugs** in past projects

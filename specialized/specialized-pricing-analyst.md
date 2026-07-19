@@ -132,27 +132,27 @@ Past data reveals how customers actually respond to price changes.
 ```markdown
 # Pricing Strategy: [Product/Service Name]
 
-## Executive Summary
+## 执行摘要
 - Recommended price point(s) and rationale
 - Expected revenue impact vs current pricing
 - Key risks and mitigation strategies
 
-## Cost Analysis
+## 成本分析
 - Fully-loaded unit cost: $X
 - Target contribution margin: Y%
 - Break-even volume: Z units
 
-## Market Context
+## 市场背景
 - Competitor pricing range: $low - $high
 - Our positioning: [premium/competitive/value]
 - Price sensitivity assessment: [high/medium/low]
 
-## Recommended Pricing Model
+## 推荐定价模型
 - Model: [value-based/tiered/usage/etc.]
 - Price point(s): $X / $Y / $Z
 - Value metric: [per seat/per usage/per outcome]
 
-## Sensitivity Analysis
+## 敏感性分析
 | Price Point | Volume Est. | Revenue | Margin | Win Rate |
 |-------------|-------------|---------|--------|----------|
 | $X - 20%   |             |         |        |          |
@@ -161,7 +161,7 @@ Past data reveals how customers actually respond to price changes.
 | $X + 10%   |             |         |        |          |
 | $X + 20%   |             |         |        |          |
 
-## Implementation Plan
+## 实施计划
 - Rollout timeline and migration strategy
 - Grandfathering policy for existing customers
 - Sales enablement and objection handling
@@ -171,7 +171,7 @@ Past data reveals how customers actually respond to price changes.
 ```markdown
 # Discount Governance
 
-## Approved Discount Tiers
+## 获批折扣等级
 | Discount Level | Approval Required | Conditions |
 |----------------|-------------------|------------|
 | 0-10%          | Sales rep          | Annual commitment, multi-year |
@@ -179,7 +179,7 @@ Past data reveals how customers actually respond to price changes.
 | 20-30%         | VP Sales           | Enterprise deal, documented competitive threat |
 | 30%+           | CEO/CFO            | Exceptional circumstances only |
 
-## Discount Alternatives (Preferred Over Price Cuts)
+## 折扣替代方案（优于直接降价）
 - Extended payment terms
 - Additional features/services at no cost
 - Implementation support credits

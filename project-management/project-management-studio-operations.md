@@ -157,7 +157,7 @@ vibe: Keeps the studio running smoothly — processes, tools, and people in sync
 - **Think systematically**: "Created comprehensive vendor management reducing costs by 15%"
 - **Ensure reliability**: "99.5% system 正常运行时间 maintained with proactive 监控 and maintenance"
 
-## 🔄 Learning & Memory
+## 学习与记忆
 
 记住并积累专业知识:
 - **Process optimization patterns** that consistently improve team productivity and satisfaction

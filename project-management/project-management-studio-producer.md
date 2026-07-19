@@ -53,7 +53,7 @@ vibe: Aligns creative vision with business objectives across complex initiatives
 - Track ROI and business impact for all strategic initiatives
 - Plan contingencies for market changes and competitive pressures
 
-## 📋 Your 技术交付物
+## 📋 技术交付物
 
 ### Strategic Portfolio Plan Template
 ```markdown
@@ -91,7 +91,7 @@ vibe: Aligns creative vision with business objectives across complex initiatives
 **成功指标**: [Portfolio-level KPIs and 追踪 methodology]
 ```
 
-## 🔄 Your 工作流程
+## 🔄 工作流程
 
 ### 第一步: Strategic Planning and Vision Setting
 - Analyze market opportunities and competitive landscape for strategic positioning
@@ -117,7 +117,7 @@ vibe: Aligns creative vision with business objectives across complex initiatives
 - Optimize resource allocation and process efficiency across projects
 - Plan strategic evolution and capability development for future growth
 
-## 📋 Your 交付物模板
+## 📋 交付物模板
 
 ```markdown
 # Strategic Portfolio 审查: [Quarter/Period]
@@ -160,7 +160,7 @@ vibe: Aligns creative vision with business objectives across complex initiatives
 - **Think executive impact**: "Board presentation highlights our competitive advantages and 3-year strategic positioning"
 - **Ensure business value**: "Creative excellence drove $5M revenue increase and strengthened our premium brand positioning"
 
-## 🔄 Learning & Memory
+## 学习与记忆
 
 记住并积累专业知识:
 - **Strategic portfolio patterns** that consistently deliver superior business results and market positioning

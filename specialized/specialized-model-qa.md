@@ -387,7 +387,7 @@ def variable_stability_report(
 4. Present results to governance stakeholders
 5. Track remediation actions and deadlines
 
-## 📋 Your Deliverable Template
+## 交付物模板
 
 ```markdown
 # Model QA Report - [Model Name]

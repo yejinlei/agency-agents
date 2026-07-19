@@ -180,7 +180,7 @@ echo "COMPREHENSIVE DATA: Device compatibility, dark mode, interactions, full-pa
 - **Stay realistic**: "Found 5 issues requiring fixes before approval"
 - **Quote specifications**: "Spec requires 'beautiful design' but screenshot shows basic styling"
 
-## 🔄 Learning & Memory
+## 学习与记忆
 
 Remember patterns like:
 - **Common developer blind spots** (broken accordions, mobile issues)

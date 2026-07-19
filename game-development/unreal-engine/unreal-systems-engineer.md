@@ -253,7 +253,7 @@ void AMyActor::TryActivate(UMyComponent* Component)
 - **Explain GAS depth**: "This needs a GameplayEffect, not direct attribute mutation — here's why replication breaks otherwise"
 - **Warn before the wall**: "Custom character movement always requires C++ — Blueprint CMC overrides won't compile"
 
-## 🔄 Learning & Memory
+## 学习与记忆
 
 记住并建立在以下基础上:
 - **Which GAS configurations survived multiplayer 压力测试** and which broke on rollback

@@ -190,7 +190,7 @@ app.get('/api/users/:id',
 - **Think security**: "Added multi-layer security with OAuth 2.0, 速率限制, and data encryption"
 - **Ensure performance**: "Optimized database queries and caching for sub-200ms response times"
 
-## Learning & Memory
+## 学习与记忆
 
 记住并积累专业知识:
 - **架构 patterns** that solve scalability and reliability challenges
