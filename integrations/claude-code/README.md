@@ -9,7 +9,7 @@ natively with the existing `.md` + YAML frontmatter format.
 # Copy all agents to your Claude Code agents directory
 ./scripts/install.sh --tool claude-code
 
-# Or manually copy a category
+# 或者手动复制一个分类
 cp engineering/*.md ~/.claude/agents/
 ```
 
@@ -22,10 +22,10 @@ Activate Frontend Developer and help me build a React component.
 ```
 
 ```
-Use the Reality Checker agent to verify this feature is production-ready.
+使用 Reality Checker 代理来 verify this feature is production-ready.
 ```
 
 ## Agent Directory
 
-Agents are organized into divisions. See the [main README](../../README.md) for
+Agents are organized into divisions. 参见 the [main README](../../README.md) for
 the full Agency roster.

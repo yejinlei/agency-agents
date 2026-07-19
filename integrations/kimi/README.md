@@ -1,7 +1,7 @@
 # Kimi Code CLI Integration
 
-Converts all Agency agents into Kimi Code CLI agent specifications. Each agent
-becomes a directory containing `agent.yaml` (agent spec) and `system.md` (system
+Converts all Agency agents into Kimi Code CLI 代理规范s. Each agent
+becomes a directory 包含 `agent.yaml` (agent spec) and `system.md` (system
 prompt).
 
 ## Installation
@@ -26,7 +26,7 @@ This copies agents to `~/.config/kimi/agents/`.
 
 ### Activate an Agent
 
-Use the `--agent-file` flag to load a specific agent:
+使用 `--agent-file` flag to load a specific agent:
 
 ```bash
 kimi --agent-file ~/.config/kimi/agents/frontend-developer/agent.yaml
@@ -84,7 +84,7 @@ After modifying source agents:
 
 ### Agent file not found
 
-Ensure you've run `convert.sh` before `install.sh`:
+Ensure you've 运行 `convert.sh` before `install.sh`:
 
 ```bash
 ./scripts/convert.sh --tool kimi

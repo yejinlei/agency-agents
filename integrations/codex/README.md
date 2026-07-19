@@ -1,7 +1,7 @@
 # Codex Integration
 
-Converts all Agency agents into Codex custom agent TOML files. Each source
-agent becomes one standalone `.toml` file containing the minimal Codex-required
+Converts all Agency agents into Codex custom agent TOML 文件s. Each source
+agent becomes one standalone `.toml` file 包含 the minimal Codex-required
 fields: `name`, `description`, and `developer_instructions`.
 
 ## Installation
@@ -44,10 +44,10 @@ frontmatter fields are omitted.
 After installation, reference the custom agent by name in Codex:
 
 ```text
-Use the Frontend Developer agent to review this component.
+使用 Frontend Developer 代理来 审查这个组件.
 ```
 
-Codex uses the `name` field inside the TOML file as the source of truth, so the
+Codex uses the `name` field inside the TOML 文件 as the source of truth, so the
 generated filename slug is only for filesystem safety.
 
 ## Regenerate

@@ -2,7 +2,7 @@
 
 > Give any agent persistent memory across sessions using the Model Context Protocol (MCP).
 
-## What It Does
+## 是什么 It Does
 
 By default, agents in The Agency start every session from scratch. Context is passed manually via copy-paste between agents and sessions. An MCP memory server changes that:
 
@@ -29,7 +29,7 @@ Any MCP server that exposes `remember`, `recall`, `rollback`, and `search` tools
 
 ## How to Add Memory to Any Agent
 
-To enhance an existing agent with persistent memory, add a **Memory Integration** section to the agent's prompt. This section instructs the agent to use MCP memory tools at key moments.
+To enhance an existing agent with persistent memory, add a **Memory Integration** section to the agent's prompt. This section instructs the 代理来 use MCP memory tools at key moments.
 
 ### The Pattern
 
@@ -53,7 +53,7 @@ When something fails and you need to recover:
 - Use rollback to restore to that point rather than rebuilding from scratch
 ```
 
-### What the Agent Does With This
+### 是什么 the Agent Does With This
 
 The LLM will use MCP memory tools automatically when given these instructions:
 
@@ -66,14 +66,14 @@ No code changes to the agent files. No API calls to write. The MCP tools handle 
 
 ## Example: Enhancing the Backend Architect
 
-See [backend-architect-with-memory.md](backend-architect-with-memory.md) for a complete example — the standard Backend Architect agent with a Memory Integration section added.
+参见 [backend-architect-with-memory.md](backend-architect-with-memory.md) for a complete example — the standard Backend Architect agent with a Memory Integration section added.
 
 ## Example: Memory-Powered Workflow
 
-See [../../examples/workflow-with-memory.md](../../examples/workflow-with-memory.md) for the Startup MVP workflow enhanced with persistent memory, showing how agents pass context through memory instead of copy-paste.
+参见 [../../examples/workflow-with-memory.md](../../examples/workflow-with-memory.md) for the Startup MVP workflow enhanced with persistent memory, showing how agents pass context through memory instead of copy-paste.
 
 ## Tips
 
-- **Tag consistently**: Use the agent name and project name as tags on every memory. This makes recall reliable.
+- **Tag consistently**: 使用 agent name and project name as tags on every memory. This makes recall reliable.
 - **Let the LLM decide what's important**: The memory instructions are guidance, not rigid rules. The LLM will figure out when to remember and what to recall.
 - **Rollback is the killer feature**: When a Reality Checker fails a deliverable, the original agent can roll back to its last checkpoint instead of trying to manually undo changes.

@@ -9,7 +9,7 @@ install to `~/.gemini/agents/`.
 # Generate the Gemini CLI agent files first
 ./scripts/convert.sh --tool gemini-cli
 
-# Then install them to ~/.gemini/agents/
+# 然后安装它们 to ~/.gemini/agents/
 ./scripts/install.sh --tool gemini-cli
 ```
 
@@ -18,7 +18,7 @@ install to `~/.gemini/agents/`.
 In Gemini CLI, reference an agent by name in your prompt:
 
 ```
-Use the frontend-developer agent to help me build this UI.
+使用 frontend-developer 代理来 help me build this UI.
 ```
 
 Or invoke the agent directly if your version of Gemini CLI supports it:

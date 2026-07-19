@@ -16,7 +16,7 @@ cd /your/project
 In Windsurf, reference an agent by name in your prompt:
 
 ```
-Use the Frontend Developer agent to build this component.
+使用 Frontend Developer 代理来 build this component.
 ```
 
 ## Regenerate

@@ -55,7 +55,7 @@ agent_type = "agent"
 system_prompt_id = "<slug>"
 ```
 
-Users can specify `active_model` in their agent TOML files or rely on their
+Users can specify `active_model` in their agent TOML 文件s or rely on their
 Vibe configuration default model.
 
 ### Prompt Markdown File
@@ -72,7 +72,7 @@ After installation, reference agents in Mistral Vibe by their system prompt ID
 
 Example:
 ```text
-Use the Code Reviewer agent to analyze this pull request.
+使用 Code Reviewer 代理来 analyze this pull request.
 ```
 
 ## Filtering

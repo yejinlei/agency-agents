@@ -31,7 +31,7 @@ This copies the generated SubAgent files into:
 
 After installation:
 
-- run `/agents manage` in Qwen Code to refresh the agent list, or
+- 运行 `/agents manage` in Qwen Code to refresh the agent list, or
 - restart the current Qwen Code session
 
 ## Notes

@@ -1,9 +1,9 @@
 # 🔌 Integrations
 
-This directory contains The Agency integrations and converted formats for
+此目录包含 Agency 集成 and converted formats for
 supported agentic coding tools.
 
-## Supported Tools
+## 支持的工具
 
 - **[Claude Code](#claude-code)** — `.md` agents, use the repo directly
 - **[GitHub Copilot](#github-copilot)** — `.md` agents, use the repo directly
@@ -21,13 +21,13 @@ supported agentic coding tools.
 - **Osaurus** -- `SKILL.md` skills generated in `osaurus/`
 - **[Hermes](hermes/README.md)** -- lazy-router plugin generated in `hermes/`
 
-## Quick Install
+## 快速安装
 
 ```bash
-# Install for all detected tools automatically
+# 为所有检测到的工具自动安装
 ./scripts/install.sh
 
-# Install a specific home-scoped tool
+# 安装特定的家庭范围工具
 ./scripts/install.sh --tool antigravity
 ./scripts/install.sh --tool copilot
 ./scripts/install.sh --tool openclaw
@@ -45,20 +45,20 @@ supported agentic coding tools.
 ./scripts/install.sh --tool qwen
 ```
 
-If you install OpenClaw and the gateway is already running, restart it after installation:
+如果你安装了 OpenClaw 且网关已在运行, 安装后重启它:
 
 ```bash
 openclaw gateway restart
 ```
 
-For project-scoped tools such as OpenCode, Cursor, Aider, Windsurf, and Qwen
-Code, run
+对于项目范围的工具 such as OpenCode, Cursor, Aider, Windsurf, and Qwen
+Code, 运行
 the installer from your target project root as shown in the tool-specific
 sections below.
 
-## Regenerating Integration Files
+## 重新生成集成文件
 
-If you add or modify agents, regenerate all integration files:
+If you add or modify agents, 重新生成所有 integration files:
 
 ```bash
 ./scripts/convert.sh
@@ -68,8 +68,8 @@ If you add or modify agents, regenerate all integration files:
 
 ## Claude Code
 
-The Agency was originally designed for Claude Code. Agents work natively
-without conversion.
+Agency 最初为 Claude Code 设计. Agents work natively
+无需转换.
 
 ```bash
 cp -r <category>/*.md ~/.claude/agents/
@@ -77,131 +77,131 @@ cp -r <category>/*.md ~/.claude/agents/
 ./scripts/install.sh --tool claude-code
 ```
 
-See [claude-code/README.md](claude-code/README.md) for details.
+参见 [claude-code/README.md](claude-code/README.md) 了解更多详情.
 
 ---
 
 ## GitHub Copilot
 
-The Agency also works natively with GitHub Copilot. Agents can be copied
-directly into `~/.github/agents/` and `~/.copilot/agents/` without conversion.
+Agency 也与 GitHub Copilot 原生工作. Agents can be copied
+directly into `~/.github/agents/` and `~/.copilot/agents/` 无需转换.
 
 ```bash
 ./scripts/install.sh --tool copilot
 ```
 
-See [github-copilot/README.md](github-copilot/README.md) for details.
+参见 [github-copilot/README.md](github-copilot/README.md) 了解更多详情.
 
 ---
 
 ## Antigravity
 
-Skills are installed to `~/.gemini/config/skills/`. Each agent becomes
-a separate skill prefixed with `agency-` to avoid naming conflicts.
+技能安装到 `~/.gemini/config/skills/`. Each agent becomes
+a separate skill 前缀为 `agency-` 以避免命名冲突.
 
 ```bash
 ./scripts/install.sh --tool antigravity
 ```
 
-See [antigravity/README.md](antigravity/README.md) for details.
+参见 [antigravity/README.md](antigravity/README.md) 了解更多详情.
 
 ---
 
 ## Gemini CLI
 
-Agents are packaged as Gemini CLI subagents.
-Subagents are installed to `~/.gemini/agents/`.
-Because the agent files are generated artifacts, run
-`./scripts/convert.sh --tool gemini-cli` before installing from a fresh clone.
+代理打包为 Gemini CLI 子代理.
+子代理安装到 `~/.gemini/agents/`.
+因为代理文件是生成的产物, 运行
+`./scripts/convert.sh --tool gemini-cli` 从新克隆安装前.
 
 ```bash
 ./scripts/convert.sh --tool gemini-cli
 ./scripts/install.sh --tool gemini-cli
 ```
 
-See [gemini-cli/README.md](gemini-cli/README.md) for details.
+参见 [gemini-cli/README.md](gemini-cli/README.md) 了解更多详情.
 
 ---
 
 ## OpenCode
 
-Each agent becomes a project-scoped `.md` file in `.opencode/agents/`.
+每个代理成为一个项目范围的 `.md` 文件在 `.opencode/agents/`.
 
 ```bash
 cd /your/project && /path/to/agency-agents/scripts/install.sh --tool opencode
 ```
 
-See [opencode/README.md](opencode/README.md) for details.
+参见 [opencode/README.md](opencode/README.md) 了解更多详情.
 
 ---
 
 ## OpenClaw
 
-Each agent becomes an OpenClaw workspace containing `SOUL.md`, `AGENTS.md`,
+每个代理成为一个 OpenClaw 工作区 包含 `SOUL.md`, `AGENTS.md`,
 and `IDENTITY.md`.
 
-Before installing, generate the OpenClaw workspaces:
+安装前，生成 OpenClaw 工作区:
 
 ```bash
 ./scripts/convert.sh --tool openclaw
 ```
 
-Then install them:
+然后安装它们:
 
 ```bash
 ./scripts/install.sh --tool openclaw
 ```
 
-See [openclaw/README.md](openclaw/README.md) for details.
+参见 [openclaw/README.md](openclaw/README.md) 了解更多详情.
 
 ---
 
 ## Cursor
 
-Each agent becomes a `.mdc` rule file. Rules are project-scoped — run the
+Each agent becomes a `.mdc` rule file. 规则是项目范围的 — 运行 the
 installer from your project root.
 
 ```bash
 cd /your/project && /path/to/agency-agents/scripts/install.sh --tool cursor
 ```
 
-See [cursor/README.md](cursor/README.md) for details.
+参见 [cursor/README.md](cursor/README.md) 了解更多详情.
 
 ---
 
 ## Aider
 
-All agents are consolidated into a single `CONVENTIONS.md` file that Aider
-reads automatically when present in your project root.
+所有代理合并为一个 `CONVENTIONS.md` file that Aider
+reads automatically 当它存在于你的项目根目录时.
 
 ```bash
 cd /your/project && /path/to/agency-agents/scripts/install.sh --tool aider
 ```
 
-See [aider/README.md](aider/README.md) for details.
+参见 [aider/README.md](aider/README.md) 了解更多详情.
 
 ---
 
 ## Windsurf
 
-All agents are consolidated into a single `.windsurfrules` file for your
+所有代理合并为一个 `.windsurfrules` file for your
 project root.
 
 ```bash
 cd /your/project && /path/to/agency-agents/scripts/install.sh --tool windsurf
 ```
 
-See [windsurf/README.md](windsurf/README.md) for details.
+参见 [windsurf/README.md](windsurf/README.md) 了解更多详情.
 
 ---
 
 ## Kimi Code
 
-Each agent is converted to a Kimi Code CLI agent specification (YAML format with
-separate system prompt files). Agents are installed to `~/.config/kimi/agents/`.
+每个代理都是 converted to a Kimi Code CLI 代理规范 (YAML format with
+separate system prompt files). 代理安装到 `~/.config/kimi/agents/`.
 
-Because the Kimi agent files are generated from the source Markdown, run
-`./scripts/convert.sh --tool kimi` before installing from a fresh clone.
+因为 Kimi 代理文件从源 Markdown 生成, 运行
+`./scripts/convert.sh --tool kimi` 从新克隆安装前.
 
 ```bash
 ./scripts/convert.sh --tool kimi
@@ -224,41 +224,41 @@ kimi --agent-file ~/.config/kimi/agents/frontend-developer/agent.yaml \
      --work-dir /your/project
 ```
 
-See [kimi/README.md](kimi/README.md) for details.
+参见 [kimi/README.md](kimi/README.md) 了解更多详情.
 
 ---
 
 ## Qwen Code
 
-Each agent becomes a project-scoped `.md` SubAgent file in `.qwen/agents/`.
+每个代理成为一个项目范围的 `.md` SubAgent 文件在 `.qwen/agents/`.
 
-From a fresh clone, generate the Qwen files first:
+从新克隆，首先生成 Qwen 文件:
 
 ```bash
 ./scripts/convert.sh --tool qwen
 ```
 
-Then install them from your project root:
+然后安装它们 from your project root:
 
 ```bash
 cd /your/project && /path/to/agency-agents/scripts/install.sh --tool qwen
 ```
 
-See [qwen/README.md](qwen/README.md) for details.
+参见 [qwen/README.md](qwen/README.md) 了解更多详情.
 
 ---
 
 ## Codex
 
-Each agent is converted into a standalone Codex custom agent TOML file and
-installed to `~/.codex/agents/`.
+每个代理都是 converted into 一个独立的 Codex 自定义代理 TOML 文件 and
+安装到 `~/.codex/agents/`.
 
-Because Codex uses generated TOML files rather than the source Markdown
-directly, run the converter before installing from a fresh clone:
+Because Codex uses generated TOML 文件s rather than the source Markdown
+directly, 运行 the converter 从新克隆安装前:
 
 ```bash
 ./scripts/convert.sh --tool codex
 ./scripts/install.sh --tool codex
 ```
 
-See [codex/README.md](codex/README.md) for details.
+参见 [codex/README.md](codex/README.md) 了解更多详情.

@@ -16,11 +16,11 @@ cd /your/project
 In your Aider session, reference the agent by name:
 
 ```
-Use the Frontend Developer agent to refactor this component.
+使用 Frontend Developer 代理来 refactor this component.
 ```
 
 ```
-Apply the Reality Checker agent to verify this is production-ready.
+Apply the Reality Checker 代理来 verify this is production-ready.
 ```
 
 ## Manual Usage

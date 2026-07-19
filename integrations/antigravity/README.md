@@ -1,6 +1,6 @@
 # Antigravity Integration
 
-Installs the full Agency roster as Antigravity skills. Each agent is prefixed
+Installs the full Agency roster as Antigravity skills. 每个代理都是 prefixed
 with `agency-` to avoid conflicts with existing skills.
 
 ## Install
@@ -18,7 +18,7 @@ also reads `<project>/.agents/skills/`.
 In Antigravity, activate an agent by its slug:
 
 ```
-Use the agency-frontend-developer skill to review this component.
+使用 agency-frontend-developer skill to 审查这个组件.
 ```
 
 Available slugs follow the pattern `agency-<agent-name>`, e.g.:

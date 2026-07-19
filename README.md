@@ -1,6 +1,6 @@
 # 🎭 The Agency: AI Specialists Ready to Transform Your Workflow
 
-> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. 每个代理都是 a specialized expert with personality, processes, and proven deliverables.
 
 [![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -12,59 +12,59 @@
 >
 > **[Agency Agents](https://agencyagents.app)** is a native app for **macOS, Linux & Windows** that browses the entire roster and installs it into Claude Code, Cursor, Codex, Gemini, Osaurus, and more — with a click. No clone, no scripts, and it auto-updates.
 >
-> **→ [Download the latest release](https://github.com/msitarzewski/agency-agents-app/releases/latest) · [agencyagents.app](https://agencyagents.app)**
+> **→ [下载最新版本](https://github.com/msitarzewski/agency-agents-app/releases/latest) · [agencyagents.app](https://agencyagents.app)**
 
 ---
 
-## 🚀 What Is This?
+## 🚀 这是什么？
 
-Born from a Reddit thread and months of iteration, **The Agency** is a growing collection of meticulously crafted 人工智能 agent personalities. Each agent is:
+诞生自一个 Reddit 帖子和数月的迭代, **The Agency** 是一个不断增长的精心打造的 人工智能 代理人格集合. 每个代理都是:
 
-- **🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)
-- **🧠 性格-Driven**: Unique voice, communication style, and approach
-- **📋 Deliverable-Focused**: Real code, processes, and measurable outcomes
+- **🎯 Specialized**: 在其领域拥有深厚专业知识 (不是通用的提示模板)
+- **🧠 性格-Driven**: 独特的声音、沟通方式和方法
+- **📋 Deliverable-Focused**: 真实的代码、流程、可衡量的结果
 - **✅ Production-Ready**: Battle-tested 工作流程 and success metrics
 
-**Think of it as**: Assembling your dream team, except they're 人工智能 specialists who never sleep, never complain, and always deliver.
+**Think of it as**: Assembling your dream team, except they're 人工智能 specialists 他们永不睡觉、永不抱怨、始终交付.
 
 ---
 
-## ⚡ Quick Start
+## ⚡ 快速开始
 
 ### Option 1: Install the app (Recommended)
 
-The fastest way in — no clone, no terminal. [**Agency Agents**](https://agencyagents.app) is a native desktop app (macOS · Linux · Windows) that browses the whole roster and installs agents into Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Qwen, and Osaurus for you, then keeps them up to date.
+最快的方式 — 无需克隆，无需终端. [**Agency Agents**](https://agencyagents.app) 是一个原生桌面应用 (macOS · Linux · Windows) that 浏览整个名录 并将代理安装到 Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Qwen, and Osaurus 为你，然后保持它们最新.
 
-**[⬇ Download the latest release](https://github.com/msitarzewski/agency-agents-app/releases/latest)** — or on a Mac:
+**[⬇ 下载最新版本](https://github.com/msitarzewski/agency-agents-app/releases/latest)** — 或在 Mac 上：
 
 ```bash
 brew install --cask msitarzewski/agency-agents/agency-agents
 ```
 
-Prefer the command line? The script-based options below install the same agents.
+偏好命令行？ 下方的脚本选项安装相同的代理.
 
 ### Option 2: Use with Claude Code
 
 ```bash
-# Install all agents to your Claude Code directory
+# 将所有代理安装到你的 Claude Code 目录
 ./scripts/install.sh --tool claude-code
 
-# Or manually copy a category if you only want one division
+# 或者手动复制一个分类 如果你只想要一个部门
 cp engineering/*.md ~/.claude/agents/
 
-# Then activate any agent in your Claude Code sessions:
-# "Hey Claude, activate Frontend Developer mode and help me build a React component"
+# 然后在你的 Claude Code 会话中激活任何代理：
+# "嘿 Claude，激活 Frontend Developer 模式并帮我构建一个 React 组件"
 ```
 
 ### Option 3: Use as Reference
 
-Each agent file contains:
-- Identity & personality traits
+每个代理文件包含：
+- 身份与性格特征
 - Core mission & 工作流程
-- Technical deliverables with code examples
-- Success metrics & communication style
+- 带有代码示例的技术交付物
+- 成功指标与沟通风格
 
-Browse the agents below and copy/adapt the ones you need!
+浏览下方的代理并复制/适配你需要的！
 
 ### Option 4: Use with Other Tools (GitHub Copilot, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf, Kimi Code, Codex, Osaurus, Hermes, Mistral Vibe)
 
@@ -91,23 +91,23 @@ Browse the agents below and copy/adapt the ones you need!
 ./scripts/install.sh --tool vibe
 ```
 
-**Install only the teams you need** (not everyone wants every division):
+**只安装你需要的团队** (不是每个人都需要每个部门):
 
 ```bash
-./scripts/install.sh                                    # interactive wizard: pick tools + teams
+./scripts/install.sh                                    # 交互式向导: 选择工具 + 团队
 ./scripts/install.sh --tool claude-code --division engineering,security
 ./scripts/install.sh --tool cursor --agent frontend-developer,ui-designer
-./scripts/install.sh --list teams                       # see every team + agent count
-./scripts/install.sh --tool opencode --division engineering --dry-run
+./scripts/install.sh --list teams                       # 查看所有团队 + 代理数量
+./scripts/install.sh --tool opencode --division engineering --dry-运行
 ```
 
-> **OpenCode note:** OpenCode's runtime currently registers only ~119 agents and silently drops the rest ([upstream bug](https://github.com/anomalyco/opencode/issues/27988)). Installing a subset with `--division` keeps you under that limit. The installer warns you when a selection would exceed it.
+> **OpenCode note:** OpenCode's 运行time currently registers only ~119 agents and silently drops the rest ([upstream bug](https://github.com/anomalyco/opencode/issues/27988)). Installing a subset with `--division` keeps you under that limit. The installer warns you when a selection would exceed it.
 
-See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
+参见 the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
 
 ---
 
-## 🎨 The Agency Roster
+## 🎨 代理名录
 
 ### 💻 工程 Division
 
@@ -178,7 +178,7 @@ Making it beautiful, usable, and delightful.
 |-------|-----------|-------------|
 | 🎯 [界面设计er](design/design-ui-designer.md) | Visual design, component libraries, design systems | Interface creation, brand consistency, component design |
 | 🔍 [用户体验研究er](design/design-ux-researcher.md) | User 测试, behavior analysis, research | Understanding users, 可用性测试, design insights |
-| 🏛️ [UX Architect](design/design-ux-architect.md) | Technical architecture, CSS systems, implementation | Developer-friendly foundations, implementation guidance |
+| 🏛️ [UX Architect](design/design-ux-architect.md) | 技术架构, CSS systems, implementation | Developer-friendly foundations, implementation guidance |
 | 🎭 [Brand Guardian](design/design-brand-guardian.md) | Brand identity, consistency, positioning | Brand strategy, identity development, guidelines |
 | 📖 [Visual Storyteller](design/design-visual-storyteller.md) | Visual narratives, multimedia content | Compelling visual stories, brand storytelling |
 | ✨ [Whimsy Injector](design/design-whimsy-injector.md) | 性格, delight, playful interactions | Adding joy, micro-interactions, Easter eggs, brand personality |
@@ -274,7 +274,7 @@ Building the right thing at the right time.
 
 ### 🎬 Project Management Division
 
-Keeping the trains running on time (and under budget).
+Keeping the trains 运行ning on time (and under budget).
 
 | Agent | Specialty | 使用场景 |
 |-------|-----------|-------------|
@@ -365,7 +365,7 @@ The unique specialists who don't fit in a box.
 | 🗣️ [Developer Advocate](specialized/specialized-developer-advocate.md) | Community 构建, DX, developer content | Bridging product and developer community |
 | 🔬 [Model QA Specialist](specialized/specialized-model-qa.md) | ML audits, feature analysis, interpretability | End-to-end QA for 机器学习 models |
 | 🗃️ [ZK Steward](specialized/zk-steward.md) | Knowledge management, Zettelkasten, notes | Building connected, validated knowledge bases |
-| 🔌 [MCP Builder](specialized/specialized-mcp-builder.md) | Model Context Protocol servers, 人工智能 agent tooling | Building MCP servers that extend 人工智能 agent capabilities |
+| 🔌 [MCP Builder](specialized/specialized-mcp-builder.md) | Model Context Protocol servers, 人工智能 代理来oling | Building MCP servers that extend 人工智能 agent capabilities |
 | 📄 [Document Generator](specialized/specialized-document-generator.md) | PDF, PPTX, DOCX, XLSX generation from code | Professional document creation, reports, data visualization |
 | ⚙️ [Automation 治理 Architect](specialized/automation-governance-architect.md) | Automation governance, n8n, 工作流程 审计 | Evaluating and governing business automations 大规模地 |
 | 📚 [Corporate 培训 Designer](specialized/corporate-training-designer.md) | Enterprise training, curriculum development | Designing training systems and learning programs |
@@ -524,7 +524,7 @@ Building 人工智能 agents for regulated clinical and sovereign health context
 
 ---
 
-## 🎯 Real-World Use Cases
+## 🎯 实际用例
 
 ### Scenario 1: Building a Startup MVP
 
@@ -585,7 +585,7 @@ Building 人工智能 agents for regulated clinical and sovereign health context
 
 **Your Team**: All 8 divisions working in parallel on a single mission.
 
-See the **[Nexus Spatial Discovery Exercise](examples/nexus-spatial-discovery.md)** -- a complete example where 8 agents (Product Trend Researcher, Backend Architect, Brand Guardian, 增长 Hacker, Support Responder, 用户体验研究er, Project Shepherd, and XR Interface Architect) were deployed simultaneously to evaluate a software opportunity and produce a unified product plan covering market validation, technical architecture, brand strategy, go-to-market, support systems, UX research, project execution, and spatial UI design.
+参见 the **[Nexus Spatial Discovery Exercise](examples/nexus-spatial-discovery.md)** -- a complete example where 8 agents (Product Trend Researcher, Backend Architect, Brand Guardian, 增长 Hacker, Support Responder, 用户体验研究er, Project Shepherd, and XR Interface Architect) were deployed simultaneously 来评估软件机会 and produce a unified product plan covering market validation, technical architecture, brand strategy, go-to-market, support systems, UX research, project execution, and spatial UI design.
 
 **Result**: Comprehensive, 跨职能 product blueprint produced in a single session. [More examples](examples/).
 
@@ -607,14 +607,14 @@ See the **[Nexus Spatial Discovery Exercise](examples/nexus-spatial-discovery.md
 
 ---
 
-## 🤝 Contributing
+## 🤝 贡献指南
 
 We welcome contributions! Here's how you can help:
 
 ### Add a New Agent
 
 1. Fork the repository
-2. Create a new agent file in the appropriate category
+2. Create a new agent 文件在 the appropriate category
 3. Follow the agent template structure:
    - Frontmatter with name, description, color
    - Identity & Memory section
@@ -638,9 +638,9 @@ Have you used these agents successfully? Share your story in the [Discussions](h
 
 ---
 
-## 📖 Agent Design Philosophy
+## 📖 代理设计理念
 
-Each agent is designed with:
+每个代理都是 designed with:
 
 1. **🎭 Strong 性格**: Not generic templates - real character and voice
 2. **📋 Clear 交付物**: Concrete outputs, not vague guidance
@@ -650,7 +650,7 @@ Each agent is designed with:
 
 ---
 
-## 🎁 What Makes This Special?
+## 🎁 与众不同之处?
 
 ### Unlike Generic 人工智能 Prompts:
 - ❌ Generic "Act as a developer" prompts
@@ -662,7 +662,7 @@ Each agent is designed with:
 
 ### Unlike 人工智能 Tools:
 - ❌ Black box tools you can't customize
-- ✅ Transparent, forkable, adaptable agent personalities
+- ✅ Transparent, forkable, adaptable 代理人格集合
 
 ---
 
@@ -686,7 +686,7 @@ Each agent is designed with:
 
 ---
 
-## 📊 Stats
+## 📊 统计数据
 
 - 🎭 **230+ Specialized Agents** across every division
 - 📝 **10,000+ lines** of personality, process, and code examples
@@ -700,7 +700,7 @@ Each agent is designed with:
 
 The Agency works natively with Claude Code, and ships conversion + install scripts so you can use the same agents across every major agentic coding tool.
 
-### Supported Tools
+### 支持的工具
 
 - **[Claude Code](https://claude.ai/code)** — native `.md` agents, no conversion needed → `~/.claude/agents/`
 - **[GitHub Copilot](https://github.com/copilot)** — native `.md` agents, no conversion needed → `~/.github/agents/` + `~/.copilot/agents/`
@@ -719,7 +719,7 @@ The Agency works natively with Claude Code, and ships conversion + install scrip
 
 ---
 
-### ⚡ Quick Install
+### ⚡ 快速安装
 
 **Step 1 -- Generate integration files:**
 ```bash
@@ -733,7 +733,7 @@ The Agency works natively with Claude Code, and ships conversion + install scrip
 # Faster (parallel, output order may vary): ./scripts/install.sh --no-interactive --parallel
 ```
 
-The installer scans your system for installed tools, shows a checkbox UI, and lets you pick exactly what to install:
+The installer scans your system for 安装到ols, shows a checkbox UI, and lets you pick exactly what to install:
 
 ```
   +------------------------------------------------+
@@ -777,7 +777,7 @@ The installer scans your system for installed tools, shows a checkbox UI, and le
 ./scripts/install.sh --no-interactive --tool all
 ```
 
-**Faster runs (parallel)** — On multi-core machines, use `--parallel` so each tool is processed in parallel. Output order across tools is non-deterministic. Works with both interactive and non-interactive install: e.g. `./scripts/install.sh --interactive --parallel` (pick tools, then install in parallel) or `./scripts/install.sh --no-interactive --parallel`. Job count defaults to `nproc` (Linux), `sysctl -n hw.ncpu` (macOS), or 4; override with `--作业s N`.
+**Faster 运行s (parallel)** — On multi-core machines, use `--parallel` so each tool is processed in parallel. Output order across tools is non-deterministic. Works with both interactive and non-interactive install: e.g. `./scripts/install.sh --interactive --parallel` (pick tools, then install in parallel) or `./scripts/install.sh --no-interactive --parallel`. Job count defaults to `nproc` (Linux), `sysctl -n hw.ncpu` (macOS), or 4; override with `--作业s N`.
 
 ```bash
 ./scripts/convert.sh --parallel                    # convert all tools in parallel
@@ -789,7 +789,7 @@ The installer scans your system for installed tools, shows a checkbox UI, and le
 
 ---
 
-### Tool-Specific Instructions
+### 工具特定说明
 
 <details>
 <summary><strong>Claude Code</strong></summary>
@@ -800,12 +800,12 @@ Agents are copied directly from the repo into `~/.claude/agents/` -- no conversi
 ./scripts/install.sh --tool claude-code
 ```
 
-Then activate in Claude Code:
+然后在 Claude Code 中激活：
 ```
-Use the Frontend Developer agent to review this component.
+使用 Frontend Developer 代理来 审查这个组件.
 ```
 
-See [integrations/claude-code/README.md](integrations/claude-code/README.md) for details.
+参见 [integrations/claude-code/README.md](integrations/claude-code/README.md) 了解更多详情.
 </details>
 
 <details>
@@ -817,12 +817,12 @@ Agents are copied directly from the repo into `~/.github/agents/` and `~/.copilo
 ./scripts/install.sh --tool copilot
 ```
 
-Then activate in GitHub Copilot:
+然后在 GitHub Copilot 中激活：
 ```
-Use the Frontend Developer agent to review this component.
+使用 Frontend Developer 代理来 审查这个组件.
 ```
 
-See [integrations/github-copilot/README.md](integrations/github-copilot/README.md) for details.
+参见 [integrations/github-copilot/README.md](integrations/github-copilot/README.md) 了解更多详情.
 </details>
 
 <details>
@@ -839,21 +839,21 @@ Activate in Gemini with Antigravity:
 @agency-frontend-developer review this React component
 ```
 
-See [integrations/antigravity/README.md](integrations/antigravity/README.md) for details.
+参见 [integrations/antigravity/README.md](integrations/antigravity/README.md) 了解更多详情.
 </details>
 
 <details>
 <summary><strong>Gemini CLI</strong></summary>
 
 Installs as Gemini CLI subagents.
-On a fresh clone, generate the Gemini agent files before running the installer.
+On a fresh clone, generate the Gemini agent files before 运行ning the installer.
 
 ```bash
 ./scripts/convert.sh --tool gemini-cli
 ./scripts/install.sh --tool gemini-cli
 ```
 
-See [integrations/gemini-cli/README.md](integrations/gemini-cli/README.md) for details.
+参见 [integrations/gemini-cli/README.md](integrations/gemini-cli/README.md) 了解更多详情.
 </details>
 
 <details>
@@ -877,13 +877,13 @@ Activate in OpenCode:
 @backend-architect design this API.
 ```
 
-See [integrations/opencode/README.md](integrations/opencode/README.md) for details.
+参见 [integrations/opencode/README.md](integrations/opencode/README.md) 了解更多详情.
 </details>
 
 <details>
 <summary><strong>Cursor</strong></summary>
 
-Each agent becomes a `.mdc` rule file in `.cursor/rules/` of your project.
+Each agent becomes a `.mdc` rule 文件在 `.cursor/rules/` of your project.
 
 ```bash
 cd /your/project
@@ -892,16 +892,16 @@ cd /your/project
 
 Rules are auto-applied when Cursor detects them in the project. Reference them explicitly:
 ```
-Use the @security-engineer rules to review this code.
+使用 @security-engineer rules to review this code.
 ```
 
-See [integrations/cursor/README.md](integrations/cursor/README.md) for details.
+参见 [integrations/cursor/README.md](integrations/cursor/README.md) 了解更多详情.
 </details>
 
 <details>
 <summary><strong>Aider</strong></summary>
 
-All agents are compiled into a single `CONVENTIONS.md` file that Aider reads automatically.
+All agents are compiled into a single `CONVENTIONS.md` Aider 自动读取的文件.
 
 ```bash
 cd /your/project
@@ -910,10 +910,10 @@ cd /your/project
 
 Then reference agents in your Aider session:
 ```
-Use the Frontend Developer agent to refactor this component.
+使用 Frontend Developer 代理来 refactor this component.
 ```
 
-See [integrations/aider/README.md](integrations/aider/README.md) for details.
+参见 [integrations/aider/README.md](integrations/aider/README.md) 了解更多详情.
 </details>
 
 <details>
@@ -928,10 +928,10 @@ cd /your/project
 
 Reference agents in Windsurf's Cascade:
 ```
-Use the Reality Checker agent to verify this is production ready.
+使用 Reality Checker 代理来 verify this is production ready.
 ```
 
-See [integrations/windsurf/README.md](integrations/windsurf/README.md) for details.
+参见 [integrations/windsurf/README.md](integrations/windsurf/README.md) 了解更多详情.
 </details>
 
 <details>
@@ -947,24 +947,24 @@ Each agent becomes a workspace with `SOUL.md`, `AGENTS.md`, and `IDENTITY.md` in
 If the `openclaw` CLI is available, the installer registers each workspace automatically.
 Run `openclaw gateway restart` after installation so the new agents are activated.
 
-See [integrations/openclaw/README.md](integrations/openclaw/README.md) for details.
+参见 [integrations/openclaw/README.md](integrations/openclaw/README.md) 了解更多详情.
 
 </details>
 
 <details>
 <summary><strong>Qwen Code</strong></summary>
 
-SubAgents are installed to `.qwen/agents/` in your project root (project-scoped).
+Sub代理安装到 `.qwen/agents/` in your project root (project-scoped).
 
 ```bash
-# Convert and install (run from your project root)
+# Convert and install (运行 from your project root)
 cd /your/project
 ./scripts/convert.sh --tool qwen
 ./scripts/install.sh --tool qwen
 ```
 
 **Usage in Qwen Code:**
-- Reference by name: `Use the frontend-developer agent to review this component`
+- Reference by name: `使用 frontend-developer 代理来 审查这个组件`
 - Or let Qwen auto-delegate based on task context
 - Manage via `/agents` command in interactive mode
 
@@ -975,7 +975,7 @@ cd /your/project
 <details>
 <summary><strong>Kimi Code</strong></summary>
 
-Agents are converted to Kimi Code CLI format (YAML + system prompt) and installed to `~/.config/kimi/agents/`.
+Agents are converted to Kimi Code CLI format (YAML + system prompt) and 安装到 `~/.config/kimi/agents/`.
 
 ```bash
 # Convert and install
@@ -994,14 +994,14 @@ kimi --agent-file ~/.config/kimi/agents/frontend-developer/agent.yaml \
      "审查 this React component"
 ```
 
-See [integrations/kimi/README.md](integrations/kimi/README.md) for details.
+参见 [integrations/kimi/README.md](integrations/kimi/README.md) 了解更多详情.
 
 </details>
 
 <details>
 <summary><strong>Codex</strong></summary>
 
-Each agent is converted into a Codex custom agent TOML file and installed to `~/.codex/agents/`.
+每个代理都是 converted into a Codex custom agent TOML 文件 and 安装到 `~/.codex/agents/`.
 
 ```bash
 ./scripts/convert.sh --tool codex
@@ -1010,42 +1010,42 @@ Each agent is converted into a Codex custom agent TOML file and installed to `~/
 
 Then reference the custom agent by name in Codex:
 ```
-Use the Frontend Developer agent to review this component.
+使用 Frontend Developer 代理来 审查这个组件.
 ```
 
-See [integrations/codex/README.md](integrations/codex/README.md) for details.
+参见 [integrations/codex/README.md](integrations/codex/README.md) 了解更多详情.
 </details>
 
 ---
 
 ### Re生成 After Changes
 
-When you add new agents or edit existing ones, regenerate all integration files:
+When you add new agents or edit existing ones, 重新生成所有 integration files:
 
 ```bash
-./scripts/convert.sh                    # regenerate all (serial)
-./scripts/convert.sh --parallel         # regenerate all in parallel (faster)
-./scripts/convert.sh --tool codex       # regenerate just one tool
-./scripts/convert.sh --tool cursor      # regenerate just one tool
+./scripts/convert.sh                    # 重新生成所有 (serial)
+./scripts/convert.sh --parallel         # 重新生成所有 in parallel (faster)
+./scripts/convert.sh --tool codex       # 只重新生成一个工具
+./scripts/convert.sh --tool cursor      # 只重新生成一个工具
 ```
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ 路线图
 
-- [ ] Interactive agent selector web tool
-- [x] Multi-agent 工作流程 examples -- see [examples/](examples/)
-- [x] Multi-tool integration scripts (Claude Code, GitHub Copilot, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf, Qwen Code, Kimi Code, Codex, Osaurus, Hermes)
-- [ ] Video tutorials on agent design
-- [ ] Community agent marketplace
+- [ ] 交互式代理选择器 Web 工具
+- [x] Multi-agent 工作流程 examples -- 参见 [examples/](examples/)
+- [x] 多工具集成脚本 (Claude Code, GitHub Copilot, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf, Qwen Code, Kimi Code, Codex, Osaurus, Hermes)
+- [ ] 代理设计视频教程
+- [ ] 社区代理市场
 - [ ] Agent "personality quiz" for project matching
 - [ ] "Agent of the Week" showcase series
 
 ---
 
-## 🌐 Community Translations & 本地化s
+## 🌐 社区翻译 & 本地化s
 
-Community-maintained translations and regional adaptations. These are independently maintained -- see each repo for coverage and version compatibility.
+社区维护的翻译和区域适配. 这些是独立维护的 -- 查看每个仓库的覆盖范围和版本兼容性.
 
 | Language | Maintainer | Link | Notes |
 |----------|-----------|------|-------|
@@ -1059,7 +1059,7 @@ Community-maintained translations and regional adaptations. These are independen
 | 🇯🇵 日本語 (ja-JP) | [@sscodeai](https://github.com/sscodeai) | [agency-agents-ja](https://github.com/sscodeai/agency-agents-ja) | 281 Japan-localized agents + 97 Japan-market originals + 27 工作流程 |
 | 🇻🇳 Tiếng Việt (vi-VN) | [@rodonguyen](https://github.com/rodonguyen) | [agency-agents](https://github.com/rodonguyen/agency-agents) | Starter Vietnamese localization focused on README, quick start, and high-use docs |
 
-Want to add a translation? Open an issue and we'll link it here.
+想添加翻译？ Open an issue and we'll link it here.
 
 ---
 
@@ -1069,35 +1069,35 @@ Want to add a translation? Open an issue and we'll link it here.
 
 ---
 
-## 📜 License
+## 📜 许可证
 
-MIT License - Use freely, commercially or personally. Attribution appreciated but not required.
-
----
-
-## 🙏 Acknowledgments
-
-What started as a Reddit thread about 人工智能 agent specialization has grown into something remarkable — **230+ agents across every division**, supported by a community of contributors from around the world. Every agent in this repo exists because someone cared enough to write it, test it, and share it.
-
-To everyone who has opened a PR, filed an issue, started a Discussion, or simply tried an agent and told us what worked — thank you. You're the reason The Agency keeps getting better.
+MIT 许可证 - 自由使用，商业或个人. 署名感谢但不要求.
 
 ---
 
-## 💬 Community
+## 🙏 致谢
 
-- **GitHub Discussions**: [Share your success stories](https://github.com/msitarzewski/agency-agents/discussions)
-- **Issues**: [Report bugs or request features](https://github.com/msitarzewski/agency-agents/issues)
+What started as a Reddit thread about 人工智能 agent specialization 已经成长为一些非凡的东西 — **230+ agents across every division**, 由来自世界各地的贡献者社区支持. 这个仓库中的每个代理之所以存在，是因为有人足够关心 来编写它、测试它并分享它.
+
+向每一个打开 PR 的人, 提交 issue, 开始讨论, 或只是尝试了一个代理并告诉我们什么有效 — 谢谢你. You're the reason The Agency keeps getting better.
+
+---
+
+## 💬 社区
+
+- **GitHub 讨论**: [分享你的成功故事](https://github.com/msitarzewski/agency-agents/discussions)
+- **问题**: [报告 bug 或请求功能](https://github.com/msitarzewski/agency-agents/issues)
 - **Reddit**: Join the conversation on r/Claude人工智能
-- **Twitter/X**: Share with #TheAgency
+- **Twitter/X**: 使用 #TheAgency 分享
 
 ---
 
-## 🚀 Get Started
+## 🚀 开始使用
 
 1. **Browse** the agents above and find specialists for your needs
-2. **Copy** the agents to `~/.claude/agents/` for Claude Code integration
+2. **Copy** the agents to `~/.claude/agents/` 用于 Claude Code 集成
 3. **Activate** agents by referencing them in your Claude conversations
-4. **Customize** agent personalities and 工作流程 for your specific needs
+4. **Customize** 代理人格集合 and 工作流程 适合你的特定需求
 5. **Share** your results and contribute back to the community
 
 ---
