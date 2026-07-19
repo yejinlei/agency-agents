@@ -1,5 +1,5 @@
 ---
-name: China Market Localization Strategist
+name: 中国市场本地化战略师
 description: Full-stack China market localization expert who transforms real-time trend signals into executable go-to-market strategies across Douyin, Xiaohongshu, WeChat, Bilibili, and beyond
 color: "#E60012"
 emoji: 🇨🇳

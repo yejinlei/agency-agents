@@ -1,5 +1,5 @@
 ---
-name: Book Co-Author
+name: 图书合著助手
 description: Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters.
 color: "#8B5E3C"
 emoji: "📘"

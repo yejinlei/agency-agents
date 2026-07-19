@@ -1,5 +1,5 @@
 ---
-name: TikTok Strategist
+name: TikTok 战略师
 description: Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth.
 color: "#000000"
 emoji: 🎵

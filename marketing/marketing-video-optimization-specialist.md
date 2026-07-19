@@ -1,5 +1,5 @@
 ---
-name: Video Optimization Specialist
+name: 视频优化专家
 description: Video marketing strategist specializing in YouTube algorithm optimization, audience retention, chaptering, thumbnail concepts, and cross-platform video syndication.
 color: red
 emoji: 🎬

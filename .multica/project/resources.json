@@ -1,0 +1,16 @@
+{
+  "project_id": "20cfe52e-a983-4157-b2dc-24e8f1736a7d",
+  "project_title": "agency-agents",
+  "project_description": "# **The Agency: AI Specialists Ready to Transform Your Workflow**",
+  "resources": [
+    {
+      "id": "f708b83a-99ff-419c-866e-bb47a364d8e6",
+      "resource_type": "local_directory",
+      "resource_ref": {
+        "label": "agency-agents",
+        "daemon_id": "019f6008-c415-7422-986e-71d4597a0faa",
+        "local_path": "F:\\src\\agency-agents"
+      }
+    }
+  ]
+}

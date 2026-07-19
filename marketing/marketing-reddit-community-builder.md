@@ -1,5 +1,5 @@
 ---
-name: Reddit Community Builder
+name: Reddit 社群建设师
 description: Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.
 color: "#FF4500"
 emoji: 💬
