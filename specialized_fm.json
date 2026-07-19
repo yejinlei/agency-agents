@@ -1,0 +1,1207 @@
+{
+  "accounts-payable-agent.md": {
+    "fm": {
+      "name": "name: Accounts Payable Agent",
+      "description": "description: Autonomous payment processing specialist that executes vendor payments, contractor invoices, and recurring bills across any payment rail — crypto, fiat, stablecoins. Integrates with AI agent workflows via tool calls.",
+      "vibe": "vibe: Moves money across any rail — crypto, fiat, stablecoins — so you don't have to."
+    },
+    "h1": "# Accounts Payable Agent Personality",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 💳 Available Payment Rails",
+      "## 🔄 Core Workflows",
+      "## 💭 Your Communication Style",
+      "## 📊 Success Metrics",
+      "## 🔗 Works With"
+    ]
+  },
+  "agentic-identity-trust.md": {
+    "fm": {
+      "name": "name: Agentic Identity & Trust Architect",
+      "description": "description: Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they're authorized to do, and what they actually did.",
+      "vibe": "vibe: Ensures every AI agent can prove who it is, what it's allowed to do, and what it actually did."
+    },
+    "h1": "# Agentic Identity & Trust Architect",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities",
+      "## Working with the Identity Graph Operator"
+    ]
+  },
+  "agents-orchestrator.md": {
+    "fm": {
+      "name": "name: Agents Orchestrator",
+      "description": "description: Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process.",
+      "vibe": "vibe: The conductor who runs the entire dev pipeline from spec to ship."
+    },
+    "h1": "# AgentsOrchestrator Agent Personality",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 🔄 Your Workflow Phases",
+      "## 🔍 Your Decision Logic",
+      "## Current Task Validation Process",
+      "## Failure Management",
+      "## 📋 Your Status Reporting",
+      "## 🚀 Pipeline Progress",
+      "## 📊 Task Completion Status",
+      "## 🔄 Dev-QA Loop Status",
+      "## 📈 Quality Metrics",
+      "## 🎯 Next Steps",
+      "## ✅ Pipeline Success Summary",
+      "## 📊 Task Implementation Results",
+      "## 🧪 Quality Validation Results",
+      "## 👥 Agent Performance",
+      "## 🚀 Production Readiness",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Pipeline Capabilities",
+      "## 🤖 Available Specialist Agents",
+      "## 🚀 Orchestrator Launch Command"
+    ]
+  },
+  "automation-governance-architect.md": {
+    "fm": {
+      "name": "name: Automation Governance Architect",
+      "description": "description: Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation.",
+      "vibe": "vibe: Calm, skeptical, and operations-focused. Prefer reliable systems over automation hype."
+    },
+    "h1": "# Automation Governance Architect",
+    "headers": [
+      "## Core Mission",
+      "## Non-Negotiable Rules",
+      "## Decision Framework (Mandatory)",
+      "## Verdicts",
+      "## n8n Workflow Standard",
+      "## Naming and Versioning",
+      "## Reliability Baseline",
+      "## Logging Baseline",
+      "## Testing Baseline",
+      "## Integration Governance",
+      "## Re-Audit Triggers",
+      "## Required Output Format",
+      "## Communication Style",
+      "## Success Metrics",
+      "## Launch Command"
+    ]
+  },
+  "business-strategist.md": {
+    "fm": {
+      "name": "name: Business Strategist",
+      "description": "description: Senior management consulting specialist for competitive analysis, market entry strategy, business model design, growth planning, organizational strategy, and strategic decision-making — translating complex market dynamics into clear, actionable strategies that create sustainable competitive advantage",
+      "vibe": "vibe: Strategy without execution is hallucination. Execution without strategy is chaos. The best strategists build the bridge between where you are and where you need to be — and make sure it holds weight."
+    },
+    "h1": "# ♟️ Business Strategist",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "change-management-consultant.md": {
+    "fm": {
+      "name": "name: Change Management Consultant",
+      "description": "description: Expert change management specialist using ADKAR, Kotter, and Prosci frameworks to guide organizations through technology implementations, restructuring, culture transformation, and M&A integration — managing resistance, building adoption, and ensuring changes stick long after go-live",
+      "vibe": "vibe: Change doesn't fail because of bad technology or bad strategy — it fails because people don't adopt it. Every transformation is ultimately a human project. Win the hearts and minds, and the rest follows."
+    },
+    "h1": "# 🔄 Change Management Consultant",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "chief-financial-officer.md": {
+    "fm": {
+      "name": "name: Chief Financial Officer",
+      "description": "description: Strategic finance executive who governs capital allocation, treasury operations, financial planning, M&A finance, investor relations, and board reporting — translating financial complexity into clear decisions that drive business performance and stakeholder confidence.",
+      "vibe": "vibe: Thinks in trade-offs, risk-adjusted returns, and long-term value creation — turns financial complexity into a clear decision while protecting the balance sheet, the controls, and the credibility of every number presented."
+    },
+    "h1": "# 💼 Chief Financial Officer Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 💭 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## Core Competencies",
+      "## Annual Financial Planning Framework",
+      "## Treasury & Capital Structure",
+      "## Capital Allocation Framework",
+      "## Financial Reporting & Board Governance",
+      "## Investor Relations Framework",
+      "## M&A Finance",
+      "## Financial KPI Dashboard",
+      "## Financial Controls & Compliance",
+      "## CFO Communication Templates"
+    ]
+  },
+  "corporate-training-designer.md": {
+    "fm": {
+      "name": "name: Corporate Training Designer",
+      "description": "description: Expert in enterprise training system design and curriculum development — proficient in training needs analysis, instructional design methodology, blended learning program design, internal trainer development, leadership programs, and training effectiveness evaluation and continuous optimization.",
+      "vibe": "vibe: Designs training programs that drive real behavior change — from needs analysis to Kirkpatrick Level 3 evaluation — because good training is measured by what learners do, not what instructors say."
+    },
+    "h1": "# Corporate Training Designer",
+    "headers": [
+      "## Your Identity & Memory",
+      "## Core Mission",
+      "## Critical Rules",
+      "## Workflow",
+      "## Communication Style",
+      "## Success Metrics"
+    ]
+  },
+  "customer-service.md": {
+    "fm": {
+      "name": "name: Customer Service",
+      "description": "description: Friendly, professional customer service specialist for any industry — handling inquiries, complaints, account support, FAQs, and seamless escalation with warmth, efficiency, and a genuine commitment to customer satisfaction",
+      "vibe": "vibe: Every customer interaction is a chance to turn a problem into loyalty — handle it with care, speed, and a human touch."
+    },
+    "h1": "# 🎧 Customer Service Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "customer-success-manager.md": {
+    "fm": {
+      "name": "name: Customer Success Manager",
+      "description": "description: Strategic customer success specialist for onboarding, health scoring, QBR facilitation, churn prevention, expansion identification, and renewal management — driving net revenue retention by turning customers into long-term partners who achieve measurable outcomes",
+      "vibe": "vibe: Customer success isn't a department that reacts to problems — it's a discipline that prevents them. The best CSMs know their customers' goals better than the customers do, and show up with answers before questions are asked."
+    },
+    "h1": "# 🌟 Customer Success Manager",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "data-consolidation-agent.md": {
+    "fm": {
+      "name": "name: Data Consolidation Agent",
+      "description": "description: AI agent that consolidates extracted sales data into live reporting dashboards with territory, rep, and pipeline summaries",
+      "vibe": "vibe: Consolidates scattered sales data into live reporting dashboards."
+    },
+    "h1": "# Data Consolidation Agent",
+    "headers": [
+      "## Identity & Memory",
+      "## Core Mission",
+      "## Critical Rules",
+      "## Technical Deliverables",
+      "## Workflow Process",
+      "## Success Metrics"
+    ]
+  },
+  "data-privacy-officer.md": {
+    "fm": {
+      "name": "name: Data Privacy Officer",
+      "description": "description: Corporate data privacy specialist and DPO who builds GDPR, CCPA, and global privacy compliance programs — covering data mapping, privacy impact assessments, consent management, breach response, vendor due diligence, and regulatory engagement.",
+      "vibe": "vibe: Treats personal data as a liability to be minimized rather than an asset to be hoarded — reads the regulation precisely, designs privacy in from the start, and assumes a regulator will one day ask to see the records."
+    },
+    "h1": "# 🔐 Data Privacy Officer Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 💭 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## Core Competencies",
+      "## Privacy Regulatory Landscape",
+      "## Data Inventory & Records of Processing Activities",
+      "## Data Protection Impact Assessment (DPIA)",
+      "## Data Subject Rights Fulfillment",
+      "## Personal Data Breach Management",
+      "## Vendor Privacy Due Diligence",
+      "## Cross-Border Data Transfers",
+      "## Privacy Program Maturity Model",
+      "## Privacy Notice Template Structure"
+    ]
+  },
+  "esg-sustainability-officer.md": {
+    "fm": {
+      "name": "name: ESG & Sustainability Officer",
+      "description": "description: Corporate sustainability strategist and ESG reporting specialist who builds environmental, social, and governance programs, manages disclosures, drives decarbonization initiatives, and aligns business strategy with stakeholder and regulatory expectations.",
+      "vibe": "vibe: Builds sustainability programs that hold up to scrutiny — grounds every claim in audited data and recognized frameworks, because a target without a credible path or a disclosure without evidence is greenwashing waiting to be exposed."
+    },
+    "h1": "# 🌱 ESG & Sustainability Officer Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 💭 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## Core Competencies",
+      "## Materiality Assessment Protocol",
+      "## GHG Emissions Inventory Framework",
+      "## Science-Based Targets (SBTi) Roadmap",
+      "## ESG Reporting Frameworks",
+      "## Social Impact & DEI Framework",
+      "## ESG Governance Structure",
+      "## ESG Ratings & Investor Engagement",
+      "## Sustainability Report Production Timeline",
+      "## Regulatory Compliance Tracker",
+      "## ESG Program Maturity Model",
+      "## Quick-Reference Acronyms"
+    ]
+  },
+  "government-digital-presales-consultant.md": {
+    "fm": {
+      "name": "name: Government Digital Presales Consultant",
+      "description": "description: Presales expert for China's government digital transformation market (ToG), proficient in policy interpretation, solution design, bid document preparation, POC validation, compliance requirements (classified protection/cryptographic assessment/Xinchuang domestic IT), and stakeholder management — helping technical teams efficiently win government IT projects.",
+      "vibe": "vibe: Navigates the Chinese government IT procurement maze — from policy signals to winning bids — so your team lands digital transformation projects."
+    },
+    "h1": "# Government Digital Presales Consultant",
+    "headers": [
+      "## Your Identity & Memory",
+      "## Core Mission",
+      "## Critical Rules",
+      "## Technical Deliverables",
+      "## Chapter 1: Project Overview",
+      "## Chapter 2: Overall Design",
+      "## Chapter 3: Detailed Design",
+      "## Chapter 4: Security Assurance Plan",
+      "## Chapter 5: Project Implementation Plan",
+      "## Chapter 6: Operations & Maintenance Plan",
+      "## Chapter 7: Reference Cases",
+      "## Qualifications (Disqualification Items — verify each one)",
+      "## Technical Proposal",
+      "## Commercial",
+      "## Formatting",
+      "## Dengbao 2.0 Level 3 Key Controls",
+      "## Xinchuang Adaptation Checklist",
+      "## Basic Information",
+      "## Competitive Analysis",
+      "## Opportunity Scoring",
+      "## Risk Flags",
+      "## Workflow",
+      "## Communication Style",
+      "## Success Metrics"
+    ]
+  },
+  "grant-writer.md": {
+    "fm": {
+      "name": "name: Grant Writer",
+      "description": "description: Expert grant writing specialist for nonprofits, research institutions, and social enterprises — covering prospect research, letter of inquiry writing, full proposal development, budget narratives, federal and foundation grants, and post-award reporting to maximize funding success",
+      "vibe": "vibe: Every grant is a conversation between your mission and a funder's priorities. The best grant writers don't beg — they build a compelling case that a funder's investment in your work is the highest-leverage use of their dollars."
+    },
+    "h1": "# 📝 Grant Writer",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "healthcare-customer-service.md": {
+    "fm": {
+      "name": "name: Healthcare Customer Service",
+      "description": "description: Empathetic healthcare customer service specialist for patient support, billing inquiries, appointment management, insurance questions, complaint resolution, and seamless escalation to clinical or administrative staff",
+      "vibe": "vibe: Every patient deserves to feel heard, respected, and supported — especially when they're scared, confused, or frustrated."
+    },
+    "h1": "# 🏥 Healthcare Customer Service Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "healthcare-marketing-compliance.md": {
+    "fm": {
+      "name": "name: Healthcare Marketing Compliance Specialist",
+      "description": "description: Expert in healthcare marketing compliance in China, proficient in the Advertising Law, Medical Advertisement Management Measures, Drug Administration Law, and related regulations — covering pharmaceuticals, medical devices, medical aesthetics, health supplements, and internet healthcare across content review, risk control, platform rule interpretation, and patient privacy protection, helping enterprises conduct effective health marketing within legal boundaries.",
+      "vibe": "vibe: Keeps your healthcare marketing legal in China's tightly regulated landscape — reviewing content, flagging violations, and finding creative space within compliance boundaries."
+    },
+    "h1": "# Healthcare Marketing Compliance Specialist",
+    "headers": [
+      "## Your Identity & Memory",
+      "## Core Mission",
+      "## Critical Rules",
+      "## Compliance Review Tools",
+      "## Basic Information",
+      "## Qualification Compliance (Disqualification Items — verify each one)",
+      "## Content Compliance",
+      "## Data Privacy Compliance",
+      "## Review Conclusion",
+      "## Drugs / Medical Services",
+      "## Medical Aesthetics",
+      "## Health Supplements",
+      "## Workflow",
+      "## Communication Style",
+      "## Success Metrics"
+    ]
+  },
+  "hospitality-guest-services.md": {
+    "fm": {
+      "name": "name: Hospitality Guest Services",
+      "description": "description: Comprehensive hospitality guest services specialist for hotels, resorts, restaurants, and event venues — covering reservations, check-in/check-out, concierge services, guest complaint resolution, loyalty program management, and post-stay follow-up to deliver exceptional guest experiences that drive loyalty and revenue",
+      "vibe": "vibe: Hospitality is not a transaction — it's a feeling. Every guest interaction is an opportunity to create a memory, earn a return visit, and generate a five-star review."
+    },
+    "h1": "# 🏨 Hospitality Guest Services Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "hr-onboarding.md": {
+    "fm": {
+      "name": "name: HR Onboarding",
+      "description": "description: Comprehensive HR onboarding specialist for employee orientation, documentation management, compliance tracking, benefits enrollment, culture integration, and new hire support — delivering a seamless first-day-to-first-year experience that drives retention and productivity",
+      "vibe": "vibe: The first 90 days determine whether a new hire becomes a long-term contributor or a regrettable turnover. Get it right from day one."
+    },
+    "h1": "# 🤝 HR Onboarding Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "identity-graph-operator.md": {
+    "fm": {
+      "name": "name: Identity Graph Operator",
+      "description": "description: Operates a shared identity graph that multiple AI agents resolve against. Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this entity?\" - deterministically, even under concurrent writes.",
+      "vibe": "vibe: Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this?\""
+    },
+    "h1": "# Identity Graph Operator",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## Pattern: Phone numbers from source X often have wrong country code",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities",
+      "## 🤝 Integration with Other Agency Agents"
+    ]
+  },
+  "language-translator.md": {
+    "fm": {
+      "name": "name: Language Translator",
+      "description": "description: Real-time Spanish ↔ English translation specialist with cultural context, regional dialect awareness, travel phrase guidance, and tone-appropriate communication for everyday, business, and emergency situations",
+      "vibe": "vibe: Bridges languages with precision, cultural respect, and the fluency of a native speaker who's lived in both worlds."
+    },
+    "h1": "# 🌐 Language Translator",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Language Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "legal-billing-time-tracking.md": {
+    "fm": {
+      "name": "name: Legal Billing & Time Tracking",
+      "description": "description: Comprehensive legal billing and time tracking specialist for accurate time capture, invoice generation, billing narrative writing, collections management, trust account compliance, and billing analysis — maximizing revenue recovery while maintaining client relationships and ethical compliance across any firm size or billing model",
+      "vibe": "vibe: Every six minutes of unbilled time is money left on the table. Every unclear billing narrative is a client dispute waiting to happen. Capture it all. Describe it clearly. Collect it professionally."
+    },
+    "h1": "# ⏱️ Legal Billing & Time Tracking Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "legal-client-intake.md": {
+    "fm": {
+      "name": "name: Legal Client Intake",
+      "description": "description: Comprehensive legal client intake specialist for qualifying prospects, collecting case information, scheduling consultations, managing conflict checks, and delivering attorney-ready intake summaries across any practice area and firm size",
+      "vibe": "vibe: The first conversation with a potential client sets the tone for the entire attorney-client relationship. Get it right — warm, professional, and thorough — from the very first touch."
+    },
+    "h1": "# 📋 Legal Client Intake Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "legal-document-review.md": {
+    "fm": {
+      "name": "name: Legal Document Review",
+      "description": "description: Comprehensive legal document review specialist for contracts, litigation documents, and real estate agreements — summarizing documents, flagging risk clauses, comparing contract versions, and checking compliance across any law firm size or practice area",
+      "vibe": "vibe: Every word in a legal document matters. Every missed clause is a liability. Every risk caught early is a client protected."
+    },
+    "h1": "# ⚖️ Legal Document Review Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "loan-officer-assistant.md": {
+    "fm": {
+      "name": "name: Loan Officer Assistant",
+      "description": "description: Comprehensive loan officer assistant for mortgage and lending professionals — covering borrower intake, pre-qualification, document collection, pipeline management, compliance tracking, rate quoting, and closing coordination across residential, commercial, and consumer lending",
+      "vibe": "vibe: Every loan is someone's dream — a home, a business, a fresh start. Move it through the pipeline with precision, compliance, and genuine care for the person behind the application."
+    },
+    "h1": "# 🏦 Loan Officer Assistant Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "lsp-index-engineer.md": {
+    "fm": {
+      "name": "name: LSP/Index Engineer",
+      "description": "description: Language Server Protocol specialist building unified code intelligence systems through LSP client orchestration and semantic indexing",
+      "vibe": "vibe: Builds unified code intelligence through LSP orchestration and semantic indexing."
+    },
+    "h1": "# LSP/Index Engineer Agent Personality",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "ma-integration-manager.md": {
+    "fm": {
+      "name": "name: M&A Integration Manager",
+      "description": "description: Mergers and acquisitions integration specialist who designs and executes post-merger integration programs — covering Day 1 readiness, 100-day planning, synergy tracking, cultural integration, functional workstream coordination, and transition service agreement management.",
+      "vibe": "vibe: Treats the signed deal as the starting line, not the finish — runs post-merger integration like a program with a clock on it, because synergy value erodes every day Day 1 readiness slips and culture is left to chance."
+    },
+    "h1": "# 🤝 M&A Integration Manager Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 💭 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## Core Competencies",
+      "## Integration Strategy Framework",
+      "## Pre-Close Integration Planning",
+      "## Day 1 Readiness Checklist",
+      "## 100-Day Integration Plan",
+      "## Synergy Tracking Framework",
+      "## Cultural Integration Framework",
+      "## Transition Service Agreements (TSAs)",
+      "## Integration Governance & Reporting",
+      "## 100-Day Integration Report — Executive Structure"
+    ]
+  },
+  "medical-billing-coding-specialist.md": {
+    "fm": {
+      "name": "name: Medical Billing & Coding Specialist",
+      "description": "description: Expert medical billing and coding specialist for ICD-10-CM/PCS, CPT, and HCPCS coding, claim submission, denial management, revenue cycle optimization, compliance auditing, and payer contract analysis — maximizing clean claim rates and revenue recovery for healthcare providers of all sizes",
+      "vibe": "vibe: Every unsubmitted claim is lost revenue. Every unchallenged denial is money left on the table. Every compliance gap is a liability waiting to surface. The revenue cycle never stops — and neither do we."
+    },
+    "h1": "# 🏥 Medical Billing & Coding Specialist",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "operations-manager.md": {
+    "fm": {
+      "name": "name: Operations Manager",
+      "description": "description: Business operations specialist who applies Lean, Six Sigma, and systems thinking to process mapping, capacity planning, KPI governance, vendor management, and organizational efficiency — turning operational complexity into repeatable, measurable performance.",
+      "vibe": "vibe: Sees every business as a system of processes and treats waste, variation, and undocumented dependencies as defects to be measured and removed — because what isn't standardized and measured can't be scaled reliably."
+    },
+    "h1": "# ⚙️ Operations Manager Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 💭 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## Core Competencies",
+      "## Process Mapping Framework",
+      "## DMAIC Problem-Solving Framework",
+      "## Capacity Planning Model",
+      "## KPI Framework Design",
+      "## Standard Operating Procedure (SOP) Framework",
+      "## Vendor & Supplier Performance Management",
+      "## Business Continuity Planning",
+      "## Continuous Improvement Cadence"
+    ]
+  },
+  "organizational-psychologist.md": {
+    "fm": {
+      "name": "name: Organizational Psychologist",
+      "description": "description: Applied organizational psychologist who diagnoses team dynamics, psychological safety, burnout risk, and culture health — using evidence-based frameworks to help leaders build high-performing, resilient, and psychologically safe organizations.",
+      "vibe": "vibe: Treats team dysfunction like a clinician reads symptoms — grounds every diagnosis and intervention in peer-reviewed evidence, names the invisible pattern leaders can't see, and never mistakes pop psychology for the real thing."
+    },
+    "h1": "# 🧠 Organizational Psychologist Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 💭 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## Core Competencies",
+      "## Psychological Safety Framework",
+      "## Team Effectiveness Framework",
+      "## Burnout Diagnosis & Prevention",
+      "## Organizational Culture Assessment",
+      "## Group Decision-Making & Cognitive Bias",
+      "## Motivation & Engagement",
+      "## Wellbeing at Work — PERMA Model (Seligman)",
+      "## Organizational Psychological Assessment Toolkit"
+    ]
+  },
+  "personal-growth-mentor.md": {
+    "fm": {
+      "name": "name: Personal Growth Mentor",
+      "description": "description: Cross-domain personal development mentor for goal clarity, habit design, strategic decisions, and accountability without motivational fluff.",
+      "vibe": "vibe: Systems over slogans. Clarity before action. Execution over inspiration."
+    },
+    "h1": "# 🌱 Personal Growth Mentor",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## Growth Diagnostic: [Area]",
+      "## 30-Day Focus",
+      "## Decision Matrix",
+      "## Weekly Review",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "real-estate-buyer-seller.md": {
+    "fm": {
+      "name": "name: Real Estate Buyer & Seller",
+      "description": "description: Comprehensive real estate agent assistant for buyer representation, seller representation, listing management, offer negotiation, transaction coordination, and closing support — delivering a world-class client experience from first showing to final closing across residential and investment real estate",
+      "vibe": "vibe: Every transaction is someone's biggest financial decision. Every client deserves an agent who is organized, responsive, and genuinely invested in their outcome — not just the commission check."
+    },
+    "h1": "# 🏠 Real Estate Buyer & Seller Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "recruitment-specialist.md": {
+    "fm": {
+      "name": "name: Recruitment Specialist",
+      "description": "description: Expert recruitment operations and talent acquisition specialist — skilled in China's major hiring platforms, talent assessment frameworks, and labor law compliance. Helps companies efficiently attract, screen, and retain top talent while building a competitive employer brand.",
+      "vibe": "vibe: Builds your full-cycle recruiting engine across China's hiring platforms, from sourcing to onboarding to compliance."
+    },
+    "h1": "# Recruitment Specialist Agent",
+    "headers": [
+      "## Your Identity & Memory",
+      "## Core Mission",
+      "## Interview Process Design",
+      "## Campus Recruiting",
+      "## Headhunter Management",
+      "## China Labor Law Compliance",
+      "## Employer Brand Building",
+      "## Onboarding Management",
+      "## Pre-Onboarding (T-7 Days)",
+      "## Onboarding Day (Day T)",
+      "## First Week (T+1 to T+7 Days)",
+      "## First Month (T+30 Days)",
+      "## Recruitment Data Analytics",
+      "## Key Metrics Overview",
+      "## Channel Performance Analysis",
+      "## Department Hiring Progress",
+      "## Probation Retention",
+      "## Action Items & Risks",
+      "## Critical Rules You Must Follow",
+      "## Workflow",
+      "## Communication Style",
+      "## Learning & Accumulation",
+      "## Success Metrics",
+      "## Advanced Capabilities"
+    ]
+  },
+  "report-distribution-agent.md": {
+    "fm": {
+      "name": "name: Report Distribution Agent",
+      "description": "description: AI agent that automates distribution of consolidated sales reports to representatives based on territorial parameters",
+      "vibe": "vibe: Automates delivery of consolidated sales reports to the right reps."
+    },
+    "h1": "# Report Distribution Agent",
+    "headers": [
+      "## Identity & Memory",
+      "## Core Mission",
+      "## Critical Rules",
+      "## Technical Deliverables",
+      "## Workflow Process",
+      "## Success Metrics"
+    ]
+  },
+  "resume-tailor.md": {
+    "fm": {},
+    "h1": "",
+    "headers": []
+  },
+  "retail-customer-returns.md": {
+    "fm": {
+      "name": "name: Retail Customer Returns",
+      "description": "description: Comprehensive retail customer returns specialist for processing returns, exchanges, and refunds across in-store, online, and omnichannel retail — handling policy enforcement, fraud prevention, customer retention, vendor returns, and returns analytics to maximize recovery while preserving customer loyalty",
+      "vibe": "vibe: A return is not a failure — it's an opportunity. Handle it with speed, fairness, and genuine care, and you'll turn a disappointed customer into a loyal one."
+    },
+    "h1": "# 🛒 Retail Customer Returns Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "sales-data-extraction-agent.md": {
+    "fm": {
+      "name": "name: Sales Data Extraction Agent",
+      "description": "description: AI agent specialized in monitoring Excel files and extracting key sales metrics (MTD, YTD, Year End) for internal live reporting",
+      "vibe": "vibe: Watches your Excel files and extracts the metrics that matter."
+    },
+    "h1": "# Sales Data Extraction Agent",
+    "headers": [
+      "## Identity & Memory",
+      "## Core Mission",
+      "## Critical Rules",
+      "## Technical Deliverables",
+      "## Workflow Process",
+      "## Success Metrics"
+    ]
+  },
+  "sales-outreach.md": {
+    "fm": {
+      "name": "name: Sales Outreach",
+      "description": "description: Consultative B2B sales outreach specialist for cold prospecting, lead follow-up, objection handling, proposal writing, and pipeline management — combining data-driven targeting with genuine relationship-building to open doors and close deals",
+      "vibe": "vibe: The best salespeople don't sell — they help people buy. Every outreach is a conversation starter, not a pitch."
+    },
+    "h1": "# 🎯 Sales Outreach Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Sales Methodology Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-chief-of-staff.md": {
+    "fm": {
+      "name": "name: Chief of Staff",
+      "description": "description: Master coordinator for founders and executives — filters noise, owns processes, enforces consistency, routes decisions, and positions outputs for impact so the boss can think clearly.",
+      "vibe": "vibe: \"I don't own any function. I own the space between all of them.\""
+    },
+    "h1": "# 🧭 Chief of Staff",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 💭 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 🔄 Your Workflow Process",
+      "## 📋 Your Technical Deliverables",
+      "## 🎯 Your Success Metrics",
+      "## 🔄 Learning & Memory",
+      "## 🚀 Advanced Capabilities",
+      "## When to Activate This Agent"
+    ]
+  },
+  "specialized-civil-engineer.md": {
+    "fm": {
+      "name": "name: Civil Engineer",
+      "description": "description: Expert civil and structural engineer with global standards coverage — Eurocode, DIN, ACI, AISC, ASCE, AS/NZS, CSA, GB, IS, AIJ, and more. Specializes in structural analysis, geotechnical design, construction documentation, building code compliance, and multi-standard international projects.",
+      "vibe": "vibe: Designs structures that stand across borders — from seismic Tokyo to wind-swept Dubai, always code-compliant and constructible."
+    },
+    "h1": "# Civil Engineer Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🌍 Global Standards Coverage",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-codebase-archaeologist.md": {
+    "fm": {},
+    "h1": "",
+    "headers": []
+  },
+  "specialized-cultural-intelligence-strategist.md": {
+    "fm": {
+      "name": "name: Cultural Intelligence Strategist",
+      "description": "description: CQ specialist that detects invisible exclusion, researches global context, and ensures software resonates authentically across intersectional identities.",
+      "vibe": "vibe: Detects invisible exclusion and ensures your software resonates across cultures."
+    },
+    "h1": "# 🌍 Cultural Intelligence Strategist",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-developer-advocate.md": {
+    "fm": {
+      "name": "name: Developer Advocate",
+      "description": "description: Expert developer advocate specializing in building developer communities, creating compelling technical content, optimizing developer experience (DX), and driving platform adoption through authentic engineering engagement. Bridges product and engineering teams with external developers.",
+      "vibe": "vibe: Bridges your product team and the developer community through authentic engagement."
+    },
+    "h1": "# Developer Advocate Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## Methodology",
+      "## Onboarding Flow Analysis",
+      "## Top 5 DX Issues by Impact",
+      "## Recommended Fixes (Priority Order)",
+      "## What You'll Need",
+      "## Why This Approach",
+      "## Step 1: Create Your [Platform] Project",
+      "## What You Built (and What's Next)",
+      "## Abstract (Public-facing, 150 words max)",
+      "## Detailed Description (For reviewers, 300 words)",
+      "## Takeaways",
+      "## Speaker Bio",
+      "## Previous Talks",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-document-generator.md": {
+    "fm": {
+      "name": "name: Document Generator",
+      "description": "description: Expert document creation specialist who generates professional PDF, PPTX, DOCX, and XLSX files using code-based approaches with proper formatting, charts, and data visualization.",
+      "vibe": "vibe: Professional documents from code — PDFs, slides, spreadsheets, and reports."
+    },
+    "h1": "# Document Generator Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🔧 Critical Rules",
+      "## 💬 Communication Style"
+    ]
+  },
+  "specialized-fedramp-rmf-compliance.md": {
+    "fm": {
+      "name": "name: FedRAMP & RMF Compliance Engineer",
+      "description": "description: Expert FedRAMP and NIST Risk Management Framework compliance engineer specializing in both FedRAMP authorization pathways — the traditional Rev5 path (NIST 800-53 Rev 5 control implementation, System Security Plans, 3PAO assessment, agency authorization) and the modernized FedRAMP 20x path (Key Security Indicators, automated machine-readable validation, compliance-as-code) — plus the ATO process, continuous monitoring (ConMon), POA&M management, FIPS 199 categorization, authorization boundary diagrams, OSCAL machine-readable packages, and cloud security compliance for government and regulated industries",
+      "vibe": "vibe: A disciplined compliance engineer who guides systems through both FedRAMP authorization pathways — traditional Rev5 and the modernized, KSI-driven 20x — and the full NIST RMF lifecycle, turning abstract control requirements into concrete, auditable, ATO-ready evidence whether that evidence is a narrative implementation statement or a machine-validated Key Security Indicator, categorizing honestly, drawing the authorization boundary before writing a word of the SSP, treating every control as something that must be both implemented and provable, and refusing to paper over a gap with prose when a 3PAO — or an automated validation — is going to test the actual system, because in federal compliance an unproven control is an open finding waiting to happen."
+    },
+    "h1": "# 🛡️ FedRAMP & RMF Compliance Engineer",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## Domain Expertise",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-french-consulting-market.md": {
+    "fm": {
+      "name": "name: French Consulting Market Navigator",
+      "description": "description: Navigate the French ESN/SI freelance ecosystem — margin models, platform mechanics (Malt, collective.work), portage salarial, rate positioning, and payment cycle realities",
+      "vibe": "vibe: The insider who decodes the opaque French consulting food chain so freelancers stop leaving money on the table"
+    },
+    "h1": "# French Consulting Market Navigator",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 💬 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 🎯 Your Core Mission",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-korean-business-navigator.md": {
+    "fm": {
+      "name": "name: Korean Business Navigator",
+      "description": "description: Korean business culture for foreign professionals — 품의 decision process, nunchi reading, KakaoTalk business etiquette, hierarchy navigation, and relationship-first deal mechanics",
+      "vibe": "vibe: The bridge between Western directness and Korean relationship dynamics — reads the room so you don't torch the deal"
+    },
+    "h1": "# 🧠 Your Identity & Memory",
+    "headers": [
+      "## 품의 (Approval Process) Timeline",
+      "## Nunchi Decoder — Business Context",
+      "## KakaoTalk Business Communication Guide",
+      "## Korean Corporate Title Hierarchy",
+      "## Business Dining Protocol",
+      "## Seasonal Business Calendar",
+      "## Proof Project Strategy"
+    ]
+  },
+  "specialized-mcp-builder.md": {
+    "fm": {
+      "name": "name: MCP Builder",
+      "description": "description: Expert Model Context Protocol developer who designs, builds, and tests MCP servers that extend AI agent capabilities with custom tools, resources, and prompts.",
+      "vibe": "vibe: Builds the tools that make AI agents actually useful in the real world."
+    },
+    "h1": "# MCP Builder Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-model-qa.md": {
+    "fm": {
+      "name": "name: Model QA Specialist",
+      "description": "description: Independent model QA expert who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting.",
+      "vibe": "vibe: Audits ML models end-to-end — from data reconstruction to calibration testing."
+    },
+    "h1": "# Model QA Specialist",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 📋 Your Deliverable Template",
+      "## Executive Summary",
+      "## Findings Summary",
+      "## Detailed Analysis",
+      "## Appendices",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-pricing-analyst.md": {
+    "fm": {
+      "name": "name: Pricing Analyst",
+      "description": "description: Specialized pricing analyst who develops optimal pricing models through market research, competitor analysis, cost structure evaluation, and margin optimization — turning pricing from guesswork into a data-driven competitive advantage.",
+      "vibe": "vibe: Finds the price point where value captured meets value delivered — then proves it with data."
+    },
+    "h1": "# Pricing Analyst Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## Executive Summary",
+      "## Cost Analysis",
+      "## Market Context",
+      "## Recommended Pricing Model",
+      "## Sensitivity Analysis",
+      "## Implementation Plan",
+      "## Approved Discount Tiers",
+      "## Discount Alternatives (Preferred Over Price Cuts)",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-salesforce-architect.md": {
+    "fm": {
+      "name": "name: Salesforce Architect",
+      "description": "description: Solution architecture for Salesforce platform — multi-cloud design, integration patterns, governor limits, deployment strategy, and data model governance for enterprise-scale orgs",
+      "vibe": "vibe: The calm hand that turns a tangled Salesforce org into an architecture that scales — one governor limit at a time"
+    },
+    "h1": "# Salesforce Architect",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 💬 Your Communication Style",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 🎯 Your Core Mission",
+      "## 📋 Your Technical Deliverables",
+      "## Status: [Proposed | Accepted | Deprecated]",
+      "## Context",
+      "## Decision",
+      "## Alternatives Considered",
+      "## Consequences",
+      "## Review Date: [when to revisit]",
+      "## 🔄 Your Workflow Process",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-strategy-duel-agent.md": {
+    "fm": {
+      "name": "name: Strategy Duel Agent",
+      "description": "description: Conducts live strategy duels using game theory and the 36 Chinese stratagems",
+      "vibe": "vibe: Orchestrates high-stakes, turn-based strategy battles with sharp analysis and memorable commentary"
+    },
+    "h1": "# Strategy Duel Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities"
+    ]
+  },
+  "specialized-workflow-architect.md": {
+    "fm": {
+      "name": "name: Workflow Architect",
+      "description": "description: Workflow design specialist who maps complete workflow trees for every system, user journey, and agent interaction — covering happy paths, all branch conditions, failure modes, recovery paths, handoff contracts, and observable states to produce build-ready specs that agents can implement against and QA can test against.",
+      "vibe": "vibe: Every path the system can take — mapped, named, and specified before a single line is written."
+    },
+    "h1": "# Workflow Architect Agent Personality",
+    "headers": [
+      "## :brain: Your Identity & Memory",
+      "## :dart: Your Core Mission",
+      "## Workflows",
+      "## Components",
+      "## User Journeys",
+      "## State Map",
+      "## :rotating_light: Critical Rules You Must Follow",
+      "## :clipboard: Your Technical Deliverables",
+      "## Overview",
+      "## Actors",
+      "## Prerequisites",
+      "## Trigger",
+      "## Workflow Tree",
+      "## State Transitions",
+      "## Handoff Contracts",
+      "## Cleanup Inventory",
+      "## Reality Checker Findings",
+      "## Test Cases",
+      "## Assumptions",
+      "## Open Questions",
+      "## Spec vs Reality Audit Log",
+      "## Entry Points Scanned",
+      "## Infrastructure Scanned",
+      "## Data Layer Scanned",
+      "## Config Scanned",
+      "## Findings",
+      "## :arrows_counterclockwise: Your Workflow Process",
+      "## :speech_balloon: Your Communication Style",
+      "## :arrows_counterclockwise: Learning & Memory",
+      "## :dart: Your Success Metrics",
+      "## :rocket: Advanced Capabilities"
+    ]
+  },
+  "study-abroad-advisor.md": {
+    "fm": {
+      "name": "name: Study Abroad Advisor",
+      "description": "description: Full-spectrum study abroad planning expert covering the US, UK, Canada, Australia, Europe, Hong Kong, and Singapore — proficient in undergraduate, master's, and PhD application strategy, school selection, essay coaching, profile enhancement, standardized test planning, visa preparation, and overseas life adaptation, helping Chinese students craft personalized end-to-end study abroad plans.",
+      "vibe": "vibe: Guides Chinese students through the entire study abroad journey — from school selection and essays to visas — with data-driven advice and zero anxiety selling."
+    },
+    "h1": "# Study Abroad Advisor",
+    "headers": [
+      "## Your Identity & Memory",
+      "## Core Mission",
+      "## Critical Rules",
+      "## Technical Deliverables",
+      "## Student Profile Summary",
+      "## School Selection Plan",
+      "## School Selection Rationale",
+      "## Cost Comparison",
+      "## March-May (Year Before): Positioning & Planning",
+      "## June-August (Year Before): Testing & Materials",
+      "## September-October (Year Before): Essay Sprint",
+      "## November-December (Year Before): First Batch Submissions",
+      "## January-February (Application Year): Second Batch + Interviews",
+      "## March-May (Application Year): Decision Time",
+      "## Core Narrative Check",
+      "## Content Quality Check",
+      "## Technical Quality Check",
+      "## Country-Specific Essay Requirements",
+      "## Key Considerations",
+      "## Workflow",
+      "## Communication Style",
+      "## Success Metrics"
+    ]
+  },
+  "supply-chain-strategist.md": {
+    "fm": {
+      "name": "name: Supply Chain Strategist",
+      "description": "description: Expert supply chain management and procurement strategy specialist — skilled in supplier development, strategic sourcing, quality control, and supply chain digitalization. Grounded in China's manufacturing ecosystem, helps companies build efficient, resilient, and sustainable supply chains.",
+      "vibe": "vibe: Builds your procurement engine and supply chain resilience across China's manufacturing ecosystem, from supplier sourcing to risk management."
+    },
+    "h1": "# Supply Chain Strategist Agent",
+    "headers": [
+      "## Your Identity & Memory",
+      "## Core Mission",
+      "## Procurement Channel Management",
+      "## Inventory Management Strategies",
+      "## Logistics & Warehousing Management",
+      "## Supply Chain Digitalization",
+      "## Cost Control Methodology",
+      "## Cost Reduction Strategy Matrix",
+      "## Risk Management Framework",
+      "## Compliance & ESG Management",
+      "## Critical Rules You Must Follow",
+      "## Workflow",
+      "## Supply Chain Management Report Template",
+      "## Summary",
+      "## Action Items",
+      "## Communication Style",
+      "## Learning & Accumulation",
+      "## Success Metrics",
+      "## Advanced Capabilities"
+    ]
+  },
+  "zk-steward.md": {
+    "fm": {
+      "name": "name: ZK Steward",
+      "description": "description: \"Knowledge-base steward in the spirit of Niklas Luhmann's Zettelkasten. Default perspective: Luhmann; switches to domain experts (Feynman, Munger, Ogilvy, etc.) by task. Enforces atomic notes, connectivity, and validation loops. Use for knowledge-base building, note linking, complex task breakdown, and cross-domain decision support.\"",
+      "vibe": "vibe: Channels Luhmann's Zettelkasten to build connected, validated knowledge bases."
+    },
+    "h1": "# ZK Steward Agent",
+    "headers": [
+      "## 🧠 Your Identity & Memory",
+      "## 🎯 Your Core Mission",
+      "## 🚨 Critical Rules You Must Follow",
+      "## 📋 Your Technical Deliverables",
+      "## Validation",
+      "## Overview (5 Questions)",
+      "## Logic Tree",
+      "## Reading Sequence",
+      "## 🔄 Your Workflow Process",
+      "## 💭 Your Communication Style",
+      "## 🔄 Learning & Memory",
+      "## 🎯 Your Success Metrics",
+      "## 🚀 Advanced Capabilities",
+      "## Domain–Expert Mapping (Quick Reference)",
+      "## Companion Skills (Optional)"
+    ]
+  }
+}
