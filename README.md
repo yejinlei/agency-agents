@@ -197,7 +197,7 @@ cp engineering/*.md ~/.claude/agents/
 | 📋 [付费媒体审计员](paid-media/paid-media-auditor.md) | 200+ 项账户审计、竞争分析 | 账户接管、季度审查、竞争提案 |
 | 📡 [Tracking & Measurement Specialist](paid-media/paid-media-追踪-specialist.md) | GTM, GA4, conversion 追踪, CAPI | New implementations, 追踪 audits, platform migrations |
 | ✍️ [Ad Creative Strategist](paid-media/paid-media-creative-strategist.md) | RSA copy, Meta creative, Performance Max assets | Creative launches, 测试 programs, ad fatigue refreshes |
-| 📺 [Programmatic & Display Buyer](paid-media/paid-media-programmatic-buyer.md) | GDN, DSPs, partner media, ABM display | Display 规划, partner outreach, ABM programs |
+| 📺 [程序化与展示广告买家](paid-media/paid-media-programmatic-buyer.md) | GDN、DSP、合作伙伴媒体、ABM 展示 | 展示规划、合作伙伴拓展、ABM 计划 |
 | 📱 [付费社交战略师](paid-media/paid-media-paid-social-strategist.md) | Meta、LinkedIn、TikTok、跨平台社交 | 社交广告计划、平台选择、受众策略 |
 
 ### 💼 销售团队
@@ -208,14 +208,14 @@ cp engineering/*.md ~/.claude/agents/
 |-------|-----------|-------------|
 | 🎯 [外联战略师](sales/sales-outbound-strategist.md) | 信号驱动的潜在客户开发、多渠道序列、ICP 定位 | 通过研究驱动的外联构建销售管道，而非堆量 |
 | 🔍 [发现教练](sales/sales-discovery-coach.md) | SPIN、Gap Selling、Sandler —— 问题设计与通话结构 | 准备发现通话、机会资格评估、教练指导销售代表 |
-| ♟️ [Deal Strategist](sales/sales-deal-strategist.md) | MEDDPICC qualification, competitive positioning, win 规划 | Scoring deals, exposing pipeline risk, 构建 win strategies |
+| ♟️ [交易战略师](sales/sales-deal-strategist.md) | MEDDPICC 资格评估、竞争定位、赢单规划 | 交易评分、暴露管道风险、构建赢单策略 |
 | 🛠️ [销售工程师](sales/sales-engineer.md) | 技术演示、POC 范围控制、竞争对战卡 | 售前技术制胜、演示准备、竞争定位 |
 | 🏹 [提案战略师](sales/sales-proposal-strategist.md) | RFP 响应、赢单主题、叙事结构 | 撰写有说服力的提案，而不仅仅是合规 |
 | 📊 [管道分析师](sales/sales-pipeline-analyst.md) | 预测、管道健康度、交易速度、收入运营 | 管道审查、预测准确性、收入运营 |
-| 🗺️ [Account Strategist](sales/sales-account-strategist.md) | Land-and-expand, QBRs, stakeholder mapping | Post-sale expansion, account 规划, NRR growth |
+| 🗺️ [客户战略师](sales/sales-account-strategist.md) | 渗透扩展、QBR、利益相关者映射 | 售后扩展、客户规划、净收入留存增长 |
 | 🏋️ [销售教练](sales/sales-coach.md) | 销售代表发展、通话指导、管道审查促进 | 通过结构化指导让每个销售代表和每笔交易都更好 |
-| 🎯 [Sales Outreach](specialized/sales-outreach.md) | Cold prospecting, multi-touch cadences, objection 处理, proposals | Top-of-funnel B2B outreach — from cold email to booked discovery call |
-| 🧲 [Offer & Lead Gen Strategist](sales/sales-offer-lead-gen-strategist.md) | Offers & lead magnets | Top-of-funnel offer construction and 潜在客户生成 |
+| 🎯 [销售外联](specialized/sales-outreach.md) | 冷拓潜在客户、多触点节奏、异议处理、提案 | 漏斗顶端 B2B 外联——从冷邮件到预约发现通话 |
+| 🧲 [优惠与潜客生成战略师](sales/sales-offer-lead-gen-strategist.md) | 优惠与潜客磁铁 | 漏斗顶端优惠构建和潜客生成 |
 
 ### 📢 营销团队
 
@@ -246,7 +246,7 @@ cp engineering/*.md ~/.claude/agents/
 | 🌏 [跨境电商专家](marketing/marketing-cross-border-ecommerce.md) | Amazon、Shopee、Lazada、跨境履约 | 全漏斗跨境电商战略 |
 | 🎵 [抖音战略师](marketing/marketing-douyin-strategist.md) | 抖音平台、短视频营销、算法 | 在中国领先的短视频平台上增长受众 |
 | 🎙️ [直播电商教练](marketing/marketing-livestream-commerce-coach.md) | 主播培训、直播间优化、转化 | 构建高性能直播电商运营 |
-| 🎧 [Podcast Strategist](marketing/marketing-Podcast-strategist.md) | Podcast content strategy, platform optimization | Chinese Podcast market strategy and operations |
+| 🎧 [播客战略师](marketing/marketing-Podcast-strategist.md) | 播客内容战略、平台优化 | 中文播客市场战略和运营 |
 | 🔒 [私域运营师](marketing/marketing-private-domain-operator.md) | 企业微信、私域流量、社群运营 | 构建企业微信私域生态 |
 | 🎬 [Short-Video Editing Coach](marketing/marketing-short-video-editing-coach.md) | Post-production, editing 工作流程, platform specs | Hands-on short-video editing training and optimization |
 | 🔥 [微博战略师](marketing/marketing-weibo-strategist.md) | 新浪微博、热门话题、粉丝互动 | 全谱微博运营和增长 |
@@ -403,11 +403,11 @@ cp engineering/*.md ~/.claude/agents/
 | 🔐 [数据隐私 Officer](specialized/data-privacy-officer.md) | GDPR/CCPA privacy compliance | Data mapping, DPIAs, consent, breach response |
 | ⚙️ [Operations Manager](specialized/operations-manager.md) | Lean/Six Sigma operations | Process mapping, capacity 规划, KPI governance |
 | 🤝 [M&A Integration Manager](specialized/ma-integration-manager.md) | Post-merger integration | Day 1/100-day plans, synergy 追踪, TSA management |
-| 🧠 [Organizational Psychologist](specialized/organizational-psychologist.md) | Team dynamics & culture health | Psychological safety, burnout risk, high-performing teams |
-| ⚔️ [Strategy Duel Agent](specialized/specialized-strategy-duel-agent.md) | Game theory & the 36 stratagems | Turn-based strategy duels, adversarial scenario simulation |
-| 🛡️ [FedRAMP & RMF Compliance Engineer](specialized/specialized-fedramp-rmf-compliance.md) | Federal cloud authorization (ATO) | NIST 800-53, FedRAMP Rev5/20x, SSP/POA&M, ConMon, OSCAL |
+| 🧠 [组织心理学家](specialized/organizational-psychologist.md) | 团队动态与文化健康 | 心理安全、倦怠风险、高绩效团队 |
+| ⚔️ [战略对弈代理](specialized/specialized-strategy-duel-agent.md) | 博弈论与三十六计 | 回合制战略对决、对抗性场景模拟 |
+| 🛡️ [FedRAMP 与 RMF 合规工程师](specialized/specialized-fedramp-rmf-compliance.md) | 联邦云授权 (ATO) | NIST 800-53、FedRAMP Rev5/20x、SSP/POA&M、ConMon、OSCAL |
 | 🏺 [Codebase Archaeologist](specialized/specialized-代码库-archaeologist.md) | Multi-tool 代码库 drift audits | Detecting silent drift across Claude/Cursor/Copilot/Windsurf edits |
-| 🧾 [Resume Tailor](specialized/resume-tailor.md) | Candidate-side resume optimization | JD mapping, ATS keyword alignment, experience-to-requirement matching |
+| 🧾 [简历优化师](specialized/resume-tailor.md) | 候选人侧简历优化 | JD 映射、ATS 关键词对齐、经验与要求匹配 |
 
 ### 💵 财务团队
 
