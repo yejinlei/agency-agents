@@ -234,11 +234,11 @@ cp engineering/*.md ~/.claude/agents/
 | 🌐 [社交媒体战略师](marketing/marketing-social-media-strategist.md) | 跨平台战略、活动 | 整体社交战略、多平台活动 |
 | 📕 [小红书专家](marketing/marketing-xiaohongshu-specialist.md) | 生活方式内容、趋势驱动战略 | 小红书增长、美学故事讲述、Z 世代受众 |
 | 💬 [WeChat Official Account Manager](marketing/marketing-wechat-official-account.md) | Subscriber engagement, 内容营销 | WeChat OA strategy, community 构建, conversion optimization |
-| 🧠 [Zhihu Strategist](marketing/marketing-zhihu-strategist.md) | Thought leadership, knowledge-driven engagement | Zhihu authority 构建, Q&A strategy, 潜在客户生成 |
+| 🧠 [知乎战略师](marketing/marketing-zhihu-strategist.md) | 思想领导力、知识驱动互动 | 知乎权威建设、问答策略、潜客生成 |
 | 🇨🇳 [百度 SEO 专家](marketing/marketing-baidu-seo-specialist.md) | 百度优化、中国 SEO、ICP 合规 | 在百度排名并触达中国搜索市场 |
 | 🎬 [B站内容战略师](marketing/marketing-bilibili-content-strategist.md) | B站算法、弹幕文化、UP主增长 | 用社群优先的内容在 B站 建立受众 |
 | 🎠 [轮播增长引擎](marketing/marketing-carousel-growth-engine.md) | TikTok/Instagram 轮播、自主发布 | 生成和发布病毒式轮播内容 |
-| 💼 [LinkedIn 内容创作者](marketing/marketing-linkedin-content-creator.md) | 个人品牌、思想领导力、专业内容 | LinkedIn growth, professional audience 构建, B2B content |
+| 💼 [LinkedIn 内容创作者](marketing/marketing-linkedin-content-creator.md) | 个人品牌、思想领导力、专业内容 | LinkedIn 增长、专业受众建设、B2B 内容 |
 | 🛒 [中国电商运营师](marketing/marketing-china-ecommerce-operator.md) | 淘宝、天猫、拼多多、直播电商 | 运营中国多平台电商 |
 | 🎥 [快手战略师](marketing/marketing-kuaishou-strategist.md) | 快手、老铁社群、草根增长 | 在下沉市场建立真实受众 |
 | 🔍 [SEO 专家](marketing/marketing-seo-specialist.md) | 技术 SEO、内容战略、外链建设 | 推动可持续的自然搜索增长 |
@@ -248,13 +248,13 @@ cp engineering/*.md ~/.claude/agents/
 | 🎙️ [直播电商教练](marketing/marketing-livestream-commerce-coach.md) | 主播培训、直播间优化、转化 | 构建高性能直播电商运营 |
 | 🎧 [播客战略师](marketing/marketing-Podcast-strategist.md) | 播客内容战略、平台优化 | 中文播客市场战略和运营 |
 | 🔒 [私域运营师](marketing/marketing-private-domain-operator.md) | 企业微信、私域流量、社群运营 | 构建企业微信私域生态 |
-| 🎬 [短视频剪辑教练](marketing/marketing-short-video-editing-coach.md) | 后期制作、剪辑 工作流程, platform specs | 实操短视频剪辑培训和优化 |
+| 🎬 [短视频剪辑教练](marketing/marketing-short-video-editing-coach.md) | 后期制作、剪辑工作流程、平台规格 | 实操短视频剪辑培训和优化 |
 | 🔥 [微博战略师](marketing/marketing-weibo-strategist.md) | 新浪微博、热门话题、粉丝互动 | 全谱微博运营和增长 |
 | 🎙️ [全球播客战略师](marketing/marketing-global-Podcast-strategist.md) | 节目定位、受众增长、变现 | 播客上线、平台 algorithms, sponsorship, community 构建 |
-| 🔮 [人工智能 Citation Strategist](marketing/marketing-ai-citation-strategist.md) | AEO/GEO, 人工智能 recommendation visibility, citation 审计 | Improving brand visibility across ChatGPT, Claude, Gemini, Perplexity |
+| 🔮 [AI 引用战略师](marketing/marketing-ai-citation-strategist.md) | AEO/GEO、AI 推荐可见性、引用审计 | 提升品牌在 ChatGPT、Claude、Gemini、Perplexity 上的可见性 |
 | 🇨🇳 [中国市场本地化战略师](marketing/marketing-china-market-localization-strategist.md) | 全栈中国市场本地化、抖音/小红书/微信上市策略 | 将趋势信号转化为可执行的中国上市策略 |
 | 🎬 [视频优化专家](marketing/marketing-video-optimization-specialist.md) | YouTube 算法战略、章节划分、缩略图概念 | YouTube 频道增长、视频 SEO、受众留存优化 |
-| 🏗️ [AEO Foundations Architect](marketing/marketing-aeo-foundations.md) | 人工智能 Engine Optimization infrastructure | llms.txt, 人工智能-aware robots.txt, agent discovery files |
+| 🏗️ [AEO 基础架构师](marketing/marketing-aeo-foundations.md) | AI 引擎优化基础设施 | llms.txt、AI 感知的 robots.txt、代理发现文件 |
 | 🤖 [智能搜索优化师](marketing/marketing-agentic-search-optimizer.md) | WebMCP 与智能任务完成 | 让网站被 AI 浏览代理可用 |
 | 📧 [邮件营销战略师](marketing/marketing-email-strategist.md) | 生命周期邮件与送达率 | CRM 活动、自动化、细分 |
 | 📡 [多平台发布师](marketing/marketing-multi-platform-publisher.md) | 一键中国多平台发布 | 将一篇文章分发到知乎/小红书/CSDN/B站/公众号/掘金 |
