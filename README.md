@@ -113,7 +113,7 @@ cp engineering/*.md ~/.claude/agents/
 
 用一次一次提交，构建未来。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🎨 [前端开发者](engineering/engineering-frontend-developer.md) | React/Vue/Angular、UI 实现、性能优化 | 现代 Web 应用、像素级完美 UI、Core Web Vitals 优化 |
 | 🏗️ [后端架构师](engineering/engineering-backend-architect.md) | API 设计、数据库架构、可扩展性 | 服务器端系统、微服务、云基础设施 |
@@ -123,64 +123,64 @@ cp engineering/*.md ~/.claude/agents/
 | 🌐 [网络工程师](engineering/engineering-network-engineer.md) | Cisco IOS/IOS-XE、Juniper Junos、Palo Alto PAN-OS | 路由器/交换机/防火墙配置、BGP/OSPF、ACLs、show-output 排障 |
 | ⚡ [快速原型师](engineering/engineering-rapid-prototyper.md) | 快速 POC 开发、MVP | 快速概念验证、黑客马拉松项目、快速迭代 |
 | 💎 [高级开发者](engineering/engineering-senior-developer.md) | Laravel/Livewire、高级模式 | 复杂实现、架构决策 |
-| 🔧 [Filament Optimization Specialist](engineering/engineering-filament-optimization-specialist.md) | Filament PHP admin UX, structural form redesign, resource optimization | Restructuring Filament resources/forms/tables for faster, cleaner admin 工作流程 |
-| ⚡ [Autonomous Optimization Architect](engineering/engineering-autonomous-optimization-architect.md) | LLM routing, cost optimization, shadow 测试 | Autonomous systems 需要 intelligent API selection and cost guardrails |
-| 🔩 [Embedded Firmware Engineer](engineering/engineering-embedded-firmware-engineer.md) | Bare-metal, RTOS, ESP32/STM32/Nordic firmware | Production-grade embedded systems and IoT devices |
-| 🚨 [事件响应 Commander](engineering/engineering-incident-response-commander.md) | Incident management, post-mortems, on-call | Managing production incidents and 构建 incident readiness |
-| ⛓️ [Solidity Smart Contract Engineer](engineering/engineering-solidity-smart-contract-engineer.md) | EVM contracts, gas optimization, DeFi | Secure, gas-optimized smart contracts and DeFi protocols |
-| 🧭 [Codebase 入职引导 Engineer](engineering/engineering-代码库-onboarding-engineer.md) | Fast developer onboarding, read-only 代码库 exploration, factual explanation | Helping new developers understand unfamiliar repos quickly by 阅读 the code, tracing code paths, and stating facts about structure and behavior |
-| 📚 [Technical Writer](engineering/engineering-technical-writer.md) | Developer docs, API reference, tutorials | Clear, accurate technical 文档 |
-| 💬 [WeChat Mini Program Developer](engineering/engineering-wechat-mini-program-developer.md) | WeChat ecosystem, Mini Programs, payment integration | Building performant apps for the WeChat ecosystem |
-| 👁️ [Code 审查er](engineering/engineering-code-reviewer.md) | Constructive 代码审查, security, maintainability | PR reviews, code quality gates, mentoring through review |
-| 🗄️ [Database Optimizer](engineering/engineering-database-optimizer.md) | Schema design, query optimization, indexing strategies | PostgreSQL/MySQL tuning, slow query 调试, migration 规划 |
-| 🌿 [Git Workflow Master](engineering/engineering-git-工作流程-master.md) | Branching strategies, conventional commits, advanced Git | Git 工作流程 design, history cleanup, CI-friendly branch management |
-| 🏛️ [Software Architect](engineering/engineering-software-architect.md) | System design, DDD, architectural patterns, trade-off analysis | 架构 decisions, domain modeling, system evolution strategy |
-| 🛡️ [SRE](engineering/engineering-sre.md) | SLOs, 错误预算s, 可观测性, 混沌工程 | Production reliability, toil reduction, capacity 规划 |
-| 🧬 [人工智能 Data Remediation Engineer](engineering/engineering-ai-data-remediation-engineer.md) | Self-healing pipelines, air-gapped SLMs, semantic clustering | Fixing broken data 大规模地 with zero data loss |
-| 🔧 [Data Engineer](engineering/engineering-data-engineer.md) | Data pipelines, lakehouse architecture, ETL/ELT | Building reliable data infrastructure and warehousing |
-| 🔗 [Feishu Integration Developer](engineering/engineering-feishu-integration-developer.md) | Feishu/Lark Open Platform, bots, 工作流程 | Building integrations for the Feishu ecosystem |
-| 🧱 [CMS Developer](engineering/engineering-cms-developer.md) | WordPress & Drupal themes, plugins/modules, content architecture | Code-first CMS implementation and customization |
-| 📧 [Email Intelligence Engineer](engineering/engineering-email-intelligence-engineer.md) | Email 解析, MIME extraction, structured data for 人工智能 agents | Turning raw email threads into 推理-ready context |
-| 🎙️ [Voice 人工智能 Integration Engineer](engineering/engineering-voice-ai-integration-engineer.md) | Speech-to-text pipelines, Whisper, ASR, speaker diarization | End-to-end transcription pipelines, audio preprocessing, structured transcript delivery |
-| 🖧 [IT Service Manager](engineering/engineering-it-服务-manager.md) | ITIL 4 服务 management | Incident/problem/change management, SLAs, CMDB |
-| 🪡 [Minimal Change Engineer](engineering/engineering-minimal-change-engineer.md) | Minimum-viable diffs | Fixing only what's asked, no scope creep |
-| 📜 [OrgScript Engineer](engineering/engineering-orgscript-engineer.md) | OrgScript grammar & AST validation | Designing/解析 OrgScript business-logic definitions |
-| 🧬 [Prompt Engineer](engineering/engineering-prompt-engineer.md) | LLM prompt design & optimization | Turning vague instructions into reliable 人工智能 behaviors |
-| 🕸️ [Multi-Agent Systems Architect](engineering/engineering-multi-agent-systems-architect.md) | Multi-agent pipeline design & governance | Topology, context, trust, failure recovery for agent systems |
-| 🛒 [Drupal Shopping Cart Engineer](engineering/engineering-drupal-shopping-cart.md) | Drupal Commerce storefronts | Catalog, payments, checkout, orders on Drupal 10/11 |
-| 🛍️ [WordPress Shopping Cart Engineer](engineering/engineering-wordpress-shopping-cart.md) | WooCommerce storefronts | Catalog, payments, checkout, conversion on WordPress |
-| 💳 [Payments & Billing Engineer](engineering/engineering-payments-billing-engineer.md) | PSP integration, 幂等的 payment flows, subscription billing | Stripe/Adyen/Braintree integrations, webhook processing, dunning, reconciliation |
-| 🌍 [国际化 Engineer](engineering/engineering-i18n-engineer.md) | ICU MessageFormat, RTL/bidi layouts, CLDR 格式化, pseudo-localization | Making apps translation-ready, locale-aware 格式化, RTL support, i18n audits |
-| ⚡ [Drupal Performance Engineer](engineering/engineering-drupal-performance.md) | Drupal performance & Core Web Vitals | Caching, DB/query tuning, render pipeline, profiling high-traffic Drupal |
-| ⚡ [WordPress Performance Engineer](engineering/engineering-wordpress-performance.md) | WordPress performance & Core Web Vitals | Caching, query/asset optimization, plugin tuning, profiling high-traffic WP |
-| ♿ [Section 508 无障碍 Specialist](engineering/engineering-section-508-specialist.md) | US federal 508 / WCAG accessibility | ARIA, screen-reader 测试, VPAT/ACR authoring, remediation |
-| 🏛️ [USWDS Developer](engineering/engineering-uswds-developer.md) | US Web Design System (federal) | Accessible gov UI components & design-system patterns |
-| 🔎 [Search Relevance Engineer](engineering/engineering-search-relevance-engineer.md) | Search ranking & relevance | Query 理解, 嵌入s, ranking/eval, relevance tuning |
-| 🔐 [Identity & Access Engineer](engineering/engineering-identity-access-engineer.md) | AuthN/AuthZ & IAM | OAuth/OIDC/SAML, SSO, RBAC/ABAC, token & session security |
-| 🤝 [Realtime Collaboration Engineer](engineering/engineering-realtime-collaboration-engineer.md) | Realtime sync & presence | CRDTs/OT, conflict resolution, live cursors, offline sync |
-| 💻 [Desktop App Engineer](engineering/engineering-desktop-app-engineer.md) | Cross-platform desktop apps | Electron/Tauri, native integration, packaging, auto-update |
-| 🚀 [Mobile Release Engineer](engineering/engineering-mobile-release-engineer.md) | Mobile release & 持续集成/持续部署 | App Store/Play submission, signing, staged rollout, crash triage |
-| 🎬 [Video Streaming Engineer](engineering/engineering-video-streaming-engineer.md) | Video streaming & transcoding | HLS/DASH, ABR, codecs, CDN delivery, low-latency streaming |
-| 💰 [FinOps Engineer](engineering/engineering-finops-engineer.md) | Cloud cost engineering | Cost allocation, rightsizing, unit economics, budget & anomaly control |
-| 🧩 [WebAssembly Engineer](engineering/engineering-webassembly-engineer.md) | WebAssembly & WASI | Rust/C++→WASM, sandboxing, host bindings, performance |
-| 🔌 [API Platform Engineer](engineering/engineering-api-platform-engineer.md) | API 网关s & platforms | Gateway design, versioning, 速率限制, developer portals |
-| 🛟 [Database 可靠性 Engineer](engineering/engineering-database-reliability-engineer.md) | Database reliability (DBRE) | HA/replication, automated failover, PITR backups, zero-停机时间 ops |
-| 🛠️ [Developer Tooling Engineer](engineering/engineering-developer-tooling-engineer.md) | CLI & developer tooling | Command-line tools, internal DX, build/dev 工作流程 |
-| 📡 [IoT Fleet Engineer](engineering/engineering-iot-fleet-engineer.md) | IoT & edge fleet | Device provisioning/identity, MQTT telemetry, OTA updates |
-| 🔍 [检索增强生成 Pipeline Engineer](engineering/engineering-rag-pipeline-engineer.md) | Production 检索增强生成 pipelines | Chunking, 检索 quality, 混合搜索, re-ranking, eval-driven iteration |
-| 🗄️ [GaussDB Expert Engineer](engineering/engineering-gaussdb-expert.md) | Huawei GaussDB OLTP | Enterprise OLTP performance, HA, and migration on Huawei's GaussDB |
+| 🔧 [Filament 优化专家](engineering/engineering-filament-optimization-specialist.md) | Filament PHP 管理后台 UX、结构表单重设计、资源优化 | 重构 Filament 资源/表单/表格，打造更快速、更整洁的管理后台工作流程 |
+| ⚡ [自主优化架构师](engineering/engineering-autonomous-optimization-architect.md) | LLM 路由、成本优化、影子测试 | 为自主系统提供智能 API 选择和成本护栏 |
+| 🔩 [嵌入式固件工程师](engineering/engineering-embedded-firmware-engineer.md) | 裸机开发、RTOS、ESP32/STM32/Nordic 固件 | 生产级嵌入式系统和物联网设备 |
+| 🚨 [事件响应指挥官](engineering/engineering-incident-response-commander.md) | 事件管理、事后复盘、值班响应 | 管理生产事件并构建事件响应能力 |
+| ⛓️ [Solidity 智能合约工程师](engineering/engineering-solidity-smart-contract-engineer.md) | EVM 合约、Gas 优化、DeFi | 安全、Gas 优化的智能合约和 DeFi 协议 |
+| 🧭 [代码库入职引导工程师](engineering/engineering-代码库-onboarding-engineer.md) | 快速开发者入职、只读代码库探索、事实性解释 | 帮助新开发者快速理解陌生仓库，通过阅读代码、追踪代码路径和阐述结构与行为事实 |
+| 📚 [技术文档作者](engineering/engineering-technical-writer.md) | 开发者文档、API 参考、教程 | 清晰准确的技术文档 |
+| 💬 [微信小程序开发者](engineering/engineering-wechat-mini-program-developer.md) | 微信生态、小程序、支付集成 | 构建微信生态高性能应用 |
+| 👁️ [代码审查员](engineering/engineering-code-reviewer.md) | 建设性代码审查、安全、可维护性 | PR 评审、代码质量门禁、通过审查进行指导 |
+| 🗄️ [数据库优化师](engineering/engineering-database-optimizer.md) | 架构设计、查询优化、索引策略 | PostgreSQL/MySQL 调优、慢查询调试、迁移规划 |
+| 🌿 [Git 工作流程大师](engineering/engineering-git-工作流程-master.md) | 分支策略、约定式提交、高级 Git | Git 工作流程设计、历史清理、CI 友好的分支管理 |
+| 🏛️ [软件架构师](engineering/engineering-software-architect.md) | 系统设计、DDD、架构模式、权衡分析 | 架构决策、领域建模、系统演进策略 |
+| 🛡️ [SRE](engineering/engineering-sre.md) | SLO、错误预算、可观测性、混沌工程 | 生产可靠性、减少运维负担、容量规划 |
+| 🧬 [AI 数据修复工程师](engineering/engineering-ai-data-remediation-engineer.md) | 自愈管道、气隙 SLM、语义聚类 | 零数据丢失地修复大规模损坏数据 |
+| 🔧 [数据工程师](engineering/engineering-data-engineer.md) | 数据管道、湖仓架构、ETL/ELT | 构建可靠的数据基础设施和数据仓库 |
+| 🔗 [飞书集成开发者](engineering/engineering-feishu-integration-developer.md) | 飞书/Lark 开放平台、机器人、工作流 | 构建飞书生态集成 |
+| 🧱 [CMS 开发者](engineering/engineering-cms-developer.md) | WordPress & Drupal 主题、插件/模块、内容架构 | 代码优先的 CMS 实现和定制 |
+| 📧 [邮件智能工程师](engineering/engineering-email-intelligence-engineer.md) | 邮件解析、MIME 提取、结构化数据供 AI 代理使用 | 将原始邮件线程转换为推理就绪的上下文 |
+| 🎙️ [语音 AI 集成工程师](engineering/engineering-voice-ai-integration-engineer.md) | 语音转文本管道、Whisper、ASR、说话人分离 | 端到端转录管道、音频预处理、结构化转录交付 |
+| 🖧 [IT 服务经理](engineering/engineering-it-服务-manager.md) | ITIL 4 服务管理 | 事件/问题/变更管理、SLA、CMDB |
+| 🪡 [最小变更工程师](engineering/engineering-minimal-change-engineer.md) | 最小可行差异 | 只修复所要求的内容，不扩大范围 |
+| 📜 [OrgScript 工程师](engineering/engineering-orgscript-engineer.md) | OrgScript 语法和 AST 验证 | 设计和解析 OrgScript 业务逻辑定义 |
+| 🧬 [提示词工程师](engineering/engineering-prompt-engineer.md) | LLM 提示词设计与优化 | 将模糊指令转化为可靠的 AI 行为 |
+| 🕸️ [多代理系统架构师](engineering/engineering-multi-agent-systems-architect.md) | 多代理管道设计与治理 | 代理系统的拓扑、上下文、信任、故障恢复 |
+| 🛒 [Drupal 购物车工程师](engineering/engineering-drupal-shopping-cart.md) | Drupal Commerce 前台 | Drupal 10/11 上的商品目录、支付、结账和订单 |
+| 🛍️ [WordPress 购物车工程师](engineering/engineering-wordpress-shopping-cart.md) | WooCommerce 前台 | WordPress 上的商品目录、支付、结账和转化 |
+| 💳 [支付与账单工程师](engineering/engineering-payments-billing-engineer.md) | PSP 集成、幂等支付流程、订阅计费 | Stripe/Adyen/Braintree 集成、Webhook 处理、催缴、对账 |
+| 🌍 [国际化工程师](engineering/engineering-i18n-engineer.md) | ICU MessageFormat、RTL/双向布局、CLDR 格式化、伪本地化 | 让应用支持翻译、本地化感知格式化、RTL 支持、i18n 审计 |
+| ⚡ [Drupal 性能工程师](engineering/engineering-drupal-performance.md) | Drupal 性能与 Core Web Vitals | 缓存、数据库/查询调优、渲染管道、高流量 Drupal 性能分析 |
+| ⚡ [WordPress 性能工程师](engineering/engineering-wordpress-performance.md) | WordPress 性能与 Core Web Vitals | 缓存、查询/资源优化、插件调优、高流量 WP 性能分析 |
+| ♿ [Section 508 无障碍专家](engineering/engineering-section-508-specialist.md) | 美国联邦 508 / WCAG 无障碍标准 | ARIA、屏幕阅读器测试、VPAT/ACR 编写、修复 |
+| 🏛️ [USWDS 开发者](engineering/engineering-uswds-developer.md) | 美国联邦网页设计系统 (USWDS) | 无障碍政府 UI 组件与设计系统模式 |
+| 🔎 [搜索相关性工程师](engineering/engineering-search-relevance-engineer.md) | 搜索排名与相关性 | 查询理解、嵌入、排名/评估、相关性调优 |
+| 🔐 [身份与访问工程师](engineering/engineering-identity-access-engineer.md) | 身份认证/授权 & IAM | OAuth/OIDC/SAML、SSO、RBAC/ABAC、令牌与会话安全 |
+| 🤝 [实时协作工程师](engineering/engineering-realtime-collaboration-engineer.md) | 实时同步与在线状态 | CRDT/OT、冲突解决、实时光标、离线同步 |
+| 💻 [桌面应用工程师](engineering/engineering-desktop-app-engineer.md) | 跨平台桌面应用 | Electron/Tauri、原生集成、打包、自动更新 |
+| 🚀 [移动发布工程师](engineering/engineering-mobile-release-engineer.md) | 移动发布与 CI/CD | App Store/Play 上架、签名、分阶段发布、崩溃分类 |
+| 🎬 [视频流媒体工程师](engineering/engineering-video-streaming-engineer.md) | 视频流媒体与转码 | HLS/DASH、ABR、编解码器、CDN 交付、低延迟流媒体 |
+| 💰 [FinOps 工程师](engineering/engineering-finops-engineer.md) | 云成本工程 | 成本分配、资源调整、单位经济、预算与异常控制 |
+| 🧩 [WebAssembly 工程师](engineering/engineering-webassembly-engineer.md) | WebAssembly 与 WASI | Rust/C++→WASM、沙箱、主机绑定、性能 |
+| 🔌 [API 平台工程师](engineering/engineering-api-platform-engineer.md) | API 网关与平台 | 网关设计、版本控制、速率限制、开发者门户 |
+| 🛟 [数据库可靠性工程师](engineering/engineering-database-reliability-engineer.md) | 数据库可靠性 (DBRE) | 高可用/复制、自动故障转移、PITR 备份、零停机运维 |
+| 🛠️ [开发者工具工程师](engineering/engineering-developer-tooling-engineer.md) | CLI 与开发者工具 | 命令行工具、内部 DX、构建/开发工作流程 |
+| 📡 [IoT 集群工程师](engineering/engineering-iot-fleet-engineer.md) | IoT 与边缘集群 | 设备预配置/身份、MQTT 遥测、OTA 更新 |
+| 🔍 [检索增强生成管道工程师](engineering/engineering-rag-pipeline-engineer.md) | 生产级检索增强生成管道 | 分块、检索质量、混合搜索、重排序、评估驱动迭代 |
+| 🗄️ [GaussDB 专家工程师](engineering/engineering-gaussdb-expert.md) | 华为 GaussDB OLTP | 企业级 OLTP 性能、高可用和迁移 |
 
 ### 🎨 设计团队
 
 让它更美观、更易用、更令人愉悦。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🎯 [界面设计er](design/design-ui-designer.md) | Visual design, component libraries, design systems | Interface creation, brand consistency, component design |
 | 🔍 [用户体验研究er](design/design-ux-researcher.md) | User 测试, behavior analysis, research | Understanding users, 可用性测试, design insights |
 | 🏛️ [UX 架构师](design/design-ux-architect.md) | 信息架构、CSS 系统、实现 | 开发者友好的基础、实现指导 |
-| 🎭 [Brand Guardian](design/design-brand-guardian.md) | Brand identity, consistency, positioning | Brand strategy, identity development, guidelines |
-| 📖 [Visual Storyteller](design/design-visual-storyteller.md) | Visual narratives, multimedia content | Compelling visual stories, brand storytelling |
+| 🎭 [品牌守护者](design/design-brand-guardian.md) | 品牌识别、一致性、定位 | 品牌战略、识别开发、品牌指南 |
+| 📖 [视觉叙事者](design/design-visual-storyteller.md) | 视觉叙事、多媒体内容 | 引人入胜的视觉故事、品牌故事讲述 |
 | ✨ [Whimsy Injector](design/design-whimsy-injector.md) | 性格, delight, playful interactions | Adding joy, micro-interactions, Easter eggs, brand personality |
 | 📷 [Image Prompt Engineer](design/design-image-prompt-engineer.md) | 人工智能 图像生成 prompts, photography | Photography prompts for Midjourney, DALL-E, Stable Diffusion |
 | 🌈 [Inclusive Visuals Specialist](design/design-inclusive-visuals-specialist.md) | Representation, bias mitigation, authentic imagery | Generating culturally accurate 人工智能 images and video |
@@ -190,107 +190,107 @@ cp engineering/*.md ~/.claude/agents/
 
 将广告投放转化为可衡量的商业成果。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 | --- | --- | --- |
 | 💰 [PPC 广告战略师](paid-media/paid-media-ppc-strategist.md) | Google/Microsoft/Amazon 广告、账户架构、竞价策略 | 账户搭建、预算分配、扩量、绩效诊断 |
 | 🔍 [搜索查询分析师](paid-media/paid-media-search-query-analyst.md) | 搜索词分析、否定关键词、意图映射 | 查询审计、消除浪费支出、关键词发现 |
-| 📋 [Paid Media Auditor](paid-media/paid-media-auditor.md) | 200+ point account audits, competitive analysis | Account takeovers, quarterly reviews, competitive pitches |
+| 📋 [付费媒体审计员](paid-media/paid-media-auditor.md) | 200+ 项账户审计、竞争分析 | 账户接管、季度审查、竞争提案 |
 | 📡 [Tracking & Measurement Specialist](paid-media/paid-media-追踪-specialist.md) | GTM, GA4, conversion 追踪, CAPI | New implementations, 追踪 audits, platform migrations |
 | ✍️ [Ad Creative Strategist](paid-media/paid-media-creative-strategist.md) | RSA copy, Meta creative, Performance Max assets | Creative launches, 测试 programs, ad fatigue refreshes |
 | 📺 [Programmatic & Display Buyer](paid-media/paid-media-programmatic-buyer.md) | GDN, DSPs, partner media, ABM display | Display 规划, partner outreach, ABM programs |
-| 📱 [Paid Social Strategist](paid-media/paid-media-paid-social-strategist.md) | Meta, LinkedIn, TikTok, cross-platform social | Social ad programs, platform selection, audience strategy |
+| 📱 [付费社交战略师](paid-media/paid-media-paid-social-strategist.md) | Meta、LinkedIn、TikTok、跨平台社交 | 社交广告计划、平台选择、受众策略 |
 
 ### 💼 销售团队
 
 靠精湛手艺而非 CRM 琐事，将销售管道转化为收入。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🎯 [外联战略师](sales/sales-outbound-strategist.md) | 信号驱动的潜在客户开发、多渠道序列、ICP 定位 | 通过研究驱动的外联构建销售管道，而非堆量 |
-| 🔍 [Discovery Coach](sales/sales-discovery-coach.md) | SPIN, Gap Selling, Sandler — question design and call structure | Preparing for discovery calls, qualifying opportunities, coaching reps |
+| 🔍 [发现教练](sales/sales-discovery-coach.md) | SPIN、Gap Selling、Sandler —— 问题设计与通话结构 | 准备发现通话、机会资格评估、教练指导销售代表 |
 | ♟️ [Deal Strategist](sales/sales-deal-strategist.md) | MEDDPICC qualification, competitive positioning, win 规划 | Scoring deals, exposing pipeline risk, 构建 win strategies |
-| 🛠️ [Sales Engineer](sales/sales-engineer.md) | Technical demos, POC scoping, competitive battlecards | Pre-sales technical wins, demo prep, competitive positioning |
-| 🏹 [Proposal Strategist](sales/sales-proposal-strategist.md) | RFP response, win themes, narrative structure | Writing proposals that persuade, not just comply |
-| 📊 [Pipeline Analyst](sales/sales-pipeline-analyst.md) | Forecasting, pipeline health, deal velocity, RevOps | Pipeline reviews, forecast accuracy, revenue operations |
+| 🛠️ [销售工程师](sales/sales-engineer.md) | 技术演示、POC 范围控制、竞争对战卡 | 售前技术制胜、演示准备、竞争定位 |
+| 🏹 [提案战略师](sales/sales-proposal-strategist.md) | RFP 响应、赢单主题、叙事结构 | 撰写有说服力的提案，而不仅仅是合规 |
+| 📊 [管道分析师](sales/sales-pipeline-analyst.md) | 预测、管道健康度、交易速度、收入运营 | 管道审查、预测准确性、收入运营 |
 | 🗺️ [Account Strategist](sales/sales-account-strategist.md) | Land-and-expand, QBRs, stakeholder mapping | Post-sale expansion, account 规划, NRR growth |
-| 🏋️ [Sales Coach](sales/sales-coach.md) | Rep development, call coaching, pipeline review facilitation | Making every rep and every deal better through structured coaching |
+| 🏋️ [销售教练](sales/sales-coach.md) | 销售代表发展、通话指导、管道审查促进 | 通过结构化指导让每个销售代表和每笔交易都更好 |
 | 🎯 [Sales Outreach](specialized/sales-outreach.md) | Cold prospecting, multi-touch cadences, objection 处理, proposals | Top-of-funnel B2B outreach — from cold email to booked discovery call |
 | 🧲 [Offer & Lead Gen Strategist](sales/sales-offer-lead-gen-strategist.md) | Offers & lead magnets | Top-of-funnel offer construction and 潜在客户生成 |
 
-### 📢 Marketing Division
+### 📢 营销团队
 
 通过每一次真诚的互动，稳步增长你的受众。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🚀 [增长 Hacker](marketing/marketing-growth-hacker.md) | Rapid user acquisition, viral loops, experiments | Explosive growth, user acquisition, conversion optimization |
 | 📝 [Content Creator](marketing/marketing-content-creator.md) | Multi-platform content, editorial calendars | Content strategy, copy编写, brand storytelling |
-| 🐦 [Twitter Engager](marketing/marketing-twitter-engager.md) | Real-time engagement, thought leadership | Twitter strategy, LinkedIn campaigns, professional social |
+| 🐦 [Twitter 互动师](marketing/marketing-twitter-engager.md) | 实时互动、思想领导力 | Twitter 战略、LinkedIn 活动、专业社交 |
 | 🛰️ [X/Twitter Intelligence Analyst](marketing/marketing-x-twitter-intelligence-analyst.md) | Social 倾听, trend detection, account 监控 | Brand risk, competitor, and audience intelligence on X/Twitter |
-| 📱 [TikTok Strategist](marketing/marketing-tiktok-strategist.md) | Viral content, algorithm optimization | TikTok growth, viral content, Gen Z/Millennial audience |
+| 📱 [TikTok 战略师](marketing/marketing-tiktok-strategist.md) | 病毒内容、算法优化 | TikTok 增长、病毒内容、Z 世代/千禧世代受众 |
 | 📸 [Instagram Curator](marketing/marketing-instagram-curator.md) | Visual storytelling, community 构建 | Instagram strategy, aesthetic development, visual content |
-| 🤝 [Reddit Community Builder](marketing/marketing-reddit-community-builder.md) | Authentic engagement, value-driven content | Reddit strategy, community trust, authentic marketing |
-| 📱 [App Store Optimizer](marketing/marketing-app-store-optimizer.md) | ASO, conversion optimization, discoverability | App marketing, store optimization, app growth |
-| 🌐 [Social Media Strategist](marketing/marketing-social-media-strategist.md) | Cross-platform strategy, campaigns | Overall social strategy, multi-platform campaigns |
-| 📕 [Xiaohongshu Specialist](marketing/marketing-xiaohongshu-specialist.md) | Lifestyle content, trend-driven strategy | Xiaohongshu growth, aesthetic storytelling, Gen Z audience |
+| 🤝 [Reddit 社群建设师](marketing/marketing-reddit-community-builder.md) | 真实互动、价值驱动内容 | Reddit 战略、社群信任、真实营销 |
+| 📱 [应用商店优化师](marketing/marketing-app-store-optimizer.md) | ASO、转化优化、可发现性 | 应用营销、商店优化、应用增长 |
+| 🌐 [社交媒体战略师](marketing/marketing-social-media-strategist.md) | 跨平台战略、活动 | 整体社交战略、多平台活动 |
+| 📕 [小红书专家](marketing/marketing-xiaohongshu-specialist.md) | 生活方式内容、趋势驱动战略 | 小红书增长、美学故事讲述、Z 世代受众 |
 | 💬 [WeChat Official Account Manager](marketing/marketing-wechat-official-account.md) | Subscriber engagement, 内容营销 | WeChat OA strategy, community 构建, conversion optimization |
 | 🧠 [Zhihu Strategist](marketing/marketing-zhihu-strategist.md) | Thought leadership, knowledge-driven engagement | Zhihu authority 构建, Q&A strategy, 潜在客户生成 |
-| 🇨🇳 [Baidu SEO Specialist](marketing/marketing-baidu-seo-specialist.md) | Baidu optimization, China SEO, ICP compliance | Ranking in Baidu and reaching China's search market |
+| 🇨🇳 [百度 SEO 专家](marketing/marketing-baidu-seo-specialist.md) | 百度优化、中国 SEO、ICP 合规 | 在百度排名并触达中国搜索市场 |
 | 🎬 [Bilibili Content Strategist](marketing/marketing-bilibili-content-strategist.md) | B站 algorithm, danmaku culture, UP主 growth | Building audiences on Bilibili with community-first content |
 | 🎠 [Carousel 增长 Engine](marketing/marketing-carousel-growth-engine.md) | TikTok/Instagram carousels, autonomous publishing | Generating and publishing viral carousel content |
 | 💼 [LinkedIn Content Creator](marketing/marketing-linkedin-content-creator.md) | Personal branding, thought leadership, professional content | LinkedIn growth, professional audience 构建, B2B content |
-| 🛒 [China E-Commerce Operator](marketing/marketing-china-ecommerce-operator.md) | Taobao, Tmall, Pinduoduo, live commerce | Running multi-platform e-commerce in China |
-| 🎥 [Kuaishou Strategist](marketing/marketing-kuaishou-strategist.md) | Kuaishou, 老铁 community, grassroots growth | Building authentic audiences in lower-tier markets |
+| 🛒 [中国电商运营师](marketing/marketing-china-ecommerce-operator.md) | 淘宝、天猫、拼多多、直播电商 | 运营中国多平台电商 |
+| 🎥 [快手战略师](marketing/marketing-kuaishou-strategist.md) | 快手、老铁社群、草根增长 | 在下沉市场建立真实受众 |
 | 🔍 [SEO Specialist](marketing/marketing-seo-specialist.md) | Technical SEO, content strategy, link 构建 | Driving sustainable organic search growth |
 | 📘 [Book Co-Author](marketing/marketing-book-co-author.md) | Thought-leadership books, ghost编写, publishing | Strategic book collaboration for founders and experts |
-| 🌏 [Cross-Border E-Commerce Specialist](marketing/marketing-cross-border-ecommerce.md) | Amazon, Shopee, Lazada, cross-border fulfillment | Full-funnel cross-border e-commerce strategy |
-| 🎵 [Douyin Strategist](marketing/marketing-douyin-strategist.md) | Douyin platform, short-video marketing, algorithm | Growing audiences on China's leading short-video platform |
-| 🎙️ [Livestream Commerce Coach](marketing/marketing-livestream-commerce-coach.md) | Host training, live room optimization, conversion | Building high-performing livestream e-commerce operations |
+| 🌏 [跨境电商专家](marketing/marketing-cross-border-ecommerce.md) | Amazon、Shopee、Lazada、跨境履约 | 全漏斗跨境电商战略 |
+| 🎵 [抖音战略师](marketing/marketing-douyin-strategist.md) | 抖音平台、短视频营销、算法 | 在中国领先的短视频平台上增长受众 |
+| 🎙️ [直播电商教练](marketing/marketing-livestream-commerce-coach.md) | 主播培训、直播间优化、转化 | 构建高性能直播电商运营 |
 | 🎧 [Podcast Strategist](marketing/marketing-Podcast-strategist.md) | Podcast content strategy, platform optimization | Chinese Podcast market strategy and operations |
-| 🔒 [Private Domain Operator](marketing/marketing-private-domain-operator.md) | WeCom, private traffic, community operations | Building enterprise WeChat private domain ecosystems |
+| 🔒 [私域运营师](marketing/marketing-private-domain-operator.md) | 企业微信、私域流量、社群运营 | 构建企业微信私域生态 |
 | 🎬 [Short-Video Editing Coach](marketing/marketing-short-video-editing-coach.md) | Post-production, editing 工作流程, platform specs | Hands-on short-video editing training and optimization |
-| 🔥 [Weibo Strategist](marketing/marketing-weibo-strategist.md) | Sina Weibo, trending topics, fan engagement | Full-spectrum Weibo operations and growth |
+| 🔥 [微博战略师](marketing/marketing-weibo-strategist.md) | 新浪微博、热门话题、粉丝互动 | 全谱微博运营和增长 |
 | 🎙️ [Global Podcast Strategist](marketing/marketing-global-Podcast-strategist.md) | Show positioning, audience growth, monetisation | Podcast launch, platform algorithms, sponsorship, community 构建 |
 | 🔮 [人工智能 Citation Strategist](marketing/marketing-ai-citation-strategist.md) | AEO/GEO, 人工智能 recommendation visibility, citation 审计 | Improving brand visibility across ChatGPT, Claude, Gemini, Perplexity |
 | 🇨🇳 [China Market 本地化 Strategist](marketing/marketing-china-market-localization-strategist.md) | Full-stack China market localization, Douyin/Xiaohongshu/WeChat GTM | Turning trend signals into executable China go-to-market strategies |
-| 🎬 [Video Optimization Specialist](marketing/marketing-video-optimization-specialist.md) | YouTube algorithm strategy, chaptering, thumbnail concepts | YouTube channel growth, video SEO, audience retention optimization |
+| 🎬 [视频优化专家](marketing/marketing-video-optimization-specialist.md) | YouTube 算法战略、章节划分、缩略图概念 | YouTube 频道增长、视频 SEO、受众留存优化 |
 | 🏗️ [AEO Foundations Architect](marketing/marketing-aeo-foundations.md) | 人工智能 Engine Optimization infrastructure | llms.txt, 人工智能-aware robots.txt, agent discovery files |
 | 🤖 [Agentic Search Optimizer](marketing/marketing-agentic-search-optimizer.md) | WebMCP & agentic task completion | Making sites usable by 人工智能 browsing agents |
-| 📧 [Email Marketing Strategist](marketing/marketing-email-strategist.md) | Lifecycle email & deliverability | CRM campaigns, automation, segmentation |
-| 📡 [Multi-Platform Publisher](marketing/marketing-multi-platform-publisher.md) | One-click Chinese multi-platform publishing | Routing one article to 知乎/小红书/CSDN/B站/公众号/掘金 |
+| 📧 [邮件营销战略师](marketing/marketing-email-strategist.md) | 生命周期邮件与送达率 | CRM 活动、自动化、细分 |
+| 📡 [多平台发布师](marketing/marketing-multi-platform-publisher.md) | 一键中国多平台发布 | 将一篇文章分发到知乎/小红书/CSDN/B站/公众号/掘金 |
 | 📣 [PR & 沟通s Manager](marketing/marketing-pr-communications-manager.md) | PR, media relations & crisis comms | Press releases, thought leadership, reputation |
 
-### 📊 Product Division
+### 📊 产品团队
 
-Building the right thing at the right time.
+在正确的时间构建正确的事情。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🎯 [Sprint Prioritizer](product/product-sprint-优先级排序r.md) | 敏捷 规划, feature 优先级排序 | Sprint 规划, resource allocation, backlog management |
-| 🔍 [Trend Researcher](product/product-trend-researcher.md) | Market intelligence, competitive analysis | Market research, opportunity assessment, trend identification |
-| 💬 [Feedback Synthesizer](product/product-feedback-synthesizer.md) | User feedback analysis, insights extraction | Feedback analysis, user insights, product priorities |
-| 🧠 [Behavioral Nudge Engine](product/product-behavioral-nudge-engine.md) | Behavioral psychology, nudge design, engagement | Maximizing user motivation through behavioral science |
+| 🔍 [趋势研究员](product/product-trend-researcher.md) | 市场情报、竞争分析 | 市场调研、机会评估、趋势识别 |
+| 💬 [反馈综合师](product/product-feedback-synthesizer.md) | 用户反馈分析、洞察提取 | 反馈分析、用户洞察、产品优先级 |
+| 🧠 [行为助推引擎](product/product-behavioral-nudge-engine.md) | 行为心理学、助推设计、参与度 | 通过行为科学最大化用户动力 |
 | 🧭 [Product Manager](product/product-manager.md) | Full lifecycle product ownership | Discovery, PRDs, roadmap 规划, GTM, outcome measurement |
 
-### 🎬 Project Management Division
+### 🎬 项目管理团队
 
-Keeping the trains 运行ning on time (and under budget).
+让项目准时交付（且预算可控）。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
-| 🎬 [Studio Producer](project-management/project-management-studio-producer.md) | High-level orchestration, portfolio management | Multi-project oversight, strategic alignment, resource allocation |
+| 🎬 [制片制作人](project-management/project-management-studio-producer.md) | 高层统筹、组合管理 | 多项目管理、战略对齐、资源分配 |
 | 🐑 [Project Shepherd](project-management/project-management-project-shepherd.md) | Cross-functional coordination, 时间线 management | End-to-end project coordination, stakeholder management |
-| ⚙️ [Studio Operations](project-management/project-management-studio-operations.md) | Day-to-day efficiency, process optimization | Operational excellence, team support, productivity |
+| ⚙️ [制片运营](project-management/project-management-studio-operations.md) | 日常效率、流程优化 | 运营卓越、团队支持、生产力 |
 | 🧪 [Experiment Tracker](project-management/project-management-experiment-tracker.md) | A/B tests, hypothesis validation | Experiment management, 数据驱动的 decisions, 测试 |
-| 👔 [Senior Project Manager](project-management/project-manager-senior.md) | Realistic scoping, task conversion | Converting specs to tasks, scope management |
+| 👔 [高级项目经理](project-management/project-manager-senior.md) | 现实范围控制、任务转换 | 将规格说明书转为任务、范围管理 |
 | 📋 [Jira Workflow Steward](project-management/project-management-jira-工作流程-steward.md) | Git 工作流程, branch strategy, traceability | Enforcing Jira-linked Git discipline and delivery |
-| 📋 [Meeting Notes Specialist](project-management/project-management-meeting-notes-specialist.md) | Structured meeting summaries | Extracting decisions, action items, open questions |
+| 📋 [会议纪要专家](project-management/project-management-meeting-notes-specialist.md) | 结构化会议摘要 | 提取决策、行动项、待解决问题 |
 
-### 🧪 测试 Division
+### 🧪 测试团队
 
-Breaking things so users don't have to.
+破坏一切，让用户无需操心。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 📸 [Evidence Collector](测试/测试-evidence-collector.md) | Screenshot-based QA, visual proof | UI 测试, visual verification, bug 文档 |
 | 🔍 [Reality Checker](测试/测试-reality-checker.md) | Evidence-based certification, quality gates | Production readiness, quality approval, release certification |
@@ -302,30 +302,30 @@ Breaking things so users don't have to.
 | ♿ [无障碍 Auditor](测试/测试-accessibility-auditor.md) | WCAG 审计, assistive technology 测试 | 无障碍 compliance, 屏幕阅读器 测试, inclusive design verification |
 | 🎭 [Test Automation Engineer](测试/测试-test-automation-engineer.md) | Playwright/Cypress E2E, flake elimination, CI parallelization | Browser test suites, deterministic pipelines, trace-driven failure 调试 |
 
-### 🔒 安全 Division
+### 🔒 安全团队
 
-Defending the stack — from secure-by-design architecture to breach response.
+守护整个技术栈——从安全设计到入侵响应。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🛡️ [安全 Architect](security/security-architect.md) | Threat modeling, secure-by-design, trust boundaries | System security models, architecture reviews, defense-in-depth |
 | 🔐 [Application 安全 Engineer](security/security-appsec-engineer.md) | SDLC security, SAST/DAST, secure 代码审查 | Securing the dev lifecycle, code-level vulnerabilities |
 | 🗡️ [Penetration Tester](security/security-penetration-tester.md) | Authorized pentests, 红队 ops, exploitation | Finding exploitable weaknesses before attackers do |
 | ☁️ [Cloud 安全 Architect](security/security-cloud-security-architect.md) | Zero trust, 云原生 defense-in-depth | Securing cloud infrastructure and architectures |
-| 🚨 [Incident Responder](security/security-incident-responder.md) | DFIR, breach investigation, threat containment | Active breaches, forensics, crisis response |
+| 🚨 [事件响应员](security/security-incident-responder.md) | DFIR、入侵调查、威胁遏制 | 活跃入侵、取证、危机响应 |
 | 🔍 [Threat Intelligence Analyst](security/security-threat-intelligence-analyst.md) | Adversary 追踪, campaign mapping, ATT&CK | Understanding who's attacking and how |
-| 🎯 [Threat Detection Engineer](security/security-threat-detection-engineer.md) | SIEM rules, threat hunting, ATT&CK mapping | Building detection layers and threat hunting |
-| 🛡️ [Senior SecOps Engineer](security/security-senior-secops.md) | Secrets scanning, secure-by-default submissions | Defensive code-level security on every change |
-| 📋 [Compliance Auditor](security/security-compliance-auditor.md) | SOC 2, ISO 27001, HIPAA, PCI-DSS | Guiding organizations through compliance certification |
+| 🎯 [威胁检测工程师](security/security-threat-detection-engineer.md) | SIEM 规则、威胁狩猎、ATT&CK 映射 | 构建检测层和威胁狩猎 |
+| 🛡️ [高级安全运维工程师](security/security-senior-secops.md) | 密钥扫描、默认安全提交 | 每次变更的防御性代码级安全 |
+| 📋 [合规审计员](security/security-compliance-auditor.md) | SOC 2、ISO 27001、HIPAA、PCI-DSS | 指导组织通过合规认证 |
 | 🛡️ [Blockchain 安全 Auditor](security/security-blockchain-security-auditor.md) | Smart contract audits, exploit analysis | Finding vulnerabilities in contracts before 部署 |
 | 🔎 [人工智能-Generated Code 安全 Auditor](security/security-ai-generated-code-auditor.md) | 安全 review of 人工智能/vibe-coded apps | Hardcoded 密钥s, broken RLS, prompt-injection sinks |
 | 🔑 [Secrets & Credential Hygiene Engineer](security/security-密钥s-credential-engineer.md) | Secrets & credential lifecycle | Detection, vaulting, rotation, leak response |
 
-### 🛟 Support Division
+### 🛟 支持团队
 
-The backbone of the operation.
+运营的中坚力量。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 💬 [Support Responder](support/support-support-responder.md) | Customer 服务, issue resolution | Customer support, 用户体验, support operations |
 | 📊 [Analytics Reporter](support/support-analytics-reporter.md) | Data analysis, dashboards, insights | Business intelligence, KPI 追踪, data visualization |
@@ -334,70 +334,70 @@ The backbone of the operation.
 | ⚖️ [法律合规 Checker](support/support-legal-compliance-checker.md) | Compliance, regulations, legal review | Legal compliance, regulatory requirements, risk management |
 | 📑 [执行摘要 Generator](support/support-executive-summary-generator.md) | C-suite communication, strategic summaries | Executive 报告, strategic communication, decision support |
 
-### 🥽 Spatial Computing Division
+### 🥽 空间计算团队
 
-Building the immersive future.
+构建沉浸式未来。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🏗️ [XR Interface Architect](spatial-computing/xr-interface-architect.md) | Spatial 交互设计, immersive UX | AR/VR/XR interface design, spatial computing UX |
-| 💻 [macOS Spatial/Metal Engineer](spatial-computing/macos-spatial-metal-engineer.md) | Swift, Metal, high-performance 3D | macOS spatial computing, Vision Pro native apps |
-| 🌐 [XR Immersive Developer](spatial-computing/xr-immersive-developer.md) | WebXR, browser-based AR/VR | Browser-based immersive experiences, WebXR apps |
-| 🎮 [XR Cockpit Interaction Specialist](spatial-computing/xr-cockpit-interaction-specialist.md) | Cockpit-based controls, immersive systems | Cockpit control systems, immersive control interfaces |
-| 🍎 [visionOS Spatial Engineer](spatial-computing/visionos-spatial-engineer.md) | Apple Vision Pro development | Vision Pro apps, spatial computing experiences |
+| 💻 [macOS 空间/Metal 工程师](spatial-computing/macos-spatial-metal-engineer.md) | Swift、Metal、高性能 3D | macOS 空间计算、Vision Pro 原生应用 |
+| 🌐 [XR 沉浸式开发者](spatial-computing/xr-immersive-developer.md) | WebXR、基于浏览器的 AR/VR | 基于浏览器的沉浸式体验、WebXR 应用 |
+| 🎮 [XR 驾驶舱交互专家](spatial-computing/xr-cockpit-interaction-specialist.md) | 基于驾驶舱的控制、沉浸式系统 | 驾驶舱控制系统、沉浸式控制界面 |
+| 🍎 [visionOS 空间工程师](spatial-computing/visionos-spatial-engineer.md) | Apple Vision Pro 开发 | Vision Pro 应用、空间计算体验 |
 | 🔌 [Terminal Integration Specialist](spatial-computing/terminal-integration-specialist.md) | Terminal integration, command-line tools | CLI tools, terminal 工作流程, developer tools |
 
-### 🎯 Specialized Division
+### 🎯 专业团队
 
-The unique specialists who don't fit in a box.
+无法归类在某个部门的独特专家。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🎭 [Agents Orchestrator](specialized/agents-orchestrator.md) | Multi-agent coordination, 工作流程 management | Complex projects requiring multiple agent coordination |
-| 🔍 [LSP/Index Engineer](specialized/lsp-index-engineer.md) | Language Server Protocol, code intelligence | Code intelligence systems, LSP implementation, semantic indexing |
+| 🔍 [LSP/索引工程师](specialized/lsp-index-engineer.md) | 语言服务器协议、代码智能 | 代码智能系统、LSP 实现、语义索引 |
 | 📥 [Sales Data Extraction Agent](specialized/sales-data-extraction-agent.md) | Excel 监控, sales metric extraction | Sales data ingestion, MTD/YTD/Year End metrics |
-| 📈 [Data Consolidation Agent](specialized/data-consolidation-agent.md) | Sales data aggregation, dashboard reports | Territory summaries, rep performance, pipeline snapshots |
-| 📬 [Report Distribution Agent](specialized/report-distribution-agent.md) | Automated report delivery | Territory-based report distribution, scheduled sends |
-| 🔐 [Agentic Identity & Trust Architect](specialized/agentic-identity-trust.md) | Agent identity, authentication, trust verification | Multi-agent identity systems, agent authorization, audit trails |
-| 🔗 [Identity Graph Operator](specialized/identity-graph-operator.md) | Shared identity resolution for multi-agent systems | Entity deduplication, merge proposals, cross-agent identity consistency |
-| 💸 [Accounts Payable Agent](specialized/accounts-payable-agent.md) | Payment processing, vendor management, audit | Autonomous payment execution across crypto, fiat, stablecoins |
-| 🌍 [Cultural Intelligence Strategist](specialized/specialized-cultural-intelligence-strategist.md) | Global UX, representation, cultural exclusion | Ensuring software resonates across cultures |
+| 📈 [数据整合代理](specialized/data-consolidation-agent.md) | 销售数据聚合、仪表盘报告 | 区域摘要、销售代表表现、管道快照 |
+| 📬 [报告分发代理](specialized/report-distribution-agent.md) | 自动化报告交付 | 基于区域的报告分发、定时发送 |
+| 🔐 [智能身份与信任架构师](specialized/agentic-identity-trust.md) | 代理身份、认证、信任验证 | 多代理身份系统、代理授权、审计追踪 |
+| 🔗 [身份图操作员](specialized/identity-graph-operator.md) | 多代理系统共享身份解析 | 实体去重、合并提案、跨代理身份一致性 |
+| 💸 [应付账款代理](specialized/accounts-payable-agent.md) | 支付处理、供应商管理、审计 | 跨加密、法币、稳定币的自主支付执行 |
+| 🌍 [文化智能战略师](specialized/specialized-cultural-intelligence-strategist.md) | 全球 UX、代表性、文化排斥 | 确保软件在不同文化中共鸣 |
 | 🗣️ [Developer Advocate](specialized/specialized-developer-advocate.md) | Community 构建, DX, developer content | Bridging product and developer community |
 | 🔬 [Model QA Specialist](specialized/specialized-model-qa.md) | ML audits, feature analysis, interpretability | End-to-end QA for 机器学习 models |
-| 🗃️ [ZK Steward](specialized/zk-steward.md) | Knowledge management, Zettelkasten, notes | Building connected, validated knowledge bases |
+| 🗃️ [知识库管理员](specialized/zk-steward.md) | 知识管理、Zettelkasten、笔记 | 构建互联、验证过的知识库 |
 | 🔌 [MCP Builder](specialized/specialized-mcp-builder.md) | Model Context Protocol servers, 人工智能 代理来oling | Building MCP servers that extend 人工智能 agent capabilities |
-| 📄 [Document Generator](specialized/specialized-document-generator.md) | PDF, PPTX, DOCX, XLSX generation from code | Professional document creation, reports, data visualization |
+| 📄 [文档生成器](specialized/specialized-document-generator.md) | 从代码生成 PDF、PPTX、DOCX、XLSX | 专业文档创建、报告、数据可视化 |
 | ⚙️ [Automation 治理 Architect](specialized/automation-governance-architect.md) | Automation governance, n8n, 工作流程 审计 | Evaluating and governing business automations 大规模地 |
 | 📚 [Corporate 培训 Designer](specialized/corporate-training-designer.md) | Enterprise training, curriculum development | Designing training systems and learning programs |
 | 🌱 [Personal 增长 Mentor](specialized/personal-growth-mentor.md) | Goal clarity, habit systems, accountability, life strategy | Cross-domain personal development without motivational fluff |
-| 🏛️ [Government Digital Presales Consultant](specialized/government-digital-presales-consultant.md) | China ToG presales, digital transformation | Government digital transformation proposals and bids |
-| ⚕️ [Healthcare Marketing Compliance](specialized/healthcare-marketing-compliance.md) | China healthcare advertising compliance | Healthcare marketing regulatory compliance |
-| 🎯 [Recruitment Specialist](specialized/recruitment-specialist.md) | Talent acquisition, recruiting operations | Recruitment strategy, sourcing, and hiring processes |
+| 🏛️ [政府数字化售前顾问](specialized/government-digital-presales-consultant.md) | 中国 ToG 售前、数字化转型 | 政府数字化转型提案和投标 |
+| ⚕️ [医疗健康营销合规](specialized/healthcare-marketing-compliance.md) | 中国医疗广告合规 | 医疗健康营销监管合规 |
+| 🎯 [招聘专员](specialized/recruitment-specialist.md) | 人才招聘、招聘运营 | 招聘战略、寻源和招聘流程 |
 | 🎓 [Study Abroad Advisor](specialized/study-abroad-advisor.md) | International education, application 规划 | Study abroad 规划 across US, UK, Canada, Australia |
 | 🔗 [Supply Chain Strategist](specialized/supply-chain-strategist.md) | Supply chain management, procurement strategy | Supply chain optimization and procurement 规划 |
 | 🗺️ [Workflow Architect](specialized/specialized-工作流程-architect.md) | Workflow discovery, mapping, and specification | Mapping every path through a system before code is written |
 | ☁️ [Salesforce Architect](specialized/specialized-salesforce-architect.md) | Multi-cloud Salesforce design, governor limits, integrations | Enterprise Salesforce architecture, org strategy, 部署 pipelines |
-| 🇫🇷 [French Consulting Market Navigator](specialized/specialized-french-consulting-market.md) | ESN/SI ecosystem, portage salarial, rate positioning | Freelance consulting in the French IT market |
+| 🇫🇷 [法国咨询市场导航师](specialized/specialized-french-consulting-market.md) | ESN/SI 生态系统、薪酬代付、费率定位 | 法国 IT 市场的自由职业咨询 |
 | 🇰🇷 [Korean Business Navigator](specialized/specialized-korean-business-navigator.md) | Korean business culture, 품의 process, relationship mechanics | Foreign professionals 导航 Korean business relationships |
 | 🏗️ [Civil Engineer](specialized/specialized-civil-engineer.md) | Structural analysis, geotechnical design, global 构建 codes | Multi-standard structural engineering across Eurocode, ACI, 人工智能SC, and more |
 | 🎧 [Customer Service](specialized/customer-服务.md) | Omnichannel support, complaint 处理, retention, escalation | Any industry customer support — retail, SaaS, hospitality, finance, logistics |
 | 🏥 [Healthcare Customer Service](specialized/healthcare-customer-服务.md) | HIPAA-aware patient support, billing, insurance, emergency routing | Healthcare organizations 需要 compliant, empathetic patient support |
 | 🏨 [Hospitality Guest Services](specialized/hospitality-guest-服务s.md) | Reservations, concierge, complaint recovery, loyalty, events | Hotels, resorts, restaurants, and event venues |
 | 🤝 [HR 入职引导](specialized/hr-onboarding.md) | Pre-boarding, compliance, benefits enrollment, 30-60-90 day plans | Any company onboarding new hires — from startups to enterprise |
-| 🌐 [Language Translator](specialized/language-translator.md) | Spanish ↔ English translation, dialect awareness, cultural context | Travel, business, medical, and legal translation needs |
+| 🌐 [语言翻译](specialized/language-translator.md) | 西班牙语 ↔ 英语翻译、方言意识、文化语境 | 旅行、商业、医疗和法律翻译需求 |
 | ⏱️ [Legal Billing & Time Tracking](specialized/legal-billing-time-追踪.md) | Time capture, billing narratives, IOLTA compliance, collections | Law firms maximizing revenue recovery and billing accuracy |
-| 📋 [Legal Client Intake](specialized/legal-client-intake.md) | Prospect qualification, conflict screening, consultation scheduling | Law firms converting inquiries into retained clients |
+| 📋 [法律客户接待](specialized/legal-client-intake.md) | 潜在客户资格评估、利益冲突筛查、咨询预约 | 律师事务所将咨询转化为留存客户 |
 | ⚖️ [Legal Document 审查](specialized/legal-document-review.md) | Contract review, risk flagging, version comparison, compliance | Attorney-ready first-pass review across any practice area |
 | 🏦 [Loan Officer Assistant](specialized/loan-officer-assistant.md) | Borrower intake, TRID compliance, pipeline 追踪, 关闭 coordination | Mortgage and consumer lending teams |
-| 🏠 [Real Estate Buyer & Seller](specialized/real-estate-buyer-seller.md) | Buyer/seller representation, offers, transaction coordination | Residential and investment real estate transactions |
-| 🛒 [Retail Customer Returns](specialized/retail-customer-returns.md) | Return processing, fraud prevention, exchanges, vendor returns | Brick-and-mortar, e-commerce, and omnichannel retail |
+| 🏠 [房地产买卖师](specialized/real-estate-buyer-seller.md) | 买方/卖方代理、报价、交易协调 | 住宅和投资房地产交易 |
+| 🛒 [零售客户退货](specialized/retail-customer-returns.md) | 退货处理、欺诈预防、换货、供应商退货 | 实体店、电商和全渠道零售 |
 | ♟️ [Business Strategist](specialized/business-strategist.md) | Management-consulting strategy | Competitive analysis, market entry, growth 规划 |
 | 🔄 [变革管理 Consultant](specialized/change-management-consultant.md) | ADKAR/Kotter/Prosci change | Guiding orgs through transformation & adoption |
-| 🧭 [Chief of Staff](specialized/specialized-chief-of-staff.md) | Executive coordination | Filtering noise, owning processes, routing decisions |
+| 🧭 [首席幕僚](specialized/specialized-chief-of-staff.md) | 高管协调 | 过滤噪音、拥有流程、路由决策 |
 | 🌟 [Customer Success Manager](specialized/customer-success-manager.md) | 入职引导, health & retention | QBRs, churn prevention, renewals & expansion |
-| 📝 [Grant Writer](specialized/grant-writer.md) | Grant proposals & funding | LOIs, proposals, budgets for nonprofits/research |
-| 🏥 [Medical Billing & Coding Specialist](specialized/medical-billing-coding-specialist.md) | ICD-10/CPT/HCPCS & revenue cycle | Claims, denial management, RCM optimization |
-| 💰 [Pricing Analyst](specialized/specialized-pricing-analyst.md) | Pricing models & margin optimization | Competitor/cost analysis, value-based pricing |
+| 📝 [补助金撰写者](specialized/grant-writer.md) | 补助金提案与资金 | 非营利/研究的意向书、提案、预算 |
+| 🏥 [医疗计费与编码专家](specialized/medical-billing-coding-specialist.md) | ICD-10/CPT/HCPCS 与收入循环 | 理赔、拒赔管理、RCM 优化 |
+| 💰 [定价分析师](specialized/specialized-pricing-analyst.md) | 定价模型与利润优化 | 竞争对手/成本分析、基于价值的定价 |
 | 💼 [Chief Financial Officer](specialized/chief-financial-officer.md) | Capital allocation & financial strategy | Treasury, FP&A, M&A finance, investor & board 报告 |
 | 🌱 [ESG & Sustainability Officer](specialized/esg-sustainability-officer.md) | ESG programs & disclosure | Sustainability strategy, decarbonization, 报告 |
 | 🔐 [数据隐私 Officer](specialized/data-privacy-officer.md) | GDPR/CCPA privacy compliance | Data mapping, DPIAs, consent, breach response |
@@ -409,92 +409,92 @@ The unique specialists who don't fit in a box.
 | 🏺 [Codebase Archaeologist](specialized/specialized-代码库-archaeologist.md) | Multi-tool 代码库 drift audits | Detecting silent drift across Claude/Cursor/Copilot/Windsurf edits |
 | 🧾 [Resume Tailor](specialized/resume-tailor.md) | Candidate-side resume optimization | JD mapping, ATS keyword alignment, experience-to-requirement matching |
 
-### 💵 Finance Division
+### 💵 财务团队
 
-Accounting, financial analysis, tax strategy, and investment research specialists.
+会计、财务分析、税务策略和投资研究专家。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
-| 📒 [Bookkeeper & Controller](finance/finance-bookkeeper-controller.md) | Month-end close, reconciliation, GAAP compliance, internal controls | Day-to-day accounting operations, audit readiness, financial record-keeping |
+| 📒 [记账员与会计主管](finance/finance-bookkeeper-controller.md) | 月度结账、对账、GAAP 合规、内部控制 | 日常会计运营、审计准备、财务记录保存 |
 | 📊 [Financial Analyst](finance/finance-financial-analyst.md) | Financial modeling, forecasting, scenario analysis, decision support | Three-statement models, variance analysis, 数据驱动的 business intelligence |
-| 📈 [FP&A Analyst](finance/finance-fpa-analyst.md) | Budgeting, rolling forecasts, variance analysis, business reviews | Annual operating plans, monthly business reviews, strategic resource allocation |
-| 🔍 [Investment Researcher](finance/finance-investment-researcher.md) | Due diligence, portfolio analysis, asset valuation, equity research | Investment thesis development, risk assessment, market research |
+| 📈 [FP&A 分析师](finance/finance-fpa-analyst.md) | 预算编制、滚动预测、差异分析、业务回顾 | 年度运营计划、月度业务回顾、战略资源分配 |
+| 🔍 [投资研究员](finance/finance-investment-researcher.md) | 尽职调查、投资组合分析、资产估值、股权研究 | 投资论点开发、风险评估、市场调研 |
 | 🏛️ [Tax Strategist](finance/finance-tax-strategist.md) | Tax optimization, multi-jurisdictional compliance, transfer pricing | Entity structuring, ETR analysis, audit defense, strategic tax 规划 |
 
-### 🎮 Game Development Division
+### 🎮 游戏开发团队
 
-Building worlds, systems, and experiences across every major engine.
+跨所有主流引擎构建世界、系统和体验。
 
-#### Cross-Engine Agents (Engine-Agnostic)
+#### 跨引擎代理（引擎无关）
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🎯 [游戏设计er](game-development/game-designer.md) | Systems design, GDD authorship, economy balancing, gameplay loops | Designing game mechanics, progression systems, 编写 design documents |
 | 🗺️ [关卡设计er](game-development/level-designer.md) | Layout theory, pacing, encounter design, environmental storytelling | Building levels, 设计 encounter flow, spatial narrative |
-| 🎨 [Technical Artist](game-development/technical-artist.md) | Shaders, VFX, LOD pipeline, art-to-engine optimization | Bridging art and engineering, shader authoring, performance-safe asset pipelines |
-| 🔊 [Game Audio Engineer](game-development/game-audio-engineer.md) | FMOD/Wwise, adaptive music, spatial audio, audio budgets | Interactive audio systems, dynamic music, audio performance |
+| 🎨 [技术美术师](game-development/technical-artist.md) | 着色器、VFX、LOD 管道、美术到引擎优化 | 连接美术与工程、着色器编写、性能安全的资源管道 |
+| 🔊 [游戏音频工程师](game-development/game-audio-engineer.md) | FMOD/Wwise、自适应音乐、空间音频、音频预算 | 交互式音频系统、动态音乐、音频性能 |
 | 📖 [叙事设计er](game-development/narrative-designer.md) | Story systems, branching dialogue, lore architecture | Writing branching narratives, 实现 dialogue systems, world lore |
 
 #### Unity
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🏗️ [Unity Architect](game-development/unity/unity-architect.md) | ScriptableObjects, 数据驱动的 modularity, DOTS/ECS | Large-scale Unity projects, 数据驱动的 system design, ECS performance work |
-| ✨ [Unity Shader Graph Artist](game-development/unity/unity-shader-graph-artist.md) | Shader Graph, HLSL, URP/HDRP, Renderer Features | Custom Unity materials, VFX shaders, post-processing passes |
-| 🌐 [Unity Multiplayer Engineer](game-development/unity/unity-multiplayer-engineer.md) | Netcode for GameObjects, Unity Relay/Lobby, server authority, prediction | Online Unity games, client prediction, Unity Gaming Services integration |
-| 🛠️ [Unity Editor Tool Developer](game-development/unity/unity-editor-tool-developer.md) | EditorWindows, AssetPostprocessors, PropertyDrawers, build validation | Custom Unity Editor tooling, pipeline automation, content validation |
+| ✨ [Unity 着色器图形艺术家](game-development/unity/unity-shader-graph-artist.md) | Shader Graph、HLSL、URP/HDRP、渲染器特性 | 自定义 Unity 材质、VFX 着色器、后处理通道 |
+| 🌐 [Unity 多人游戏工程师](game-development/unity/unity-multiplayer-engineer.md) | Netcode for GameObjects、Unity Relay/Lobby、服务器权威、预测 | 在线 Unity 游戏、客户端预测、Unity 游戏服务集成 |
+| 🛠️ [Unity 编辑器工具开发者](game-development/unity/unity-editor-tool-developer.md) | EditorWindows、AssetPostprocessors、PropertyDrawers、构建验证 | 自定义 Unity 编辑器工具、管道自动化、内容验证 |
 
 #### Unreal Engine
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
-| ⚙️ [Unreal Systems Engineer](game-development/unreal-engine/unreal-systems-engineer.md) | C++/Blueprint hybrid, GAS, Nanite constraints, memory management | Complex Unreal gameplay systems, Gameplay Ability System, engine-level C++ |
-| 🎨 [Unreal Technical Artist](game-development/unreal-engine/unreal-technical-artist.md) | Material Editor, Niagara, PCG, Substrate | Unreal materials, Niagara VFX, procedural content generation |
-| 🌐 [Unreal Multiplayer Architect](game-development/unreal-engine/unreal-multiplayer-architect.md) | Actor replication, GameMode/GameState hierarchy, dedicated server | Unreal online games, replication graphs, server authoritative Unreal |
+| ⚙️ [Unreal 系统工程师](game-development/unreal-engine/unreal-systems-engineer.md) | C++/Blueprint 混合、GAS、Nanite 约束、内存管理 | 复杂 Unreal 游戏系统、游戏能力系统、引擎级 C++ |
+| 🎨 [Unreal 技术美术师](game-development/unreal-engine/unreal-technical-artist.md) | 材质编辑器、Niagara、PCG、Substrate | Unreal 材质、Niagara VFX、程序化内容生成 |
+| 🌐 [Unreal 多人游戏架构师](game-development/unreal-engine/unreal-multiplayer-architect.md) | Actor 复制、GameMode/GameState 层次、专用服务器 | Unreal 在线游戏、复制图、服务器权威 Unreal |
 | 🗺️ [Unreal World Builder](game-development/unreal-engine/unreal-world-builder.md) | World Partition, Landscape, HLOD, LWC | Large open-world Unreal levels, streaming systems, terrain 大规模地 |
 
 #### Godot
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 📜 [Godot Gameplay Scripter](game-development/godot/godot-gameplay-scripter.md) | GDScript 2.0, signals, composition, static 输入 | Godot gameplay systems, scene composition, performance-conscious GDScript |
-| 🌐 [Godot Multiplayer Engineer](game-development/godot/godot-multiplayer-engineer.md) | MultiplayerAPI, ENet/WebRTC, RPCs, authority model | Online Godot games, scene replication, server-authoritative Godot |
-| ✨ [Godot Shader Developer](game-development/godot/godot-shader-developer.md) | Godot shading language, VisualShader, RenderingDevice | Custom Godot materials, 2D/3D effects, post-processing, compute shaders |
+| 🌐 [Godot 多人游戏工程师](game-development/godot/godot-multiplayer-engineer.md) | MultiplayerAPI、ENet/WebRTC、RPC、权威模型 | 在线 Godot 游戏、场景复制、服务器权威 Godot |
+| ✨ [Godot 着色器开发者](game-development/godot/godot-shader-developer.md) | Godot 着色语言、VisualShader、RenderingDevice | 自定义 Godot 材质、2D/3D 效果、后处理、计算着色器 |
 
 #### Blender
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🧩 [Blender Addon Engineer](game-development/blender/blender-addon-engineer.md) | Blender Python (`bpy`), custom operators/panels, asset validators, exporters, pipeline automation | Building Blender add-ons, asset prep tools, export 工作流程, and DCC pipeline automation |
 
 #### Roblox Studio
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
-| ⚙️ [Roblox Systems Scripter](game-development/roblox-studio/roblox-systems-scripter.md) | Luau, RemoteEvents/Functions, DataStore, server-authoritative module architecture | Building secure Roblox game systems, client-server communication, data persistence |
-| 🎯 [Roblox Experience Designer](game-development/roblox-studio/roblox-experience-designer.md) | Engagement loops, monetization, D1/D7 retention, onboarding flow | Designing Roblox game loops, Game Passes, daily rewards, player retention |
-| 👗 [Roblox Avatar Creator](game-development/roblox-studio/roblox-avatar-creator.md) | UGC pipeline, accessory rigging, Creator Marketplace submission | Roblox UGC items, HumanoidDescription customization, in-experience avatar shops |
+| ⚙️ [Roblox 系统脚本编写者](game-development/roblox-studio/roblox-systems-scripter.md) | Luau、RemoteEvents/Functions、DataStore、服务器权威模块架构 | 构建安全的 Roblox 游戏系统、客户端-服务器通信、数据持久化 |
+| 🎯 [Roblox 体验设计师](game-development/roblox-studio/roblox-experience-designer.md) | 参与度循环、变现、D1/D7 留存、入职流程 | 设计 Roblox 游戏循环、游戏通行证、每日奖励、玩家留存 |
+| 👗 [Roblox 虚拟形象创建者](game-development/roblox-studio/roblox-avatar-creator.md) | UGC 管道、配件绑定、创作者市场提交 | Roblox UGC 物品、HumanoidDescription 定制、体验内虚拟形象商店 |
 
-### 📚 Academic Division
+### 📚 学术团队
 
-Scholarly rigor for world-构建, storytelling, and narrative design.
+为世界观构建、叙事和故事设计提供学术严谨性。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
-| 🌍 [Anthropologist](academic/academic-anthropologist.md) | Cultural systems, kinship, rituals, belief systems | Designing culturally coherent societies with internal logic |
-| 🌐 [Geographer](academic/academic-geographer.md) | Physical/human geography, climate, cartography | Building geographically coherent worlds with realistic terrain and settlements |
-| 📚 [Historian](academic/academic-historian.md) | Historical analysis, periodization, material culture | Validating historical coherence, enriching settings with authentic period detail |
-| 📜 [Narratologist](academic/academic-narratologist.md) | Narrative theory, story structure, character arcs | Analyzing and improving story structure with established theoretical frameworks |
+| 🌍 [人类学家](academic/academic-anthropologist.md) | 文化系统、亲属关系、仪式、信仰体系 | 设计具有内在逻辑的文化连贯社会 |
+| 🌐 [地理学家](academic/academic-geographer.md) | 自然/人文地理、气候、制图学 | 构建地理连贯的世界，具有真实的地形和聚落 |
+| 📚 [历史学家](academic/academic-historian.md) | 历史分析、分期、物质文化 | 验证历史连贯性，用真实时期细节丰富设定 |
+| 📜 [叙事学家](academic/academic-narratologist.md) | 叙事理论、故事结构、角色弧线 | 用成熟理论框架分析和改进故事结构 |
 | 🧠 [Psychologist](academic/academic-psychologist.md) | 性格 theory, motivation, cognitive patterns | Building psychologically credible characters grounded in research |
 | 📊 [Statistician](academic/academic-statistician.md) | Statistical 推理 & experiment design | Hypothesis 测试, causal 推理, sampling, rigorous analysis |
 
 ---
 
-### 🌍 GIS Division
+### 🌍 GIS 团队
 
-Mapping the Earth, 分析 the built world, and extracting intelligence from geospatial data.
+测绘地球、分析建成世界，并从地理空间数据中提取情报。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🧠 [Technical Consultant](gis/gis-technical-consultant.md) | GIS strategy, gap analysis, technology roadmaps, digital transformation | Understanding business needs, 选择 the right geospatial stack, 规划 multi-phase GIS programs |
 | 🔧 [Solution Engineer](gis/gis-solution-engineer.md) | Esri + FOSS4G prototype 构建, PoC delivery, technical feasibility | Building working demos, 验证 technical approaches, pre-sales support |
@@ -516,7 +516,7 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 为受监管的临床环境和主权健康场景构建 AI 代理。
 
-| Agent | Specialty | 使用场景 |
+| 代理 | 专长 | 使用场景 |
 |-------|-----------|-------------|
 | 🩺 [临床证据代理](healthcare/healthcare-clinical-evidence-agent.md) | 证据标准、已验证与未验证声明、诊断权限边界 | 在不越界进入诊断权限的前提下，可信地做出临床声明 |
 | 🌍 [主权健康体系代理](healthcare/healthcare-sovereign-health-systems-agent.md) | 政府健康指令、全民健康覆盖政策、新兴市场部署 | 在国家健康基础设施与主权健康政策交叉点运作的健康科技团队 |
@@ -528,7 +528,7 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 ### 场景一：构建创业公司 MVP
 
-**Your Team**:
+**你的团队**：
 1. 🎨 **前端开发者** —— 构建 React 应用
 2. 🏗️ **后端架构师** —— 设计 API 和数据库
 3. 🚀 **增长黑客** —— 规划用户获取
@@ -541,7 +541,7 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 ### 场景二：营销活动上线
 
-**Your Team**:
+**你的团队**：
 1. 📝 **内容创作者** —— 制作活动内容
 2. 🐦 **Twitter 互动师** —— Twitter 策略与执行
 3. 📸 **Instagram 策划师** —— 视觉内容和故事
@@ -554,13 +554,13 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 ### 场景三：企业级功能开发
 
-**Your Team**:
-1. 👔 **Senior Project Manager** - Scope and task 规划
-2. 💎 **Senior Developer** - Complex implementation
-3. 🎨 **界面设计er** - Design system and components
-4. 🧪 **Experiment Tracker** - A/B test 规划
-5. 📸 **Evidence Collector** - Quality verification
-6. 🔍 **Reality Checker** - Production readiness
+**你的团队**：
+1. 👔 **高级项目经理** —— 范围控制和任务规划
+2. 💎 **高级开发者** —— 复杂实现
+3. 🎨 **界面设计师** —— 设计系统和组件
+4. 🧪 **实验追踪器** —— A/B 测试规划
+5. 📸 **证据收集员** —— 质量验证
+6. 🔍 **现实检查员** —— 生产就绪性
 
 **成果**：企业级交付，包含质量门禁和文档。
 
@@ -568,14 +568,14 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 ### 场景四：付费媒体账户接管
 
-**Your Team**:
+**你的团队**：
 
-1. 📋 **Paid Media Auditor** - Comprehensive account assessment
-2. 📡 **Tracking & Measurement Specialist** - Verify conversion 追踪 accuracy
-3. 💰 **PPC Campaign Strategist** - Redesign account architecture
-4. 🔍 **Search Query Analyst** - Clean up wasted spend from search terms
-5. ✍️ **Ad Creative Strategist** - Refresh all ad copy and extensions
-6. 📊 **Analytics Reporter** (Support Division) - Build 报告 dashboards
+1. 📋 **付费媒体审计员** —— 全面账户评估
+2. 📡 **追踪与测量专家** —— 验证转化追踪准确性
+3. 💰 **PPC 广告战略师** —— 重构账户架构
+4. 🔍 **搜索查询分析师** —— 清除搜索词浪费支出
+5. ✍️ **广告创意战略师** —— 刷新所有广告文案和扩展
+6. 📊 **数据分析报告师**（支持团队）—— 构建报告仪表盘
 
 **成果**：系统化的账户接管——追踪验证、消除浪费、优化结构、更新创意，全部在 30 天内完成。
 
@@ -587,7 +587,7 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 参见 **[Nexus 空间探索练习](examples/nexus-spatial-discovery.md)**——一个完整的示例，8 个代理（产品趋势研究员、后端架构师、品牌守护者、增长黑客、客服响应员、用户体验研究员、项目牧人和 XR 界面架构师）同时部署，评估软件机会并产出一份统一的产品方案，涵盖市场验证、技术架构、品牌战略、上市策略、支持体系、UX 研究、项目执行和空间 UI 设计。
 
-**成果**：一次会话中产出全面的跨职能产品蓝图。 [More examples](examples/).
+**成果**：一次会话中产出全面的跨职能产品蓝图。 [更多示例](examples/)
 
 ---
 
@@ -613,7 +613,7 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 ### 添加新代理
 
-1. Fork the repository
+1. 分叉本仓库
 2. 在适当的分类下创建一个新代理文件
 3. 遵循代理模板结构：
    - 包含名称、描述、颜色的 frontmatter
@@ -650,7 +650,7 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 ---
 
-## 🎁 与众不同之处?
+## 🎁 与众不同之处？
 
 ### 与普通 AI 提示词不同：
 - ❌ 通用的"扮演开发者"提示词
@@ -666,23 +666,23 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 ---
 
-## 🎨 Agent 性格 Highlights
+## 🎨 代理性格亮点
 
 > "我不只是测试你的代码——我默认会找出 3-5 个问题，并要求对每件事提供视觉证明。"
 >
-> -- **Evidence Collector** (测试 Division)
+> -- **证据收集员**（测试团队）
 
 > "你不是在 Reddit 上做营销——你正在成为一个有价值、恰好代表某个品牌的社区成员。"
 >
-> -- **Reddit Community Builder** (Marketing Division)
+> -- **Reddit 社群建设师**（营销团队）
 
 > "每一个趣味元素都必须服务于功能或情感目的。设计令人愉悦的体验，增强而非干扰。"
 >
-> -- **Whimsy Injector** (Design Division)
+> -- **趣味注入师**（设计团队）
 
 > "让我加一个庆祝动画，将任务完成焦虑降低 40%"
 >
-> -- **Whimsy Injector** (during a UX review)
+> -- **趣味注入师**（UX 评审期间）
 
 ---
 
@@ -696,7 +696,7 @@ Mapping the Earth, 分析 the built world, and extracting intelligence from geos
 
 ---
 
-## 🔌 Multi-Tool Integrations
+## 🔌 多工具集成
 
 The Agency 原生支持 Claude Code，并附带转换和安装脚本，让你可以在所有主流 AI 编码工具中使用相同的代理。
 
@@ -1034,7 +1034,7 @@ kimi --agent-file ~/.config/kimi/agents/frontend-developer/agent.yaml \
 ## 🗺️ 路线图
 
 - [ ] 交互式代理选择器 Web 工具
-- [x] Multi-agent 工作流程 examples -- 参见 [examples/](examples/)
+- [x] 多代理工作流程示例 —— 参见 [examples/](examples/)
 - [x] 多工具集成脚本 (Claude Code, GitHub Copilot, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf, Qwen Code, Kimi Code, Codex, Osaurus, Hermes)
 - [ ] 代理设计视频教程
 - [ ] 社区代理市场
@@ -1043,7 +1043,7 @@ kimi --agent-file ~/.config/kimi/agents/frontend-developer/agent.yaml \
 
 ---
 
-## 🌐 社区翻译 & 本地化s
+## 🌐 社区翻译 & 本地化
 
 社区维护的翻译和区域适配. 这些是独立维护的 -- 查看每个仓库的覆盖范围和版本兼容性.
 
@@ -1063,7 +1063,7 @@ kimi --agent-file ~/.config/kimi/agents/frontend-developer/agent.yaml \
 
 ---
 
-## 🔗 Related 资源
+## 🔗 相关资源
 
 - [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) —— 社区维护的 OpenClaw 代理集合（源自本仓库）
 
@@ -1071,7 +1071,7 @@ kimi --agent-file ~/.config/kimi/agents/frontend-developer/agent.yaml \
 
 ## 📜 许可证
 
-MIT 许可证 - 自由使用，商业或个人. 署名感谢但不要求.
+MIT 许可证 —— 自由使用，商业或个人用途。署名感谢但不强制要求。
 
 ---
 
@@ -1087,7 +1087,7 @@ MIT 许可证 - 自由使用，商业或个人. 署名感谢但不要求.
 
 - **GitHub 讨论**: [分享你的成功故事](https://github.com/msitarzewski/agency-agents/discussions)
 - **问题**: [报告 bug 或请求功能](https://github.com/msitarzewski/agency-agents/issues)
-- **Reddit**：加入 r/Claude人工智能 上的讨论
+- **Reddit**：加入 r/ClaudeAI 上的讨论
 - **Twitter/X**：使用 #TheAgency 标签分享
 
 ---
@@ -1095,9 +1095,9 @@ MIT 许可证 - 自由使用，商业或个人. 署名感谢但不要求.
 ## 🚀 开始使用
 
 1. **浏览**上方的代理，找到符合你需求的专家
-2. **Copy** the agents to `~/.claude/agents/` 用于 Claude Code 集成
+2. **复制**代理到 `~/.claude/agents/` 用于 Claude Code 集成
 3. **激活**代理——在你的 Claude 对话中引用它们
-4. **Customize** 代理人格集合 and 工作流程 适合你的特定需求
+4. **自定义**代理人格集合和工作流程，适配你的特定需求
 5. **分享**你的成果并回馈社区
 
 ---
