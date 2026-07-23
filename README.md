@@ -593,7 +593,7 @@ cp engineering/*.md ~/.claude/agents/
 
 ### 场景六：智慧校园数字孪生
 
-**Your Team**:
+**你的团队**：
 
 1. 🧠 **技术咨询师** —— 定义数字孪生战略：BIM 用于建筑、GIS 用于校园、IoT 用于实时
 2. 🏗️ **BIM/GIS 专家** —— 将 Revit 建筑模型转换为 GIS 场景图层，设计室内平面图
